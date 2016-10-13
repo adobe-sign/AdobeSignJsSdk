@@ -1,0 +1,31 @@
+{
+  "name": "adobe-sign-sdk",
+  "version": "1.0.0",
+  "description": "Adobe Sign SDK in NodeJS",
+  "license": "Apache-2.0",
+  "main": "rest-api-sdk/src/index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adobe-sign/AdobeSignNodeJsSdk.git"
+  },
+  "dependencies": {
+    "superagent": "~2.3.0",
+    "validator": "~6.0.0",
+    "fs": "~0.0.1-security"
+  },
+  "devDependencies": {
+    "chai": "~3.5.0",
+    "expect.js": "~0.3.1",
+    "httpdispatcher": "~1.0.0",
+    "mkdirp": "~0.5.1",
+    "mocha": "~3.1.0",
+    "path": "~0.12.7",
+    "grunt": "~1.0.1",
+    "grunt-run": "~0.6.0",
+    "grunt-simple-mocha": "~0.4.1",
+    "http-status-codes": "~1.0.6"
+    }
+}
