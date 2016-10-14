@@ -38,7 +38,7 @@
      * @type {String}
      * @default https://api.echosign.com/api/rest/v5
      */
-     _this.envHostName = 'https://api.echosign.com/'.replace(/\/+$/, '');
+     _this.envHostName = 'https://api.echosign.com/'.replace(/\/+$/, '/');
     _this.baseUri = null;
     _this.subPath = 'api/rest/v5'.replace(/\/+$/, '');
 
