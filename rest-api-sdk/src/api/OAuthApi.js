@@ -51,7 +51,7 @@
       }
 
       var baseUri = apiClient.getEnvHostName().replace("api","secure");
-      var subPath = "/public/oauth";
+      var subPath = "public/oauth";
       var baseUrl = baseUri + subPath;
 
       var authorizationUrl = OAuthUtils.appendTo(baseUrl, authorizationRequest.getClientId(), authorizationRequest.getRedirectUri(), OAuthUtils.spaceDelimitedSet(authorizationRequest.getScopes()), authorizationRequest.getState(), authorizationRequest.getResponseType());
@@ -79,7 +79,7 @@
         });
       }
 
-      var path = "/oauth/token";
+      var path = "oauth/token";
 
       var postBody = null;
 
@@ -127,7 +127,7 @@
           reject(apiError)
         });
       }
-      var path = "/oauth/refresh";
+      var path = "oauth/refresh";
 
       var postBody = null;
 
@@ -176,7 +176,7 @@
         });
       }
 
-      var path = "/oauth/revoke";
+      var path = "oauth/revoke";
 
       var postBody = null;
 
