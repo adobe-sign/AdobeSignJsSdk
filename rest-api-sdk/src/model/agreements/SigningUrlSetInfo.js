@@ -39,7 +39,7 @@
    /**
     * An array of urls for current signer set.
     * @function getSigningUrls
-    * @return  An array of urls for current signer set. { Array }
+    * @return  {module:model/agreements/Array} An array of urls for current signer set.  
     * @instance
     */
     _this.getSigningUrls = function() {
@@ -49,7 +49,7 @@
    /**
     * An array of urls for current signer set.
     * @function setSigningUrls
-    * @param signingUrls { Array } An array of urls for current signer set.
+    * @param signingUrls {module:model/agreements/Array} An array of urls for current signer set.
     * @instance
     */
     _this.setSigningUrls = function(signingUrls) {
@@ -59,7 +59,7 @@
    /**
     * The name of the current signer set. Returned only, if the API caller is the sender of agreement
     * @function getSigningUrlSetName
-    * @return  The name of the current signer set. Returned only, if the API caller is the sender of agreement { String }
+    * @return  {module:model/agreements/String} The name of the current signer set. Returned only, if the API caller is the sender of agreement  
     * @instance
     */
     _this.getSigningUrlSetName = function() {
@@ -69,7 +69,7 @@
    /**
     * The name of the current signer set. Returned only, if the API caller is the sender of agreement
     * @function setSigningUrlSetName
-    * @param signingUrlSetName { String } The name of the current signer set. Returned only, if the API caller is the sender of agreement
+    * @param signingUrlSetName {module:model/agreements/String} The name of the current signer set. Returned only, if the API caller is the sender of agreement
     * @instance
     */
     _this.setSigningUrlSetName = function(signingUrlSetName) {

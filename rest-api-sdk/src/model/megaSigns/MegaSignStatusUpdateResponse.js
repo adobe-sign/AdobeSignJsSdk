@@ -41,7 +41,7 @@
    /**
     * The result of the attempt to cancel the MegaSign
     * @function getCode
-    * @return  The result of the attempt to cancel the MegaSign { String }
+    * @return  {module:model/megaSigns/String} The result of the attempt to cancel the MegaSign  
     * @instance
     */
     _this.getCode = function() {
@@ -51,7 +51,7 @@
    /**
     * The result of the attempt to cancel the MegaSign
     * @function setCode
-    * @param code { String } The result of the attempt to cancel the MegaSign
+    * @param code {module:model/megaSigns/String} The result of the attempt to cancel the MegaSign
     * @instance
     */
     _this.setCode = function(code) {
@@ -61,7 +61,7 @@
    /**
     * String result message if there was no error
     * @function getMessage
-    * @return  String result message if there was no error { String }
+    * @return  {module:model/megaSigns/String} String result message if there was no error  
     * @instance
     */
     _this.getMessage = function() {
@@ -71,7 +71,7 @@
    /**
     * String result message if there was no error
     * @function setMessage
-    * @param message { String } String result message if there was no error
+    * @param message {module:model/megaSigns/String} String result message if there was no error
     * @instance
     */
     _this.setMessage = function(message) {
@@ -81,7 +81,7 @@
    /**
     * A status value showing the result of this operation
     * @function getResult
-    * @return  A status value showing the result of this operation { String }
+    * @return  {module:model/megaSigns/String} A status value showing the result of this operation  
     * @instance
     */
     _this.getResult = function() {
@@ -91,7 +91,7 @@
    /**
     * A status value showing the result of this operation
     * @function setResult
-    * @param result { String } A status value showing the result of this operation
+    * @param result {module:model/megaSigns/String} A status value showing the result of this operation
     * @instance
     */
     _this.setResult = function(result) {

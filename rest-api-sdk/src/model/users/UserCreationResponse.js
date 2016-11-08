@@ -39,7 +39,7 @@
    /**
     * The unique identifier for user in REST APIs. This identifier will not be compatible with any existing SOAP APIs and is different from user key that SOAP APIs provide and consume. userid being provided here and userkey that SOAP uses are different and the two can not be interchanged with each other
     * @function getUserId
-    * @return  The unique identifier for user in REST APIs. This identifier will not be compatible with any existing SOAP APIs and is different from user key that SOAP APIs provide and consume. userid being provided here and userkey that SOAP uses are different and the two can not be interchanged with each other { String }
+    * @return  {module:model/users/String} The unique identifier for user in REST APIs. This identifier will not be compatible with any existing SOAP APIs and is different from user key that SOAP APIs provide and consume. userid being provided here and userkey that SOAP uses are different and the two can not be interchanged with each other  
     * @instance
     */
     _this.getUserId = function() {
@@ -49,7 +49,7 @@
    /**
     * The unique identifier for user in REST APIs. This identifier will not be compatible with any existing SOAP APIs and is different from user key that SOAP APIs provide and consume. userid being provided here and userkey that SOAP uses are different and the two can not be interchanged with each other
     * @function setUserId
-    * @param userId { String } The unique identifier for user in REST APIs. This identifier will not be compatible with any existing SOAP APIs and is different from user key that SOAP APIs provide and consume. userid being provided here and userkey that SOAP uses are different and the two can not be interchanged with each other
+    * @param userId {module:model/users/String} The unique identifier for user in REST APIs. This identifier will not be compatible with any existing SOAP APIs and is different from user key that SOAP APIs provide and consume. userid being provided here and userkey that SOAP uses are different and the two can not be interchanged with each other
     * @instance
     */
     _this.setUserId = function(userId) {
@@ -59,7 +59,7 @@
    /**
     * Status of the user
     * @function getUserStatus
-    * @return  Status of the user { String }
+    * @return  {module:model/users/String} Status of the user  
     * @instance
     */
     _this.getUserStatus = function() {
@@ -69,7 +69,7 @@
    /**
     * Status of the user
     * @function setUserStatus
-    * @param userStatus { String } Status of the user
+    * @param userStatus {module:model/users/String} Status of the user
     * @instance
     */
     _this.setUserStatus = function(userStatus) {

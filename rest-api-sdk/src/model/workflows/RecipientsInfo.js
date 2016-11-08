@@ -39,7 +39,7 @@
    /**
     * Name of the recipient list as returned in workflow description
     * @function getName
-    * @return  Name of the recipient list as returned in workflow description { String }
+    * @return  {module:model/workflows/String} Name of the recipient list as returned in workflow description  
     * @instance
     */
     _this.getName = function() {
@@ -49,7 +49,7 @@
    /**
     * Name of the recipient list as returned in workflow description
     * @function setName
-    * @param name { String } Name of the recipient list as returned in workflow description
+    * @param name {module:model/workflows/String} Name of the recipient list as returned in workflow description
     * @instance
     */
     _this.setName = function(name) {
@@ -59,7 +59,7 @@
    /**
     * A list of one or more recipients. For regular (non-MegaSign) documents, there is no limit on the number of electronic signatures in a single document. Written signatures are limited to four per document. This limit includes the sender if the signature of the sender is also required
     * @function getRecipients
-    * @return  A list of one or more recipients. For regular (non-MegaSign) documents, there is no limit on the number of electronic signatures in a single document. Written signatures are limited to four per document. This limit includes the sender if the signature of the sender is also required { Array }
+    * @return  {module:model/workflows/Array} A list of one or more recipients. For regular (non-MegaSign) documents, there is no limit on the number of electronic signatures in a single document. Written signatures are limited to four per document. This limit includes the sender if the signature of the sender is also required  
     * @instance
     */
     _this.getRecipients = function() {
@@ -69,7 +69,7 @@
    /**
     * A list of one or more recipients. For regular (non-MegaSign) documents, there is no limit on the number of electronic signatures in a single document. Written signatures are limited to four per document. This limit includes the sender if the signature of the sender is also required
     * @function setRecipients
-    * @param recipients { Array } A list of one or more recipients. For regular (non-MegaSign) documents, there is no limit on the number of electronic signatures in a single document. Written signatures are limited to four per document. This limit includes the sender if the signature of the sender is also required
+    * @param recipients {module:model/workflows/Array} A list of one or more recipients. For regular (non-MegaSign) documents, there is no limit on the number of electronic signatures in a single document. Written signatures are limited to four per document. This limit includes the sender if the signature of the sender is also required
     * @instance
     */
     _this.setRecipients = function(recipients) {

@@ -37,7 +37,7 @@
    /**
     * An array of UserAgreement items
     * @function getUserAgreementList
-    * @return  An array of UserAgreement items { Array }
+    * @return  {module:model/agreements/Array} An array of UserAgreement items  
     * @instance
     */
     _this.getUserAgreementList = function() {
@@ -47,7 +47,7 @@
    /**
     * An array of UserAgreement items
     * @function setUserAgreementList
-    * @param userAgreementList { Array } An array of UserAgreement items
+    * @param userAgreementList {module:model/agreements/Array} An array of UserAgreement items
     * @instance
     */
     _this.setUserAgreementList = function(userAgreementList) {

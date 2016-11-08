@@ -63,7 +63,7 @@
    /**
     * Indicates that authoring is requested prior to sending the document
     * @function getAuthoringRequested
-    * @return  Indicates that authoring is requested prior to sending the document { Boolean }
+    * @return  {module:model/widgets/Boolean} Indicates that authoring is requested prior to sending the document  
     * @instance
     */
     _this.getAuthoringRequested = function() {
@@ -73,7 +73,7 @@
    /**
     * Indicates that authoring is requested prior to sending the document
     * @function setAuthoringRequested
-    * @param authoringRequested { Boolean } Indicates that authoring is requested prior to sending the document
+    * @param authoringRequested {module:model/widgets/Boolean} Indicates that authoring is requested prior to sending the document
     * @instance
     */
     _this.setAuthoringRequested = function(authoringRequested) {
@@ -83,7 +83,7 @@
    /**
     * A publicly accessible url to which Adobe Sign will do an HTTP GET operation every time there is a new agreement event. HTTP authentication is supported using standard embedded syntax - i.e. http://username:password@your.server.com/path/to/file. Adobe Sign can also ping your system using HTTP PUT with the final signed PDF. Please contact support@echosign.com if you wish to use this option.
     * @function getCallbackInfo
-    * @return  A publicly accessible url to which Adobe Sign will do an HTTP GET operation every time there is a new agreement event. HTTP authentication is supported using standard embedded syntax - i.e. http://username:password@your.server.com/path/to/file. Adobe Sign can also ping your system using HTTP PUT with the final signed PDF. Please contact support@echosign.com if you wish to use this option. { String }
+    * @return  {module:model/widgets/String} A publicly accessible url to which Adobe Sign will do an HTTP GET operation every time there is a new agreement event. HTTP authentication is supported using standard embedded syntax - i.e. http://username:password@your.server.com/path/to/file. Adobe Sign can also ping your system using HTTP PUT with the final signed PDF. Please contact support@echosign.com if you wish to use this option.  
     * @instance
     */
     _this.getCallbackInfo = function() {
@@ -93,7 +93,7 @@
    /**
     * A publicly accessible url to which Adobe Sign will do an HTTP GET operation every time there is a new agreement event. HTTP authentication is supported using standard embedded syntax - i.e. http://username:password@your.server.com/path/to/file. Adobe Sign can also ping your system using HTTP PUT with the final signed PDF. Please contact support@echosign.com if you wish to use this option.
     * @function setCallbackInfo
-    * @param callbackInfo { String } A publicly accessible url to which Adobe Sign will do an HTTP GET operation every time there is a new agreement event. HTTP authentication is supported using standard embedded syntax - i.e. http://username:password@your.server.com/path/to/file. Adobe Sign can also ping your system using HTTP PUT with the final signed PDF. Please contact support@echosign.com if you wish to use this option.
+    * @param callbackInfo {module:model/widgets/String} A publicly accessible url to which Adobe Sign will do an HTTP GET operation every time there is a new agreement event. HTTP authentication is supported using standard embedded syntax - i.e. http://username:password@your.server.com/path/to/file. Adobe Sign can also ping your system using HTTP PUT with the final signed PDF. Please contact support@echosign.com if you wish to use this option.
     * @instance
     */
     _this.setCallbackInfo = function(callbackInfo) {
@@ -103,7 +103,7 @@
    /**
     * A list of one or more counter signers provided in the form of counter signer set.
     * @function getCounterSignerSetInfos
-    * @return  A list of one or more counter signers provided in the form of counter signer set. { Array }
+    * @return  {module:model/widgets/Array} A list of one or more counter signers provided in the form of counter signer set.  
     * @instance
     */
     _this.getCounterSignerSetInfos = function() {
@@ -113,7 +113,7 @@
    /**
     * A list of one or more counter signers provided in the form of counter signer set.
     * @function setCounterSignerSetInfos
-    * @param counterSignerSetInfos { Array } A list of one or more counter signers provided in the form of counter signer set.
+    * @param counterSignerSetInfos {module:model/widgets/Array} A list of one or more counter signers provided in the form of counter signer set.
     * @instance
     */
     _this.setCounterSignerSetInfos = function(counterSignerSetInfos) {
@@ -123,7 +123,7 @@
    /**
     * A list of one or more files (or references to files) that will be used to create the widget. If more than one file is provided, they will be combined before the widget is created. Library documents are not permitted. Note: Only one of the four parameters in every FileInfo object must be specified
     * @function getFileInfos
-    * @return  A list of one or more files (or references to files) that will be used to create the widget. If more than one file is provided, they will be combined before the widget is created. Library documents are not permitted. Note: Only one of the four parameters in every FileInfo object must be specified { Array }
+    * @return  {module:model/widgets/Array} A list of one or more files (or references to files) that will be used to create the widget. If more than one file is provided, they will be combined before the widget is created. Library documents are not permitted. Note: Only one of the four parameters in every FileInfo object must be specified  
     * @instance
     */
     _this.getFileInfos = function() {
@@ -133,7 +133,7 @@
    /**
     * A list of one or more files (or references to files) that will be used to create the widget. If more than one file is provided, they will be combined before the widget is created. Library documents are not permitted. Note: Only one of the four parameters in every FileInfo object must be specified
     * @function setFileInfos
-    * @param fileInfos { Array } A list of one or more files (or references to files) that will be used to create the widget. If more than one file is provided, they will be combined before the widget is created. Library documents are not permitted. Note: Only one of the four parameters in every FileInfo object must be specified
+    * @param fileInfos {module:model/widgets/Array} A list of one or more files (or references to files) that will be used to create the widget. If more than one file is provided, they will be combined before the widget is created. Library documents are not permitted. Note: Only one of the four parameters in every FileInfo object must be specified
     * @instance
     */
     _this.setFileInfos = function(fileInfos) {
@@ -143,7 +143,7 @@
    /**
     * Specifies the form field layer template or source of form fields to apply on the files in this transaction. If specified, the FileInfo for this parameter must refer to a form field layer template via libraryDocumentId or libraryDocumentName, or if specified via transientDocumentId or documentURL, it must be of a supported file type. Note: Only one of the four parameters in every FileInfo object must be specified
     * @function getFormFieldLayerTemplates
-    * @return  Specifies the form field layer template or source of form fields to apply on the files in this transaction. If specified, the FileInfo for this parameter must refer to a form field layer template via libraryDocumentId or libraryDocumentName, or if specified via transientDocumentId or documentURL, it must be of a supported file type. Note: Only one of the four parameters in every FileInfo object must be specified { Array }
+    * @return  {module:model/widgets/Array} Specifies the form field layer template or source of form fields to apply on the files in this transaction. If specified, the FileInfo for this parameter must refer to a form field layer template via libraryDocumentId or libraryDocumentName, or if specified via transientDocumentId or documentURL, it must be of a supported file type. Note: Only one of the four parameters in every FileInfo object must be specified  
     * @instance
     */
     _this.getFormFieldLayerTemplates = function() {
@@ -153,7 +153,7 @@
    /**
     * Specifies the form field layer template or source of form fields to apply on the files in this transaction. If specified, the FileInfo for this parameter must refer to a form field layer template via libraryDocumentId or libraryDocumentName, or if specified via transientDocumentId or documentURL, it must be of a supported file type. Note: Only one of the four parameters in every FileInfo object must be specified
     * @function setFormFieldLayerTemplates
-    * @param formFieldLayerTemplates { Array } Specifies the form field layer template or source of form fields to apply on the files in this transaction. If specified, the FileInfo for this parameter must refer to a form field layer template via libraryDocumentId or libraryDocumentName, or if specified via transientDocumentId or documentURL, it must be of a supported file type. Note: Only one of the four parameters in every FileInfo object must be specified
+    * @param formFieldLayerTemplates {module:model/widgets/Array} Specifies the form field layer template or source of form fields to apply on the files in this transaction. If specified, the FileInfo for this parameter must refer to a form field layer template via libraryDocumentId or libraryDocumentName, or if specified via transientDocumentId or documentURL, it must be of a supported file type. Note: Only one of the four parameters in every FileInfo object must be specified
     * @instance
     */
     _this.setFormFieldLayerTemplates = function(formFieldLayerTemplates) {
@@ -163,7 +163,7 @@
    /**
     * The locale associated with this widget - specifies the language for the signing page and emails, for example en_US or fr_FR. If none specified, defaults to the language configured for the widget creator
     * @function getLocale
-    * @return  The locale associated with this widget - specifies the language for the signing page and emails, for example en_US or fr_FR. If none specified, defaults to the language configured for the widget creator { String }
+    * @return  {module:model/widgets/String} The locale associated with this widget - specifies the language for the signing page and emails, for example en_US or fr_FR. If none specified, defaults to the language configured for the widget creator  
     * @instance
     */
     _this.getLocale = function() {
@@ -173,7 +173,7 @@
    /**
     * The locale associated with this widget - specifies the language for the signing page and emails, for example en_US or fr_FR. If none specified, defaults to the language configured for the widget creator
     * @function setLocale
-    * @param locale { String } The locale associated with this widget - specifies the language for the signing page and emails, for example en_US or fr_FR. If none specified, defaults to the language configured for the widget creator
+    * @param locale {module:model/widgets/String} The locale associated with this widget - specifies the language for the signing page and emails, for example en_US or fr_FR. If none specified, defaults to the language configured for the widget creator
     * @instance
     */
     _this.setLocale = function(locale) {
@@ -183,7 +183,7 @@
    /**
     * Optional default values for fields to merge into the document. The values will be presented to the signers for editable fields; for read-only fields the provided values will not be editable during the signing process. Merging data into fields is currently not supported when used with libraryDocumentId or libraryDocumentName. Only file and url are currently supported
     * @function getMergeFieldInfo
-    * @return  Optional default values for fields to merge into the document. The values will be presented to the signers for editable fields; for read-only fields the provided values will not be editable during the signing process. Merging data into fields is currently not supported when used with libraryDocumentId or libraryDocumentName. Only file and url are currently supported { Array }
+    * @return  {module:model/widgets/Array} Optional default values for fields to merge into the document. The values will be presented to the signers for editable fields; for read-only fields the provided values will not be editable during the signing process. Merging data into fields is currently not supported when used with libraryDocumentId or libraryDocumentName. Only file and url are currently supported  
     * @instance
     */
     _this.getMergeFieldInfo = function() {
@@ -193,7 +193,7 @@
    /**
     * Optional default values for fields to merge into the document. The values will be presented to the signers for editable fields; for read-only fields the provided values will not be editable during the signing process. Merging data into fields is currently not supported when used with libraryDocumentId or libraryDocumentName. Only file and url are currently supported
     * @function setMergeFieldInfo
-    * @param mergeFieldInfo { Array } Optional default values for fields to merge into the document. The values will be presented to the signers for editable fields; for read-only fields the provided values will not be editable during the signing process. Merging data into fields is currently not supported when used with libraryDocumentId or libraryDocumentName. Only file and url are currently supported
+    * @param mergeFieldInfo {module:model/widgets/Array} Optional default values for fields to merge into the document. The values will be presented to the signers for editable fields; for read-only fields the provided values will not be editable during the signing process. Merging data into fields is currently not supported when used with libraryDocumentId or libraryDocumentName. Only file and url are currently supported
     * @instance
     */
     _this.setMergeFieldInfo = function(mergeFieldInfo) {
@@ -203,7 +203,7 @@
    /**
     * The name of the widget that will be used to identify it, in emails and on the website
     * @function getName
-    * @return  The name of the widget that will be used to identify it, in emails and on the website { String }
+    * @return  {module:model/widgets/String} The name of the widget that will be used to identify it, in emails and on the website  
     * @instance
     */
     _this.getName = function() {
@@ -213,7 +213,7 @@
    /**
     * The name of the widget that will be used to identify it, in emails and on the website
     * @function setName
-    * @param name { String } The name of the widget that will be used to identify it, in emails and on the website
+    * @param name {module:model/widgets/String} The name of the widget that will be used to identify it, in emails and on the website
     * @instance
     */
     _this.setName = function(name) {
@@ -223,7 +223,7 @@
    /**
     * Sets optional secondary security parameters for your widget
     * @function getSecurityOptions
-    * @return  Sets optional secondary security parameters for your widget { WidgetSecurityOption }
+    * @return  {module:model/widgets/WidgetSecurityOption} Sets optional secondary security parameters for your widget  
     * @instance
     */
     _this.getSecurityOptions = function() {
@@ -233,7 +233,7 @@
    /**
     * Sets optional secondary security parameters for your widget
     * @function setSecurityOptions
-    * @param securityOptions { WidgetSecurityOption } Sets optional secondary security parameters for your widget
+    * @param securityOptions {module:model/widgets/WidgetSecurityOption} Sets optional secondary security parameters for your widget
     * @instance
     */
     _this.setSecurityOptions = function(securityOptions) {
@@ -243,7 +243,7 @@
    /**
     * Selects the workflow you would like to use - whether the sender needs to sign before the recipient, after the recipient, or not at all. The possible values for this variable are SENDER_SIGNATURE_NOT_REQUIRED or SENDER_SIGNS_LAST
     * @function getSignatureFlow
-    * @return  Selects the workflow you would like to use - whether the sender needs to sign before the recipient, after the recipient, or not at all. The possible values for this variable are SENDER_SIGNATURE_NOT_REQUIRED or SENDER_SIGNS_LAST { String }
+    * @return  {module:model/widgets/String} Selects the workflow you would like to use - whether the sender needs to sign before the recipient, after the recipient, or not at all. The possible values for this variable are SENDER_SIGNATURE_NOT_REQUIRED or SENDER_SIGNS_LAST  
     * @instance
     */
     _this.getSignatureFlow = function() {
@@ -253,7 +253,7 @@
    /**
     * Selects the workflow you would like to use - whether the sender needs to sign before the recipient, after the recipient, or not at all. The possible values for this variable are SENDER_SIGNATURE_NOT_REQUIRED or SENDER_SIGNS_LAST
     * @function setSignatureFlow
-    * @param signatureFlow { String } Selects the workflow you would like to use - whether the sender needs to sign before the recipient, after the recipient, or not at all. The possible values for this variable are SENDER_SIGNATURE_NOT_REQUIRED or SENDER_SIGNS_LAST
+    * @param signatureFlow {module:model/widgets/String} Selects the workflow you would like to use - whether the sender needs to sign before the recipient, after the recipient, or not at all. The possible values for this variable are SENDER_SIGNATURE_NOT_REQUIRED or SENDER_SIGNS_LAST
     * @instance
     */
     _this.setSignatureFlow = function(signatureFlow) {
@@ -263,7 +263,7 @@
    /**
     * Sets the vaulting properties that allows Adobe Sign to securely store documents with a vault provider
     * @function getVaultingInfo
-    * @return  Sets the vaulting properties that allows Adobe Sign to securely store documents with a vault provider { WidgetVaultingInfo }
+    * @return  {module:model/widgets/WidgetVaultingInfo} Sets the vaulting properties that allows Adobe Sign to securely store documents with a vault provider  
     * @instance
     */
     _this.getVaultingInfo = function() {
@@ -273,7 +273,7 @@
    /**
     * Sets the vaulting properties that allows Adobe Sign to securely store documents with a vault provider
     * @function setVaultingInfo
-    * @param vaultingInfo { WidgetVaultingInfo } Sets the vaulting properties that allows Adobe Sign to securely store documents with a vault provider
+    * @param vaultingInfo {module:model/widgets/WidgetVaultingInfo} Sets the vaulting properties that allows Adobe Sign to securely store documents with a vault provider
     * @instance
     */
     _this.setVaultingInfo = function(vaultingInfo) {
@@ -283,7 +283,7 @@
    /**
     * URL and associated properties for the error page the user will be taken after failing to authenticate
     * @function getWidgetAuthFailureInfo
-    * @return  URL and associated properties for the error page the user will be taken after failing to authenticate { WidgetCompletionInfo }
+    * @return  {module:model/widgets/WidgetCompletionInfo} URL and associated properties for the error page the user will be taken after failing to authenticate  
     * @instance
     */
     _this.getWidgetAuthFailureInfo = function() {
@@ -293,7 +293,7 @@
    /**
     * URL and associated properties for the error page the user will be taken after failing to authenticate
     * @function setWidgetAuthFailureInfo
-    * @param widgetAuthFailureInfo { WidgetCompletionInfo } URL and associated properties for the error page the user will be taken after failing to authenticate
+    * @param widgetAuthFailureInfo {module:model/widgets/WidgetCompletionInfo} URL and associated properties for the error page the user will be taken after failing to authenticate
     * @instance
     */
     _this.setWidgetAuthFailureInfo = function(widgetAuthFailureInfo) {
@@ -303,7 +303,7 @@
    /**
     * URL and associated properties for the success page the user will be taken to after filling out the widget
     * @function getWidgetCompletionInfo
-    * @return  URL and associated properties for the success page the user will be taken to after filling out the widget { WidgetCompletionInfo }
+    * @return  {module:model/widgets/WidgetCompletionInfo} URL and associated properties for the success page the user will be taken to after filling out the widget  
     * @instance
     */
     _this.getWidgetCompletionInfo = function() {
@@ -313,7 +313,7 @@
    /**
     * URL and associated properties for the success page the user will be taken to after filling out the widget
     * @function setWidgetCompletionInfo
-    * @param widgetCompletionInfo { WidgetCompletionInfo } URL and associated properties for the success page the user will be taken to after filling out the widget
+    * @param widgetCompletionInfo {module:model/widgets/WidgetCompletionInfo} URL and associated properties for the success page the user will be taken to after filling out the widget
     * @instance
     */
     _this.setWidgetCompletionInfo = function(widgetCompletionInfo) {
@@ -323,7 +323,7 @@
    /**
     * Security options that apply to widget signers
     * @function getWidgetSignerSecurityOptions
-    * @return  Security options that apply to widget signers { WidgetSignerSecurityOption }
+    * @return  {module:model/widgets/WidgetSignerSecurityOption} Security options that apply to widget signers  
     * @instance
     */
     _this.getWidgetSignerSecurityOptions = function() {
@@ -333,7 +333,7 @@
    /**
     * Security options that apply to widget signers
     * @function setWidgetSignerSecurityOptions
-    * @param widgetSignerSecurityOptions { WidgetSignerSecurityOption } Security options that apply to widget signers
+    * @param widgetSignerSecurityOptions {module:model/widgets/WidgetSignerSecurityOption} Security options that apply to widget signers
     * @instance
     */
     _this.setWidgetSignerSecurityOptions = function(widgetSignerSecurityOptions) {

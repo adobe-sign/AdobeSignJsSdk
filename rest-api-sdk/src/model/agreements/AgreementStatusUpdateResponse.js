@@ -37,7 +37,7 @@
    /**
     * A status value showing the result of this operation
     * @function getResult
-    * @return  A status value showing the result of this operation { String }
+    * @return  {module:model/agreements/String} A status value showing the result of this operation  
     * @instance
     */
     _this.getResult = function() {
@@ -47,7 +47,7 @@
    /**
     * A status value showing the result of this operation
     * @function setResult
-    * @param result { String } A status value showing the result of this operation
+    * @param result {module:model/agreements/String} A status value showing the result of this operation
     * @instance
     */
     _this.setResult = function(result) {

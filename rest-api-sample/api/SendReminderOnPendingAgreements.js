@@ -13,7 +13,7 @@
 
 (function(factory) {
     // CommonJS-like environments that support module.exports, like Node.
-    module.exports = factory(require('../../rest-api-sdk/src/index'), require('../utils/ReminderUtils'), require('../utils/AgreementUtils'), require('../utils/Constants'), require('../utils/Errors'), require('../utils/ApiUtils'));
+    module.exports = factory(require('adobe-sign-sdk'), require('../utils/ReminderUtils'), require('../utils/AgreementUtils'), require('../utils/Constants'), require('../utils/Errors'), require('../utils/ApiUtils'));
   
 }(function(AdobeSignSdk, ReminderUtils, AgreementUtils, Constants, Errors, ApiUtils) {
   'use strict';

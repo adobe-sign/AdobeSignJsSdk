@@ -41,7 +41,7 @@
    /**
     * The result of the attempt to activate or deactivate the user
     * @function getCode
-    * @return  The result of the attempt to activate or deactivate the user { String }
+    * @return  {module:model/users/String} The result of the attempt to activate or deactivate the user  
     * @instance
     */
     _this.getCode = function() {
@@ -51,7 +51,7 @@
    /**
     * The result of the attempt to activate or deactivate the user
     * @function setCode
-    * @param code { String } The result of the attempt to activate or deactivate the user
+    * @param code {module:model/users/String} The result of the attempt to activate or deactivate the user
     * @instance
     */
     _this.setCode = function(code) {
@@ -61,7 +61,7 @@
    /**
     * String result message if there was no error
     * @function getMessage
-    * @return  String result message if there was no error { String }
+    * @return  {module:model/users/String} String result message if there was no error  
     * @instance
     */
     _this.getMessage = function() {
@@ -71,7 +71,7 @@
    /**
     * String result message if there was no error
     * @function setMessage
-    * @param message { String } String result message if there was no error
+    * @param message {module:model/users/String} String result message if there was no error
     * @instance
     */
     _this.setMessage = function(message) {
@@ -81,7 +81,7 @@
    /**
     * A status value showing the result of this operation
     * @function getUserStatus
-    * @return  A status value showing the result of this operation { String }
+    * @return  {module:model/users/String} A status value showing the result of this operation  
     * @instance
     */
     _this.getUserStatus = function() {
@@ -91,7 +91,7 @@
    /**
     * A status value showing the result of this operation
     * @function setUserStatus
-    * @param userStatus { String } A status value showing the result of this operation
+    * @param userStatus {module:model/users/String} A status value showing the result of this operation
     * @instance
     */
     _this.setUserStatus = function(userStatus) {

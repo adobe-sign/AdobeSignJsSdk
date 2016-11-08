@@ -115,7 +115,7 @@
    /**
     * Alignment of the text.
     * @function getAlignment
-    * @return  Alignment of the text. { String }
+    * @return  {module:model/workflows/String} Alignment of the text.  
     * @instance
     */
     _this.getAlignment = function() {
@@ -125,7 +125,7 @@
    /**
     * Alignment of the text.
     * @function setAlignment
-    * @param alignment { String } Alignment of the text.
+    * @param alignment {module:model/workflows/String} Alignment of the text.
     * @instance
     */
     _this.setAlignment = function(alignment) {
@@ -135,7 +135,7 @@
    /**
     * It indicates if any one of the conditions or all of them have to be true.
     * @function getAnyOrAll
-    * @return  It indicates if any one of the conditions or all of them have to be true. { String }
+    * @return  {module:model/workflows/String} It indicates if any one of the conditions or all of them have to be true.  
     * @instance
     */
     _this.getAnyOrAll = function() {
@@ -145,7 +145,7 @@
    /**
     * It indicates if any one of the conditions or all of them have to be true.
     * @function setAnyOrAll
-    * @param anyOrAll { String } It indicates if any one of the conditions or all of them have to be true.
+    * @param anyOrAll {module:model/workflows/String} It indicates if any one of the conditions or all of them have to be true.
     * @instance
     */
     _this.setAnyOrAll = function(anyOrAll) {
@@ -155,7 +155,7 @@
    /**
     * Background color of the form field in RGB or HEX format
     * @function getBackgroundColor
-    * @return  Background color of the form field in RGB or HEX format { String }
+    * @return  {module:model/workflows/String} Background color of the form field in RGB or HEX format  
     * @instance
     */
     _this.getBackgroundColor = function() {
@@ -165,7 +165,7 @@
    /**
     * Background color of the form field in RGB or HEX format
     * @function setBackgroundColor
-    * @param backgroundColor { String } Background color of the form field in RGB or HEX format
+    * @param backgroundColor {module:model/workflows/String} Background color of the form field in RGB or HEX format
     * @instance
     */
     _this.setBackgroundColor = function(backgroundColor) {
@@ -175,7 +175,7 @@
    /**
     * Color of the border of the field in RGB or HEX format
     * @function getBorderColor
-    * @return  Color of the border of the field in RGB or HEX format { String }
+    * @return  {module:model/workflows/String} Color of the border of the field in RGB or HEX format  
     * @instance
     */
     _this.getBorderColor = function() {
@@ -185,7 +185,7 @@
    /**
     * Color of the border of the field in RGB or HEX format
     * @function setBorderColor
-    * @param borderColor { String } Color of the border of the field in RGB or HEX format
+    * @param borderColor {module:model/workflows/String} Color of the border of the field in RGB or HEX format
     * @instance
     */
     _this.setBorderColor = function(borderColor) {
@@ -195,7 +195,7 @@
    /**
     * Style of the border of the field.
     * @function getBorderStyle
-    * @return  Style of the border of the field. { String }
+    * @return  {module:model/workflows/String} Style of the border of the field.  
     * @instance
     */
     _this.getBorderStyle = function() {
@@ -205,7 +205,7 @@
    /**
     * Style of the border of the field.
     * @function setBorderStyle
-    * @param borderStyle { String } Style of the border of the field.
+    * @param borderStyle {module:model/workflows/String} Style of the border of the field.
     * @instance
     */
     _this.setBorderStyle = function(borderStyle) {
@@ -215,7 +215,7 @@
    /**
     * Width of the border of the field in pixels
     * @function getBorderWidth
-    * @return  Width of the border of the field in pixels { Number }
+    * @return  {module:model/workflows/Number} Width of the border of the field in pixels  
     * @instance
     */
     _this.getBorderWidth = function() {
@@ -225,7 +225,7 @@
    /**
     * Width of the border of the field in pixels
     * @function setBorderWidth
-    * @param borderWidth { Number } Width of the border of the field in pixels
+    * @param borderWidth {module:model/workflows/Number} Width of the border of the field in pixels
     * @instance
     */
     _this.setBorderWidth = function(borderWidth) {
@@ -235,7 +235,7 @@
    /**
     * Expression to calculate value of the form field
     * @function getCalculatedExpression
-    * @return  Expression to calculate value of the form field { String }
+    * @return  {module:model/workflows/String} Expression to calculate value of the form field  
     * @instance
     */
     _this.getCalculatedExpression = function() {
@@ -245,7 +245,7 @@
    /**
     * Expression to calculate value of the form field
     * @function setCalculatedExpression
-    * @param calculatedExpression { String } Expression to calculate value of the form field
+    * @param calculatedExpression {module:model/workflows/String} Expression to calculate value of the form field
     * @instance
     */
     _this.setCalculatedExpression = function(calculatedExpression) {
@@ -255,7 +255,7 @@
    /**
     * Conditions to be evaluated which decides the visibility of the form field in association with showOrHide property
     * @function getConditions
-    * @return  Conditions to be evaluated which decides the visibility of the form field in association with showOrHide property { Array }
+    * @return  {module:model/workflows/Array} Conditions to be evaluated which decides the visibility of the form field in association with showOrHide property  
     * @instance
     */
     _this.getConditions = function() {
@@ -265,7 +265,7 @@
    /**
     * Conditions to be evaluated which decides the visibility of the form field in association with showOrHide property
     * @function setConditions
-    * @param conditions { Array } Conditions to be evaluated which decides the visibility of the form field in association with showOrHide property
+    * @param conditions {module:model/workflows/Array} Conditions to be evaluated which decides the visibility of the form field in association with showOrHide property
     * @instance
     */
     _this.setConditions = function(conditions) {
@@ -275,7 +275,7 @@
    /**
     * Content Type of the form field.
     * @function getContentType
-    * @return  Content Type of the form field. { String }
+    * @return  {module:model/workflows/String} Content Type of the form field.  
     * @instance
     */
     _this.getContentType = function() {
@@ -285,7 +285,7 @@
    /**
     * Content Type of the form field.
     * @function setContentType
-    * @param contentType { String } Content Type of the form field.
+    * @param contentType {module:model/workflows/String} Content Type of the form field.
     * @instance
     */
     _this.setContentType = function(contentType) {
@@ -295,7 +295,7 @@
    /**
     * Default value of the form field
     * @function getDefaultValue
-    * @return  Default value of the form field { String }
+    * @return  {module:model/workflows/String} Default value of the form field  
     * @instance
     */
     _this.getDefaultValue = function() {
@@ -305,7 +305,7 @@
    /**
     * Default value of the form field
     * @function setDefaultValue
-    * @param defaultValue { String } Default value of the form field
+    * @param defaultValue {module:model/workflows/String} Default value of the form field
     * @instance
     */
     _this.setDefaultValue = function(defaultValue) {
@@ -315,7 +315,7 @@
    /**
     * Format of the value of the field to be displayed based on the displayFormatType property.
     * @function getDisplayFormat
-    * @return  Format of the value of the field to be displayed based on the displayFormatType property. { String }
+    * @return  {module:model/workflows/String} Format of the value of the field to be displayed based on the displayFormatType property.  
     * @instance
     */
     _this.getDisplayFormat = function() {
@@ -325,7 +325,7 @@
    /**
     * Format of the value of the field to be displayed based on the displayFormatType property.
     * @function setDisplayFormat
-    * @param displayFormat { String } Format of the value of the field to be displayed based on the displayFormatType property.
+    * @param displayFormat {module:model/workflows/String} Format of the value of the field to be displayed based on the displayFormatType property.
     * @instance
     */
     _this.setDisplayFormat = function(displayFormat) {
@@ -335,7 +335,7 @@
    /**
     * Format type of the text field.
     * @function getDisplayFormatType
-    * @return  Format type of the text field. { String }
+    * @return  {module:model/workflows/String} Format type of the text field.  
     * @instance
     */
     _this.getDisplayFormatType = function() {
@@ -345,7 +345,7 @@
    /**
     * Format type of the text field.
     * @function setDisplayFormatType
-    * @param displayFormatType { String } Format type of the text field.
+    * @param displayFormatType {module:model/workflows/String} Format type of the text field.
     * @instance
     */
     _this.setDisplayFormatType = function(displayFormatType) {
@@ -355,7 +355,7 @@
    /**
     * Display label attached to the field
     * @function getDisplayLabel
-    * @return  Display label attached to the field { String }
+    * @return  {module:model/workflows/String} Display label attached to the field  
     * @instance
     */
     _this.getDisplayLabel = function() {
@@ -365,7 +365,7 @@
    /**
     * Display label attached to the field
     * @function setDisplayLabel
-    * @param displayLabel { String } Display label attached to the field
+    * @param displayLabel {module:model/workflows/String} Display label attached to the field
     * @instance
     */
     _this.setDisplayLabel = function(displayLabel) {
@@ -375,7 +375,7 @@
    /**
     * Font color of the form field in RGB or HEX format
     * @function getFontColor
-    * @return  Font color of the form field in RGB or HEX format { String }
+    * @return  {module:model/workflows/String} Font color of the form field in RGB or HEX format  
     * @instance
     */
     _this.getFontColor = function() {
@@ -385,7 +385,7 @@
    /**
     * Font color of the form field in RGB or HEX format
     * @function setFontColor
-    * @param fontColor { String } Font color of the form field in RGB or HEX format
+    * @param fontColor {module:model/workflows/String} Font color of the form field in RGB or HEX format
     * @instance
     */
     _this.setFontColor = function(fontColor) {
@@ -395,7 +395,7 @@
    /**
     * Font name of the form field
     * @function getFontName
-    * @return  Font name of the form field { String }
+    * @return  {module:model/workflows/String} Font name of the form field  
     * @instance
     */
     _this.getFontName = function() {
@@ -405,7 +405,7 @@
    /**
     * Font name of the form field
     * @function setFontName
-    * @param fontName { String } Font name of the form field
+    * @param fontName {module:model/workflows/String} Font name of the form field
     * @instance
     */
     _this.setFontName = function(fontName) {
@@ -415,7 +415,7 @@
    /**
     * Font size of the form field in points
     * @function getFontSize
-    * @return  Font size of the form field in points { Number }
+    * @return  {module:model/workflows/Number} Font size of the form field in points  
     * @instance
     */
     _this.getFontSize = function() {
@@ -425,7 +425,7 @@
    /**
     * Font size of the form field in points
     * @function setFontSize
-    * @param fontSize { Number } Font size of the form field in points
+    * @param fontSize {module:model/workflows/Number} Font size of the form field in points
     * @instance
     */
     _this.setFontSize = function(fontSize) {
@@ -435,7 +435,7 @@
    /**
     * Format of the form field
     * @function getFormat
-    * @return  Format of the form field { String }
+    * @return  {module:model/workflows/String} Format of the form field  
     * @instance
     */
     _this.getFormat = function() {
@@ -445,7 +445,7 @@
    /**
     * Format of the form field
     * @function setFormat
-    * @param format { String } Format of the form field
+    * @param format {module:model/workflows/String} Format of the form field
     * @instance
     */
     _this.setFormat = function(format) {
@@ -455,7 +455,7 @@
    /**
     * The format of data in text field
     * @function getFormatData
-    * @return  The format of data in text field { String }
+    * @return  {module:model/workflows/String} The format of data in text field  
     * @instance
     */
     _this.getFormatData = function() {
@@ -465,7 +465,7 @@
    /**
     * The format of data in text field
     * @function setFormatData
-    * @param formatData { String } The format of data in text field
+    * @param formatData {module:model/workflows/String} The format of data in text field
     * @instance
     */
     _this.setFormatData = function(formatData) {
@@ -475,7 +475,7 @@
    /**
     * true if the field is hidden, else false
     * @function getHidden
-    * @return  true if the field is hidden, else false { Boolean }
+    * @return  {module:model/workflows/Boolean} true if the field is hidden, else false  
     * @instance
     */
     _this.getHidden = function() {
@@ -485,7 +485,7 @@
    /**
     * true if the field is hidden, else false
     * @function setHidden
-    * @param hidden { Boolean } true if the field is hidden, else false
+    * @param hidden {module:model/workflows/Boolean} true if the field is hidden, else false
     * @instance
     */
     _this.setHidden = function(hidden) {
@@ -495,7 +495,7 @@
    /**
     * Text values which are hidden in a drop down form field
     * @function getHiddenOptions
-    * @return  Text values which are hidden in a drop down form field { Array }
+    * @return  {module:model/workflows/Array} Text values which are hidden in a drop down form field  
     * @instance
     */
     _this.getHiddenOptions = function() {
@@ -505,7 +505,7 @@
    /**
     * Text values which are hidden in a drop down form field
     * @function setHiddenOptions
-    * @param hiddenOptions { Array } Text values which are hidden in a drop down form field
+    * @param hiddenOptions {module:model/workflows/Array} Text values which are hidden in a drop down form field
     * @instance
     */
     _this.setHiddenOptions = function(hiddenOptions) {
@@ -515,7 +515,7 @@
    /**
     * Input type of the form field
     * @function getInputType
-    * @return  Input type of the form field { String }
+    * @return  {module:model/workflows/String} Input type of the form field  
     * @instance
     */
     _this.getInputType = function() {
@@ -525,7 +525,7 @@
    /**
     * Input type of the form field
     * @function setInputType
-    * @param inputType { String } Input type of the form field
+    * @param inputType {module:model/workflows/String} Input type of the form field
     * @instance
     */
     _this.setInputType = function(inputType) {
@@ -535,7 +535,7 @@
    /**
     * All locations in a document where the form field is placed
     * @function getLocations
-    * @return  All locations in a document where the form field is placed { Array }
+    * @return  {module:model/workflows/Array} All locations in a document where the form field is placed  
     * @instance
     */
     _this.getLocations = function() {
@@ -545,7 +545,7 @@
    /**
     * All locations in a document where the form field is placed
     * @function setLocations
-    * @param locations { Array } All locations in a document where the form field is placed
+    * @param locations {module:model/workflows/Array} All locations in a document where the form field is placed
     * @instance
     */
     _this.setLocations = function(locations) {
@@ -555,7 +555,7 @@
    /**
     * true if the input entered by the signer has to be masked (like password), else false
     * @function getMasked
-    * @return  true if the input entered by the signer has to be masked (like password), else false { Boolean }
+    * @return  {module:model/workflows/Boolean} true if the input entered by the signer has to be masked (like password), else false  
     * @instance
     */
     _this.getMasked = function() {
@@ -565,7 +565,7 @@
    /**
     * true if the input entered by the signer has to be masked (like password), else false
     * @function setMasked
-    * @param masked { Boolean } true if the input entered by the signer has to be masked (like password), else false
+    * @param masked {module:model/workflows/Boolean} true if the input entered by the signer has to be masked (like password), else false
     * @instance
     */
     _this.setMasked = function(masked) {
@@ -575,7 +575,7 @@
    /**
     * Text to mask the masked form field
     * @function getMaskingText
-    * @return  Text to mask the masked form field { String }
+    * @return  {module:model/workflows/String} Text to mask the masked form field  
     * @instance
     */
     _this.getMaskingText = function() {
@@ -585,7 +585,7 @@
    /**
     * Text to mask the masked form field
     * @function setMaskingText
-    * @param maskingText { String } Text to mask the masked form field
+    * @param maskingText {module:model/workflows/String} Text to mask the masked form field
     * @instance
     */
     _this.setMaskingText = function(maskingText) {
@@ -595,7 +595,7 @@
    /**
     * Maximum length of the input text field in terms of no. of characters
     * @function getMaxLength
-    * @return  Maximum length of the input text field in terms of no. of characters { Integer }
+    * @return  {module:model/workflows/Integer} Maximum length of the input text field in terms of no. of characters  
     * @instance
     */
     _this.getMaxLength = function() {
@@ -605,7 +605,7 @@
    /**
     * Maximum length of the input text field in terms of no. of characters
     * @function setMaxLength
-    * @param maxLength { Integer } Maximum length of the input text field in terms of no. of characters
+    * @param maxLength {module:model/workflows/Integer} Maximum length of the input text field in terms of no. of characters
     * @instance
     */
     _this.setMaxLength = function(maxLength) {
@@ -615,7 +615,7 @@
    /**
     * Upper bound of the number that can be entered by the signer
     * @function getMaxNumberValue
-    * @return  Upper bound of the number that can be entered by the signer { Number }
+    * @return  {module:model/workflows/Number} Upper bound of the number that can be entered by the signer  
     * @instance
     */
     _this.getMaxNumberValue = function() {
@@ -625,7 +625,7 @@
    /**
     * Upper bound of the number that can be entered by the signer
     * @function setMaxNumberValue
-    * @param maxNumberValue { Number } Upper bound of the number that can be entered by the signer
+    * @param maxNumberValue {module:model/workflows/Number} Upper bound of the number that can be entered by the signer
     * @instance
     */
     _this.setMaxNumberValue = function(maxNumberValue) {
@@ -635,7 +635,7 @@
    /**
     * Minimum length of the input text field in terms of no. of characters
     * @function getMinLength
-    * @return  Minimum length of the input text field in terms of no. of characters { Integer }
+    * @return  {module:model/workflows/Integer} Minimum length of the input text field in terms of no. of characters  
     * @instance
     */
     _this.getMinLength = function() {
@@ -645,7 +645,7 @@
    /**
     * Minimum length of the input text field in terms of no. of characters
     * @function setMinLength
-    * @param minLength { Integer } Minimum length of the input text field in terms of no. of characters
+    * @param minLength {module:model/workflows/Integer} Minimum length of the input text field in terms of no. of characters
     * @instance
     */
     _this.setMinLength = function(minLength) {
@@ -655,7 +655,7 @@
    /**
     * Lower bound of the number that can be entered by the signer
     * @function getMinNumberValue
-    * @return  Lower bound of the number that can be entered by the signer { Number }
+    * @return  {module:model/workflows/Number} Lower bound of the number that can be entered by the signer  
     * @instance
     */
     _this.getMinNumberValue = function() {
@@ -665,7 +665,7 @@
    /**
     * Lower bound of the number that can be entered by the signer
     * @function setMinNumberValue
-    * @param minNumberValue { Number } Lower bound of the number that can be entered by the signer
+    * @param minNumberValue {module:model/workflows/Number} Lower bound of the number that can be entered by the signer
     * @instance
     */
     _this.setMinNumberValue = function(minNumberValue) {
@@ -675,7 +675,7 @@
    /**
     * The name of the form field
     * @function getName
-    * @return  The name of the form field { String }
+    * @return  {module:model/workflows/String} The name of the form field  
     * @instance
     */
     _this.getName = function() {
@@ -685,7 +685,7 @@
    /**
     * The name of the form field
     * @function setName
-    * @param name { String } The name of the form field
+    * @param name {module:model/workflows/String} The name of the form field
     * @instance
     */
     _this.setName = function(name) {
@@ -695,7 +695,7 @@
    /**
     * The type of radio button (if field is radio button, identified by inputType).
     * @function getRadioCheckType
-    * @return  The type of radio button (if field is radio button, identified by inputType). { String }
+    * @return  {module:model/workflows/String} The type of radio button (if field is radio button, identified by inputType).  
     * @instance
     */
     _this.getRadioCheckType = function() {
@@ -705,7 +705,7 @@
    /**
     * The type of radio button (if field is radio button, identified by inputType).
     * @function setRadioCheckType
-    * @param radioCheckType { String } The type of radio button (if field is radio button, identified by inputType).
+    * @param radioCheckType {module:model/workflows/String} The type of radio button (if field is radio button, identified by inputType).
     * @instance
     */
     _this.setRadioCheckType = function(radioCheckType) {
@@ -715,7 +715,7 @@
    /**
     * true if it is a read-only field, else false
     * @function getReadOnly
-    * @return  true if it is a read-only field, else false { Boolean }
+    * @return  {module:model/workflows/Boolean} true if it is a read-only field, else false  
     * @instance
     */
     _this.getReadOnly = function() {
@@ -725,7 +725,7 @@
    /**
     * true if it is a read-only field, else false
     * @function setReadOnly
-    * @param readOnly { Boolean } true if it is a read-only field, else false
+    * @param readOnly {module:model/workflows/Boolean} true if it is a read-only field, else false
     * @instance
     */
     _this.setReadOnly = function(readOnly) {
@@ -735,7 +735,7 @@
    /**
     * Index of recipient, starting from 1, in recipients list passed in the request
     * @function getRecipientIndex
-    * @return  Index of recipient, starting from 1, in recipients list passed in the request { Integer }
+    * @return  {module:model/workflows/Integer} Index of recipient, starting from 1, in recipients list passed in the request  
     * @instance
     */
     _this.getRecipientIndex = function() {
@@ -745,7 +745,7 @@
    /**
     * Index of recipient, starting from 1, in recipients list passed in the request
     * @function setRecipientIndex
-    * @param recipientIndex { Integer } Index of recipient, starting from 1, in recipients list passed in the request
+    * @param recipientIndex {module:model/workflows/Integer} Index of recipient, starting from 1, in recipients list passed in the request
     * @instance
     */
     _this.setRecipientIndex = function(recipientIndex) {
@@ -755,7 +755,7 @@
    /**
     * Name of the recipient list as returned in workflow description
     * @function getRecipientListName
-    * @return  Name of the recipient list as returned in workflow description { String }
+    * @return  {module:model/workflows/String} Name of the recipient list as returned in workflow description  
     * @instance
     */
     _this.getRecipientListName = function() {
@@ -765,7 +765,7 @@
    /**
     * Name of the recipient list as returned in workflow description
     * @function setRecipientListName
-    * @param recipientListName { String } Name of the recipient list as returned in workflow description
+    * @param recipientListName {module:model/workflows/String} Name of the recipient list as returned in workflow description
     * @instance
     */
     _this.setRecipientListName = function(recipientListName) {
@@ -775,7 +775,7 @@
    /**
     * Regular expression validation of the form field
     * @function getRegularExpression
-    * @return  Regular expression validation of the form field { String }
+    * @return  {module:model/workflows/String} Regular expression validation of the form field  
     * @instance
     */
     _this.getRegularExpression = function() {
@@ -785,7 +785,7 @@
    /**
     * Regular expression validation of the form field
     * @function setRegularExpression
-    * @param regularExpression { String } Regular expression validation of the form field
+    * @param regularExpression {module:model/workflows/String} Regular expression validation of the form field
     * @instance
     */
     _this.setRegularExpression = function(regularExpression) {
@@ -795,7 +795,7 @@
    /**
     * true if it is a mandatory field to be filled by the signer, else false
     * @function getRequired
-    * @return  true if it is a mandatory field to be filled by the signer, else false { Boolean }
+    * @return  {module:model/workflows/Boolean} true if it is a mandatory field to be filled by the signer, else false  
     * @instance
     */
     _this.getRequired = function() {
@@ -805,7 +805,7 @@
    /**
     * true if it is a mandatory field to be filled by the signer, else false
     * @function setRequired
-    * @param required { Boolean } true if it is a mandatory field to be filled by the signer, else false
+    * @param required {module:model/workflows/Boolean} true if it is a mandatory field to be filled by the signer, else false
     * @instance
     */
     _this.setRequired = function(required) {
@@ -815,7 +815,7 @@
    /**
     * Action to show/hide the form field is to be taken on the basis of evaluation of conditions.
     * @function getShowOrHide
-    * @return  Action to show/hide the form field is to be taken on the basis of evaluation of conditions. { String }
+    * @return  {module:model/workflows/String} Action to show/hide the form field is to be taken on the basis of evaluation of conditions.  
     * @instance
     */
     _this.getShowOrHide = function() {
@@ -825,7 +825,7 @@
    /**
     * Action to show/hide the form field is to be taken on the basis of evaluation of conditions.
     * @function setShowOrHide
-    * @param showOrHide { String } Action to show/hide the form field is to be taken on the basis of evaluation of conditions.
+    * @param showOrHide {module:model/workflows/String} Action to show/hide the form field is to be taken on the basis of evaluation of conditions.
     * @instance
     */
     _this.setShowOrHide = function(showOrHide) {
@@ -835,7 +835,7 @@
    /**
     * Error message to be shown to the signer if filled value doesn&#39;t match the validations of the form field
     * @function getSpecialErrMsg
-    * @return  Error message to be shown to the signer if filled value doesn&#39;t match the validations of the form field { String }
+    * @return  {module:model/workflows/String} Error message to be shown to the signer if filled value doesn&#39;t match the validations of the form field  
     * @instance
     */
     _this.getSpecialErrMsg = function() {
@@ -845,7 +845,7 @@
    /**
     * Error message to be shown to the signer if filled value doesn&#39;t match the validations of the form field
     * @function setSpecialErrMsg
-    * @param specialErrMsg { String } Error message to be shown to the signer if filled value doesn&#39;t match the validations of the form field
+    * @param specialErrMsg {module:model/workflows/String} Error message to be shown to the signer if filled value doesn&#39;t match the validations of the form field
     * @instance
     */
     _this.setSpecialErrMsg = function(specialErrMsg) {
@@ -855,7 +855,7 @@
    /**
     * Formula used to calculate the value of the form field
     * @function getSpecialFormula
-    * @return  Formula used to calculate the value of the form field { String }
+    * @return  {module:model/workflows/String} Formula used to calculate the value of the form field  
     * @instance
     */
     _this.getSpecialFormula = function() {
@@ -865,7 +865,7 @@
    /**
     * Formula used to calculate the value of the form field
     * @function setSpecialFormula
-    * @param specialFormula { String } Formula used to calculate the value of the form field
+    * @param specialFormula {module:model/workflows/String} Formula used to calculate the value of the form field
     * @instance
     */
     _this.setSpecialFormula = function(specialFormula) {
@@ -875,7 +875,7 @@
    /**
     * Text that appears while hovering over the field
     * @function getTooltip
-    * @return  Text that appears while hovering over the field { String }
+    * @return  {module:model/workflows/String} Text that appears while hovering over the field  
     * @instance
     */
     _this.getTooltip = function() {
@@ -885,7 +885,7 @@
    /**
     * Text that appears while hovering over the field
     * @function setTooltip
-    * @param tooltip { String } Text that appears while hovering over the field
+    * @param tooltip {module:model/workflows/String} Text that appears while hovering over the field
     * @instance
     */
     _this.setTooltip = function(tooltip) {
@@ -895,7 +895,7 @@
    /**
     * Text values which are visible in a drop down form field
     * @function getVisibleOptions
-    * @return  Text values which are visible in a drop down form field { Array }
+    * @return  {module:model/workflows/Array} Text values which are visible in a drop down form field  
     * @instance
     */
     _this.getVisibleOptions = function() {
@@ -905,7 +905,7 @@
    /**
     * Text values which are visible in a drop down form field
     * @function setVisibleOptions
-    * @param visibleOptions { Array } Text values which are visible in a drop down form field
+    * @param visibleOptions {module:model/workflows/Array} Text values which are visible in a drop down form field
     * @instance
     */
     _this.setVisibleOptions = function(visibleOptions) {

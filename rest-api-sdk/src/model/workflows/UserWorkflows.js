@@ -37,7 +37,7 @@
    /**
     * An array of workflows
     * @function getUserWorkflowList
-    * @return  An array of workflows { Array }
+    * @return  {module:model/workflows/Array} An array of workflows  
     * @instance
     */
     _this.getUserWorkflowList = function() {
@@ -47,7 +47,7 @@
    /**
     * An array of workflows
     * @function setUserWorkflowList
-    * @param userWorkflowList { Array } An array of workflows
+    * @param userWorkflowList {module:model/workflows/Array} An array of workflows
     * @instance
     */
     _this.setUserWorkflowList = function(userWorkflowList) {

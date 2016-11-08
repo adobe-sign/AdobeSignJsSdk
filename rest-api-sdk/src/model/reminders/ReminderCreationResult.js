@@ -39,7 +39,7 @@
    /**
     * The info of the party (participant sets) that was reminded.
     * @function getParticipantEmailsSet
-    * @return  The info of the party (participant sets) that was reminded. { Array }
+    * @return  {module:model/reminders/Array} The info of the party (participant sets) that was reminded.  
     * @instance
     */
     _this.getParticipantEmailsSet = function() {
@@ -49,7 +49,7 @@
    /**
     * The info of the party (participant sets) that was reminded.
     * @function setParticipantEmailsSet
-    * @param participantEmailsSet { Array } The info of the party (participant sets) that was reminded.
+    * @param participantEmailsSet {module:model/reminders/Array} The info of the party (participant sets) that was reminded.
     * @instance
     */
     _this.setParticipantEmailsSet = function(participantEmailsSet) {
@@ -59,7 +59,7 @@
    /**
     * A status value indicating the result of the operation
     * @function getResult
-    * @return  A status value indicating the result of the operation { String }
+    * @return  {module:model/reminders/String} A status value indicating the result of the operation  
     * @instance
     */
     _this.getResult = function() {
@@ -69,7 +69,7 @@
    /**
     * A status value indicating the result of the operation
     * @function setResult
-    * @param result { String } A status value indicating the result of the operation
+    * @param result {module:model/reminders/String} A status value indicating the result of the operation
     * @instance
     */
     _this.setResult = function(result) {

@@ -55,7 +55,7 @@
    /**
     * The name of the company of the new user
     * @function getCompany
-    * @return  The name of the company of the new user { String }
+    * @return  {module:model/users/String} The name of the company of the new user  
     * @instance
     */
     _this.getCompany = function() {
@@ -65,7 +65,7 @@
    /**
     * The name of the company of the new user
     * @function setCompany
-    * @param company { String } The name of the company of the new user
+    * @param company {module:model/users/String} The name of the company of the new user
     * @instance
     */
     _this.setCompany = function(company) {
@@ -75,7 +75,7 @@
    /**
     * The email address of the new user
     * @function getEmail
-    * @return  The email address of the new user { String }
+    * @return  {module:model/users/String} The email address of the new user  
     * @instance
     */
     _this.getEmail = function() {
@@ -85,7 +85,7 @@
    /**
     * The email address of the new user
     * @function setEmail
-    * @param email { String } The email address of the new user
+    * @param email {module:model/users/String} The email address of the new user
     * @instance
     */
     _this.setEmail = function(email) {
@@ -95,7 +95,7 @@
    /**
     * The first name of the new user
     * @function getFirstName
-    * @return  The first name of the new user { String }
+    * @return  {module:model/users/String} The first name of the new user  
     * @instance
     */
     _this.getFirstName = function() {
@@ -105,7 +105,7 @@
    /**
     * The first name of the new user
     * @function setFirstName
-    * @param firstName { String } The first name of the new user
+    * @param firstName {module:model/users/String} The first name of the new user
     * @instance
     */
     _this.setFirstName = function(firstName) {
@@ -115,7 +115,7 @@
    /**
     * Group in which the new user should be added. It can be obtained through a call to the API which retrieves users. Default is Group of the user making this call. The user is inferred from the access_token header.
     * @function getGroupId
-    * @return  Group in which the new user should be added. It can be obtained through a call to the API which retrieves users. Default is Group of the user making this call. The user is inferred from the access_token header. { String }
+    * @return  {module:model/users/String} Group in which the new user should be added. It can be obtained through a call to the API which retrieves users. Default is Group of the user making this call. The user is inferred from the access_token header.  
     * @instance
     */
     _this.getGroupId = function() {
@@ -125,7 +125,7 @@
    /**
     * Group in which the new user should be added. It can be obtained through a call to the API which retrieves users. Default is Group of the user making this call. The user is inferred from the access_token header.
     * @function setGroupId
-    * @param groupId { String } Group in which the new user should be added. It can be obtained through a call to the API which retrieves users. Default is Group of the user making this call. The user is inferred from the access_token header.
+    * @param groupId {module:model/users/String} Group in which the new user should be added. It can be obtained through a call to the API which retrieves users. Default is Group of the user making this call. The user is inferred from the access_token header.
     * @instance
     */
     _this.setGroupId = function(groupId) {
@@ -135,7 +135,7 @@
    /**
     * The last name of the new user
     * @function getLastName
-    * @return  The last name of the new user { String }
+    * @return  {module:model/users/String} The last name of the new user  
     * @instance
     */
     _this.getLastName = function() {
@@ -145,7 +145,7 @@
    /**
     * The last name of the new user
     * @function setLastName
-    * @param lastName { String } The last name of the new user
+    * @param lastName {module:model/users/String} The last name of the new user
     * @instance
     */
     _this.setLastName = function(lastName) {
@@ -155,7 +155,7 @@
    /**
     * Whether or not the user has opted in to receive marketing information from Adobe Sign and its partners. Default value is UNKNOWN
     * @function getOptIn
-    * @return  Whether or not the user has opted in to receive marketing information from Adobe Sign and its partners. Default value is UNKNOWN { String }
+    * @return  {module:model/users/String} Whether or not the user has opted in to receive marketing information from Adobe Sign and its partners. Default value is UNKNOWN  
     * @instance
     */
     _this.getOptIn = function() {
@@ -165,7 +165,7 @@
    /**
     * Whether or not the user has opted in to receive marketing information from Adobe Sign and its partners. Default value is UNKNOWN
     * @function setOptIn
-    * @param optIn { String } Whether or not the user has opted in to receive marketing information from Adobe Sign and its partners. Default value is UNKNOWN
+    * @param optIn {module:model/users/String} Whether or not the user has opted in to receive marketing information from Adobe Sign and its partners. Default value is UNKNOWN
     * @instance
     */
     _this.setOptIn = function(optIn) {
@@ -175,7 +175,7 @@
    /**
     * The password of the new user
     * @function getPassword
-    * @return  The password of the new user { String }
+    * @return  {module:model/users/String} The password of the new user  
     * @instance
     */
     _this.getPassword = function() {
@@ -185,7 +185,7 @@
    /**
     * The password of the new user
     * @function setPassword
-    * @param password { String } The password of the new user
+    * @param password {module:model/users/String} The password of the new user
     * @instance
     */
     _this.setPassword = function(password) {
@@ -195,7 +195,7 @@
    /**
     * The phone number of the new user
     * @function getPhone
-    * @return  The phone number of the new user { String }
+    * @return  {module:model/users/String} The phone number of the new user  
     * @instance
     */
     _this.getPhone = function() {
@@ -205,7 +205,7 @@
    /**
     * The phone number of the new user
     * @function setPhone
-    * @param phone { String } The phone number of the new user
+    * @param phone {module:model/users/String} The phone number of the new user
     * @instance
     */
     _this.setPhone = function(phone) {
@@ -215,7 +215,7 @@
    /**
     * The current roles of the user
     * @function getRoles
-    * @return  The current roles of the user { Array }
+    * @return  {module:model/users/Array} The current roles of the user  
     * @instance
     */
     _this.getRoles = function() {
@@ -225,7 +225,7 @@
    /**
     * The current roles of the user
     * @function setRoles
-    * @param roles { Array } The current roles of the user
+    * @param roles {module:model/users/Array} The current roles of the user
     * @instance
     */
     _this.setRoles = function(roles) {
@@ -235,7 +235,7 @@
    /**
     * The job title of the new user
     * @function getTitle
-    * @return  The job title of the new user { String }
+    * @return  {module:model/users/String} The job title of the new user  
     * @instance
     */
     _this.getTitle = function() {
@@ -245,7 +245,7 @@
    /**
     * The job title of the new user
     * @function setTitle
-    * @param title { String } The job title of the new user
+    * @param title {module:model/users/String} The job title of the new user
     * @instance
     */
     _this.setTitle = function(title) {

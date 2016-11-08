@@ -39,7 +39,7 @@
    /**
     * Email of the recipient
     * @function getEmail
-    * @return  Email of the recipient { String }
+    * @return  {module:model/widgets/String} Email of the recipient  
     * @instance
     */
     _this.getEmail = function() {
@@ -49,7 +49,7 @@
    /**
     * Email of the recipient
     * @function setEmail
-    * @param email { String } Email of the recipient
+    * @param email {module:model/widgets/String} Email of the recipient
     * @instance
     */
     _this.setEmail = function(email) {
@@ -59,7 +59,7 @@
    /**
     * Security options that apply to the counter signers
     * @function getSecurityOptions
-    * @return  Security options that apply to the counter signers { Array }
+    * @return  {module:model/widgets/Array} Security options that apply to the counter signers  
     * @instance
     */
     _this.getSecurityOptions = function() {
@@ -69,7 +69,7 @@
    /**
     * Security options that apply to the counter signers
     * @function setSecurityOptions
-    * @param securityOptions { Array } Security options that apply to the counter signers
+    * @param securityOptions {module:model/widgets/Array} Security options that apply to the counter signers
     * @instance
     */
     _this.setSecurityOptions = function(securityOptions) {

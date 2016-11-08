@@ -37,7 +37,7 @@
    /**
     * Secure URL of the document
     * @function getUrl
-    * @return  Secure URL of the document { String }
+    * @return  {module:model/agreements/String} Secure URL of the document  
     * @instance
     */
     _this.getUrl = function() {
@@ -47,7 +47,7 @@
    /**
     * Secure URL of the document
     * @function setUrl
-    * @param url { String } Secure URL of the document
+    * @param url {module:model/agreements/String} Secure URL of the document
     * @instance
     */
     _this.setUrl = function(url) {

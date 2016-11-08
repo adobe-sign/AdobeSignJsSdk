@@ -14,7 +14,7 @@
 (function(factory) {
   if (typeof module === 'object' && module.exports) {
     // CommonJS-like environments that support module.exports, like Node.
-    module.exports = factory(require('../../rest-api-sdk/src/index'), require('./Errors'), require('./ApiUtils'), require('./Constants'));
+    module.exports = factory(require('adobe-sign-sdk'), require('./Errors'), require('./ApiUtils'), require('./Constants'));
   }
 }(function(AdobeSignSdk, Errors, ApiUtils, Constants) {
   'use strict';

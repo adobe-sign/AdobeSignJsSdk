@@ -39,7 +39,7 @@
    /**
     * Unique identifier of the group
     * @function getGroupId
-    * @return  Unique identifier of the group { String }
+    * @return  {module:model/groups/String} Unique identifier of the group  
     * @instance
     */
     _this.getGroupId = function() {
@@ -49,7 +49,7 @@
    /**
     * Unique identifier of the group
     * @function setGroupId
-    * @param groupId { String } Unique identifier of the group
+    * @param groupId {module:model/groups/String} Unique identifier of the group
     * @instance
     */
     _this.setGroupId = function(groupId) {
@@ -59,7 +59,7 @@
    /**
     * Name of the group
     * @function getGroupName
-    * @return  Name of the group { String }
+    * @return  {module:model/groups/String} Name of the group  
     * @instance
     */
     _this.getGroupName = function() {
@@ -69,7 +69,7 @@
    /**
     * Name of the group
     * @function setGroupName
-    * @param groupName { String } Name of the group
+    * @param groupName {module:model/groups/String} Name of the group
     * @instance
     */
     _this.setGroupName = function(groupName) {

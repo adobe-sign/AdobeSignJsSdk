@@ -45,7 +45,7 @@
    /**
     * The unique identifier of the agreement
     * @function getAgreementId
-    * @return  The unique identifier of the agreement { String }
+    * @return  {module:model/megaSigns/String} The unique identifier of the agreement  
     * @instance
     */
     _this.getAgreementId = function() {
@@ -55,7 +55,7 @@
    /**
     * The unique identifier of the agreement
     * @function setAgreementId
-    * @param agreementId { String } The unique identifier of the agreement
+    * @param agreementId {module:model/megaSigns/String} The unique identifier of the agreement
     * @instance
     */
     _this.setAgreementId = function(agreementId) {
@@ -65,7 +65,7 @@
    /**
     * The display date for the agreement
     * @function getDisplayDate
-    * @return  The display date for the agreement { Date }
+    * @return  {module:model/megaSigns/Date} The display date for the agreement  
     * @instance
     */
     _this.getDisplayDate = function() {
@@ -75,7 +75,7 @@
    /**
     * The display date for the agreement
     * @function setDisplayDate
-    * @param displayDate { Date } The display date for the agreement
+    * @param displayDate {module:model/megaSigns/Date} The display date for the agreement
     * @instance
     */
     _this.setDisplayDate = function(displayDate) {
@@ -85,7 +85,7 @@
    /**
     * True if this is an e-sign document
     * @function getEsign
-    * @return  True if this is an e-sign document { Boolean }
+    * @return  {module:model/megaSigns/Boolean} True if this is an e-sign document  
     * @instance
     */
     _this.getEsign = function() {
@@ -95,7 +95,7 @@
    /**
     * True if this is an e-sign document
     * @function setEsign
-    * @param esign { Boolean } True if this is an e-sign document
+    * @param esign {module:model/megaSigns/Boolean} True if this is an e-sign document
     * @instance
     */
     _this.setEsign = function(esign) {
@@ -105,7 +105,7 @@
    /**
     * Name of the Agreement
     * @function getName
-    * @return  Name of the Agreement { String }
+    * @return  {module:model/megaSigns/String} Name of the Agreement  
     * @instance
     */
     _this.getName = function() {
@@ -115,7 +115,7 @@
    /**
     * Name of the Agreement
     * @function setName
-    * @param name { String } Name of the Agreement
+    * @param name {module:model/megaSigns/String} Name of the Agreement
     * @instance
     */
     _this.setName = function(name) {
@@ -125,7 +125,7 @@
    /**
     * The current status of the agreement from the perspective of the user
     * @function getStatus
-    * @return  The current status of the agreement from the perspective of the user { String }
+    * @return  {module:model/megaSigns/String} The current status of the agreement from the perspective of the user  
     * @instance
     */
     _this.getStatus = function() {
@@ -135,7 +135,7 @@
    /**
     * The current status of the agreement from the perspective of the user
     * @function setStatus
-    * @param status { String } The current status of the agreement from the perspective of the user
+    * @param status {module:model/megaSigns/String} The current status of the agreement from the perspective of the user
     * @instance
     */
     _this.setStatus = function(status) {

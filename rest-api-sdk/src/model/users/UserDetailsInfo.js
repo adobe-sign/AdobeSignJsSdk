@@ -71,7 +71,7 @@
    /**
     * Nickname of the account to which the user belongs
     * @function getAccount
-    * @return  Nickname of the account to which the user belongs { String }
+    * @return  {module:model/users/String} Nickname of the account to which the user belongs  
     * @instance
     */
     _this.getAccount = function() {
@@ -81,7 +81,7 @@
    /**
     * Nickname of the account to which the user belongs
     * @function setAccount
-    * @param account { String } Nickname of the account to which the user belongs
+    * @param account {module:model/users/String} Nickname of the account to which the user belongs
     * @instance
     */
     _this.setAccount = function(account) {
@@ -91,7 +91,7 @@
    /**
     * Type of account to which the user belongs (null if no account)
     * @function getAccountType
-    * @return  Type of account to which the user belongs (null if no account) { String }
+    * @return  {module:model/users/String} Type of account to which the user belongs (null if no account)  
     * @instance
     */
     _this.getAccountType = function() {
@@ -101,7 +101,7 @@
    /**
     * Type of account to which the user belongs (null if no account)
     * @function setAccountType
-    * @param accountType { String } Type of account to which the user belongs (null if no account)
+    * @param accountType {module:model/users/String} Type of account to which the user belongs (null if no account)
     * @instance
     */
     _this.setAccountType = function(accountType) {
@@ -111,7 +111,7 @@
    /**
     * A set of capabilities applicable to the user
     * @function getCapabilityFlags
-    * @return  A set of capabilities applicable to the user { Array }
+    * @return  {module:model/users/Array} A set of capabilities applicable to the user  
     * @instance
     */
     _this.getCapabilityFlags = function() {
@@ -121,7 +121,7 @@
    /**
     * A set of capabilities applicable to the user
     * @function setCapabilityFlags
-    * @param capabilityFlags { Array } A set of capabilities applicable to the user
+    * @param capabilityFlags {module:model/users/Array} A set of capabilities applicable to the user
     * @instance
     */
     _this.setCapabilityFlags = function(capabilityFlags) {
@@ -131,7 +131,7 @@
    /**
     * Name of the channel to which the user belongs
     * @function getChannel
-    * @return  Name of the channel to which the user belongs { String }
+    * @return  {module:model/users/String} Name of the channel to which the user belongs  
     * @instance
     */
     _this.getChannel = function() {
@@ -141,7 +141,7 @@
    /**
     * Name of the channel to which the user belongs
     * @function setChannel
-    * @param channel { String } Name of the channel to which the user belongs
+    * @param channel {module:model/users/String} Name of the channel to which the user belongs
     * @instance
     */
     _this.setChannel = function(channel) {
@@ -151,7 +151,7 @@
    /**
     * The name of company of the user
     * @function getCompany
-    * @return  The name of company of the user { String }
+    * @return  {module:model/users/String} The name of company of the user  
     * @instance
     */
     _this.getCompany = function() {
@@ -161,7 +161,7 @@
    /**
     * The name of company of the user
     * @function setCompany
-    * @param company { String } The name of company of the user
+    * @param company {module:model/users/String} The name of company of the user
     * @instance
     */
     _this.setCompany = function(company) {
@@ -171,7 +171,7 @@
    /**
     * The email address of the user
     * @function getEmail
-    * @return  The email address of the user { String }
+    * @return  {module:model/users/String} The email address of the user  
     * @instance
     */
     _this.getEmail = function() {
@@ -181,7 +181,7 @@
    /**
     * The email address of the user
     * @function setEmail
-    * @param email { String } The email address of the user
+    * @param email {module:model/users/String} The email address of the user
     * @instance
     */
     _this.setEmail = function(email) {
@@ -191,7 +191,7 @@
    /**
     * The first name of the user
     * @function getFirstName
-    * @return  The first name of the user { String }
+    * @return  {module:model/users/String} The first name of the user  
     * @instance
     */
     _this.getFirstName = function() {
@@ -201,7 +201,7 @@
    /**
     * The first name of the user
     * @function setFirstName
-    * @param firstName { String } The first name of the user
+    * @param firstName {module:model/users/String} The first name of the user
     * @instance
     */
     _this.setFirstName = function(firstName) {
@@ -211,7 +211,7 @@
    /**
     * Name of the group to which the user belongs
     * @function getGroup
-    * @return  Name of the group to which the user belongs { String }
+    * @return  {module:model/users/String} Name of the group to which the user belongs  
     * @instance
     */
     _this.getGroup = function() {
@@ -221,7 +221,7 @@
    /**
     * Name of the group to which the user belongs
     * @function setGroup
-    * @param group { String } Name of the group to which the user belongs
+    * @param group {module:model/users/String} Name of the group to which the user belongs
     * @instance
     */
     _this.setGroup = function(group) {
@@ -231,7 +231,7 @@
    /**
     * The identifier that can be used in group management methods
     * @function getGroupId
-    * @return  The identifier that can be used in group management methods { String }
+    * @return  {module:model/users/String} The identifier that can be used in group management methods  
     * @instance
     */
     _this.getGroupId = function() {
@@ -241,7 +241,7 @@
    /**
     * The identifier that can be used in group management methods
     * @function setGroupId
-    * @param groupId { String } The identifier that can be used in group management methods
+    * @param groupId {module:model/users/String} The identifier that can be used in group management methods
     * @instance
     */
     _this.setGroupId = function(groupId) {
@@ -251,7 +251,7 @@
    /**
     * The initials of the user
     * @function getInitials
-    * @return  The initials of the user { String }
+    * @return  {module:model/users/String} The initials of the user  
     * @instance
     */
     _this.getInitials = function() {
@@ -261,7 +261,7 @@
    /**
     * The initials of the user
     * @function setInitials
-    * @param initials { String } The initials of the user
+    * @param initials {module:model/users/String} The initials of the user
     * @instance
     */
     _this.setInitials = function(initials) {
@@ -271,7 +271,7 @@
    /**
     * The last name of the user
     * @function getLastName
-    * @return  The last name of the user { String }
+    * @return  {module:model/users/String} The last name of the user  
     * @instance
     */
     _this.getLastName = function() {
@@ -281,7 +281,7 @@
    /**
     * The last name of the user
     * @function setLastName
-    * @param lastName { String } The last name of the user
+    * @param lastName {module:model/users/String} The last name of the user
     * @instance
     */
     _this.setLastName = function(lastName) {
@@ -291,7 +291,7 @@
    /**
     * The UI locale of the user
     * @function getLocale
-    * @return  The UI locale of the user { String }
+    * @return  {module:model/users/String} The UI locale of the user  
     * @instance
     */
     _this.getLocale = function() {
@@ -301,7 +301,7 @@
    /**
     * The UI locale of the user
     * @function setLocale
-    * @param locale { String } The UI locale of the user
+    * @param locale {module:model/users/String} The UI locale of the user
     * @instance
     */
     _this.setLocale = function(locale) {
@@ -311,7 +311,7 @@
    /**
     * Whether or not the user has opted in to receive marketing information from Adobe Sign and its partners. Default value is UNKNOWN
     * @function getOptIn
-    * @return  Whether or not the user has opted in to receive marketing information from Adobe Sign and its partners. Default value is UNKNOWN { String }
+    * @return  {module:model/users/String} Whether or not the user has opted in to receive marketing information from Adobe Sign and its partners. Default value is UNKNOWN  
     * @instance
     */
     _this.getOptIn = function() {
@@ -321,7 +321,7 @@
    /**
     * Whether or not the user has opted in to receive marketing information from Adobe Sign and its partners. Default value is UNKNOWN
     * @function setOptIn
-    * @param optIn { String } Whether or not the user has opted in to receive marketing information from Adobe Sign and its partners. Default value is UNKNOWN
+    * @param optIn {module:model/users/String} Whether or not the user has opted in to receive marketing information from Adobe Sign and its partners. Default value is UNKNOWN
     * @instance
     */
     _this.setOptIn = function(optIn) {
@@ -331,7 +331,7 @@
    /**
     * The date of password expiration
     * @function getPasswordExpiration
-    * @return  The date of password expiration { Date }
+    * @return  {module:model/users/Date} The date of password expiration  
     * @instance
     */
     _this.getPasswordExpiration = function() {
@@ -341,7 +341,7 @@
    /**
     * The date of password expiration
     * @function setPasswordExpiration
-    * @param passwordExpiration { Date } The date of password expiration
+    * @param passwordExpiration {module:model/users/Date} The date of password expiration
     * @instance
     */
     _this.setPasswordExpiration = function(passwordExpiration) {
@@ -351,7 +351,7 @@
    /**
     * The phone number of the user
     * @function getPhone
-    * @return  The phone number of the user { String }
+    * @return  {module:model/users/String} The phone number of the user  
     * @instance
     */
     _this.getPhone = function() {
@@ -361,7 +361,7 @@
    /**
     * The phone number of the user
     * @function setPhone
-    * @param phone { String } The phone number of the user
+    * @param phone {module:model/users/String} The phone number of the user
     * @instance
     */
     _this.setPhone = function(phone) {
@@ -371,7 +371,7 @@
    /**
     * The current roles of the user
     * @function getRoles
-    * @return  The current roles of the user { Array }
+    * @return  {module:model/users/Array} The current roles of the user  
     * @instance
     */
     _this.getRoles = function() {
@@ -381,7 +381,7 @@
    /**
     * The current roles of the user
     * @function setRoles
-    * @param roles { Array } The current roles of the user
+    * @param roles {module:model/users/Array} The current roles of the user
     * @instance
     */
     _this.setRoles = function(roles) {
@@ -391,7 +391,7 @@
    /**
     * The job title of the user
     * @function getTitle
-    * @return  The job title of the user { String }
+    * @return  {module:model/users/String} The job title of the user  
     * @instance
     */
     _this.getTitle = function() {
@@ -401,7 +401,7 @@
    /**
     * The job title of the user
     * @function setTitle
-    * @param title { String } The job title of the user
+    * @param title {module:model/users/String} The job title of the user
     * @instance
     */
     _this.setTitle = function(title) {
@@ -411,7 +411,7 @@
    /**
     * Status of the user
     * @function getUserStatus
-    * @return  Status of the user { String }
+    * @return  {module:model/users/String} Status of the user  
     * @instance
     */
     _this.getUserStatus = function() {
@@ -421,7 +421,7 @@
    /**
     * Status of the user
     * @function setUserStatus
-    * @param userStatus { String } Status of the user
+    * @param userStatus {module:model/users/String} Status of the user
     * @instance
     */
     _this.setUserStatus = function(userStatus) {

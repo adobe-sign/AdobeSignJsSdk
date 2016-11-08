@@ -39,7 +39,7 @@
    /**
     * The email address of the signer associated with this signing url
     * @function getEmail
-    * @return  The email address of the signer associated with this signing url { String }
+    * @return  {module:model/agreements/String} The email address of the signer associated with this signing url  
     * @instance
     */
     _this.getEmail = function() {
@@ -49,7 +49,7 @@
    /**
     * The email address of the signer associated with this signing url
     * @function setEmail
-    * @param email { String } The email address of the signer associated with this signing url
+    * @param email {module:model/agreements/String} The email address of the signer associated with this signing url
     * @instance
     */
     _this.setEmail = function(email) {
@@ -59,7 +59,7 @@
    /**
     * The email address of the signer associated with this signing url
     * @function getEsignUrl
-    * @return  The email address of the signer associated with this signing url { String }
+    * @return  {module:model/agreements/String} The email address of the signer associated with this signing url  
     * @instance
     */
     _this.getEsignUrl = function() {
@@ -69,7 +69,7 @@
    /**
     * The email address of the signer associated with this signing url
     * @function setEsignUrl
-    * @param esignUrl { String } The email address of the signer associated with this signing url
+    * @param esignUrl {module:model/agreements/String} The email address of the signer associated with this signing url
     * @instance
     */
     _this.setEsignUrl = function(esignUrl) {

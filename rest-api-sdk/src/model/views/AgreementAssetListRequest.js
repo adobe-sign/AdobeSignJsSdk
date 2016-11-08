@@ -41,7 +41,7 @@
    /**
     * The ID of the agreement asset to be shown selected in the manage page. If the agreement asset does not lie in the manage page view then URL of default manage page will be generated
     * @function getAgreementAssetId
-    * @return  The ID of the agreement asset to be shown selected in the manage page. If the agreement asset does not lie in the manage page view then URL of default manage page will be generated { String }
+    * @return  {module:model/views/String} The ID of the agreement asset to be shown selected in the manage page. If the agreement asset does not lie in the manage page view then URL of default manage page will be generated  
     * @instance
     */
     _this.getAgreementAssetId = function() {
@@ -51,7 +51,7 @@
    /**
     * The ID of the agreement asset to be shown selected in the manage page. If the agreement asset does not lie in the manage page view then URL of default manage page will be generated
     * @function setAgreementAssetId
-    * @param agreementAssetId { String } The ID of the agreement asset to be shown selected in the manage page. If the agreement asset does not lie in the manage page view then URL of default manage page will be generated
+    * @param agreementAssetId {module:model/views/String} The ID of the agreement asset to be shown selected in the manage page. If the agreement asset does not lie in the manage page view then URL of default manage page will be generated
     * @instance
     */
     _this.setAgreementAssetId = function(agreementAssetId) {
@@ -61,7 +61,7 @@
    /**
     * Auto LogIn Flag. If true, the URL returned will automatically log the user in. If false, the URL returned will require the credentials. By default its value is false
     * @function getAutoLogin
-    * @return  Auto LogIn Flag. If true, the URL returned will automatically log the user in. If false, the URL returned will require the credentials. By default its value is false { Boolean }
+    * @return  {module:model/views/Boolean} Auto LogIn Flag. If true, the URL returned will automatically log the user in. If false, the URL returned will require the credentials. By default its value is false  
     * @instance
     */
     _this.getAutoLogin = function() {
@@ -71,7 +71,7 @@
    /**
     * Auto LogIn Flag. If true, the URL returned will automatically log the user in. If false, the URL returned will require the credentials. By default its value is false
     * @function setAutoLogin
-    * @param autoLogin { Boolean } Auto LogIn Flag. If true, the URL returned will automatically log the user in. If false, the URL returned will require the credentials. By default its value is false
+    * @param autoLogin {module:model/views/Boolean} Auto LogIn Flag. If true, the URL returned will automatically log the user in. If false, the URL returned will require the credentials. By default its value is false
     * @instance
     */
     _this.setAutoLogin = function(autoLogin) {
@@ -81,7 +81,7 @@
    /**
     * No Chrome Flag. If true, the embedded page is shown without a navigation header or footer. If false, the standard page header and footer will be present. By default its value is false
     * @function getNoChrome
-    * @return  No Chrome Flag. If true, the embedded page is shown without a navigation header or footer. If false, the standard page header and footer will be present. By default its value is false { Boolean }
+    * @return  {module:model/views/Boolean} No Chrome Flag. If true, the embedded page is shown without a navigation header or footer. If false, the standard page header and footer will be present. By default its value is false  
     * @instance
     */
     _this.getNoChrome = function() {
@@ -91,7 +91,7 @@
    /**
     * No Chrome Flag. If true, the embedded page is shown without a navigation header or footer. If false, the standard page header and footer will be present. By default its value is false
     * @function setNoChrome
-    * @param noChrome { Boolean } No Chrome Flag. If true, the embedded page is shown without a navigation header or footer. If false, the standard page header and footer will be present. By default its value is false
+    * @param noChrome {module:model/views/Boolean} No Chrome Flag. If true, the embedded page is shown without a navigation header or footer. If false, the standard page header and footer will be present. By default its value is false
     * @instance
     */
     _this.setNoChrome = function(noChrome) {

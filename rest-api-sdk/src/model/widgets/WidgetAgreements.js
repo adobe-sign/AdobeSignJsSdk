@@ -37,7 +37,7 @@
    /**
     * An array of WidgetAgreement items
     * @function getUserAgreementList
-    * @return  An array of WidgetAgreement items { Array }
+    * @return  {module:model/widgets/Array} An array of WidgetAgreement items  
     * @instance
     */
     _this.getUserAgreementList = function() {
@@ -47,7 +47,7 @@
    /**
     * An array of WidgetAgreement items
     * @function setUserAgreementList
-    * @param userAgreementList { Array } An array of WidgetAgreement items
+    * @param userAgreementList {module:model/widgets/Array} An array of WidgetAgreement items
     * @instance
     */
     _this.setUserAgreementList = function(userAgreementList) {

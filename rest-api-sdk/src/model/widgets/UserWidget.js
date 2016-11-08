@@ -47,7 +47,7 @@
    /**
     * The embedded javascript code of the widget
     * @function getJavascript
-    * @return  The embedded javascript code of the widget { String }
+    * @return  {module:model/widgets/String} The embedded javascript code of the widget  
     * @instance
     */
     _this.getJavascript = function() {
@@ -57,7 +57,7 @@
    /**
     * The embedded javascript code of the widget
     * @function setJavascript
-    * @param javascript { String } The embedded javascript code of the widget
+    * @param javascript {module:model/widgets/String} The embedded javascript code of the widget
     * @instance
     */
     _this.setJavascript = function(javascript) {
@@ -67,7 +67,7 @@
    /**
     * The day on which the widget was last modified
     * @function getModifiedDate
-    * @return  The day on which the widget was last modified { Date }
+    * @return  {module:model/widgets/Date} The day on which the widget was last modified  
     * @instance
     */
     _this.getModifiedDate = function() {
@@ -77,7 +77,7 @@
    /**
     * The day on which the widget was last modified
     * @function setModifiedDate
-    * @param modifiedDate { Date } The day on which the widget was last modified
+    * @param modifiedDate {module:model/widgets/Date} The day on which the widget was last modified
     * @instance
     */
     _this.setModifiedDate = function(modifiedDate) {
@@ -87,7 +87,7 @@
    /**
     * The name of the widget.
     * @function getName
-    * @return  The name of the widget. { String }
+    * @return  {module:model/widgets/String} The name of the widget.  
     * @instance
     */
     _this.getName = function() {
@@ -97,7 +97,7 @@
    /**
     * The name of the widget.
     * @function setName
-    * @param name { String } The name of the widget.
+    * @param name {module:model/widgets/String} The name of the widget.
     * @instance
     */
     _this.setName = function(name) {
@@ -107,7 +107,7 @@
    /**
     * The widget status (enabled or disabled or aborted or other)
     * @function getStatus
-    * @return  The widget status (enabled or disabled or aborted or other) { String }
+    * @return  {module:model/widgets/String} The widget status (enabled or disabled or aborted or other)  
     * @instance
     */
     _this.getStatus = function() {
@@ -117,7 +117,7 @@
    /**
     * The widget status (enabled or disabled or aborted or other)
     * @function setStatus
-    * @param status { String } The widget status (enabled or disabled or aborted or other)
+    * @param status {module:model/widgets/String} The widget status (enabled or disabled or aborted or other)
     * @instance
     */
     _this.setStatus = function(status) {
@@ -127,7 +127,7 @@
    /**
     * The hosted url of the widget
     * @function getUrl
-    * @return  The hosted url of the widget { String }
+    * @return  {module:model/widgets/String} The hosted url of the widget  
     * @instance
     */
     _this.getUrl = function() {
@@ -137,7 +137,7 @@
    /**
     * The hosted url of the widget
     * @function setUrl
-    * @param url { String } The hosted url of the widget
+    * @param url {module:model/widgets/String} The hosted url of the widget
     * @instance
     */
     _this.setUrl = function(url) {
@@ -147,7 +147,7 @@
    /**
     * The unique identifier of a widget
     * @function getWidgetId
-    * @return  The unique identifier of a widget { String }
+    * @return  {module:model/widgets/String} The unique identifier of a widget  
     * @instance
     */
     _this.getWidgetId = function() {
@@ -157,7 +157,7 @@
    /**
     * The unique identifier of a widget
     * @function setWidgetId
-    * @param widgetId { String } The unique identifier of a widget
+    * @param widgetId {module:model/widgets/String} The unique identifier of a widget
     * @instance
     */
     _this.setWidgetId = function(widgetId) {

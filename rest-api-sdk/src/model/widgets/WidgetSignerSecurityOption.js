@@ -41,7 +41,7 @@
    /**
     * The authentication method for the recipients to have access to view and sign the widget. PHONE authentication is only applicable to counter signers but not to widget signer
     * @function getAuthenticationMethod
-    * @return  The authentication method for the recipients to have access to view and sign the widget. PHONE authentication is only applicable to counter signers but not to widget signer { String }
+    * @return  {module:model/widgets/String} The authentication method for the recipients to have access to view and sign the widget. PHONE authentication is only applicable to counter signers but not to widget signer  
     * @instance
     */
     _this.getAuthenticationMethod = function() {
@@ -51,7 +51,7 @@
    /**
     * The authentication method for the recipients to have access to view and sign the widget. PHONE authentication is only applicable to counter signers but not to widget signer
     * @function setAuthenticationMethod
-    * @param authenticationMethod { String } The authentication method for the recipients to have access to view and sign the widget. PHONE authentication is only applicable to counter signers but not to widget signer
+    * @param authenticationMethod {module:model/widgets/String} The authentication method for the recipients to have access to view and sign the widget. PHONE authentication is only applicable to counter signers but not to widget signer
     * @instance
     */
     _this.setAuthenticationMethod = function(authenticationMethod) {
@@ -61,7 +61,7 @@
    /**
     * The password required for the recipient to view and sign the widget
     * @function getPassword
-    * @return  The password required for the recipient to view and sign the widget { String }
+    * @return  {module:model/widgets/String} The password required for the recipient to view and sign the widget  
     * @instance
     */
     _this.getPassword = function() {
@@ -71,7 +71,7 @@
    /**
     * The password required for the recipient to view and sign the widget
     * @function setPassword
-    * @param password { String } The password required for the recipient to view and sign the widget
+    * @param password {module:model/widgets/String} The password required for the recipient to view and sign the widget
     * @instance
     */
     _this.setPassword = function(password) {
@@ -81,7 +81,7 @@
    /**
     * The phoneInfo required for the counter signer to view and sign the widget if authentication method is PHONE. Not applicable to widget signer
     * @function getPhoneInfos
-    * @return  The phoneInfo required for the counter signer to view and sign the widget if authentication method is PHONE. Not applicable to widget signer { Array }
+    * @return  {module:model/widgets/Array} The phoneInfo required for the counter signer to view and sign the widget if authentication method is PHONE. Not applicable to widget signer  
     * @instance
     */
     _this.getPhoneInfos = function() {
@@ -91,7 +91,7 @@
    /**
     * The phoneInfo required for the counter signer to view and sign the widget if authentication method is PHONE. Not applicable to widget signer
     * @function setPhoneInfos
-    * @param phoneInfos { Array } The phoneInfo required for the counter signer to view and sign the widget if authentication method is PHONE. Not applicable to widget signer
+    * @param phoneInfos {module:model/widgets/Array} The phoneInfo required for the counter signer to view and sign the widget if authentication method is PHONE. Not applicable to widget signer
     * @instance
     */
     _this.setPhoneInfos = function(phoneInfos) {

@@ -39,7 +39,7 @@
    /**
     * An ordered list of the events in the audit trail of this document
     * @function getEvents
-    * @return  An ordered list of the events in the audit trail of this document { Array }
+    * @return  {module:model/search/Array} An ordered list of the events in the audit trail of this document  
     * @instance
     */
     _this.getEvents = function() {
@@ -49,7 +49,7 @@
    /**
     * An ordered list of the events in the audit trail of this document
     * @function setEvents
-    * @param events { Array } An ordered list of the events in the audit trail of this document
+    * @param events {module:model/search/Array} An ordered list of the events in the audit trail of this document
     * @instance
     */
     _this.setEvents = function(events) {
@@ -59,7 +59,7 @@
    /**
     * The page cursor of the next page to be fetched. If the next page cursor is blank then the given page is the last page
     * @function getNextPageCursor
-    * @return  The page cursor of the next page to be fetched. If the next page cursor is blank then the given page is the last page { String }
+    * @return  {module:model/search/String} The page cursor of the next page to be fetched. If the next page cursor is blank then the given page is the last page  
     * @instance
     */
     _this.getNextPageCursor = function() {
@@ -69,7 +69,7 @@
    /**
     * The page cursor of the next page to be fetched. If the next page cursor is blank then the given page is the last page
     * @function setNextPageCursor
-    * @param nextPageCursor { String } The page cursor of the next page to be fetched. If the next page cursor is blank then the given page is the last page
+    * @param nextPageCursor {module:model/search/String} The page cursor of the next page to be fetched. If the next page cursor is blank then the given page is the last page
     * @instance
     */
     _this.setNextPageCursor = function(nextPageCursor) {

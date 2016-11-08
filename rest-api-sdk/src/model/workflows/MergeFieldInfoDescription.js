@@ -45,7 +45,7 @@
    /**
     * default value of the field if input for this field is not provided and this field is required
     * @function getDefaultValue
-    * @return  default value of the field if input for this field is not provided and this field is required { String }
+    * @return  {module:model/workflows/String} default value of the field if input for this field is not provided and this field is required  
     * @instance
     */
     _this.getDefaultValue = function() {
@@ -55,7 +55,7 @@
    /**
     * default value of the field if input for this field is not provided and this field is required
     * @function setDefaultValue
-    * @param defaultValue { String } default value of the field if input for this field is not provided and this field is required
+    * @param defaultValue {module:model/workflows/String} default value of the field if input for this field is not provided and this field is required
     * @instance
     */
     _this.setDefaultValue = function(defaultValue) {
@@ -65,7 +65,7 @@
    /**
     * The display text that can be shown for this custom field
     * @function getDisplayName
-    * @return  The display text that can be shown for this custom field { String }
+    * @return  {module:model/workflows/String} The display text that can be shown for this custom field  
     * @instance
     */
     _this.getDisplayName = function() {
@@ -75,7 +75,7 @@
    /**
     * The display text that can be shown for this custom field
     * @function setDisplayName
-    * @param displayName { String } The display text that can be shown for this custom field
+    * @param displayName {module:model/workflows/String} The display text that can be shown for this custom field
     * @instance
     */
     _this.setDisplayName = function(displayName) {
@@ -85,7 +85,7 @@
    /**
     * Whether current field can be edited. If editable attribute for this field is false then this field should not be provided in the agreement creation request and default value of this field will be used in agreement creation
     * @function getEditable
-    * @return  Whether current field can be edited. If editable attribute for this field is false then this field should not be provided in the agreement creation request and default value of this field will be used in agreement creation { Boolean }
+    * @return  {module:model/workflows/Boolean} Whether current field can be edited. If editable attribute for this field is false then this field should not be provided in the agreement creation request and default value of this field will be used in agreement creation  
     * @instance
     */
     _this.getEditable = function() {
@@ -95,7 +95,7 @@
    /**
     * Whether current field can be edited. If editable attribute for this field is false then this field should not be provided in the agreement creation request and default value of this field will be used in agreement creation
     * @function setEditable
-    * @param editable { Boolean } Whether current field can be edited. If editable attribute for this field is false then this field should not be provided in the agreement creation request and default value of this field will be used in agreement creation
+    * @param editable {module:model/workflows/Boolean} Whether current field can be edited. If editable attribute for this field is false then this field should not be provided in the agreement creation request and default value of this field will be used in agreement creation
     * @instance
     */
     _this.setEditable = function(editable) {
@@ -105,7 +105,7 @@
    /**
     * Name of the custom field in this workflow
     * @function getFieldName
-    * @return  Name of the custom field in this workflow { String }
+    * @return  {module:model/workflows/String} Name of the custom field in this workflow  
     * @instance
     */
     _this.getFieldName = function() {
@@ -115,7 +115,7 @@
    /**
     * Name of the custom field in this workflow
     * @function setFieldName
-    * @param fieldName { String } Name of the custom field in this workflow
+    * @param fieldName {module:model/workflows/String} Name of the custom field in this workflow
     * @instance
     */
     _this.setFieldName = function(fieldName) {
@@ -125,7 +125,7 @@
    /**
     * Whether current field should be visible on agreement creation page. If visible attribute for this field is false then this field should not be shown on the agreement creation page using this workflow
     * @function getVisible
-    * @return  Whether current field should be visible on agreement creation page. If visible attribute for this field is false then this field should not be shown on the agreement creation page using this workflow { Boolean }
+    * @return  {module:model/workflows/Boolean} Whether current field should be visible on agreement creation page. If visible attribute for this field is false then this field should not be shown on the agreement creation page using this workflow  
     * @instance
     */
     _this.getVisible = function() {
@@ -135,7 +135,7 @@
    /**
     * Whether current field should be visible on agreement creation page. If visible attribute for this field is false then this field should not be shown on the agreement creation page using this workflow
     * @function setVisible
-    * @param visible { Boolean } Whether current field should be visible on agreement creation page. If visible attribute for this field is false then this field should not be shown on the agreement creation page using this workflow
+    * @param visible {module:model/workflows/Boolean} Whether current field should be visible on agreement creation page. If visible attribute for this field is false then this field should not be shown on the agreement creation page using this workflow
     * @instance
     */
     _this.setVisible = function(visible) {

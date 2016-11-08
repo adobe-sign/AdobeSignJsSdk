@@ -37,7 +37,7 @@
    /**
     * Displays the info about user set
     * @function getDisplayUserSetMemberInfos
-    * @return  Displays the info about user set { Array }
+    * @return  {module:model/widgets/Array} Displays the info about user set  
     * @instance
     */
     _this.getDisplayUserSetMemberInfos = function() {
@@ -47,7 +47,7 @@
    /**
     * Displays the info about user set
     * @function setDisplayUserSetMemberInfos
-    * @param displayUserSetMemberInfos { Array } Displays the info about user set
+    * @param displayUserSetMemberInfos {module:model/widgets/Array} Displays the info about user set
     * @instance
     */
     _this.setDisplayUserSetMemberInfos = function(displayUserSetMemberInfos) {

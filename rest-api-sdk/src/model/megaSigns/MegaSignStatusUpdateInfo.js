@@ -41,7 +41,7 @@
    /**
     * Comment describing to the recipient why you want to cancel the transaction
     * @function getComment
-    * @return  Comment describing to the recipient why you want to cancel the transaction { String }
+    * @return  {module:model/megaSigns/String} Comment describing to the recipient why you want to cancel the transaction  
     * @instance
     */
     _this.getComment = function() {
@@ -51,7 +51,7 @@
    /**
     * Comment describing to the recipient why you want to cancel the transaction
     * @function setComment
-    * @param comment { String } Comment describing to the recipient why you want to cancel the transaction
+    * @param comment {module:model/megaSigns/String} Comment describing to the recipient why you want to cancel the transaction
     * @instance
     */
     _this.setComment = function(comment) {
@@ -61,7 +61,7 @@
    /**
     * Whether or not you would like the recipient to be notified that the transaction has been cancelled. The default value is false
     * @function getNotifySigner
-    * @return  Whether or not you would like the recipient to be notified that the transaction has been cancelled. The default value is false { Boolean }
+    * @return  {module:model/megaSigns/Boolean} Whether or not you would like the recipient to be notified that the transaction has been cancelled. The default value is false  
     * @instance
     */
     _this.getNotifySigner = function() {
@@ -71,7 +71,7 @@
    /**
     * Whether or not you would like the recipient to be notified that the transaction has been cancelled. The default value is false
     * @function setNotifySigner
-    * @param notifySigner { Boolean } Whether or not you would like the recipient to be notified that the transaction has been cancelled. The default value is false
+    * @param notifySigner {module:model/megaSigns/Boolean} Whether or not you would like the recipient to be notified that the transaction has been cancelled. The default value is false
     * @instance
     */
     _this.setNotifySigner = function(notifySigner) {
@@ -81,7 +81,7 @@
    /**
     * The state to which the megaSign is to be updated. The only valid state for this variable is currently, CANCEL
     * @function getValue
-    * @return  The state to which the megaSign is to be updated. The only valid state for this variable is currently, CANCEL { String }
+    * @return  {module:model/megaSigns/String} The state to which the megaSign is to be updated. The only valid state for this variable is currently, CANCEL  
     * @instance
     */
     _this.getValue = function() {
@@ -91,7 +91,7 @@
    /**
     * The state to which the megaSign is to be updated. The only valid state for this variable is currently, CANCEL
     * @function setValue
-    * @param value { String } The state to which the megaSign is to be updated. The only valid state for this variable is currently, CANCEL
+    * @param value {module:model/megaSigns/String} The state to which the megaSign is to be updated. The only valid state for this variable is currently, CANCEL
     * @instance
     */
     _this.setValue = function(value) {

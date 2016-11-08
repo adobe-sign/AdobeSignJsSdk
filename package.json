@@ -1,16 +1,35 @@
 {
   "name": "adobe-sign-sdk",
   "version": "1.0.0",
-  "description": "Adobe Sign SDK in NodeJS",
+  "description": "SDK for Adobe Sign REST API",
   "license": "Apache-2.0",
   "main": "rest-api-sdk/src/index.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha --recursive"
   },
+  "bugs": {
+    "url": "https://github.com/adobe-sign/AdobeSignNodeJsSdk/issues"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/adobe-sign/AdobeSignNodeJsSdk.git"
   },
+  "keywords": [
+    "api",
+    "sdk",
+    "adobe",
+    "sign",
+    "esign",
+    "echosign",
+    "document cloud",
+    "adobe sign",
+    "adobe esign",
+    "adobe echosign",
+    "adobe document cloud",
+    "adobe sdk",
+    "adobe sign sdk",
+    "sign sdk"
+  ],
   "dependencies": {
     "superagent": "~2.3.0",
     "validator": "~6.0.0",
@@ -27,5 +46,5 @@
     "grunt-run": "~0.6.0",
     "grunt-simple-mocha": "~0.4.1",
     "http-status-codes": "~1.0.6"
-    }
+  }
 }

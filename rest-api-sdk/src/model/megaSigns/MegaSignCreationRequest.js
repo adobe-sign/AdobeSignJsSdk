@@ -37,7 +37,7 @@
    /**
     * Information about the MegaSign you want to send
     * @function getMegaSignCreationInfo
-    * @return  Information about the MegaSign you want to send { MegaSignCreationInfo }
+    * @return  {module:model/megaSigns/MegaSignCreationInfo} Information about the MegaSign you want to send  
     * @instance
     */
     _this.getMegaSignCreationInfo = function() {
@@ -47,7 +47,7 @@
    /**
     * Information about the MegaSign you want to send
     * @function setMegaSignCreationInfo
-    * @param megaSignCreationInfo { MegaSignCreationInfo } Information about the MegaSign you want to send
+    * @param megaSignCreationInfo {module:model/megaSigns/MegaSignCreationInfo} Information about the MegaSign you want to send
     * @instance
     */
     _this.setMegaSignCreationInfo = function(megaSignCreationInfo) {

@@ -69,7 +69,7 @@
    /**
     * A publicly accessible url to which Adobe Sign will do an HTTP GET operation every time there is a new agreement event. HTTP authentication is supported using standard embedded syntax - i.e. http://username:password@your.server.com/path/to/file. Adobe Sign can also ping your system using HTTP PUT with the final signed PDF. Please contact support@echosign.com if you wish to use this option.
     * @function getCallbackInfo
-    * @return  A publicly accessible url to which Adobe Sign will do an HTTP GET operation every time there is a new agreement event. HTTP authentication is supported using standard embedded syntax - i.e. http://username:password@your.server.com/path/to/file. Adobe Sign can also ping your system using HTTP PUT with the final signed PDF. Please contact support@echosign.com if you wish to use this option. { String }
+    * @return  {module:model/megaSigns/String} A publicly accessible url to which Adobe Sign will do an HTTP GET operation every time there is a new agreement event. HTTP authentication is supported using standard embedded syntax - i.e. http://username:password@your.server.com/path/to/file. Adobe Sign can also ping your system using HTTP PUT with the final signed PDF. Please contact support@echosign.com if you wish to use this option.  
     * @instance
     */
     _this.getCallbackInfo = function() {
@@ -79,7 +79,7 @@
    /**
     * A publicly accessible url to which Adobe Sign will do an HTTP GET operation every time there is a new agreement event. HTTP authentication is supported using standard embedded syntax - i.e. http://username:password@your.server.com/path/to/file. Adobe Sign can also ping your system using HTTP PUT with the final signed PDF. Please contact support@echosign.com if you wish to use this option.
     * @function setCallbackInfo
-    * @param callbackInfo { String } A publicly accessible url to which Adobe Sign will do an HTTP GET operation every time there is a new agreement event. HTTP authentication is supported using standard embedded syntax - i.e. http://username:password@your.server.com/path/to/file. Adobe Sign can also ping your system using HTTP PUT with the final signed PDF. Please contact support@echosign.com if you wish to use this option.
+    * @param callbackInfo {module:model/megaSigns/String} A publicly accessible url to which Adobe Sign will do an HTTP GET operation every time there is a new agreement event. HTTP authentication is supported using standard embedded syntax - i.e. http://username:password@your.server.com/path/to/file. Adobe Sign can also ping your system using HTTP PUT with the final signed PDF. Please contact support@echosign.com if you wish to use this option.
     * @instance
     */
     _this.setCallbackInfo = function(callbackInfo) {
@@ -89,7 +89,7 @@
    /**
     * A list of one or more email addresses that you want to copy on this transaction. The email addresses will each receive an email at the beginning of the transaction and also when the final document is signed. The email addresses will also receive a copy of the document, attached as a PDF file
     * @function getCcs
-    * @return  A list of one or more email addresses that you want to copy on this transaction. The email addresses will each receive an email at the beginning of the transaction and also when the final document is signed. The email addresses will also receive a copy of the document, attached as a PDF file { Array }
+    * @return  {module:model/megaSigns/Array} A list of one or more email addresses that you want to copy on this transaction. The email addresses will each receive an email at the beginning of the transaction and also when the final document is signed. The email addresses will also receive a copy of the document, attached as a PDF file  
     * @instance
     */
     _this.getCcs = function() {
@@ -99,7 +99,7 @@
    /**
     * A list of one or more email addresses that you want to copy on this transaction. The email addresses will each receive an email at the beginning of the transaction and also when the final document is signed. The email addresses will also receive a copy of the document, attached as a PDF file
     * @function setCcs
-    * @param ccs { Array } A list of one or more email addresses that you want to copy on this transaction. The email addresses will each receive an email at the beginning of the transaction and also when the final document is signed. The email addresses will also receive a copy of the document, attached as a PDF file
+    * @param ccs {module:model/megaSigns/Array} A list of one or more email addresses that you want to copy on this transaction. The email addresses will each receive an email at the beginning of the transaction and also when the final document is signed. The email addresses will also receive a copy of the document, attached as a PDF file
     * @instance
     */
     _this.setCcs = function(ccs) {
@@ -109,7 +109,7 @@
    /**
     * The number of days that remain before the document expires. You cannot sign the document after it expires
     * @function getDaysUntilSigningDeadline
-    * @return  The number of days that remain before the document expires. You cannot sign the document after it expires { Integer }
+    * @return  {module:model/megaSigns/Integer} The number of days that remain before the document expires. You cannot sign the document after it expires  
     * @instance
     */
     _this.getDaysUntilSigningDeadline = function() {
@@ -119,7 +119,7 @@
    /**
     * The number of days that remain before the document expires. You cannot sign the document after it expires
     * @function setDaysUntilSigningDeadline
-    * @param daysUntilSigningDeadline { Integer } The number of days that remain before the document expires. You cannot sign the document after it expires
+    * @param daysUntilSigningDeadline {module:model/megaSigns/Integer} The number of days that remain before the document expires. You cannot sign the document after it expires
     * @instance
     */
     _this.setDaysUntilSigningDeadline = function(daysUntilSigningDeadline) {
@@ -129,7 +129,7 @@
    /**
     * A unique identifier for your transaction from an external system. You can use the ExternalID to search for your transaction through API
     * @function getExternalId
-    * @return  A unique identifier for your transaction from an external system. You can use the ExternalID to search for your transaction through API { ExternalId }
+    * @return  {module:model/megaSigns/ExternalId} A unique identifier for your transaction from an external system. You can use the ExternalID to search for your transaction through API  
     * @instance
     */
     _this.getExternalId = function() {
@@ -139,7 +139,7 @@
    /**
     * A unique identifier for your transaction from an external system. You can use the ExternalID to search for your transaction through API
     * @function setExternalId
-    * @param externalId { ExternalId } A unique identifier for your transaction from an external system. You can use the ExternalID to search for your transaction through API
+    * @param externalId {module:model/megaSigns/ExternalId} A unique identifier for your transaction from an external system. You can use the ExternalID to search for your transaction through API
     * @instance
     */
     _this.setExternalId = function(externalId) {
@@ -149,7 +149,7 @@
    /**
     * A list of one or more files (or references to files) that will be sent out for signature. If more than one file is provided, they will be combined into one PDF before being sent out. Note: Only one of the four parameters in every FileInfo object must be specified
     * @function getFileInfos
-    * @return  A list of one or more files (or references to files) that will be sent out for signature. If more than one file is provided, they will be combined into one PDF before being sent out. Note: Only one of the four parameters in every FileInfo object must be specified { Array }
+    * @return  {module:model/megaSigns/Array} A list of one or more files (or references to files) that will be sent out for signature. If more than one file is provided, they will be combined into one PDF before being sent out. Note: Only one of the four parameters in every FileInfo object must be specified  
     * @instance
     */
     _this.getFileInfos = function() {
@@ -159,7 +159,7 @@
    /**
     * A list of one or more files (or references to files) that will be sent out for signature. If more than one file is provided, they will be combined into one PDF before being sent out. Note: Only one of the four parameters in every FileInfo object must be specified
     * @function setFileInfos
-    * @param fileInfos { Array } A list of one or more files (or references to files) that will be sent out for signature. If more than one file is provided, they will be combined into one PDF before being sent out. Note: Only one of the four parameters in every FileInfo object must be specified
+    * @param fileInfos {module:model/megaSigns/Array} A list of one or more files (or references to files) that will be sent out for signature. If more than one file is provided, they will be combined into one PDF before being sent out. Note: Only one of the four parameters in every FileInfo object must be specified
     * @instance
     */
     _this.setFileInfos = function(fileInfos) {
@@ -169,7 +169,7 @@
    /**
     * Specifies the form field layer template or source of form fields to apply on the files in this transaction. If specified, the FileInfo for this parameter must refer to a form field layer template via libraryDocumentId or libraryDocumentName, or if specified via transientDocumentId or documentURL, it must be of a supported file type. Note: Only one of the four parameters in every FileInfo object must be specified
     * @function getFormFieldLayerTemplates
-    * @return  Specifies the form field layer template or source of form fields to apply on the files in this transaction. If specified, the FileInfo for this parameter must refer to a form field layer template via libraryDocumentId or libraryDocumentName, or if specified via transientDocumentId or documentURL, it must be of a supported file type. Note: Only one of the four parameters in every FileInfo object must be specified { Array }
+    * @return  {module:model/megaSigns/Array} Specifies the form field layer template or source of form fields to apply on the files in this transaction. If specified, the FileInfo for this parameter must refer to a form field layer template via libraryDocumentId or libraryDocumentName, or if specified via transientDocumentId or documentURL, it must be of a supported file type. Note: Only one of the four parameters in every FileInfo object must be specified  
     * @instance
     */
     _this.getFormFieldLayerTemplates = function() {
@@ -179,7 +179,7 @@
    /**
     * Specifies the form field layer template or source of form fields to apply on the files in this transaction. If specified, the FileInfo for this parameter must refer to a form field layer template via libraryDocumentId or libraryDocumentName, or if specified via transientDocumentId or documentURL, it must be of a supported file type. Note: Only one of the four parameters in every FileInfo object must be specified
     * @function setFormFieldLayerTemplates
-    * @param formFieldLayerTemplates { Array } Specifies the form field layer template or source of form fields to apply on the files in this transaction. If specified, the FileInfo for this parameter must refer to a form field layer template via libraryDocumentId or libraryDocumentName, or if specified via transientDocumentId or documentURL, it must be of a supported file type. Note: Only one of the four parameters in every FileInfo object must be specified
+    * @param formFieldLayerTemplates {module:model/megaSigns/Array} Specifies the form field layer template or source of form fields to apply on the files in this transaction. If specified, the FileInfo for this parameter must refer to a form field layer template via libraryDocumentId or libraryDocumentName, or if specified via transientDocumentId or documentURL, it must be of a supported file type. Note: Only one of the four parameters in every FileInfo object must be specified
     * @instance
     */
     _this.setFormFieldLayerTemplates = function(formFieldLayerTemplates) {
@@ -189,7 +189,7 @@
    /**
     * The locale associated with this agreement - specifies the language for the signing page and emails, for example en_US or fr_FR. If none specified, defaults to the language configured for the agreement sender
     * @function getLocale
-    * @return  The locale associated with this agreement - specifies the language for the signing page and emails, for example en_US or fr_FR. If none specified, defaults to the language configured for the agreement sender { String }
+    * @return  {module:model/megaSigns/String} The locale associated with this agreement - specifies the language for the signing page and emails, for example en_US or fr_FR. If none specified, defaults to the language configured for the agreement sender  
     * @instance
     */
     _this.getLocale = function() {
@@ -199,7 +199,7 @@
    /**
     * The locale associated with this agreement - specifies the language for the signing page and emails, for example en_US or fr_FR. If none specified, defaults to the language configured for the agreement sender
     * @function setLocale
-    * @param locale { String } The locale associated with this agreement - specifies the language for the signing page and emails, for example en_US or fr_FR. If none specified, defaults to the language configured for the agreement sender
+    * @param locale {module:model/megaSigns/String} The locale associated with this agreement - specifies the language for the signing page and emails, for example en_US or fr_FR. If none specified, defaults to the language configured for the agreement sender
     * @instance
     */
     _this.setLocale = function(locale) {
@@ -209,7 +209,7 @@
    /**
     * Optional default values for fields to merge into the document. The values will be presented to the signers for editable fields; for read-only fields the provided values will not be editable during the signing process. Merging data into fields is currently not supported when used with libraryDocumentId or libraryDocumentName. Only file and url are currently supported
     * @function getMergeFieldInfo
-    * @return  Optional default values for fields to merge into the document. The values will be presented to the signers for editable fields; for read-only fields the provided values will not be editable during the signing process. Merging data into fields is currently not supported when used with libraryDocumentId or libraryDocumentName. Only file and url are currently supported { Array }
+    * @return  {module:model/megaSigns/Array} Optional default values for fields to merge into the document. The values will be presented to the signers for editable fields; for read-only fields the provided values will not be editable during the signing process. Merging data into fields is currently not supported when used with libraryDocumentId or libraryDocumentName. Only file and url are currently supported  
     * @instance
     */
     _this.getMergeFieldInfo = function() {
@@ -219,7 +219,7 @@
    /**
     * Optional default values for fields to merge into the document. The values will be presented to the signers for editable fields; for read-only fields the provided values will not be editable during the signing process. Merging data into fields is currently not supported when used with libraryDocumentId or libraryDocumentName. Only file and url are currently supported
     * @function setMergeFieldInfo
-    * @param mergeFieldInfo { Array } Optional default values for fields to merge into the document. The values will be presented to the signers for editable fields; for read-only fields the provided values will not be editable during the signing process. Merging data into fields is currently not supported when used with libraryDocumentId or libraryDocumentName. Only file and url are currently supported
+    * @param mergeFieldInfo {module:model/megaSigns/Array} Optional default values for fields to merge into the document. The values will be presented to the signers for editable fields; for read-only fields the provided values will not be editable during the signing process. Merging data into fields is currently not supported when used with libraryDocumentId or libraryDocumentName. Only file and url are currently supported
     * @instance
     */
     _this.setMergeFieldInfo = function(mergeFieldInfo) {
@@ -229,7 +229,7 @@
    /**
     * The merge file ID as returned from the transient document creation API. The merge file contains the details of all the Mega Sign recipients.
     * @function getMergeFileTransientId
-    * @return  The merge file ID as returned from the transient document creation API. The merge file contains the details of all the Mega Sign recipients. { String }
+    * @return  {module:model/megaSigns/String} The merge file ID as returned from the transient document creation API. The merge file contains the details of all the Mega Sign recipients.  
     * @instance
     */
     _this.getMergeFileTransientId = function() {
@@ -239,7 +239,7 @@
    /**
     * The merge file ID as returned from the transient document creation API. The merge file contains the details of all the Mega Sign recipients.
     * @function setMergeFileTransientId
-    * @param mergeFileTransientId { String } The merge file ID as returned from the transient document creation API. The merge file contains the details of all the Mega Sign recipients.
+    * @param mergeFileTransientId {module:model/megaSigns/String} The merge file ID as returned from the transient document creation API. The merge file contains the details of all the Mega Sign recipients.
     * @instance
     */
     _this.setMergeFileTransientId = function(mergeFileTransientId) {
@@ -249,7 +249,7 @@
    /**
     * An optional message to the recipients, describing what is being sent or why their signature is required
     * @function getMessage
-    * @return  An optional message to the recipients, describing what is being sent or why their signature is required { String }
+    * @return  {module:model/megaSigns/String} An optional message to the recipients, describing what is being sent or why their signature is required  
     * @instance
     */
     _this.getMessage = function() {
@@ -259,7 +259,7 @@
    /**
     * An optional message to the recipients, describing what is being sent or why their signature is required
     * @function setMessage
-    * @param message { String } An optional message to the recipients, describing what is being sent or why their signature is required
+    * @param message {module:model/megaSigns/String} An optional message to the recipients, describing what is being sent or why their signature is required
     * @instance
     */
     _this.setMessage = function(message) {
@@ -269,7 +269,7 @@
    /**
     * The name of the agreement that will be used to identify it, in emails and on the website
     * @function getName
-    * @return  The name of the agreement that will be used to identify it, in emails and on the website { String }
+    * @return  {module:model/megaSigns/String} The name of the agreement that will be used to identify it, in emails and on the website  
     * @instance
     */
     _this.getName = function() {
@@ -279,7 +279,7 @@
    /**
     * The name of the agreement that will be used to identify it, in emails and on the website
     * @function setName
-    * @param name { String } The name of the agreement that will be used to identify it, in emails and on the website
+    * @param name {module:model/megaSigns/String} The name of the agreement that will be used to identify it, in emails and on the website
     * @instance
     */
     _this.setName = function(name) {
@@ -289,7 +289,7 @@
    /**
     * URL and associated properties for the success page the user will be taken to after completing the signing process
     * @function getPostSignOptions
-    * @return  URL and associated properties for the success page the user will be taken to after completing the signing process { PostSignOptions }
+    * @return  {module:model/megaSigns/PostSignOptions} URL and associated properties for the success page the user will be taken to after completing the signing process  
     * @instance
     */
     _this.getPostSignOptions = function() {
@@ -299,7 +299,7 @@
    /**
     * URL and associated properties for the success page the user will be taken to after completing the signing process
     * @function setPostSignOptions
-    * @param postSignOptions { PostSignOptions } URL and associated properties for the success page the user will be taken to after completing the signing process
+    * @param postSignOptions {module:model/megaSigns/PostSignOptions} URL and associated properties for the success page the user will be taken to after completing the signing process
     * @instance
     */
     _this.setPostSignOptions = function(postSignOptions) {
@@ -309,7 +309,7 @@
    /**
     * A list of one or more recipient sets. Currently a recipient set can have only one recipient.
     * @function getRecipientSetInfos
-    * @return  A list of one or more recipient sets. Currently a recipient set can have only one recipient. { Array }
+    * @return  {module:model/megaSigns/Array} A list of one or more recipient sets. Currently a recipient set can have only one recipient.  
     * @instance
     */
     _this.getRecipientSetInfos = function() {
@@ -319,7 +319,7 @@
    /**
     * A list of one or more recipient sets. Currently a recipient set can have only one recipient.
     * @function setRecipientSetInfos
-    * @param recipientSetInfos { Array } A list of one or more recipient sets. Currently a recipient set can have only one recipient.
+    * @param recipientSetInfos {module:model/megaSigns/Array} A list of one or more recipient sets. Currently a recipient set can have only one recipient.
     * @instance
     */
     _this.setRecipientSetInfos = function(recipientSetInfos) {
@@ -329,7 +329,7 @@
    /**
     * Optional parameter that sets how often you want to send reminders to the recipients. The possible values are DAILY_UNTIL_SIGNED or WEEKLY_UNTIL_SIGNED
     * @function getReminderFrequency
-    * @return  Optional parameter that sets how often you want to send reminders to the recipients. The possible values are DAILY_UNTIL_SIGNED or WEEKLY_UNTIL_SIGNED { String }
+    * @return  {module:model/megaSigns/String} Optional parameter that sets how often you want to send reminders to the recipients. The possible values are DAILY_UNTIL_SIGNED or WEEKLY_UNTIL_SIGNED  
     * @instance
     */
     _this.getReminderFrequency = function() {
@@ -339,7 +339,7 @@
    /**
     * Optional parameter that sets how often you want to send reminders to the recipients. The possible values are DAILY_UNTIL_SIGNED or WEEKLY_UNTIL_SIGNED
     * @function setReminderFrequency
-    * @param reminderFrequency { String } Optional parameter that sets how often you want to send reminders to the recipients. The possible values are DAILY_UNTIL_SIGNED or WEEKLY_UNTIL_SIGNED
+    * @param reminderFrequency {module:model/megaSigns/String} Optional parameter that sets how often you want to send reminders to the recipients. The possible values are DAILY_UNTIL_SIGNED or WEEKLY_UNTIL_SIGNED
     * @instance
     */
     _this.setReminderFrequency = function(reminderFrequency) {
@@ -349,7 +349,7 @@
    /**
     * Sets optional secondary security parameters for your document
     * @function getSecurityOptions
-    * @return  Sets optional secondary security parameters for your document { SecurityOption }
+    * @return  {module:model/megaSigns/SecurityOption} Sets optional secondary security parameters for your document  
     * @instance
     */
     _this.getSecurityOptions = function() {
@@ -359,7 +359,7 @@
    /**
     * Sets optional secondary security parameters for your document
     * @function setSecurityOptions
-    * @param securityOptions { SecurityOption } Sets optional secondary security parameters for your document
+    * @param securityOptions {module:model/megaSigns/SecurityOption} Sets optional secondary security parameters for your document
     * @instance
     */
     _this.setSecurityOptions = function(securityOptions) {
@@ -369,7 +369,7 @@
    /**
     * Specifies the type of signature you would like to request - written or e-signature. The possible values are ESIGN or WRITTEN
     * @function getSignatureType
-    * @return  Specifies the type of signature you would like to request - written or e-signature. The possible values are ESIGN or WRITTEN { String }
+    * @return  {module:model/megaSigns/String} Specifies the type of signature you would like to request - written or e-signature. The possible values are ESIGN or WRITTEN  
     * @instance
     */
     _this.getSignatureType = function() {
@@ -379,7 +379,7 @@
    /**
     * Specifies the type of signature you would like to request - written or e-signature. The possible values are ESIGN or WRITTEN
     * @function setSignatureType
-    * @param signatureType { String } Specifies the type of signature you would like to request - written or e-signature. The possible values are ESIGN or WRITTEN
+    * @param signatureType {module:model/megaSigns/String} Specifies the type of signature you would like to request - written or e-signature. The possible values are ESIGN or WRITTEN
     * @instance
     */
     _this.setSignatureType = function(signatureType) {
@@ -389,7 +389,7 @@
    /**
     * Sets the vaulting properties that allows Adobe Sign to securely store documents with a vault provider
     * @function getVaultingInfo
-    * @return  Sets the vaulting properties that allows Adobe Sign to securely store documents with a vault provider { VaultingInfo }
+    * @return  {module:model/megaSigns/VaultingInfo} Sets the vaulting properties that allows Adobe Sign to securely store documents with a vault provider  
     * @instance
     */
     _this.getVaultingInfo = function() {
@@ -399,7 +399,7 @@
    /**
     * Sets the vaulting properties that allows Adobe Sign to securely store documents with a vault provider
     * @function setVaultingInfo
-    * @param vaultingInfo { VaultingInfo } Sets the vaulting properties that allows Adobe Sign to securely store documents with a vault provider
+    * @param vaultingInfo {module:model/megaSigns/VaultingInfo} Sets the vaulting properties that allows Adobe Sign to securely store documents with a vault provider
     * @instance
     */
     _this.setVaultingInfo = function(vaultingInfo) {

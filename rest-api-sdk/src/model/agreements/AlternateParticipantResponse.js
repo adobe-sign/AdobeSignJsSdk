@@ -38,7 +38,7 @@
    /**
     * The unique identifier of the alternate participant
     * @function getParticipantId
-    * @return  The unique identifier of the alternate participant { String }
+    * @return  {module:model/agreements/String} The unique identifier of the alternate participant  
     * @instance
     */
     _this.getParticipantId = function() {
@@ -48,7 +48,7 @@
    /**
     * The unique identifier of the alternate participant
     * @function setParticipantId
-    * @param participantId { String } The unique identifier of the alternate participant
+    * @param participantId {module:model/agreements/String} The unique identifier of the alternate participant
     * @instance
     */
     _this.setParticipantId = function(participantId) {

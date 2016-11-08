@@ -45,7 +45,7 @@
    /**
     * Height of the form field in pixels
     * @function getHeight
-    * @return  Height of the form field in pixels { Number }
+    * @return  {module:model/agreements/Number} Height of the form field in pixels  
     * @instance
     */
     _this.getHeight = function() {
@@ -55,7 +55,7 @@
    /**
     * Height of the form field in pixels
     * @function setHeight
-    * @param height { Number } Height of the form field in pixels
+    * @param height {module:model/agreements/Number} Height of the form field in pixels
     * @instance
     */
     _this.setHeight = function(height) {
@@ -65,7 +65,7 @@
    /**
     * No. of pixels from left of the page for form field placement
     * @function getLeft
-    * @return  No. of pixels from left of the page for form field placement { Number }
+    * @return  {module:model/agreements/Number} No. of pixels from left of the page for form field placement  
     * @instance
     */
     _this.getLeft = function() {
@@ -75,7 +75,7 @@
    /**
     * No. of pixels from left of the page for form field placement
     * @function setLeft
-    * @param left { Number } No. of pixels from left of the page for form field placement
+    * @param left {module:model/agreements/Number} No. of pixels from left of the page for form field placement
     * @instance
     */
     _this.setLeft = function(left) {
@@ -85,7 +85,7 @@
    /**
     * Number of the page where form field has to be placed, starting from 1.
     * @function getPageNumber
-    * @return  Number of the page where form field has to be placed, starting from 1. { Integer }
+    * @return  {module:model/agreements/Integer} Number of the page where form field has to be placed, starting from 1.  
     * @instance
     */
     _this.getPageNumber = function() {
@@ -95,7 +95,7 @@
    /**
     * Number of the page where form field has to be placed, starting from 1.
     * @function setPageNumber
-    * @param pageNumber { Integer } Number of the page where form field has to be placed, starting from 1.
+    * @param pageNumber {module:model/agreements/Integer} Number of the page where form field has to be placed, starting from 1.
     * @instance
     */
     _this.setPageNumber = function(pageNumber) {
@@ -105,7 +105,7 @@
    /**
     * No. of pixels from bottom of the page for form field placement
     * @function getTop
-    * @return  No. of pixels from bottom of the page for form field placement { Number }
+    * @return  {module:model/agreements/Number} No. of pixels from bottom of the page for form field placement  
     * @instance
     */
     _this.getTop = function() {
@@ -115,7 +115,7 @@
    /**
     * No. of pixels from bottom of the page for form field placement
     * @function setTop
-    * @param top { Number } No. of pixels from bottom of the page for form field placement
+    * @param top {module:model/agreements/Number} No. of pixels from bottom of the page for form field placement
     * @instance
     */
     _this.setTop = function(top) {
@@ -125,7 +125,7 @@
    /**
     * Width of the form field in pixels
     * @function getWidth
-    * @return  Width of the form field in pixels { Number }
+    * @return  {module:model/agreements/Number} Width of the form field in pixels  
     * @instance
     */
     _this.getWidth = function() {
@@ -135,7 +135,7 @@
    /**
     * Width of the form field in pixels
     * @function setWidth
-    * @param width { Number } Width of the form field in pixels
+    * @param width {module:model/agreements/Number} Width of the form field in pixels
     * @instance
     */
     _this.setWidth = function(width) {

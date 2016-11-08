@@ -41,7 +41,7 @@
    /**
     * Whether library documents link should appear or not. Default value is taken as true
     * @function getLibraryDocument
-    * @return  Whether library documents link should appear or not. Default value is taken as true { Boolean }
+    * @return  {module:model/agreements/Boolean} Whether library documents link should appear or not. Default value is taken as true  
     * @instance
     */
     _this.getLibraryDocument = function() {
@@ -51,7 +51,7 @@
    /**
     * Whether library documents link should appear or not. Default value is taken as true
     * @function setLibraryDocument
-    * @param libraryDocument { Boolean } Whether library documents link should appear or not. Default value is taken as true
+    * @param libraryDocument {module:model/agreements/Boolean} Whether library documents link should appear or not. Default value is taken as true
     * @instance
     */
     _this.setLibraryDocument = function(libraryDocument) {
@@ -61,7 +61,7 @@
    /**
     * Whether local file upload button should appear or not. Default value is taken as true
     * @function getLocalFile
-    * @return  Whether local file upload button should appear or not. Default value is taken as true { Boolean }
+    * @return  {module:model/agreements/Boolean} Whether local file upload button should appear or not. Default value is taken as true  
     * @instance
     */
     _this.getLocalFile = function() {
@@ -71,7 +71,7 @@
    /**
     * Whether local file upload button should appear or not. Default value is taken as true
     * @function setLocalFile
-    * @param localFile { Boolean } Whether local file upload button should appear or not. Default value is taken as true
+    * @param localFile {module:model/agreements/Boolean} Whether local file upload button should appear or not. Default value is taken as true
     * @instance
     */
     _this.setLocalFile = function(localFile) {
@@ -81,7 +81,7 @@
    /**
     * Whether link to attach documents from web sources like Dropbox should appear or not. Default value is taken as true
     * @function getWebConnectors
-    * @return  Whether link to attach documents from web sources like Dropbox should appear or not. Default value is taken as true { Boolean }
+    * @return  {module:model/agreements/Boolean} Whether link to attach documents from web sources like Dropbox should appear or not. Default value is taken as true  
     * @instance
     */
     _this.getWebConnectors = function() {
@@ -91,7 +91,7 @@
    /**
     * Whether link to attach documents from web sources like Dropbox should appear or not. Default value is taken as true
     * @function setWebConnectors
-    * @param webConnectors { Boolean } Whether link to attach documents from web sources like Dropbox should appear or not. Default value is taken as true
+    * @param webConnectors {module:model/agreements/Boolean} Whether link to attach documents from web sources like Dropbox should appear or not. Default value is taken as true
     * @instance
     */
     _this.setWebConnectors = function(webConnectors) {

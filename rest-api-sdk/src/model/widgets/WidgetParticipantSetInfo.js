@@ -43,7 +43,7 @@
    /**
     * Information about the members of the recipient set
     * @function getParticipantSetMemberInfos
-    * @return  Information about the members of the recipient set { Array }
+    * @return  {module:model/widgets/Array} Information about the members of the recipient set  
     * @instance
     */
     _this.getParticipantSetMemberInfos = function() {
@@ -53,7 +53,7 @@
    /**
     * Information about the members of the recipient set
     * @function setParticipantSetMemberInfos
-    * @param participantSetMemberInfos { Array } Information about the members of the recipient set
+    * @param participantSetMemberInfos {module:model/widgets/Array} Information about the members of the recipient set
     * @instance
     */
     _this.setParticipantSetMemberInfos = function(participantSetMemberInfos) {
@@ -63,7 +63,7 @@
    /**
     * The current roles of the participant set. A participant set can have one or more roles
     * @function getRoles
-    * @return  The current roles of the participant set. A participant set can have one or more roles { Array }
+    * @return  {module:model/widgets/Array} The current roles of the participant set. A participant set can have one or more roles  
     * @instance
     */
     _this.getRoles = function() {
@@ -73,7 +73,7 @@
    /**
     * The current roles of the participant set. A participant set can have one or more roles
     * @function setRoles
-    * @param roles { Array } The current roles of the participant set. A participant set can have one or more roles
+    * @param roles {module:model/widgets/Array} The current roles of the participant set. A participant set can have one or more roles
     * @instance
     */
     _this.setRoles = function(roles) {
@@ -83,7 +83,7 @@
    /**
     * Security options that apply to the participant
     * @function getSecurityOptions
-    * @return  Security options that apply to the participant { Array }
+    * @return  {module:model/widgets/Array} Security options that apply to the participant  
     * @instance
     */
     _this.getSecurityOptions = function() {
@@ -93,7 +93,7 @@
    /**
     * Security options that apply to the participant
     * @function setSecurityOptions
-    * @param securityOptions { Array } Security options that apply to the participant
+    * @param securityOptions {module:model/widgets/Array} Security options that apply to the participant
     * @instance
     */
     _this.setSecurityOptions = function(securityOptions) {
@@ -103,7 +103,7 @@
    /**
     * The status of the participant set with respect to the widget
     * @function getStatus
-    * @return  The status of the participant set with respect to the widget { String }
+    * @return  {module:model/widgets/String} The status of the participant set with respect to the widget  
     * @instance
     */
     _this.getStatus = function() {
@@ -113,7 +113,7 @@
    /**
     * The status of the participant set with respect to the widget
     * @function setStatus
-    * @param status { String } The status of the participant set with respect to the widget
+    * @param status {module:model/widgets/String} The status of the participant set with respect to the widget
     * @instance
     */
     _this.setStatus = function(status) {

@@ -39,7 +39,7 @@
    /**
     * Information about the library document you want to create
     * @function getLibraryDocumentCreationInfo
-    * @return  Information about the library document you want to create { LibraryDocumentCreationInfo }
+    * @return  {module:model/libraryDocuments/LibraryDocumentCreationInfo} Information about the library document you want to create  
     * @instance
     */
     _this.getLibraryDocumentCreationInfo = function() {
@@ -49,7 +49,7 @@
    /**
     * Information about the library document you want to create
     * @function setLibraryDocumentCreationInfo
-    * @param libraryDocumentCreationInfo { LibraryDocumentCreationInfo } Information about the library document you want to create
+    * @param libraryDocumentCreationInfo {module:model/libraryDocuments/LibraryDocumentCreationInfo} Information about the library document you want to create
     * @instance
     */
     _this.setLibraryDocumentCreationInfo = function(libraryDocumentCreationInfo) {
@@ -59,7 +59,7 @@
    /**
     * Options for authoring and sending the agreement
     * @function getOptions
-    * @return  Options for authoring and sending the agreement { InteractiveOptions }
+    * @return  {module:model/libraryDocuments/InteractiveOptions} Options for authoring and sending the agreement  
     * @instance
     */
     _this.getOptions = function() {
@@ -69,7 +69,7 @@
    /**
     * Options for authoring and sending the agreement
     * @function setOptions
-    * @param options { InteractiveOptions } Options for authoring and sending the agreement
+    * @param options {module:model/libraryDocuments/InteractiveOptions} Options for authoring and sending the agreement
     * @instance
     */
     _this.setOptions = function(options) {

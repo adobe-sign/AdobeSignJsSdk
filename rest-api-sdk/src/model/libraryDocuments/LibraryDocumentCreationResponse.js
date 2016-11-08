@@ -44,7 +44,7 @@
    /**
     * Javascript snippet suitable for an embedded page taking a user to a URL
     * @function getEmbeddedCode
-    * @return  Javascript snippet suitable for an embedded page taking a user to a URL { String }
+    * @return  {module:model/libraryDocuments/String} Javascript snippet suitable for an embedded page taking a user to a URL  
     * @instance
     */
     _this.getEmbeddedCode = function() {
@@ -54,7 +54,7 @@
    /**
     * Javascript snippet suitable for an embedded page taking a user to a URL
     * @function setEmbeddedCode
-    * @param embeddedCode { String } Javascript snippet suitable for an embedded page taking a user to a URL
+    * @param embeddedCode {module:model/libraryDocuments/String} Javascript snippet suitable for an embedded page taking a user to a URL
     * @instance
     */
     _this.setEmbeddedCode = function(embeddedCode) {
@@ -64,7 +64,7 @@
    /**
     * Expiration date for autologin. This is based on the user setting, API_AUTO_LOGIN_LIFETIME
     * @function getExpiration
-    * @return  Expiration date for autologin. This is based on the user setting, API_AUTO_LOGIN_LIFETIME { Date }
+    * @return  {module:model/libraryDocuments/Date} Expiration date for autologin. This is based on the user setting, API_AUTO_LOGIN_LIFETIME  
     * @instance
     */
     _this.getExpiration = function() {
@@ -74,7 +74,7 @@
    /**
     * Expiration date for autologin. This is based on the user setting, API_AUTO_LOGIN_LIFETIME
     * @function setExpiration
-    * @param expiration { Date } Expiration date for autologin. This is based on the user setting, API_AUTO_LOGIN_LIFETIME
+    * @param expiration {module:model/libraryDocuments/Date} Expiration date for autologin. This is based on the user setting, API_AUTO_LOGIN_LIFETIME
     * @instance
     */
     _this.setExpiration = function(expiration) {
@@ -84,7 +84,7 @@
    /**
     * The unique identifier that can be used to refer to the library template
     * @function getLibraryDocumentId
-    * @return  The unique identifier that can be used to refer to the library template { String }
+    * @return  {module:model/libraryDocuments/String} The unique identifier that can be used to refer to the library template  
     * @instance
     */
     _this.getLibraryDocumentId = function() {
@@ -94,7 +94,7 @@
    /**
     * The unique identifier that can be used to refer to the library template
     * @function setLibraryDocumentId
-    * @param libraryDocumentId { String } The unique identifier that can be used to refer to the library template
+    * @param libraryDocumentId {module:model/libraryDocuments/String} The unique identifier that can be used to refer to the library template
     * @instance
     */
     _this.setLibraryDocumentId = function(libraryDocumentId) {
@@ -104,7 +104,7 @@
    /**
     * Standalone URL to direct end users to
     * @function getUrl
-    * @return  Standalone URL to direct end users to { String }
+    * @return  {module:model/libraryDocuments/String} Standalone URL to direct end users to  
     * @instance
     */
     _this.getUrl = function() {
@@ -114,7 +114,7 @@
    /**
     * Standalone URL to direct end users to
     * @function setUrl
-    * @param url { String } Standalone URL to direct end users to
+    * @param url {module:model/libraryDocuments/String} Standalone URL to direct end users to
     * @instance
     */
     _this.setUrl = function(url) {

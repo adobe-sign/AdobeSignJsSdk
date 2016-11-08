@@ -37,7 +37,7 @@
    /**
     * Controls various file upload options available on the send page
     * @function getFileUploadOptions
-    * @return  Controls various file upload options available on the send page { FileUploadOptions }
+    * @return  {module:model/agreements/FileUploadOptions} Controls various file upload options available on the send page  
     * @instance
     */
     _this.getFileUploadOptions = function() {
@@ -47,7 +47,7 @@
    /**
     * Controls various file upload options available on the send page
     * @function setFileUploadOptions
-    * @param fileUploadOptions { FileUploadOptions } Controls various file upload options available on the send page
+    * @param fileUploadOptions {module:model/agreements/FileUploadOptions} Controls various file upload options available on the send page
     * @instance
     */
     _this.setFileUploadOptions = function(fileUploadOptions) {

@@ -46,7 +46,7 @@
    /**
     * Javascript snippet suitable for an embedded page taking a user to a URL
     * @function getJavascript
-    * @return  Javascript snippet suitable for an embedded page taking a user to a URL { String }
+    * @return  {module:model/widgets/String} Javascript snippet suitable for an embedded page taking a user to a URL  
     * @instance
     */
     _this.getJavascript = function() {
@@ -56,7 +56,7 @@
    /**
     * Javascript snippet suitable for an embedded page taking a user to a URL
     * @function setJavascript
-    * @param javascript { String } Javascript snippet suitable for an embedded page taking a user to a URL
+    * @param javascript {module:model/widgets/String} Javascript snippet suitable for an embedded page taking a user to a URL
     * @instance
     */
     _this.setJavascript = function(javascript) {
@@ -66,7 +66,7 @@
    /**
     * Javascript snippet suitable for an embedded page of the redirected URL that can be used by widget creators
     * @function getNextPageEmbeddedCode
-    * @return  Javascript snippet suitable for an embedded page of the redirected URL that can be used by widget creators { String }
+    * @return  {module:model/widgets/String} Javascript snippet suitable for an embedded page of the redirected URL that can be used by widget creators  
     * @instance
     */
     _this.getNextPageEmbeddedCode = function() {
@@ -76,7 +76,7 @@
    /**
     * Javascript snippet suitable for an embedded page of the redirected URL that can be used by widget creators
     * @function setNextPageEmbeddedCode
-    * @param nextPageEmbeddedCode { String } Javascript snippet suitable for an embedded page of the redirected URL that can be used by widget creators
+    * @param nextPageEmbeddedCode {module:model/widgets/String} Javascript snippet suitable for an embedded page of the redirected URL that can be used by widget creators
     * @instance
     */
     _this.setNextPageEmbeddedCode = function(nextPageEmbeddedCode) {
@@ -86,7 +86,7 @@
    /**
     * Redirect URL once the widget is created
     * @function getNextPageUrl
-    * @return  Redirect URL once the widget is created { String }
+    * @return  {module:model/widgets/String} Redirect URL once the widget is created  
     * @instance
     */
     _this.getNextPageUrl = function() {
@@ -96,7 +96,7 @@
    /**
     * Redirect URL once the widget is created
     * @function setNextPageUrl
-    * @param nextPageUrl { String } Redirect URL once the widget is created
+    * @param nextPageUrl {module:model/widgets/String} Redirect URL once the widget is created
     * @instance
     */
     _this.setNextPageUrl = function(nextPageUrl) {
@@ -106,7 +106,7 @@
    /**
     * Standalone URL to direct end users to
     * @function getUrl
-    * @return  Standalone URL to direct end users to { String }
+    * @return  {module:model/widgets/String} Standalone URL to direct end users to  
     * @instance
     */
     _this.getUrl = function() {
@@ -116,7 +116,7 @@
    /**
     * Standalone URL to direct end users to
     * @function setUrl
-    * @param url { String } Standalone URL to direct end users to
+    * @param url {module:model/widgets/String} Standalone URL to direct end users to
     * @instance
     */
     _this.setUrl = function(url) {
@@ -126,7 +126,7 @@
    /**
     * The unique identifier of widget which can be used to retrieve the data entered by the signers.
     * @function getWidgetId
-    * @return  The unique identifier of widget which can be used to retrieve the data entered by the signers. { String }
+    * @return  {module:model/widgets/String} The unique identifier of widget which can be used to retrieve the data entered by the signers.  
     * @instance
     */
     _this.getWidgetId = function() {
@@ -136,7 +136,7 @@
    /**
     * The unique identifier of widget which can be used to retrieve the data entered by the signers.
     * @function setWidgetId
-    * @param widgetId { String } The unique identifier of widget which can be used to retrieve the data entered by the signers.
+    * @param widgetId {module:model/widgets/String} The unique identifier of widget which can be used to retrieve the data entered by the signers.
     * @instance
     */
     _this.setWidgetId = function(widgetId) {

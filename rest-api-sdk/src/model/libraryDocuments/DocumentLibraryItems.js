@@ -37,7 +37,7 @@
    /**
     * An array of document library items
     * @function getLibraryDocumentList
-    * @return  An array of document library items { Array }
+    * @return  {module:model/libraryDocuments/Array} An array of document library items  
     * @instance
     */
     _this.getLibraryDocumentList = function() {
@@ -47,7 +47,7 @@
    /**
     * An array of document library items
     * @function setLibraryDocumentList
-    * @param libraryDocumentList { Array } An array of document library items
+    * @param libraryDocumentList {module:model/libraryDocuments/Array} An array of document library items
     * @instance
     */
     _this.setLibraryDocumentList = function(libraryDocumentList) {

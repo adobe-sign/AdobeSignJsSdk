@@ -43,7 +43,7 @@
    /**
     * Date of creation of the group
     * @function getDateCreated
-    * @return  Date of creation of the group { Date }
+    * @return  {module:model/groups/Date} Date of creation of the group  
     * @instance
     */
     _this.getDateCreated = function() {
@@ -53,7 +53,7 @@
    /**
     * Date of creation of the group
     * @function setDateCreated
-    * @param dateCreated { Date } Date of creation of the group
+    * @param dateCreated {module:model/groups/Date} Date of creation of the group
     * @instance
     */
     _this.setDateCreated = function(dateCreated) {
@@ -63,7 +63,7 @@
    /**
     * The list of admins of the group.
     * @function getGroupAdmins
-    * @return  The list of admins of the group. { Array }
+    * @return  {module:model/groups/Array} The list of admins of the group.  
     * @instance
     */
     _this.getGroupAdmins = function() {
@@ -73,7 +73,7 @@
    /**
     * The list of admins of the group.
     * @function setGroupAdmins
-    * @param groupAdmins { Array } The list of admins of the group.
+    * @param groupAdmins {module:model/groups/Array} The list of admins of the group.
     * @instance
     */
     _this.setGroupAdmins = function(groupAdmins) {
@@ -83,7 +83,7 @@
    /**
     * Unique identifier of the group
     * @function getGroupId
-    * @return  Unique identifier of the group { String }
+    * @return  {module:model/groups/String} Unique identifier of the group  
     * @instance
     */
     _this.getGroupId = function() {
@@ -93,7 +93,7 @@
    /**
     * Unique identifier of the group
     * @function setGroupId
-    * @param groupId { String } Unique identifier of the group
+    * @param groupId {module:model/groups/String} Unique identifier of the group
     * @instance
     */
     _this.setGroupId = function(groupId) {
@@ -103,7 +103,7 @@
    /**
     * Name of the group
     * @function getGroupName
-    * @return  Name of the group { String }
+    * @return  {module:model/groups/String} Name of the group  
     * @instance
     */
     _this.getGroupName = function() {
@@ -113,7 +113,7 @@
    /**
     * Name of the group
     * @function setGroupName
-    * @param groupName { String } Name of the group
+    * @param groupName {module:model/groups/String} Name of the group
     * @instance
     */
     _this.setGroupName = function(groupName) {

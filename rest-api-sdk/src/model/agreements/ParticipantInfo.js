@@ -49,7 +49,7 @@
    /**
     * All the child participants of the current participant. The possible values for the status of these participants are, SHARE and DELEGATE
     * @function getAlternateParticipants
-    * @return  All the child participants of the current participant. The possible values for the status of these participants are, SHARE and DELEGATE { Array }
+    * @return  {module:model/agreements/Array} All the child participants of the current participant. The possible values for the status of these participants are, SHARE and DELEGATE  
     * @instance
     */
     _this.getAlternateParticipants = function() {
@@ -59,7 +59,7 @@
    /**
     * All the child participants of the current participant. The possible values for the status of these participants are, SHARE and DELEGATE
     * @function setAlternateParticipants
-    * @param alternateParticipants { Array } All the child participants of the current participant. The possible values for the status of these participants are, SHARE and DELEGATE
+    * @param alternateParticipants {module:model/agreements/Array} All the child participants of the current participant. The possible values for the status of these participants are, SHARE and DELEGATE
     * @instance
     */
     _this.setAlternateParticipants = function(alternateParticipants) {
@@ -69,7 +69,7 @@
    /**
     * The company of the participant, if available
     * @function getCompany
-    * @return  The company of the participant, if available { String }
+    * @return  {module:model/agreements/String} The company of the participant, if available  
     * @instance
     */
     _this.getCompany = function() {
@@ -79,7 +79,7 @@
    /**
     * The company of the participant, if available
     * @function setCompany
-    * @param company { String } The company of the participant, if available
+    * @param company {module:model/agreements/String} The company of the participant, if available
     * @instance
     */
     _this.setCompany = function(company) {
@@ -89,7 +89,7 @@
    /**
     * The email address of the participant
     * @function getEmail
-    * @return  The email address of the participant { String }
+    * @return  {module:model/agreements/String} The email address of the participant  
     * @instance
     */
     _this.getEmail = function() {
@@ -99,7 +99,7 @@
    /**
     * The email address of the participant
     * @function setEmail
-    * @param email { String } The email address of the participant
+    * @param email {module:model/agreements/String} The email address of the participant
     * @instance
     */
     _this.setEmail = function(email) {
@@ -109,7 +109,7 @@
    /**
     * The name of the participant, if available
     * @function getName
-    * @return  The name of the participant, if available { String }
+    * @return  {module:model/agreements/String} The name of the participant, if available  
     * @instance
     */
     _this.getName = function() {
@@ -119,7 +119,7 @@
    /**
     * The name of the participant, if available
     * @function setName
-    * @param name { String } The name of the participant, if available
+    * @param name {module:model/agreements/String} The name of the participant, if available
     * @instance
     */
     _this.setName = function(name) {
@@ -129,7 +129,7 @@
    /**
     * The unique identifier of the participant
     * @function getParticipantId
-    * @return  The unique identifier of the participant { String }
+    * @return  {module:model/agreements/String} The unique identifier of the participant  
     * @instance
     */
     _this.getParticipantId = function() {
@@ -139,7 +139,7 @@
    /**
     * The unique identifier of the participant
     * @function setParticipantId
-    * @param participantId { String } The unique identifier of the participant
+    * @param participantId {module:model/agreements/String} The unique identifier of the participant
     * @instance
     */
     _this.setParticipantId = function(participantId) {
@@ -149,7 +149,7 @@
    /**
     * Security options that apply to the participant
     * @function getSecurityOptions
-    * @return  Security options that apply to the participant { Array }
+    * @return  {module:model/agreements/Array} Security options that apply to the participant  
     * @instance
     */
     _this.getSecurityOptions = function() {
@@ -159,7 +159,7 @@
    /**
     * Security options that apply to the participant
     * @function setSecurityOptions
-    * @param securityOptions { Array } Security options that apply to the participant
+    * @param securityOptions {module:model/agreements/Array} Security options that apply to the participant
     * @instance
     */
     _this.setSecurityOptions = function(securityOptions) {
@@ -169,7 +169,7 @@
    /**
     * The title of the participant, if available
     * @function getTitle
-    * @return  The title of the participant, if available { String }
+    * @return  {module:model/agreements/String} The title of the participant, if available  
     * @instance
     */
     _this.getTitle = function() {
@@ -179,7 +179,7 @@
    /**
     * The title of the participant, if available
     * @function setTitle
-    * @param title { String } The title of the participant, if available
+    * @param title {module:model/agreements/String} The title of the participant, if available
     * @instance
     */
     _this.setTitle = function(title) {

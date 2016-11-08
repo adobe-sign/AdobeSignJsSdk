@@ -37,7 +37,7 @@
    /**
     * The list of users in the account
     * @function getUserInfoList
-    * @return  The list of users in the account { Array }
+    * @return  {module:model/groups/Array} The list of users in the account  
     * @instance
     */
     _this.getUserInfoList = function() {
@@ -47,7 +47,7 @@
    /**
     * The list of users in the account
     * @function setUserInfoList
-    * @param userInfoList { Array } The list of users in the account
+    * @param userInfoList {module:model/groups/Array} The list of users in the account
     * @instance
     */
     _this.setUserInfoList = function(userInfoList) {

@@ -6984,7 +6984,7 @@
     <div class="nameContainer">
         <h4 class="name" id="getCallbackInfo">
             
-            getCallbackInfo<span class="signature">()</span>
+            getCallbackInfo<span class="signature">()</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{module:model/workflows/String}</span>
         </h4>
     </div> 
 
@@ -7041,9 +7041,29 @@
     
 
 
-
-A publicly accessible url to which Adobe Sign will do an HTTP GET operation every time there is a new agreement event. HTTP authentication is supported using standard embedded syntax - i.e. http://username:password@your.server.com/path/to/file. Adobe Sign can also ping your system using HTTP PUT with the final signed PDF. Please contact support@echosign.com if you wish to use this option. of type String
-
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Type</th>
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+        <tr>
+            
+            <td class="type">
+            
+                        String
+                        
+                    
+            </td>
+            <td class="description last">A publicly accessible url to which Adobe Sign will do an HTTP GET operation every time there is a new agreement event. HTTP authentication is supported using standard embedded syntax - i.e. http://username:password@your.server.com/path/to/file. Adobe Sign can also ping your system using HTTP PUT with the final signed PDF. Please contact support@echosign.com if you wish to use this option.</td>
+        </tr>
+    
+    </tbody>
+</table>
 
     
     
@@ -7057,7 +7077,7 @@ A publicly accessible url to which Adobe Sign will do an HTTP GET operation ever
     <div class="nameContainer">
         <h4 class="name" id="getCcs">
             
-            getCcs<span class="signature">()</span>
+            getCcs<span class="signature">()</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{module:model/workflows/Array}</span>
         </h4>
     </div> 
 
@@ -7114,9 +7134,29 @@ A publicly accessible url to which Adobe Sign will do an HTTP GET operation ever
     
 
 
-
-A list of one or more email addresses that you want to copy on this transaction. The email addresses will each receive an email at the beginning of the transaction and also when the final document is signed. The email addresses will also receive a copy of the document, attached as a PDF file of type Array
-
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Type</th>
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+        <tr>
+            
+            <td class="type">
+            
+                        Array
+                        
+                    
+            </td>
+            <td class="description last">A list of one or more email addresses that you want to copy on this transaction. The email addresses will each receive an email at the beginning of the transaction and also when the final document is signed. The email addresses will also receive a copy of the document, attached as a PDF file</td>
+        </tr>
+    
+    </tbody>
+</table>
 
     
     
@@ -7130,7 +7170,7 @@ A list of one or more email addresses that you want to copy on this transaction.
     <div class="nameContainer">
         <h4 class="name" id="getDaysUntilSigningDeadline">
             
-            getDaysUntilSigningDeadline<span class="signature">()</span>
+            getDaysUntilSigningDeadline<span class="signature">()</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{module:model/workflows/Integer}</span>
         </h4>
     </div> 
 
@@ -7187,9 +7227,29 @@ A list of one or more email addresses that you want to copy on this transaction.
     
 
 
-
-The number of days that remain before the document expires. You cannot sign the document after it expires of type Integer
-
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Type</th>
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+        <tr>
+            
+            <td class="type">
+            
+                        Integer
+                        
+                    
+            </td>
+            <td class="description last">The number of days that remain before the document expires. You cannot sign the document after it expires</td>
+        </tr>
+    
+    </tbody>
+</table>
 
     
     
@@ -7203,7 +7263,7 @@ The number of days that remain before the document expires. You cannot sign the 
     <div class="nameContainer">
         <h4 class="name" id="getFileInfos">
             
-            getFileInfos<span class="signature">()</span>
+            getFileInfos<span class="signature">()</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{module:model/workflows/Array}</span>
         </h4>
     </div> 
 
@@ -7260,9 +7320,29 @@ The number of days that remain before the document expires. You cannot sign the 
     
 
 
-
-A list of one or more files (or references to files) that will be sent out for signature. If more than one file is provided, they will be combined into one PDF before being sent out. Note: Only one of the four parameters in every FileInfo object must be specified of type Array
-
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Type</th>
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+        <tr>
+            
+            <td class="type">
+            
+                        Array
+                        
+                    
+            </td>
+            <td class="description last">A list of one or more files (or references to files) that will be sent out for signature. If more than one file is provided, they will be combined into one PDF before being sent out. Note: Only one of the four parameters in every FileInfo object must be specified</td>
+        </tr>
+    
+    </tbody>
+</table>
 
     
     
@@ -7276,7 +7356,7 @@ A list of one or more files (or references to files) that will be sent out for s
     <div class="nameContainer">
         <h4 class="name" id="getFormFieldLayerTemplates">
             
-            getFormFieldLayerTemplates<span class="signature">()</span>
+            getFormFieldLayerTemplates<span class="signature">()</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{module:model/workflows/Array}</span>
         </h4>
     </div> 
 
@@ -7333,9 +7413,29 @@ A list of one or more files (or references to files) that will be sent out for s
     
 
 
-
-Specifies the form field layer template or source of form fields to apply on the files in this transaction. If specified, the FileInfo for this parameter must refer to a form field layer template via libraryDocumentId or libraryDocumentName, or if specified via transientDocumentId or documentURL, it must be of a supported file type. Note: Only one of the four parameters in every FileInfo object must be specified of type Array
-
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Type</th>
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+        <tr>
+            
+            <td class="type">
+            
+                        Array
+                        
+                    
+            </td>
+            <td class="description last">Specifies the form field layer template or source of form fields to apply on the files in this transaction. If specified, the FileInfo for this parameter must refer to a form field layer template via libraryDocumentId or libraryDocumentName, or if specified via transientDocumentId or documentURL, it must be of a supported file type. Note: Only one of the four parameters in every FileInfo object must be specified</td>
+        </tr>
+    
+    </tbody>
+</table>
 
     
     
@@ -7349,7 +7449,7 @@ Specifies the form field layer template or source of form fields to apply on the
     <div class="nameContainer">
         <h4 class="name" id="getFormFields">
             
-            getFormFields<span class="signature">()</span>
+            getFormFields<span class="signature">()</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{module:model/workflows/Array}</span>
         </h4>
     </div> 
 
@@ -7406,9 +7506,29 @@ Specifies the form field layer template or source of form fields to apply on the
     
 
 
-
-Information of form fields of an agreement. PDF_SIGNATURE inputType field is currently not supported of type Array
-
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Type</th>
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+        <tr>
+            
+            <td class="type">
+            
+                        Array
+                        
+                    
+            </td>
+            <td class="description last">Information of form fields of an agreement. PDF_SIGNATURE inputType field is currently not supported</td>
+        </tr>
+    
+    </tbody>
+</table>
 
     
     
@@ -7422,7 +7542,7 @@ Information of form fields of an agreement. PDF_SIGNATURE inputType field is cur
     <div class="nameContainer">
         <h4 class="name" id="getLocale">
             
-            getLocale<span class="signature">()</span>
+            getLocale<span class="signature">()</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{module:model/workflows/String}</span>
         </h4>
     </div> 
 
@@ -7479,9 +7599,29 @@ Information of form fields of an agreement. PDF_SIGNATURE inputType field is cur
     
 
 
-
-The locale associated with this agreement - specifies the language for the signing page and emails, for example en_US or fr_FR. If none specified, defaults to the language configured for the agreement sender of type String
-
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Type</th>
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+        <tr>
+            
+            <td class="type">
+            
+                        String
+                        
+                    
+            </td>
+            <td class="description last">The locale associated with this agreement - specifies the language for the signing page and emails, for example en_US or fr_FR. If none specified, defaults to the language configured for the agreement sender</td>
+        </tr>
+    
+    </tbody>
+</table>
 
     
     
@@ -7495,7 +7635,7 @@ The locale associated with this agreement - specifies the language for the signi
     <div class="nameContainer">
         <h4 class="name" id="getMergeFieldInfo">
             
-            getMergeFieldInfo<span class="signature">()</span>
+            getMergeFieldInfo<span class="signature">()</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{module:model/workflows/Array}</span>
         </h4>
     </div> 
 
@@ -7552,9 +7692,29 @@ The locale associated with this agreement - specifies the language for the signi
     
 
 
-
-Optional default values for fields to merge into the document. The values will be presented to the signers for editable fields; for read-only fields the provided values will not be editable during the signing process. Merging data into fields is currently not supported when used with libraryDocumentId or libraryDocumentName. Only file and url are currently supported of type Array
-
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Type</th>
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+        <tr>
+            
+            <td class="type">
+            
+                        Array
+                        
+                    
+            </td>
+            <td class="description last">Optional default values for fields to merge into the document. The values will be presented to the signers for editable fields; for read-only fields the provided values will not be editable during the signing process. Merging data into fields is currently not supported when used with libraryDocumentId or libraryDocumentName. Only file and url are currently supported</td>
+        </tr>
+    
+    </tbody>
+</table>
 
     
     
@@ -7568,7 +7728,7 @@ Optional default values for fields to merge into the document. The values will b
     <div class="nameContainer">
         <h4 class="name" id="getMessage">
             
-            getMessage<span class="signature">()</span>
+            getMessage<span class="signature">()</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{module:model/workflows/String}</span>
         </h4>
     </div> 
 
@@ -7625,9 +7785,29 @@ Optional default values for fields to merge into the document. The values will b
     
 
 
-
-An optional message to the recipients, describing what is being sent or why their signature is required of type String
-
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Type</th>
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+        <tr>
+            
+            <td class="type">
+            
+                        String
+                        
+                    
+            </td>
+            <td class="description last">An optional message to the recipients, describing what is being sent or why their signature is required</td>
+        </tr>
+    
+    </tbody>
+</table>
 
     
     
@@ -7641,7 +7821,7 @@ An optional message to the recipients, describing what is being sent or why thei
     <div class="nameContainer">
         <h4 class="name" id="getName">
             
-            getName<span class="signature">()</span>
+            getName<span class="signature">()</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{module:model/workflows/String}</span>
         </h4>
     </div> 
 
@@ -7698,9 +7878,29 @@ An optional message to the recipients, describing what is being sent or why thei
     
 
 
-
-The name of the agreement that will be used to identify it, in emails and on the website of type String
-
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Type</th>
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+        <tr>
+            
+            <td class="type">
+            
+                        String
+                        
+                    
+            </td>
+            <td class="description last">The name of the agreement that will be used to identify it, in emails and on the website</td>
+        </tr>
+    
+    </tbody>
+</table>
 
     
     
@@ -7714,7 +7914,7 @@ The name of the agreement that will be used to identify it, in emails and on the
     <div class="nameContainer">
         <h4 class="name" id="getPostSignOptions">
             
-            getPostSignOptions<span class="signature">()</span>
+            getPostSignOptions<span class="signature">()</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{<a href="module-model_workflows_PostSignOptions.html">module:model/workflows/PostSignOptions</a>}</span>
         </h4>
     </div> 
 
@@ -7771,9 +7971,29 @@ The name of the agreement that will be used to identify it, in emails and on the
     
 
 
-
-URL and associated properties for the success page the user will be taken to after completing the signing process of type <a href="module-model_workflows_PostSignOptions.html">PostSignOptions</a>
-
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Type</th>
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+        <tr>
+            
+            <td class="type">
+            
+                        <a href="module-model_workflows_PostSignOptions.html">PostSignOptions</a>
+                        
+                    
+            </td>
+            <td class="description last">URL and associated properties for the success page the user will be taken to after completing the signing process</td>
+        </tr>
+    
+    </tbody>
+</table>
 
     
     
@@ -7787,7 +8007,7 @@ URL and associated properties for the success page the user will be taken to aft
     <div class="nameContainer">
         <h4 class="name" id="getRecipientsListInfo">
             
-            getRecipientsListInfo<span class="signature">()</span>
+            getRecipientsListInfo<span class="signature">()</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{module:model/workflows/Array}</span>
         </h4>
     </div> 
 
@@ -7844,9 +8064,29 @@ URL and associated properties for the success page the user will be taken to aft
     
 
 
-
-A list of one or more recipients. For regular (non-MegaSign) documents, there is no limit on the number of electronic signatures in a single document. Written signatures are limited to four per document. This limit includes the sender if the signature of the sender is also required of type Array
-
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Type</th>
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+        <tr>
+            
+            <td class="type">
+            
+                        Array
+                        
+                    
+            </td>
+            <td class="description last">A list of one or more recipients. For regular (non-MegaSign) documents, there is no limit on the number of electronic signatures in a single document. Written signatures are limited to four per document. This limit includes the sender if the signature of the sender is also required</td>
+        </tr>
+    
+    </tbody>
+</table>
 
     
     
@@ -7860,7 +8100,7 @@ A list of one or more recipients. For regular (non-MegaSign) documents, there is
     <div class="nameContainer">
         <h4 class="name" id="getReminderFrequency">
             
-            getReminderFrequency<span class="signature">()</span>
+            getReminderFrequency<span class="signature">()</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{module:model/workflows/String}</span>
         </h4>
     </div> 
 
@@ -7917,9 +8157,29 @@ A list of one or more recipients. For regular (non-MegaSign) documents, there is
     
 
 
-
-Optional parameter that sets how often you want to send reminders to the recipients. The possible values are DAILY_UNTIL_SIGNED or WEEKLY_UNTIL_SIGNED of type String
-
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Type</th>
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+        <tr>
+            
+            <td class="type">
+            
+                        String
+                        
+                    
+            </td>
+            <td class="description last">Optional parameter that sets how often you want to send reminders to the recipients. The possible values are DAILY_UNTIL_SIGNED or WEEKLY_UNTIL_SIGNED</td>
+        </tr>
+    
+    </tbody>
+</table>
 
     
     
@@ -7933,7 +8193,7 @@ Optional parameter that sets how often you want to send reminders to the recipie
     <div class="nameContainer">
         <h4 class="name" id="getSecurityOptions">
             
-            getSecurityOptions<span class="signature">()</span>
+            getSecurityOptions<span class="signature">()</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{<a href="module-model_workflows_SecurityOption.html">module:model/workflows/SecurityOption</a>}</span>
         </h4>
     </div> 
 
@@ -7990,9 +8250,29 @@ Optional parameter that sets how often you want to send reminders to the recipie
     
 
 
-
-Sets optional secondary security parameters for your document of type <a href="module-model_workflows_SecurityOption.html">SecurityOption</a>
-
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Type</th>
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+        <tr>
+            
+            <td class="type">
+            
+                        <a href="module-model_workflows_SecurityOption.html">SecurityOption</a>
+                        
+                    
+            </td>
+            <td class="description last">Sets optional secondary security parameters for your document</td>
+        </tr>
+    
+    </tbody>
+</table>
 
     
     
@@ -8006,7 +8286,7 @@ Sets optional secondary security parameters for your document of type <a href="m
     <div class="nameContainer">
         <h4 class="name" id="getVaultingInfo">
             
-            getVaultingInfo<span class="signature">()</span>
+            getVaultingInfo<span class="signature">()</span><span class="glyphicon glyphicon-circle-arrow-right"></span><span class="type-signature returnType">{<a href="module-model_workflows_VaultingInfo.html">module:model/workflows/VaultingInfo</a>}</span>
         </h4>
     </div> 
 
@@ -8063,9 +8343,29 @@ Sets optional secondary security parameters for your document of type <a href="m
     
 
 
-
-Sets the vaulting properties that allows Adobe Sign to securely store documents with a vault provider of type <a href="module-model_workflows_VaultingInfo.html">VaultingInfo</a>
-
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Type</th>
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+        <tr>
+            
+            <td class="type">
+            
+                        <a href="module-model_workflows_VaultingInfo.html">VaultingInfo</a>
+                        
+                    
+            </td>
+            <td class="description last">Sets the vaulting properties that allows Adobe Sign to securely store documents with a vault provider</td>
+        </tr>
+    
+    </tbody>
+</table>
 
     
     

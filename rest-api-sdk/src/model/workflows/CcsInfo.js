@@ -39,7 +39,7 @@
    /**
     * A list of one or more email addresses that you want to copy on this transaction. The email addresses will each receive an email at the beginning of the transaction and also when the final document is signed. The email addresses will also receive a copy of the document, attached as a PDF file
     * @function getEmails
-    * @return  A list of one or more email addresses that you want to copy on this transaction. The email addresses will each receive an email at the beginning of the transaction and also when the final document is signed. The email addresses will also receive a copy of the document, attached as a PDF file { Array }
+    * @return  {module:model/workflows/Array} A list of one or more email addresses that you want to copy on this transaction. The email addresses will each receive an email at the beginning of the transaction and also when the final document is signed. The email addresses will also receive a copy of the document, attached as a PDF file  
     * @instance
     */
     _this.getEmails = function() {
@@ -49,7 +49,7 @@
    /**
     * A list of one or more email addresses that you want to copy on this transaction. The email addresses will each receive an email at the beginning of the transaction and also when the final document is signed. The email addresses will also receive a copy of the document, attached as a PDF file
     * @function setEmails
-    * @param emails { Array } A list of one or more email addresses that you want to copy on this transaction. The email addresses will each receive an email at the beginning of the transaction and also when the final document is signed. The email addresses will also receive a copy of the document, attached as a PDF file
+    * @param emails {module:model/workflows/Array} A list of one or more email addresses that you want to copy on this transaction. The email addresses will each receive an email at the beginning of the transaction and also when the final document is signed. The email addresses will also receive a copy of the document, attached as a PDF file
     * @instance
     */
     _this.setEmails = function(emails) {
@@ -59,7 +59,7 @@
    /**
     * Name of the CC list as returned in workflow description
     * @function getName
-    * @return  Name of the CC list as returned in workflow description { String }
+    * @return  {module:model/workflows/String} Name of the CC list as returned in workflow description  
     * @instance
     */
     _this.getName = function() {
@@ -69,7 +69,7 @@
    /**
     * Name of the CC list as returned in workflow description
     * @function setName
-    * @param name { String } Name of the CC list as returned in workflow description
+    * @param name {module:model/workflows/String} Name of the CC list as returned in workflow description
     * @instance
     */
     _this.setName = function(name) {

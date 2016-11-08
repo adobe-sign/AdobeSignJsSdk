@@ -9,20 +9,20 @@ ul {
     margin: 0;
     padding: 0;
 }
-li { 
+li {
     list-style-type: none;
     font-weight:500;
 }
 
 li:hover {
-     text-decoration: underline;
+    text-decoration: underline;
 }
 .searcharea {
     height: 35px;
     background-color:#F8F9FB;
 }
 .outer {
-    overflow:hidden; 
+    overflow:hidden;
 
 }
 
@@ -65,8 +65,8 @@ li:hover {
     vertical-align: middle;
 }
 #wrap { position: relative;
-        min-height:100%;
-        width:100%;
+    min-height:100%;
+    width:100%;
 }
 ::-webkit-scrollbar {
     width: 8px;
@@ -77,22 +77,22 @@ li:hover {
     border-radius: 4px;
 }
 
- .h1, .h2, .h3, .h4, .h5, .h6 {
+.h1, .h2, .h3, .h4, .h5, .h6 {
     color: #1f2f45;
- }
+}
 
- #search {
+#search {
     width:10%;
     position:fixed;
     margin-left: 89%;
-    margin-top:2px; 
- }
+    margin-top:2px;
+}
 
 
 .navigation {
     position: fixed;
     background-color: #F8F9FB;
-    border-right:1px solid #1f2f45; 
+    border-right:1px solid #1f2f45;
     top: 107px;
     display: none;
     overflow: auto;
@@ -122,10 +122,10 @@ li:hover {
     margin-left: 20px;
     font-weight: bold;
 }
-a 
-{ 
+a
+{
     font-weight: 500;
-    color: #1f2f45; 
+    color: #1f2f45;
 }
 .navigation .search { padding: 10px 15px }
 .navigation .search input {
@@ -288,16 +288,15 @@ a
 }
 .main .description ol,
 .main .description ul { margin-bottom: 15px }
-.main .description p { 
+.main .description p {
     font-size: 13px;
     color: #1f2f45
- }
+}
 .main .description h2 {
     margin-top: 30px;
     margin-bottom: 10px;
     padding-bottom: 10px;
     border-bottom: 1px solid #efefef;
-    color:;
 }
 .main .description pre { margin: 10px 0 }
 .main .tag-source { font-size: 12px }
@@ -351,7 +350,7 @@ a
     font-weight: 400;
     font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
 }
-.main .nameContainer h4 .type-signature.type a { 
+.main .nameContainer h4 .type-signature.type a {
     visibility: hidden;
     color: #fff }
 .main pre { font-size: 11px }
@@ -365,10 +364,10 @@ a
     padding: 5px 3px;
     background-color: #FAFBFD;
 }
-.main table .name { 
+.main table .name {
     width: 110px;
-    color: #731616; 
-    }
+    color: #731616;
+}
 .main table .type {
     width: 60px;
     color: #1f2f45;

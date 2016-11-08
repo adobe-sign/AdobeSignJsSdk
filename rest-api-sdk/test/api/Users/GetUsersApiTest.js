@@ -12,7 +12,7 @@
  */
 (function (factory) {
         // CommonJS-like environments that support module.exports, like Node.
-        module.exports = factory(require('../../utils/TestData'), require('../../utils/UserUtils'), require('../../../src/utils/validator/SdkErrorCodes'), require('../../utils/ApiUtils'), require('../../../src/utils/StringUtil'), require('chai'));
+        module.exports = factory(require('../../utils/TestData'), require('../../utils/UserUtils'), require('../../utils/SdkErrorCodes'), require('../../utils/ApiUtils'), require('../../utils/StringUtil'), require('chai'));
     
 }(function (TestData, UserUtils, SdkErrorCodes, ApiUtils, StringUtil, chai) {
     'use strict';

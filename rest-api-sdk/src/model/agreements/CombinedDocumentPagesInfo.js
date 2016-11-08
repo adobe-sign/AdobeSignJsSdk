@@ -37,7 +37,7 @@
    /**
     * List of basic information of all pages of the combined document of an Agreement.
     * @function getDocumentPagesInfo
-    * @return  List of basic information of all pages of the combined document of an Agreement. { Array }
+    * @return  {module:model/agreements/Array} List of basic information of all pages of the combined document of an Agreement.  
     * @instance
     */
     _this.getDocumentPagesInfo = function() {
@@ -47,7 +47,7 @@
    /**
     * List of basic information of all pages of the combined document of an Agreement.
     * @function setDocumentPagesInfo
-    * @param documentPagesInfo { Array } List of basic information of all pages of the combined document of an Agreement.
+    * @param documentPagesInfo {module:model/agreements/Array} List of basic information of all pages of the combined document of an Agreement.
     * @instance
     */
     _this.setDocumentPagesInfo = function(documentPagesInfo) {

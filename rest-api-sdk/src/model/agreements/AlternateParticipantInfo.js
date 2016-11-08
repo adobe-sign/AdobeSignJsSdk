@@ -43,7 +43,7 @@
    /**
     * The country code for the alternate participant
     * @function getCountryCode
-    * @return  The country code for the alternate participant { String }
+    * @return  {module:model/agreements/String} The country code for the alternate participant  
     * @instance
     */
     _this.getCountryCode = function() {
@@ -53,7 +53,7 @@
    /**
     * The country code for the alternate participant
     * @function setCountryCode
-    * @param countryCode { String } The country code for the alternate participant
+    * @param countryCode {module:model/agreements/String} The country code for the alternate participant
     * @instance
     */
     _this.setCountryCode = function(countryCode) {
@@ -63,7 +63,7 @@
    /**
     * The email of the alternate participant. This is required if fax is not provided. Both fax and email can not be provided
     * @function getEmail
-    * @return  The email of the alternate participant. This is required if fax is not provided. Both fax and email can not be provided { String }
+    * @return  {module:model/agreements/String} The email of the alternate participant. This is required if fax is not provided. Both fax and email can not be provided  
     * @instance
     */
     _this.getEmail = function() {
@@ -73,7 +73,7 @@
    /**
     * The email of the alternate participant. This is required if fax is not provided. Both fax and email can not be provided
     * @function setEmail
-    * @param email { String } The email of the alternate participant. This is required if fax is not provided. Both fax and email can not be provided
+    * @param email {module:model/agreements/String} The email of the alternate participant. This is required if fax is not provided. Both fax and email can not be provided
     * @instance
     */
     _this.setEmail = function(email) {
@@ -83,7 +83,7 @@
    /**
     * The phone number for the alternate participant
     * @function getPhone
-    * @return  The phone number for the alternate participant { String }
+    * @return  {module:model/agreements/String} The phone number for the alternate participant  
     * @instance
     */
     _this.getPhone = function() {
@@ -93,7 +93,7 @@
    /**
     * The phone number for the alternate participant
     * @function setPhone
-    * @param phone { String } The phone number for the alternate participant
+    * @param phone {module:model/agreements/String} The phone number for the alternate participant
     * @instance
     */
     _this.setPhone = function(phone) {
@@ -103,7 +103,7 @@
    /**
     * The private message for the alternate participant
     * @function getPrivateMessage
-    * @return  The private message for the alternate participant { String }
+    * @return  {module:model/agreements/String} The private message for the alternate participant  
     * @instance
     */
     _this.getPrivateMessage = function() {
@@ -113,7 +113,7 @@
    /**
     * The private message for the alternate participant
     * @function setPrivateMessage
-    * @param privateMessage { String } The private message for the alternate participant
+    * @param privateMessage {module:model/agreements/String} The private message for the alternate participant
     * @instance
     */
     _this.setPrivateMessage = function(privateMessage) {

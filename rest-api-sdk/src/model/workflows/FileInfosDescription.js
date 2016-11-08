@@ -43,7 +43,7 @@
    /**
     * Display label of this field for the external users
     * @function getLabel
-    * @return  Display label of this field for the external users { String }
+    * @return  {module:model/workflows/String} Display label of this field for the external users  
     * @instance
     */
     _this.getLabel = function() {
@@ -53,7 +53,7 @@
    /**
     * Display label of this field for the external users
     * @function setLabel
-    * @param label { String } Display label of this field for the external users
+    * @param label {module:model/workflows/String} Display label of this field for the external users
     * @instance
     */
     _this.setLabel = function(label) {
@@ -63,7 +63,7 @@
    /**
     * Name of the fileInfo element
     * @function getName
-    * @return  Name of the fileInfo element { String }
+    * @return  {module:model/workflows/String} Name of the fileInfo element  
     * @instance
     */
     _this.getName = function() {
@@ -73,7 +73,7 @@
    /**
     * Name of the fileInfo element
     * @function setName
-    * @param name { String } Name of the fileInfo element
+    * @param name {module:model/workflows/String} Name of the fileInfo element
     * @instance
     */
     _this.setName = function(name) {
@@ -83,7 +83,7 @@
    /**
     * Whether this field is required or optional
     * @function getRequired
-    * @return  Whether this field is required or optional { Boolean }
+    * @return  {module:model/workflows/Boolean} Whether this field is required or optional  
     * @instance
     */
     _this.getRequired = function() {
@@ -93,7 +93,7 @@
    /**
     * Whether this field is required or optional
     * @function setRequired
-    * @param required { Boolean } Whether this field is required or optional
+    * @param required {module:model/workflows/Boolean} Whether this field is required or optional
     * @instance
     */
     _this.setRequired = function(required) {
@@ -103,7 +103,7 @@
    /**
     * A list of workflow library documents out of which one workflow library document can be selected with this fileInfo object
     * @function getWorkflowLibraryDocumentSelectorList
-    * @return  A list of workflow library documents out of which one workflow library document can be selected with this fileInfo object { Array }
+    * @return  {module:model/workflows/Array} A list of workflow library documents out of which one workflow library document can be selected with this fileInfo object  
     * @instance
     */
     _this.getWorkflowLibraryDocumentSelectorList = function() {
@@ -113,7 +113,7 @@
    /**
     * A list of workflow library documents out of which one workflow library document can be selected with this fileInfo object
     * @function setWorkflowLibraryDocumentSelectorList
-    * @param workflowLibraryDocumentSelectorList { Array } A list of workflow library documents out of which one workflow library document can be selected with this fileInfo object
+    * @param workflowLibraryDocumentSelectorList {module:model/workflows/Array} A list of workflow library documents out of which one workflow library document can be selected with this fileInfo object
     * @instance
     */
     _this.setWorkflowLibraryDocumentSelectorList = function(workflowLibraryDocumentSelectorList) {

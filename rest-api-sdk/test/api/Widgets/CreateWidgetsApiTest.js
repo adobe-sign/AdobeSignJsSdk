@@ -11,7 +11,7 @@
  */
 (function (factory) {
         // CommonJS-like environments that support module.exports, like Node.
-        module.exports = factory(require('../../../src/index'), require('../../utils/TestData'), require('../../utils/WidgetUtils'), require('../../utils/TransientDocumentUtils'), require('../../utils/LibraryDocumentUtils'), require('../../../src/utils/validator/SdkErrorCodes'), require('../../utils/ApiUtils'), require('../../../src/utils/StringUtil'), require('chai'));
+        module.exports = factory(require('../../../src/index'), require('../../utils/TestData'), require('../../utils/WidgetUtils'), require('../../utils/TransientDocumentUtils'), require('../../utils/LibraryDocumentUtils'), require('../../utils/SdkErrorCodes'), require('../../utils/ApiUtils'), require('../../utils/StringUtil'), require('chai'));
     
 }(function (AdobeSignSdk, TestData, WidgetUtils, TransientDocumentUtils, LibraryDocumentUtils, SdkErrorCodes, ApiUtils, StringUtil, chai) {
     'use strict';

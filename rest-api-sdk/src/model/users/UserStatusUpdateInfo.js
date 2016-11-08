@@ -39,7 +39,7 @@
    /**
     * An optional comment describing why you want to activate/deactivate a given user
     * @function getComment
-    * @return  An optional comment describing why you want to activate/deactivate a given user { String }
+    * @return  {module:model/users/String} An optional comment describing why you want to activate/deactivate a given user  
     * @instance
     */
     _this.getComment = function() {
@@ -49,7 +49,7 @@
    /**
     * An optional comment describing why you want to activate/deactivate a given user
     * @function setComment
-    * @param comment { String } An optional comment describing why you want to activate/deactivate a given user
+    * @param comment {module:model/users/String} An optional comment describing why you want to activate/deactivate a given user
     * @instance
     */
     _this.setComment = function(comment) {
@@ -59,7 +59,7 @@
    /**
     * The state to which the user is to be updated. The valid states for this variable is currently, ACTIVE and INACTIVE
     * @function getUserStatus
-    * @return  The state to which the user is to be updated. The valid states for this variable is currently, ACTIVE and INACTIVE { String }
+    * @return  {module:model/users/String} The state to which the user is to be updated. The valid states for this variable is currently, ACTIVE and INACTIVE  
     * @instance
     */
     _this.getUserStatus = function() {
@@ -69,7 +69,7 @@
    /**
     * The state to which the user is to be updated. The valid states for this variable is currently, ACTIVE and INACTIVE
     * @function setUserStatus
-    * @param userStatus { String } The state to which the user is to be updated. The valid states for this variable is currently, ACTIVE and INACTIVE
+    * @param userStatus {module:model/users/String} The state to which the user is to be updated. The valid states for this variable is currently, ACTIVE and INACTIVE
     * @instance
     */
     _this.setUserStatus = function(userStatus) {

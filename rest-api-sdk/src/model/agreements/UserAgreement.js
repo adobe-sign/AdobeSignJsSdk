@@ -49,7 +49,7 @@
    /**
     * The unique identifier of the agreement
     * @function getAgreementId
-    * @return  The unique identifier of the agreement { String }
+    * @return  {module:model/agreements/String} The unique identifier of the agreement  
     * @instance
     */
     _this.getAgreementId = function() {
@@ -59,7 +59,7 @@
    /**
     * The unique identifier of the agreement
     * @function setAgreementId
-    * @param agreementId { String } The unique identifier of the agreement
+    * @param agreementId {module:model/agreements/String} The unique identifier of the agreement
     * @instance
     */
     _this.setAgreementId = function(agreementId) {
@@ -69,7 +69,7 @@
    /**
     * The display date for the agreement
     * @function getDisplayDate
-    * @return  The display date for the agreement { Date }
+    * @return  {module:model/agreements/Date} The display date for the agreement  
     * @instance
     */
     _this.getDisplayDate = function() {
@@ -79,7 +79,7 @@
    /**
     * The display date for the agreement
     * @function setDisplayDate
-    * @param displayDate { Date } The display date for the agreement
+    * @param displayDate {module:model/agreements/Date} The display date for the agreement
     * @instance
     */
     _this.setDisplayDate = function(displayDate) {
@@ -89,7 +89,7 @@
    /**
     * The most relevant current user set for the agreement. It is typically the next signer if the agreement is from the current user, or the sender if received from another user
     * @function getDisplayUserSetInfos
-    * @return  The most relevant current user set for the agreement. It is typically the next signer if the agreement is from the current user, or the sender if received from another user { Array }
+    * @return  {module:model/agreements/Array} The most relevant current user set for the agreement. It is typically the next signer if the agreement is from the current user, or the sender if received from another user  
     * @instance
     */
     _this.getDisplayUserSetInfos = function() {
@@ -99,7 +99,7 @@
    /**
     * The most relevant current user set for the agreement. It is typically the next signer if the agreement is from the current user, or the sender if received from another user
     * @function setDisplayUserSetInfos
-    * @param displayUserSetInfos { Array } The most relevant current user set for the agreement. It is typically the next signer if the agreement is from the current user, or the sender if received from another user
+    * @param displayUserSetInfos {module:model/agreements/Array} The most relevant current user set for the agreement. It is typically the next signer if the agreement is from the current user, or the sender if received from another user
     * @instance
     */
     _this.setDisplayUserSetInfos = function(displayUserSetInfos) {
@@ -109,7 +109,7 @@
    /**
     * True if this is an e-sign document
     * @function getEsign
-    * @return  True if this is an e-sign document { Boolean }
+    * @return  {module:model/agreements/Boolean} True if this is an e-sign document  
     * @instance
     */
     _this.getEsign = function() {
@@ -119,7 +119,7 @@
    /**
     * True if this is an e-sign document
     * @function setEsign
-    * @param esign { Boolean } True if this is an e-sign document
+    * @param esign {module:model/agreements/Boolean} True if this is an e-sign document
     * @instance
     */
     _this.setEsign = function(esign) {
@@ -129,7 +129,7 @@
    /**
     * A version ID which uniquely identifies the current version of the agreement
     * @function getLatestVersionId
-    * @return  A version ID which uniquely identifies the current version of the agreement { String }
+    * @return  {module:model/agreements/String} A version ID which uniquely identifies the current version of the agreement  
     * @instance
     */
     _this.getLatestVersionId = function() {
@@ -139,7 +139,7 @@
    /**
     * A version ID which uniquely identifies the current version of the agreement
     * @function setLatestVersionId
-    * @param latestVersionId { String } A version ID which uniquely identifies the current version of the agreement
+    * @param latestVersionId {module:model/agreements/String} A version ID which uniquely identifies the current version of the agreement
     * @instance
     */
     _this.setLatestVersionId = function(latestVersionId) {
@@ -149,7 +149,7 @@
    /**
     * Name of the Agreement
     * @function getName
-    * @return  Name of the Agreement { String }
+    * @return  {module:model/agreements/String} Name of the Agreement  
     * @instance
     */
     _this.getName = function() {
@@ -159,7 +159,7 @@
    /**
     * Name of the Agreement
     * @function setName
-    * @param name { String } Name of the Agreement
+    * @param name {module:model/agreements/String} Name of the Agreement
     * @instance
     */
     _this.setName = function(name) {
@@ -169,7 +169,7 @@
    /**
     * The current status of the document from the perspective of the user
     * @function getStatus
-    * @return  The current status of the document from the perspective of the user { String }
+    * @return  {module:model/agreements/String} The current status of the document from the perspective of the user  
     * @instance
     */
     _this.getStatus = function() {
@@ -179,7 +179,7 @@
    /**
     * The current status of the document from the perspective of the user
     * @function setStatus
-    * @param status { String } The current status of the document from the perspective of the user
+    * @param status {module:model/agreements/String} The current status of the document from the perspective of the user
     * @instance
     */
     _this.setStatus = function(status) {

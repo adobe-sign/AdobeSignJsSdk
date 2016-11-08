@@ -39,7 +39,7 @@
    /**
     * Displays the info about user set
     * @function getDisplayUserSetMemberInfos
-    * @return  Displays the info about user set { Array }
+    * @return  {module:model/agreements/Array} Displays the info about user set  
     * @instance
     */
     _this.getDisplayUserSetMemberInfos = function() {
@@ -49,7 +49,7 @@
    /**
     * Displays the info about user set
     * @function setDisplayUserSetMemberInfos
-    * @param displayUserSetMemberInfos { Array } Displays the info about user set
+    * @param displayUserSetMemberInfos {module:model/agreements/Array} Displays the info about user set
     * @instance
     */
     _this.setDisplayUserSetMemberInfos = function(displayUserSetMemberInfos) {
@@ -59,7 +59,7 @@
    /**
     * The name of the display user set. Returned only, if the API caller is the sender of agreement.
     * @function getDisplayUserSetName
-    * @return  The name of the display user set. Returned only, if the API caller is the sender of agreement. { String }
+    * @return  {module:model/agreements/String} The name of the display user set. Returned only, if the API caller is the sender of agreement.  
     * @instance
     */
     _this.getDisplayUserSetName = function() {
@@ -69,7 +69,7 @@
    /**
     * The name of the display user set. Returned only, if the API caller is the sender of agreement.
     * @function setDisplayUserSetName
-    * @param displayUserSetName { String } The name of the display user set. Returned only, if the API caller is the sender of agreement.
+    * @param displayUserSetName {module:model/agreements/String} The name of the display user set. Returned only, if the API caller is the sender of agreement.
     * @instance
     */
     _this.setDisplayUserSetName = function(displayUserSetName) {

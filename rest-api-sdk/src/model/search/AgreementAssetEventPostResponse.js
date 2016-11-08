@@ -43,7 +43,7 @@
    /**
     * The value of the page cursor corresponding to the current page
     * @function getCurrentPageCursor
-    * @return  The value of the page cursor corresponding to the current page { String }
+    * @return  {module:model/search/String} The value of the page cursor corresponding to the current page  
     * @instance
     */
     _this.getCurrentPageCursor = function() {
@@ -53,7 +53,7 @@
    /**
     * The value of the page cursor corresponding to the current page
     * @function setCurrentPageCursor
-    * @param currentPageCursor { String } The value of the page cursor corresponding to the current page
+    * @param currentPageCursor {module:model/search/String} The value of the page cursor corresponding to the current page
     * @instance
     */
     _this.setCurrentPageCursor = function(currentPageCursor) {
@@ -63,7 +63,7 @@
    /**
     * An ordered list of the events in the audit trail of this document
     * @function getEvents
-    * @return  An ordered list of the events in the audit trail of this document { Array }
+    * @return  {module:model/search/Array} An ordered list of the events in the audit trail of this document  
     * @instance
     */
     _this.getEvents = function() {
@@ -73,7 +73,7 @@
    /**
     * An ordered list of the events in the audit trail of this document
     * @function setEvents
-    * @param events { Array } An ordered list of the events in the audit trail of this document
+    * @param events {module:model/search/Array} An ordered list of the events in the audit trail of this document
     * @instance
     */
     _this.setEvents = function(events) {
@@ -83,7 +83,7 @@
    /**
     * The page cursor of the next page to be fetched. If the next page cursor is blank then the given page is the last page
     * @function getNextPageCursor
-    * @return  The page cursor of the next page to be fetched. If the next page cursor is blank then the given page is the last page { String }
+    * @return  {module:model/search/String} The page cursor of the next page to be fetched. If the next page cursor is blank then the given page is the last page  
     * @instance
     */
     _this.getNextPageCursor = function() {
@@ -93,7 +93,7 @@
    /**
     * The page cursor of the next page to be fetched. If the next page cursor is blank then the given page is the last page
     * @function setNextPageCursor
-    * @param nextPageCursor { String } The page cursor of the next page to be fetched. If the next page cursor is blank then the given page is the last page
+    * @param nextPageCursor {module:model/search/String} The page cursor of the next page to be fetched. If the next page cursor is blank then the given page is the last page
     * @instance
     */
     _this.setNextPageCursor = function(nextPageCursor) {
@@ -103,7 +103,7 @@
    /**
     * The search Id corresponding to current search object. This searchId can be used in combination with pageCursors in the API to retrieve search results to fetch the result for further pages
     * @function getSearchId
-    * @return  The search Id corresponding to current search object. This searchId can be used in combination with pageCursors in the API to retrieve search results to fetch the result for further pages { String }
+    * @return  {module:model/search/String} The search Id corresponding to current search object. This searchId can be used in combination with pageCursors in the API to retrieve search results to fetch the result for further pages  
     * @instance
     */
     _this.getSearchId = function() {
@@ -113,7 +113,7 @@
    /**
     * The search Id corresponding to current search object. This searchId can be used in combination with pageCursors in the API to retrieve search results to fetch the result for further pages
     * @function setSearchId
-    * @param searchId { String } The search Id corresponding to current search object. This searchId can be used in combination with pageCursors in the API to retrieve search results to fetch the result for further pages
+    * @param searchId {module:model/search/String} The search Id corresponding to current search object. This searchId can be used in combination with pageCursors in the API to retrieve search results to fetch the result for further pages
     * @instance
     */
     _this.setSearchId = function(searchId) {

@@ -37,7 +37,7 @@
    /**
     * The list of groups in the account.
     * @function getGroupInfoList
-    * @return  The list of groups in the account. { Array }
+    * @return  {module:model/groups/Array} The list of groups in the account.  
     * @instance
     */
     _this.getGroupInfoList = function() {
@@ -47,7 +47,7 @@
    /**
     * The list of groups in the account.
     * @function setGroupInfoList
-    * @param groupInfoList { Array } The list of groups in the account.
+    * @param groupInfoList {module:model/groups/Array} The list of groups in the account.
     * @instance
     */
     _this.setGroupInfoList = function(groupInfoList) {

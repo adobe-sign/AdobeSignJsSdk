@@ -37,7 +37,7 @@
    /**
     * The info about the members of the participant set
     * @function getParticipantEmailSetInfo
-    * @return  The info about the members of the participant set { Array }
+    * @return  {module:model/reminders/Array} The info about the members of the participant set  
     * @instance
     */
     _this.getParticipantEmailSetInfo = function() {
@@ -47,7 +47,7 @@
    /**
     * The info about the members of the participant set
     * @function setParticipantEmailSetInfo
-    * @param participantEmailSetInfo { Array } The info about the members of the participant set
+    * @param participantEmailSetInfo {module:model/reminders/Array} The info about the members of the participant set
     * @instance
     */
     _this.setParticipantEmailSetInfo = function(participantEmailSetInfo) {

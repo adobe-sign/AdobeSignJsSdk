@@ -43,7 +43,7 @@
    /**
     * A list of one or more files (or references to files) that will be sent out for signature. If more than one file is provided, they will be combined into one PDF before being sent out. Note: Only one of the four parameters in every FileInfo object must be specified
     * @function getFileInfos
-    * @return  A list of one or more files (or references to files) that will be sent out for signature. If more than one file is provided, they will be combined into one PDF before being sent out. Note: Only one of the four parameters in every FileInfo object must be specified { Array }
+    * @return  {module:model/libraryDocuments/Array} A list of one or more files (or references to files) that will be sent out for signature. If more than one file is provided, they will be combined into one PDF before being sent out. Note: Only one of the four parameters in every FileInfo object must be specified  
     * @instance
     */
     _this.getFileInfos = function() {
@@ -53,7 +53,7 @@
    /**
     * A list of one or more files (or references to files) that will be sent out for signature. If more than one file is provided, they will be combined into one PDF before being sent out. Note: Only one of the four parameters in every FileInfo object must be specified
     * @function setFileInfos
-    * @param fileInfos { Array } A list of one or more files (or references to files) that will be sent out for signature. If more than one file is provided, they will be combined into one PDF before being sent out. Note: Only one of the four parameters in every FileInfo object must be specified
+    * @param fileInfos {module:model/libraryDocuments/Array} A list of one or more files (or references to files) that will be sent out for signature. If more than one file is provided, they will be combined into one PDF before being sent out. Note: Only one of the four parameters in every FileInfo object must be specified
     * @instance
     */
     _this.setFileInfos = function(fileInfos) {
@@ -63,7 +63,7 @@
    /**
     * Specifies who should have access to this library document
     * @function getLibrarySharingMode
-    * @return  Specifies who should have access to this library document { String }
+    * @return  {module:model/libraryDocuments/String} Specifies who should have access to this library document  
     * @instance
     */
     _this.getLibrarySharingMode = function() {
@@ -73,7 +73,7 @@
    /**
     * Specifies who should have access to this library document
     * @function setLibrarySharingMode
-    * @param librarySharingMode { String } Specifies who should have access to this library document
+    * @param librarySharingMode {module:model/libraryDocuments/String} Specifies who should have access to this library document
     * @instance
     */
     _this.setLibrarySharingMode = function(librarySharingMode) {
@@ -83,7 +83,7 @@
    /**
     * A list of one or more library template types
     * @function getLibraryTemplateTypes
-    * @return  A list of one or more library template types { Array }
+    * @return  {module:model/libraryDocuments/Array} A list of one or more library template types  
     * @instance
     */
     _this.getLibraryTemplateTypes = function() {
@@ -93,7 +93,7 @@
    /**
     * A list of one or more library template types
     * @function setLibraryTemplateTypes
-    * @param libraryTemplateTypes { Array } A list of one or more library template types
+    * @param libraryTemplateTypes {module:model/libraryDocuments/Array} A list of one or more library template types
     * @instance
     */
     _this.setLibraryTemplateTypes = function(libraryTemplateTypes) {
@@ -103,7 +103,7 @@
    /**
     * The name of the agreement that will be used to identify it, in emails and on the website
     * @function getName
-    * @return  The name of the agreement that will be used to identify it, in emails and on the website { String }
+    * @return  {module:model/libraryDocuments/String} The name of the agreement that will be used to identify it, in emails and on the website  
     * @instance
     */
     _this.getName = function() {
@@ -113,7 +113,7 @@
    /**
     * The name of the agreement that will be used to identify it, in emails and on the website
     * @function setName
-    * @param name { String } The name of the agreement that will be used to identify it, in emails and on the website
+    * @param name {module:model/libraryDocuments/String} The name of the agreement that will be used to identify it, in emails and on the website
     * @instance
     */
     _this.setName = function(name) {

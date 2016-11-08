@@ -39,7 +39,7 @@
    /**
     * Information about the members of the next participant set
     * @function getNextParticipantSetMemberInfos
-    * @return  Information about the members of the next participant set { Array }
+    * @return  {module:model/agreements/Array} Information about the members of the next participant set  
     * @instance
     */
     _this.getNextParticipantSetMemberInfos = function() {
@@ -49,7 +49,7 @@
    /**
     * Information about the members of the next participant set
     * @function setNextParticipantSetMemberInfos
-    * @param nextParticipantSetMemberInfos { Array } Information about the members of the next participant set
+    * @param nextParticipantSetMemberInfos {module:model/agreements/Array} Information about the members of the next participant set
     * @instance
     */
     _this.setNextParticipantSetMemberInfos = function(nextParticipantSetMemberInfos) {
@@ -59,7 +59,7 @@
    /**
     * The name of the next participant set. Returned only, if the API caller is the sender of agreement.
     * @function getNextParticipantSetName
-    * @return  The name of the next participant set. Returned only, if the API caller is the sender of agreement. { String }
+    * @return  {module:model/agreements/String} The name of the next participant set. Returned only, if the API caller is the sender of agreement.  
     * @instance
     */
     _this.getNextParticipantSetName = function() {
@@ -69,7 +69,7 @@
    /**
     * The name of the next participant set. Returned only, if the API caller is the sender of agreement.
     * @function setNextParticipantSetName
-    * @param nextParticipantSetName { String } The name of the next participant set. Returned only, if the API caller is the sender of agreement.
+    * @param nextParticipantSetName {module:model/agreements/String} The name of the next participant set. Returned only, if the API caller is the sender of agreement.
     * @instance
     */
     _this.setNextParticipantSetName = function(nextParticipantSetName) {

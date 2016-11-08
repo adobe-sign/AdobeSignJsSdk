@@ -43,7 +43,7 @@
    /**
     * The secondary password that will be used to protect signing the document for external signers. Note that Adobe Sign will never show this password to anyone, so you will need to separately communicate it to any relevant parties. This password is applied only if password protection is specified for external signers or all signers
     * @function getExternalPassword
-    * @return  The secondary password that will be used to protect signing the document for external signers. Note that Adobe Sign will never show this password to anyone, so you will need to separately communicate it to any relevant parties. This password is applied only if password protection is specified for external signers or all signers { String }
+    * @return  {module:model/workflows/String} The secondary password that will be used to protect signing the document for external signers. Note that Adobe Sign will never show this password to anyone, so you will need to separately communicate it to any relevant parties. This password is applied only if password protection is specified for external signers or all signers  
     * @instance
     */
     _this.getExternalPassword = function() {
@@ -53,7 +53,7 @@
    /**
     * The secondary password that will be used to protect signing the document for external signers. Note that Adobe Sign will never show this password to anyone, so you will need to separately communicate it to any relevant parties. This password is applied only if password protection is specified for external signers or all signers
     * @function setExternalPassword
-    * @param externalPassword { String } The secondary password that will be used to protect signing the document for external signers. Note that Adobe Sign will never show this password to anyone, so you will need to separately communicate it to any relevant parties. This password is applied only if password protection is specified for external signers or all signers
+    * @param externalPassword {module:model/workflows/String} The secondary password that will be used to protect signing the document for external signers. Note that Adobe Sign will never show this password to anyone, so you will need to separately communicate it to any relevant parties. This password is applied only if password protection is specified for external signers or all signers
     * @instance
     */
     _this.setExternalPassword = function(externalPassword) {
@@ -63,7 +63,7 @@
    /**
     * The secondary password that will be used to protect signing the document for internal signers. Note that Adobe Sign will never show this password to anyone, so you will need to separately communicate it to any relevant parties. This password is applied only if password protection is specified for internal signers or all signers
     * @function getInternalPassword
-    * @return  The secondary password that will be used to protect signing the document for internal signers. Note that Adobe Sign will never show this password to anyone, so you will need to separately communicate it to any relevant parties. This password is applied only if password protection is specified for internal signers or all signers { String }
+    * @return  {module:model/workflows/String} The secondary password that will be used to protect signing the document for internal signers. Note that Adobe Sign will never show this password to anyone, so you will need to separately communicate it to any relevant parties. This password is applied only if password protection is specified for internal signers or all signers  
     * @instance
     */
     _this.getInternalPassword = function() {
@@ -73,7 +73,7 @@
    /**
     * The secondary password that will be used to protect signing the document for internal signers. Note that Adobe Sign will never show this password to anyone, so you will need to separately communicate it to any relevant parties. This password is applied only if password protection is specified for internal signers or all signers
     * @function setInternalPassword
-    * @param internalPassword { String } The secondary password that will be used to protect signing the document for internal signers. Note that Adobe Sign will never show this password to anyone, so you will need to separately communicate it to any relevant parties. This password is applied only if password protection is specified for internal signers or all signers
+    * @param internalPassword {module:model/workflows/String} The secondary password that will be used to protect signing the document for internal signers. Note that Adobe Sign will never show this password to anyone, so you will need to separately communicate it to any relevant parties. This password is applied only if password protection is specified for internal signers or all signers
     * @instance
     */
     _this.setInternalPassword = function(internalPassword) {
@@ -83,7 +83,7 @@
    /**
     * The secondary password that will be used to secure the PDF document. Note that Adobe Sign will never show this password to anyone, so you will need to separately communicate it to any relevant parties. This password is used only if protectOpen field is set to true
     * @function getOpenPassword
-    * @return  The secondary password that will be used to secure the PDF document. Note that Adobe Sign will never show this password to anyone, so you will need to separately communicate it to any relevant parties. This password is used only if protectOpen field is set to true { String }
+    * @return  {module:model/workflows/String} The secondary password that will be used to secure the PDF document. Note that Adobe Sign will never show this password to anyone, so you will need to separately communicate it to any relevant parties. This password is used only if protectOpen field is set to true  
     * @instance
     */
     _this.getOpenPassword = function() {
@@ -93,7 +93,7 @@
    /**
     * The secondary password that will be used to secure the PDF document. Note that Adobe Sign will never show this password to anyone, so you will need to separately communicate it to any relevant parties. This password is used only if protectOpen field is set to true
     * @function setOpenPassword
-    * @param openPassword { String } The secondary password that will be used to secure the PDF document. Note that Adobe Sign will never show this password to anyone, so you will need to separately communicate it to any relevant parties. This password is used only if protectOpen field is set to true
+    * @param openPassword {module:model/workflows/String} The secondary password that will be used to secure the PDF document. Note that Adobe Sign will never show this password to anyone, so you will need to separately communicate it to any relevant parties. This password is used only if protectOpen field is set to true
     * @instance
     */
     _this.setOpenPassword = function(openPassword) {
@@ -103,7 +103,7 @@
    /**
     * If set to true, the document is always be encrypted with this password every time it is sent by email. Recipients need to provide the password to be able to view the PDF files
     * @function getProtectOpen
-    * @return  If set to true, the document is always be encrypted with this password every time it is sent by email. Recipients need to provide the password to be able to view the PDF files { Boolean }
+    * @return  {module:model/workflows/Boolean} If set to true, the document is always be encrypted with this password every time it is sent by email. Recipients need to provide the password to be able to view the PDF files  
     * @instance
     */
     _this.getProtectOpen = function() {
@@ -113,7 +113,7 @@
    /**
     * If set to true, the document is always be encrypted with this password every time it is sent by email. Recipients need to provide the password to be able to view the PDF files
     * @function setProtectOpen
-    * @param protectOpen { Boolean } If set to true, the document is always be encrypted with this password every time it is sent by email. Recipients need to provide the password to be able to view the PDF files
+    * @param protectOpen {module:model/workflows/Boolean} If set to true, the document is always be encrypted with this password every time it is sent by email. Recipients need to provide the password to be able to view the PDF files
     * @instance
     */
     _this.setProtectOpen = function(protectOpen) {

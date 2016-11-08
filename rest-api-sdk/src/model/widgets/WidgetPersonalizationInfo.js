@@ -45,7 +45,7 @@
    /**
     * Not used at this time
     * @function getAllowManualVerification
-    * @return  Not used at this time { Boolean }
+    * @return  {module:model/widgets/Boolean} Not used at this time  
     * @instance
     */
     _this.getAllowManualVerification = function() {
@@ -55,7 +55,7 @@
    /**
     * Not used at this time
     * @function setAllowManualVerification
-    * @param allowManualVerification { Boolean } Not used at this time
+    * @param allowManualVerification {module:model/widgets/Boolean} Not used at this time
     * @instance
     */
     _this.setAllowManualVerification = function(allowManualVerification) {
@@ -65,7 +65,7 @@
    /**
     * Comment describing how the API caller established the identity of the signer - will appear in the audit trail.
     * @function getComment
-    * @return  Comment describing how the API caller established the identity of the signer - will appear in the audit trail. { String }
+    * @return  {module:model/widgets/String} Comment describing how the API caller established the identity of the signer - will appear in the audit trail.  
     * @instance
     */
     _this.getComment = function() {
@@ -75,7 +75,7 @@
    /**
     * Comment describing how the API caller established the identity of the signer - will appear in the audit trail.
     * @function setComment
-    * @param comment { String } Comment describing how the API caller established the identity of the signer - will appear in the audit trail.
+    * @param comment {module:model/widgets/String} Comment describing how the API caller established the identity of the signer - will appear in the audit trail.
     * @instance
     */
     _this.setComment = function(comment) {
@@ -85,7 +85,7 @@
    /**
     * The email address of the person who will be receiving this widget
     * @function getEmail
-    * @return  The email address of the person who will be receiving this widget { String }
+    * @return  {module:model/widgets/String} The email address of the person who will be receiving this widget  
     * @instance
     */
     _this.getEmail = function() {
@@ -95,7 +95,7 @@
    /**
     * The email address of the person who will be receiving this widget
     * @function setEmail
-    * @param email { String } The email address of the person who will be receiving this widget
+    * @param email {module:model/widgets/String} The email address of the person who will be receiving this widget
     * @instance
     */
     _this.setEmail = function(email) {
@@ -105,7 +105,7 @@
    /**
     * Expiration date for the personalization of this widget. After this date, the identity of the signer will not be assumed by Adobe Sign.
     * @function getExpiration
-    * @return  Expiration date for the personalization of this widget. After this date, the identity of the signer will not be assumed by Adobe Sign. { Date }
+    * @return  {module:model/widgets/Date} Expiration date for the personalization of this widget. After this date, the identity of the signer will not be assumed by Adobe Sign.  
     * @instance
     */
     _this.getExpiration = function() {
@@ -115,7 +115,7 @@
    /**
     * Expiration date for the personalization of this widget. After this date, the identity of the signer will not be assumed by Adobe Sign.
     * @function setExpiration
-    * @param expiration { Date } Expiration date for the personalization of this widget. After this date, the identity of the signer will not be assumed by Adobe Sign.
+    * @param expiration {module:model/widgets/Date} Expiration date for the personalization of this widget. After this date, the identity of the signer will not be assumed by Adobe Sign.
     * @instance
     */
     _this.setExpiration = function(expiration) {
@@ -125,7 +125,7 @@
    /**
     * Should the intended signer be allowed to sign this widget more than once
     * @function getReusable
-    * @return  Should the intended signer be allowed to sign this widget more than once { Boolean }
+    * @return  {module:model/widgets/Boolean} Should the intended signer be allowed to sign this widget more than once  
     * @instance
     */
     _this.getReusable = function() {
@@ -135,7 +135,7 @@
    /**
     * Should the intended signer be allowed to sign this widget more than once
     * @function setReusable
-    * @param reusable { Boolean } Should the intended signer be allowed to sign this widget more than once
+    * @param reusable {module:model/widgets/Boolean} Should the intended signer be allowed to sign this widget more than once
     * @instance
     */
     _this.setReusable = function(reusable) {

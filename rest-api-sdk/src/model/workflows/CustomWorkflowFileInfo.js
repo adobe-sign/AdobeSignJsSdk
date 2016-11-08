@@ -41,7 +41,7 @@
    /**
     * Name of file info element
     * @function getName
-    * @return  Name of file info element { String }
+    * @return  {module:model/workflows/String} Name of file info element  
     * @instance
     */
     _this.getName = function() {
@@ -51,7 +51,7 @@
    /**
     * Name of file info element
     * @function setName
-    * @param name { String } Name of file info element
+    * @param name {module:model/workflows/String} Name of file info element
     * @instance
     */
     _this.setName = function(name) {
@@ -61,7 +61,7 @@
    /**
     * Transient document identifier obtained from the transient document creation API
     * @function getTransientDocumentId
-    * @return  Transient document identifier obtained from the transient document creation API { String }
+    * @return  {module:model/workflows/String} Transient document identifier obtained from the transient document creation API  
     * @instance
     */
     _this.getTransientDocumentId = function() {
@@ -71,7 +71,7 @@
    /**
     * Transient document identifier obtained from the transient document creation API
     * @function setTransientDocumentId
-    * @param transientDocumentId { String } Transient document identifier obtained from the transient document creation API
+    * @param transientDocumentId {module:model/workflows/String} Transient document identifier obtained from the transient document creation API
     * @instance
     */
     _this.setTransientDocumentId = function(transientDocumentId) {
@@ -81,7 +81,7 @@
    /**
     * An id of the workflow library document that can be provided as an input file in the custom workflow agreement creation request
     * @function getWorkflowLibraryDocumentId
-    * @return  An id of the workflow library document that can be provided as an input file in the custom workflow agreement creation request { String }
+    * @return  {module:model/workflows/String} An id of the workflow library document that can be provided as an input file in the custom workflow agreement creation request  
     * @instance
     */
     _this.getWorkflowLibraryDocumentId = function() {
@@ -91,7 +91,7 @@
    /**
     * An id of the workflow library document that can be provided as an input file in the custom workflow agreement creation request
     * @function setWorkflowLibraryDocumentId
-    * @param workflowLibraryDocumentId { String } An id of the workflow library document that can be provided as an input file in the custom workflow agreement creation request
+    * @param workflowLibraryDocumentId {module:model/workflows/String} An id of the workflow library document that can be provided as an input file in the custom workflow agreement creation request
     * @instance
     */
     _this.setWorkflowLibraryDocumentId = function(workflowLibraryDocumentId) {

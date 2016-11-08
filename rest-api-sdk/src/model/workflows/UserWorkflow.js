@@ -51,7 +51,7 @@
    /**
     * The day on which the workflow was created
     * @function getCreated
-    * @return  The day on which the workflow was created { Date }
+    * @return  {module:model/workflows/Date} The day on which the workflow was created  
     * @instance
     */
     _this.getCreated = function() {
@@ -61,7 +61,7 @@
    /**
     * The day on which the workflow was created
     * @function setCreated
-    * @param created { Date } The day on which the workflow was created
+    * @param created {module:model/workflows/Date} The day on which the workflow was created
     * @instance
     */
     _this.setCreated = function(created) {
@@ -71,7 +71,7 @@
    /**
     * Description provided for this workflow at the time of its creation
     * @function getDescription
-    * @return  Description provided for this workflow at the time of its creation { String }
+    * @return  {module:model/workflows/String} Description provided for this workflow at the time of its creation  
     * @instance
     */
     _this.getDescription = function() {
@@ -81,7 +81,7 @@
    /**
     * Description provided for this workflow at the time of its creation
     * @function setDescription
-    * @param description { String } Description provided for this workflow at the time of its creation
+    * @param description {module:model/workflows/String} Description provided for this workflow at the time of its creation
     * @instance
     */
     _this.setDescription = function(description) {
@@ -91,7 +91,7 @@
    /**
     * The display name of the workflow.
     * @function getDisplayName
-    * @return  The display name of the workflow. { String }
+    * @return  {module:model/workflows/String} The display name of the workflow.  
     * @instance
     */
     _this.getDisplayName = function() {
@@ -101,7 +101,7 @@
    /**
     * The display name of the workflow.
     * @function setDisplayName
-    * @param displayName { String } The display name of the workflow.
+    * @param displayName {module:model/workflows/String} The display name of the workflow.
     * @instance
     */
     _this.setDisplayName = function(displayName) {
@@ -111,7 +111,7 @@
    /**
     * The name of the workflow.
     * @function getName
-    * @return  The name of the workflow. { String }
+    * @return  {module:model/workflows/String} The name of the workflow.  
     * @instance
     */
     _this.getName = function() {
@@ -121,7 +121,7 @@
    /**
     * The name of the workflow.
     * @function setName
-    * @param name { String } The name of the workflow.
+    * @param name {module:model/workflows/String} The name of the workflow.
     * @instance
     */
     _this.setName = function(name) {
@@ -131,7 +131,7 @@
    /**
     * The workflow scope (ACCOUNT or GROUP or OTHER)
     * @function getScope
-    * @return  The workflow scope (ACCOUNT or GROUP or OTHER) { String }
+    * @return  {module:model/workflows/String} The workflow scope (ACCOUNT or GROUP or OTHER)  
     * @instance
     */
     _this.getScope = function() {
@@ -141,7 +141,7 @@
    /**
     * The workflow scope (ACCOUNT or GROUP or OTHER)
     * @function setScope
-    * @param scope { String } The workflow scope (ACCOUNT or GROUP or OTHER)
+    * @param scope {module:model/workflows/String} The workflow scope (ACCOUNT or GROUP or OTHER)
     * @instance
     */
     _this.setScope = function(scope) {
@@ -151,7 +151,7 @@
    /**
     * Identifier of scope. Currently it is applicable for scope GROUP only and the value will be groupId.
     * @function getScopeId
-    * @return  Identifier of scope. Currently it is applicable for scope GROUP only and the value will be groupId. { String }
+    * @return  {module:model/workflows/String} Identifier of scope. Currently it is applicable for scope GROUP only and the value will be groupId.  
     * @instance
     */
     _this.getScopeId = function() {
@@ -161,7 +161,7 @@
    /**
     * Identifier of scope. Currently it is applicable for scope GROUP only and the value will be groupId.
     * @function setScopeId
-    * @param scopeId { String } Identifier of scope. Currently it is applicable for scope GROUP only and the value will be groupId.
+    * @param scopeId {module:model/workflows/String} Identifier of scope. Currently it is applicable for scope GROUP only and the value will be groupId.
     * @instance
     */
     _this.setScopeId = function(scopeId) {
@@ -171,7 +171,7 @@
    /**
     * The workflow status (ACTIVE or DRAFT or OTHER)
     * @function getStatus
-    * @return  The workflow status (ACTIVE or DRAFT or OTHER) { String }
+    * @return  {module:model/workflows/String} The workflow status (ACTIVE or DRAFT or OTHER)  
     * @instance
     */
     _this.getStatus = function() {
@@ -181,7 +181,7 @@
    /**
     * The workflow status (ACTIVE or DRAFT or OTHER)
     * @function setStatus
-    * @param status { String } The workflow status (ACTIVE or DRAFT or OTHER)
+    * @param status {module:model/workflows/String} The workflow status (ACTIVE or DRAFT or OTHER)
     * @instance
     */
     _this.setStatus = function(status) {
@@ -191,7 +191,7 @@
    /**
     * The unique identifier of a workflow
     * @function getWorkflowId
-    * @return  The unique identifier of a workflow { String }
+    * @return  {module:model/workflows/String} The unique identifier of a workflow  
     * @instance
     */
     _this.getWorkflowId = function() {
@@ -201,7 +201,7 @@
    /**
     * The unique identifier of a workflow
     * @function setWorkflowId
-    * @param workflowId { String } The unique identifier of a workflow
+    * @param workflowId {module:model/workflows/String} The unique identifier of a workflow
     * @instance
     */
     _this.setWorkflowId = function(workflowId) {

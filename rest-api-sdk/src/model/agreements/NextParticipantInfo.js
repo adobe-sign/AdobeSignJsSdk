@@ -41,7 +41,7 @@
    /**
     * The email address of the next participant
     * @function getEmail
-    * @return  The email address of the next participant { String }
+    * @return  {module:model/agreements/String} The email address of the next participant  
     * @instance
     */
     _this.getEmail = function() {
@@ -51,7 +51,7 @@
    /**
     * The email address of the next participant
     * @function setEmail
-    * @param email { String } The email address of the next participant
+    * @param email {module:model/agreements/String} The email address of the next participant
     * @instance
     */
     _this.setEmail = function(email) {
@@ -61,7 +61,7 @@
    /**
     * The name of the next participant, if available
     * @function getName
-    * @return  The name of the next participant, if available { String }
+    * @return  {module:model/agreements/String} The name of the next participant, if available  
     * @instance
     */
     _this.getName = function() {
@@ -71,7 +71,7 @@
    /**
     * The name of the next participant, if available
     * @function setName
-    * @param name { String } The name of the next participant, if available
+    * @param name {module:model/agreements/String} The name of the next participant, if available
     * @instance
     */
     _this.setName = function(name) {
@@ -81,7 +81,7 @@
    /**
     * The date since which the document has been waiting for the participant to take action
     * @function getWaitingSince
-    * @return  The date since which the document has been waiting for the participant to take action { Date }
+    * @return  {module:model/agreements/Date} The date since which the document has been waiting for the participant to take action  
     * @instance
     */
     _this.getWaitingSince = function() {
@@ -91,7 +91,7 @@
    /**
     * The date since which the document has been waiting for the participant to take action
     * @function setWaitingSince
-    * @param waitingSince { Date } The date since which the document has been waiting for the participant to take action
+    * @param waitingSince {module:model/agreements/Date} The date since which the document has been waiting for the participant to take action
     * @instance
     */
     _this.setWaitingSince = function(waitingSince) {

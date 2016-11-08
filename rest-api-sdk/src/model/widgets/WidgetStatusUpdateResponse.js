@@ -39,7 +39,7 @@
    /**
     * The result of the attempt to disable or enable the widget
     * @function getCode
-    * @return  The result of the attempt to disable or enable the widget { String }
+    * @return  {module:model/widgets/String} The result of the attempt to disable or enable the widget  
     * @instance
     */
     _this.getCode = function() {
@@ -49,7 +49,7 @@
    /**
     * The result of the attempt to disable or enable the widget
     * @function setCode
-    * @param code { String } The result of the attempt to disable or enable the widget
+    * @param code {module:model/widgets/String} The result of the attempt to disable or enable the widget
     * @instance
     */
     _this.setCode = function(code) {
@@ -59,7 +59,7 @@
    /**
     * String result message if there was no error
     * @function getMessage
-    * @return  String result message if there was no error { String }
+    * @return  {module:model/widgets/String} String result message if there was no error  
     * @instance
     */
     _this.getMessage = function() {
@@ -69,7 +69,7 @@
    /**
     * String result message if there was no error
     * @function setMessage
-    * @param message { String } String result message if there was no error
+    * @param message {module:model/widgets/String} String result message if there was no error
     * @instance
     */
     _this.setMessage = function(message) {
