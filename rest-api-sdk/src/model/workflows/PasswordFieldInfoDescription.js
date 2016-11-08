@@ -45,7 +45,7 @@
    /**
     * Default value of the password info field
     * @function getDefaultValue
-    * @return  Default value of the password info field { String }
+    * @return  {module:model/workflows/String} Default value of the password info field  
     * @instance
     */
     _this.getDefaultValue = function() {
@@ -55,7 +55,7 @@
    /**
     * Default value of the password info field
     * @function setDefaultValue
-    * @param defaultValue { String } Default value of the password info field
+    * @param defaultValue {module:model/workflows/String} Default value of the password info field
     * @instance
     */
     _this.setDefaultValue = function(defaultValue) {
@@ -65,7 +65,7 @@
    /**
     * Label of password field
     * @function getLabel
-    * @return  Label of password field { String }
+    * @return  {module:model/workflows/String} Label of password field  
     * @instance
     */
     _this.getLabel = function() {
@@ -75,7 +75,7 @@
    /**
     * Label of password field
     * @function setLabel
-    * @param label { String } Label of password field
+    * @param label {module:model/workflows/String} Label of password field
     * @instance
     */
     _this.setLabel = function(label) {
@@ -85,7 +85,7 @@
    /**
     * Name of password field
     * @function getName
-    * @return  Name of password field { String }
+    * @return  {module:model/workflows/String} Name of password field  
     * @instance
     */
     _this.getName = function() {
@@ -95,7 +95,7 @@
    /**
     * Name of password field
     * @function setName
-    * @param name { String } Name of password field
+    * @param name {module:model/workflows/String} Name of password field
     * @instance
     */
     _this.setName = function(name) {
@@ -105,7 +105,7 @@
    /**
     * Whether this field is required or optional
     * @function getRequired
-    * @return  Whether this field is required or optional { Boolean }
+    * @return  {module:model/workflows/Boolean} Whether this field is required or optional  
     * @instance
     */
     _this.getRequired = function() {
@@ -115,7 +115,7 @@
    /**
     * Whether this field is required or optional
     * @function setRequired
-    * @param required { Boolean } Whether this field is required or optional
+    * @param required {module:model/workflows/Boolean} Whether this field is required or optional
     * @instance
     */
     _this.setRequired = function(required) {
@@ -125,7 +125,7 @@
    /**
     * Whether password info field is visible on agreement creation page
     * @function getVisible
-    * @return  Whether password info field is visible on agreement creation page { Boolean }
+    * @return  {module:model/workflows/Boolean} Whether password info field is visible on agreement creation page  
     * @instance
     */
     _this.getVisible = function() {
@@ -135,7 +135,7 @@
    /**
     * Whether password info field is visible on agreement creation page
     * @function setVisible
-    * @param visible { Boolean } Whether password info field is visible on agreement creation page
+    * @param visible {module:model/workflows/Boolean} Whether password info field is visible on agreement creation page
     * @instance
     */
     _this.setVisible = function(visible) {

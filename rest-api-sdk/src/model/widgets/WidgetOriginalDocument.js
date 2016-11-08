@@ -43,7 +43,7 @@
    /**
     * Id of the document
     * @function getDocumentId
-    * @return  Id of the document { String }
+    * @return  {module:model/widgets/String} Id of the document  
     * @instance
     */
     _this.getDocumentId = function() {
@@ -53,7 +53,7 @@
    /**
     * Id of the document
     * @function setDocumentId
-    * @param documentId { String } Id of the document
+    * @param documentId {module:model/widgets/String} Id of the document
     * @instance
     */
     _this.setDocumentId = function(documentId) {
@@ -63,7 +63,7 @@
    /**
     * Mime-type of the document
     * @function getMimeType
-    * @return  Mime-type of the document { String }
+    * @return  {module:model/widgets/String} Mime-type of the document  
     * @instance
     */
     _this.getMimeType = function() {
@@ -73,7 +73,7 @@
    /**
     * Mime-type of the document
     * @function setMimeType
-    * @param mimeType { String } Mime-type of the document
+    * @param mimeType {module:model/widgets/String} Mime-type of the document
     * @instance
     */
     _this.setMimeType = function(mimeType) {
@@ -83,7 +83,7 @@
    /**
     * Name of the document
     * @function getName
-    * @return  Name of the document { String }
+    * @return  {module:model/widgets/String} Name of the document  
     * @instance
     */
     _this.getName = function() {
@@ -93,7 +93,7 @@
    /**
     * Name of the document
     * @function setName
-    * @param name { String } Name of the document
+    * @param name {module:model/widgets/String} Name of the document
     * @instance
     */
     _this.setName = function(name) {
@@ -103,7 +103,7 @@
    /**
     * Number of pages in the document
     * @function getNumPages
-    * @return  Number of pages in the document { Integer }
+    * @return  {module:model/widgets/Integer} Number of pages in the document  
     * @instance
     */
     _this.getNumPages = function() {
@@ -113,7 +113,7 @@
    /**
     * Number of pages in the document
     * @function setNumPages
-    * @param numPages { Integer } Number of pages in the document
+    * @param numPages {module:model/widgets/Integer} Number of pages in the document
     * @instance
     */
     _this.setNumPages = function(numPages) {

@@ -39,7 +39,7 @@
    /**
     * The delay (in seconds) before the user is taken to the success page. If this value is greater than 0, the user will first see the standard Adobe Sign success message, and then after a delay will be redirected to your success page.
     * @function getRedirectDelay
-    * @return  The delay (in seconds) before the user is taken to the success page. If this value is greater than 0, the user will first see the standard Adobe Sign success message, and then after a delay will be redirected to your success page. { Integer }
+    * @return  {module:model/agreements/Integer} The delay (in seconds) before the user is taken to the success page. If this value is greater than 0, the user will first see the standard Adobe Sign success message, and then after a delay will be redirected to your success page.  
     * @instance
     */
     _this.getRedirectDelay = function() {
@@ -49,7 +49,7 @@
    /**
     * The delay (in seconds) before the user is taken to the success page. If this value is greater than 0, the user will first see the standard Adobe Sign success message, and then after a delay will be redirected to your success page.
     * @function setRedirectDelay
-    * @param redirectDelay { Integer } The delay (in seconds) before the user is taken to the success page. If this value is greater than 0, the user will first see the standard Adobe Sign success message, and then after a delay will be redirected to your success page.
+    * @param redirectDelay {module:model/agreements/Integer} The delay (in seconds) before the user is taken to the success page. If this value is greater than 0, the user will first see the standard Adobe Sign success message, and then after a delay will be redirected to your success page.
     * @instance
     */
     _this.setRedirectDelay = function(redirectDelay) {
@@ -59,7 +59,7 @@
    /**
     * A publicly accessible url to which the user will be sent after successfully completing the signing process.
     * @function getRedirectUrl
-    * @return  A publicly accessible url to which the user will be sent after successfully completing the signing process. { String }
+    * @return  {module:model/agreements/String} A publicly accessible url to which the user will be sent after successfully completing the signing process.  
     * @instance
     */
     _this.getRedirectUrl = function() {
@@ -69,7 +69,7 @@
    /**
     * A publicly accessible url to which the user will be sent after successfully completing the signing process.
     * @function setRedirectUrl
-    * @param redirectUrl { String } A publicly accessible url to which the user will be sent after successfully completing the signing process.
+    * @param redirectUrl {module:model/agreements/String} A publicly accessible url to which the user will be sent after successfully completing the signing process.
     * @instance
     */
     _this.setRedirectUrl = function(redirectUrl) {

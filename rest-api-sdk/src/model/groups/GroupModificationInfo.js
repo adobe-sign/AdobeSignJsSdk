@@ -37,7 +37,7 @@
    /**
     * Name of the group
     * @function getGroupName
-    * @return  Name of the group { String }
+    * @return  {module:model/groups/String} Name of the group  
     * @instance
     */
     _this.getGroupName = function() {
@@ -47,7 +47,7 @@
    /**
     * Name of the group
     * @function setGroupName
-    * @param groupName { String } Name of the group
+    * @param groupName {module:model/groups/String} Name of the group
     * @instance
     */
     _this.setGroupName = function(groupName) {

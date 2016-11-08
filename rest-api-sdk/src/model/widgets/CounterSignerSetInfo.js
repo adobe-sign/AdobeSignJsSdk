@@ -39,7 +39,7 @@
    /**
     * Information about the members of the counter signer set, currently we support only one member
     * @function getCounterSignerSetMemberInfos
-    * @return  Information about the members of the counter signer set, currently we support only one member { Array }
+    * @return  {module:model/widgets/Array} Information about the members of the counter signer set, currently we support only one member  
     * @instance
     */
     _this.getCounterSignerSetMemberInfos = function() {
@@ -49,7 +49,7 @@
    /**
     * Information about the members of the counter signer set, currently we support only one member
     * @function setCounterSignerSetMemberInfos
-    * @param counterSignerSetMemberInfos { Array } Information about the members of the counter signer set, currently we support only one member
+    * @param counterSignerSetMemberInfos {module:model/widgets/Array} Information about the members of the counter signer set, currently we support only one member
     * @instance
     */
     _this.setCounterSignerSetMemberInfos = function(counterSignerSetMemberInfos) {
@@ -59,7 +59,7 @@
    /**
     * Specify the role of counter signer set
     * @function getCounterSignerSetRole
-    * @return  Specify the role of counter signer set { String }
+    * @return  {module:model/widgets/String} Specify the role of counter signer set  
     * @instance
     */
     _this.getCounterSignerSetRole = function() {
@@ -69,7 +69,7 @@
    /**
     * Specify the role of counter signer set
     * @function setCounterSignerSetRole
-    * @param counterSignerSetRole { String } Specify the role of counter signer set
+    * @param counterSignerSetRole {module:model/widgets/String} Specify the role of counter signer set
     * @instance
     */
     _this.setCounterSignerSetRole = function(counterSignerSetRole) {

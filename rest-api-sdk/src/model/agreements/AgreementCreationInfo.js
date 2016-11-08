@@ -39,7 +39,7 @@
    /**
     * Information about the document you want to send
     * @function getDocumentCreationInfo
-    * @return  Information about the document you want to send { DocumentCreationInfo }
+    * @return  {module:model/agreements/DocumentCreationInfo} Information about the document you want to send  
     * @instance
     */
     _this.getDocumentCreationInfo = function() {
@@ -49,7 +49,7 @@
    /**
     * Information about the document you want to send
     * @function setDocumentCreationInfo
-    * @param documentCreationInfo { DocumentCreationInfo } Information about the document you want to send
+    * @param documentCreationInfo {module:model/agreements/DocumentCreationInfo} Information about the document you want to send
     * @instance
     */
     _this.setDocumentCreationInfo = function(documentCreationInfo) {
@@ -59,7 +59,7 @@
    /**
     * Options for authoring and sending the agreement
     * @function getOptions
-    * @return  Options for authoring and sending the agreement { InteractiveOptions }
+    * @return  {module:model/agreements/InteractiveOptions} Options for authoring and sending the agreement  
     * @instance
     */
     _this.getOptions = function() {
@@ -69,7 +69,7 @@
    /**
     * Options for authoring and sending the agreement
     * @function setOptions
-    * @param options { InteractiveOptions } Options for authoring and sending the agreement
+    * @param options {module:model/agreements/InteractiveOptions} Options for authoring and sending the agreement
     * @instance
     */
     _this.setOptions = function(options) {

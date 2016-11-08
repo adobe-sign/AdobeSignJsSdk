@@ -37,7 +37,7 @@
    /**
     * The output URL of the selected view.
     * @function getViewURL
-    * @return  The output URL of the selected view. { String }
+    * @return  {module:model/views/String} The output URL of the selected view.  
     * @instance
     */
     _this.getViewURL = function() {
@@ -47,7 +47,7 @@
    /**
     * The output URL of the selected view.
     * @function setViewURL
-    * @param viewURL { String } The output URL of the selected view.
+    * @param viewURL {module:model/views/String} The output URL of the selected view.
     * @instance
     */
     _this.setViewURL = function(viewURL) {

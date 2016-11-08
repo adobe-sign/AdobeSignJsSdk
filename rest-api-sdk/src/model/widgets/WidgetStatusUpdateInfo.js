@@ -41,7 +41,7 @@
    /**
     * Display this custom message to the user when the widget is accessed. Note that this can contain wiki markup to include clickable links in the message. This is required if redirectUrl is not provided. Both message and redirectUrl can not be specified.
     * @function getMessage
-    * @return  Display this custom message to the user when the widget is accessed. Note that this can contain wiki markup to include clickable links in the message. This is required if redirectUrl is not provided. Both message and redirectUrl can not be specified. { String }
+    * @return  {module:model/widgets/String} Display this custom message to the user when the widget is accessed. Note that this can contain wiki markup to include clickable links in the message. This is required if redirectUrl is not provided. Both message and redirectUrl can not be specified.  
     * @instance
     */
     _this.getMessage = function() {
@@ -51,7 +51,7 @@
    /**
     * Display this custom message to the user when the widget is accessed. Note that this can contain wiki markup to include clickable links in the message. This is required if redirectUrl is not provided. Both message and redirectUrl can not be specified.
     * @function setMessage
-    * @param message { String } Display this custom message to the user when the widget is accessed. Note that this can contain wiki markup to include clickable links in the message. This is required if redirectUrl is not provided. Both message and redirectUrl can not be specified.
+    * @param message {module:model/widgets/String} Display this custom message to the user when the widget is accessed. Note that this can contain wiki markup to include clickable links in the message. This is required if redirectUrl is not provided. Both message and redirectUrl can not be specified.
     * @instance
     */
     _this.setMessage = function(message) {
@@ -61,7 +61,7 @@
    /**
     * Redirect the user to this URL when the widget is accessed. This is required if message is not provided. Both message and redirectUrl can not be specified.
     * @function getRedirectUrl
-    * @return  Redirect the user to this URL when the widget is accessed. This is required if message is not provided. Both message and redirectUrl can not be specified. { String }
+    * @return  {module:model/widgets/String} Redirect the user to this URL when the widget is accessed. This is required if message is not provided. Both message and redirectUrl can not be specified.  
     * @instance
     */
     _this.getRedirectUrl = function() {
@@ -71,7 +71,7 @@
    /**
     * Redirect the user to this URL when the widget is accessed. This is required if message is not provided. Both message and redirectUrl can not be specified.
     * @function setRedirectUrl
-    * @param redirectUrl { String } Redirect the user to this URL when the widget is accessed. This is required if message is not provided. Both message and redirectUrl can not be specified.
+    * @param redirectUrl {module:model/widgets/String} Redirect the user to this URL when the widget is accessed. This is required if message is not provided. Both message and redirectUrl can not be specified.
     * @instance
     */
     _this.setRedirectUrl = function(redirectUrl) {
@@ -81,7 +81,7 @@
    /**
     * The status to which the widget is to be updated. The possible values for this variable are ENABLE and DISABLE
     * @function getValue
-    * @return  The status to which the widget is to be updated. The possible values for this variable are ENABLE and DISABLE { String }
+    * @return  {module:model/widgets/String} The status to which the widget is to be updated. The possible values for this variable are ENABLE and DISABLE  
     * @instance
     */
     _this.getValue = function() {
@@ -91,7 +91,7 @@
    /**
     * The status to which the widget is to be updated. The possible values for this variable are ENABLE and DISABLE
     * @function setValue
-    * @param value { String } The status to which the widget is to be updated. The possible values for this variable are ENABLE and DISABLE
+    * @param value {module:model/widgets/String} The status to which the widget is to be updated. The possible values for this variable are ENABLE and DISABLE
     * @instance
     */
     _this.setValue = function(value) {

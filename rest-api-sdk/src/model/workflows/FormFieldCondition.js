@@ -41,7 +41,7 @@
    /**
     * Value to compare the value of the whenField with, to evaluate the condition
     * @function getValue
-    * @return  Value to compare the value of the whenField with, to evaluate the condition { String }
+    * @return  {module:model/workflows/String} Value to compare the value of the whenField with, to evaluate the condition  
     * @instance
     */
     _this.getValue = function() {
@@ -51,7 +51,7 @@
    /**
     * Value to compare the value of the whenField with, to evaluate the condition
     * @function setValue
-    * @param value { String } Value to compare the value of the whenField with, to evaluate the condition
+    * @param value {module:model/workflows/String} Value to compare the value of the whenField with, to evaluate the condition
     * @instance
     */
     _this.setValue = function(value) {
@@ -61,7 +61,7 @@
    /**
     * Index of the location of the whenField whose value is the basis of the condition
     * @function getWhenFieldLocationIndex
-    * @return  Index of the location of the whenField whose value is the basis of the condition { Integer }
+    * @return  {module:model/workflows/Integer} Index of the location of the whenField whose value is the basis of the condition  
     * @instance
     */
     _this.getWhenFieldLocationIndex = function() {
@@ -71,7 +71,7 @@
    /**
     * Index of the location of the whenField whose value is the basis of the condition
     * @function setWhenFieldLocationIndex
-    * @param whenFieldLocationIndex { Integer } Index of the location of the whenField whose value is the basis of the condition
+    * @param whenFieldLocationIndex {module:model/workflows/Integer} Index of the location of the whenField whose value is the basis of the condition
     * @instance
     */
     _this.setWhenFieldLocationIndex = function(whenFieldLocationIndex) {
@@ -81,7 +81,7 @@
    /**
     * Name of the field whose value is the basis of condition
     * @function getWhenFieldName
-    * @return  Name of the field whose value is the basis of condition { String }
+    * @return  {module:model/workflows/String} Name of the field whose value is the basis of condition  
     * @instance
     */
     _this.getWhenFieldName = function() {
@@ -91,7 +91,7 @@
    /**
     * Name of the field whose value is the basis of condition
     * @function setWhenFieldName
-    * @param whenFieldName { String } Name of the field whose value is the basis of condition
+    * @param whenFieldName {module:model/workflows/String} Name of the field whose value is the basis of condition
     * @instance
     */
     _this.setWhenFieldName = function(whenFieldName) {

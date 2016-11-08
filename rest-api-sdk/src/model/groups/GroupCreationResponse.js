@@ -37,7 +37,7 @@
    /**
     * Unique identifier of the group created.
     * @function getGroupId
-    * @return  Unique identifier of the group created. { String }
+    * @return  {module:model/groups/String} Unique identifier of the group created.  
     * @instance
     */
     _this.getGroupId = function() {
@@ -47,7 +47,7 @@
    /**
     * Unique identifier of the group created.
     * @function setGroupId
-    * @param groupId { String } Unique identifier of the group created.
+    * @param groupId {module:model/groups/String} Unique identifier of the group created.
     * @instance
     */
     _this.setGroupId = function(groupId) {

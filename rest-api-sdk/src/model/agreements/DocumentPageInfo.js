@@ -43,7 +43,7 @@
    /**
     * Height of the page
     * @function getHeight
-    * @return  Height of the page { Number }
+    * @return  {module:model/agreements/Number} Height of the page  
     * @instance
     */
     _this.getHeight = function() {
@@ -53,7 +53,7 @@
    /**
     * Height of the page
     * @function setHeight
-    * @param height { Number } Height of the page
+    * @param height {module:model/agreements/Number} Height of the page
     * @instance
     */
     _this.setHeight = function(height) {
@@ -63,7 +63,7 @@
    /**
     * Number of the page in combined document starting from 1.
     * @function getPageNumber
-    * @return  Number of the page in combined document starting from 1. { Integer }
+    * @return  {module:model/agreements/Integer} Number of the page in combined document starting from 1.  
     * @instance
     */
     _this.getPageNumber = function() {
@@ -73,7 +73,7 @@
    /**
     * Number of the page in combined document starting from 1.
     * @function setPageNumber
-    * @param pageNumber { Integer } Number of the page in combined document starting from 1.
+    * @param pageNumber {module:model/agreements/Integer} Number of the page in combined document starting from 1.
     * @instance
     */
     _this.setPageNumber = function(pageNumber) {
@@ -83,7 +83,7 @@
    /**
     * Rotation angle of the page in clockwise direction in degree.
     * @function getRotation
-    * @return  Rotation angle of the page in clockwise direction in degree. { Number }
+    * @return  {module:model/agreements/Number} Rotation angle of the page in clockwise direction in degree.  
     * @instance
     */
     _this.getRotation = function() {
@@ -93,7 +93,7 @@
    /**
     * Rotation angle of the page in clockwise direction in degree.
     * @function setRotation
-    * @param rotation { Number } Rotation angle of the page in clockwise direction in degree.
+    * @param rotation {module:model/agreements/Number} Rotation angle of the page in clockwise direction in degree.
     * @instance
     */
     _this.setRotation = function(rotation) {
@@ -103,7 +103,7 @@
    /**
     * Width of the page
     * @function getWidth
-    * @return  Width of the page { Number }
+    * @return  {module:model/agreements/Number} Width of the page  
     * @instance
     */
     _this.getWidth = function() {
@@ -113,7 +113,7 @@
    /**
     * Width of the page
     * @function setWidth
-    * @param width { Number } Width of the page
+    * @param width {module:model/agreements/Number} Width of the page
     * @instance
     */
     _this.setWidth = function(width) {

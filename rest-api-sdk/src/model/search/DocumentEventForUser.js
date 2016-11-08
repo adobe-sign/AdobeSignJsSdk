@@ -43,7 +43,7 @@
    /**
     * The ID of the agreement asset.
     * @function getAgreementAssetId
-    * @return  The ID of the agreement asset. { String }
+    * @return  {module:model/search/String} The ID of the agreement asset.  
     * @instance
     */
     _this.getAgreementAssetId = function() {
@@ -53,7 +53,7 @@
    /**
     * The ID of the agreement asset.
     * @function setAgreementAssetId
-    * @param agreementAssetId { String } The ID of the agreement asset.
+    * @param agreementAssetId {module:model/search/String} The ID of the agreement asset.
     * @instance
     */
     _this.setAgreementAssetId = function(agreementAssetId) {
@@ -63,7 +63,7 @@
    /**
     * The name of the agreement asset
     * @function getAgreementAssetName
-    * @return  The name of the agreement asset { String }
+    * @return  {module:model/search/String} The name of the agreement asset  
     * @instance
     */
     _this.getAgreementAssetName = function() {
@@ -73,7 +73,7 @@
    /**
     * The name of the agreement asset
     * @function setAgreementAssetName
-    * @param agreementAssetName { String } The name of the agreement asset
+    * @param agreementAssetName {module:model/search/String} The name of the agreement asset
     * @instance
     */
     _this.setAgreementAssetName = function(agreementAssetName) {
@@ -83,7 +83,7 @@
    /**
     * The type of the agreement asset
     * @function getAgreementAssetType
-    * @return  The type of the agreement asset { String }
+    * @return  {module:model/search/String} The type of the agreement asset  
     * @instance
     */
     _this.getAgreementAssetType = function() {
@@ -93,7 +93,7 @@
    /**
     * The type of the agreement asset
     * @function setAgreementAssetType
-    * @param agreementAssetType { String } The type of the agreement asset
+    * @param agreementAssetType {module:model/search/String} The type of the agreement asset
     * @instance
     */
     _this.setAgreementAssetType = function(agreementAssetType) {
@@ -103,7 +103,7 @@
    /**
     * An ordered list of the events in the audit trail of this document
     * @function getDocumentHistoryEvent
-    * @return  An ordered list of the events in the audit trail of this document { DocumentHistoryEvent }
+    * @return  {module:model/search/DocumentHistoryEvent} An ordered list of the events in the audit trail of this document  
     * @instance
     */
     _this.getDocumentHistoryEvent = function() {
@@ -113,7 +113,7 @@
    /**
     * An ordered list of the events in the audit trail of this document
     * @function setDocumentHistoryEvent
-    * @param documentHistoryEvent { DocumentHistoryEvent } An ordered list of the events in the audit trail of this document
+    * @param documentHistoryEvent {module:model/search/DocumentHistoryEvent} An ordered list of the events in the audit trail of this document
     * @instance
     */
     _this.setDocumentHistoryEvent = function(documentHistoryEvent) {

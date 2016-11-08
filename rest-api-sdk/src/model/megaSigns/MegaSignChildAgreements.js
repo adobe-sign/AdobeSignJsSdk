@@ -37,7 +37,7 @@
    /**
     * A array of MegaSign child agreements
     * @function getMegaSignChildAgreementList
-    * @return  A array of MegaSign child agreements { Array }
+    * @return  {module:model/megaSigns/Array} A array of MegaSign child agreements  
     * @instance
     */
     _this.getMegaSignChildAgreementList = function() {
@@ -47,7 +47,7 @@
    /**
     * A array of MegaSign child agreements
     * @function setMegaSignChildAgreementList
-    * @param megaSignChildAgreementList { Array } A array of MegaSign child agreements
+    * @param megaSignChildAgreementList {module:model/megaSigns/Array} A array of MegaSign child agreements
     * @instance
     */
     _this.setMegaSignChildAgreementList = function(megaSignChildAgreementList) {

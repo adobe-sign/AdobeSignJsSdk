@@ -47,7 +47,7 @@
    /**
     * Indicates that authoring is requested prior to sending the document
     * @function getAuthoringRequested
-    * @return  Indicates that authoring is requested prior to sending the document { Boolean }
+    * @return  {module:model/agreements/Boolean} Indicates that authoring is requested prior to sending the document  
     * @instance
     */
     _this.getAuthoringRequested = function() {
@@ -57,7 +57,7 @@
    /**
     * Indicates that authoring is requested prior to sending the document
     * @function setAuthoringRequested
-    * @param authoringRequested { Boolean } Indicates that authoring is requested prior to sending the document
+    * @param authoringRequested {module:model/agreements/Boolean} Indicates that authoring is requested prior to sending the document
     * @instance
     */
     _this.setAuthoringRequested = function(authoringRequested) {
@@ -67,7 +67,7 @@
    /**
     * If user settings allow, automatically logs the user in
     * @function getAutoLoginUser
-    * @return  If user settings allow, automatically logs the user in { Boolean }
+    * @return  {module:model/agreements/Boolean} If user settings allow, automatically logs the user in  
     * @instance
     */
     _this.getAutoLoginUser = function() {
@@ -77,7 +77,7 @@
    /**
     * If user settings allow, automatically logs the user in
     * @function setAutoLoginUser
-    * @param autoLoginUser { Boolean } If user settings allow, automatically logs the user in
+    * @param autoLoginUser {module:model/agreements/Boolean} If user settings allow, automatically logs the user in
     * @instance
     */
     _this.setAutoLoginUser = function(autoLoginUser) {
@@ -87,7 +87,7 @@
    /**
     * The locale in which page returned by this API should be shown in - for example, en_US or fr_FR. In case locale provided by client is not available or no locale is specified, page will be shown in the default language set in the user account
     * @function getLocale
-    * @return  The locale in which page returned by this API should be shown in - for example, en_US or fr_FR. In case locale provided by client is not available or no locale is specified, page will be shown in the default language set in the user account { String }
+    * @return  {module:model/agreements/String} The locale in which page returned by this API should be shown in - for example, en_US or fr_FR. In case locale provided by client is not available or no locale is specified, page will be shown in the default language set in the user account  
     * @instance
     */
     _this.getLocale = function() {
@@ -97,7 +97,7 @@
    /**
     * The locale in which page returned by this API should be shown in - for example, en_US or fr_FR. In case locale provided by client is not available or no locale is specified, page will be shown in the default language set in the user account
     * @function setLocale
-    * @param locale { String } The locale in which page returned by this API should be shown in - for example, en_US or fr_FR. In case locale provided by client is not available or no locale is specified, page will be shown in the default language set in the user account
+    * @param locale {module:model/agreements/String} The locale in which page returned by this API should be shown in - for example, en_US or fr_FR. In case locale provided by client is not available or no locale is specified, page will be shown in the default language set in the user account
     * @instance
     */
     _this.setLocale = function(locale) {
@@ -107,7 +107,7 @@
    /**
     * Turn off Chrome for the URL generated
     * @function getNoChrome
-    * @return  Turn off Chrome for the URL generated { Boolean }
+    * @return  {module:model/agreements/Boolean} Turn off Chrome for the URL generated  
     * @instance
     */
     _this.getNoChrome = function() {
@@ -117,7 +117,7 @@
    /**
     * Turn off Chrome for the URL generated
     * @function setNoChrome
-    * @param noChrome { Boolean } Turn off Chrome for the URL generated
+    * @param noChrome {module:model/agreements/Boolean} Turn off Chrome for the URL generated
     * @instance
     */
     _this.setNoChrome = function(noChrome) {
@@ -127,7 +127,7 @@
    /**
     * A url to send page will be returned from where the agreement creation needs to be completed. All the parameters provided here will be retained in the send page
     * @function getSendThroughWeb
-    * @return  A url to send page will be returned from where the agreement creation needs to be completed. All the parameters provided here will be retained in the send page { Boolean }
+    * @return  {module:model/agreements/Boolean} A url to send page will be returned from where the agreement creation needs to be completed. All the parameters provided here will be retained in the send page  
     * @instance
     */
     _this.getSendThroughWeb = function() {
@@ -137,7 +137,7 @@
    /**
     * A url to send page will be returned from where the agreement creation needs to be completed. All the parameters provided here will be retained in the send page
     * @function setSendThroughWeb
-    * @param sendThroughWeb { Boolean } A url to send page will be returned from where the agreement creation needs to be completed. All the parameters provided here will be retained in the send page
+    * @param sendThroughWeb {module:model/agreements/Boolean} A url to send page will be returned from where the agreement creation needs to be completed. All the parameters provided here will be retained in the send page
     * @instance
     */
     _this.setSendThroughWeb = function(sendThroughWeb) {
@@ -147,7 +147,7 @@
    /**
     * A JSON object of Type SendThroughWebOptions to customize the sendPage. This one will apply only if sendThroughWeb is set to true
     * @function getSendThroughWebOptions
-    * @return  A JSON object of Type SendThroughWebOptions to customize the sendPage. This one will apply only if sendThroughWeb is set to true { SendThroughWebOptions }
+    * @return  {module:model/agreements/SendThroughWebOptions} A JSON object of Type SendThroughWebOptions to customize the sendPage. This one will apply only if sendThroughWeb is set to true  
     * @instance
     */
     _this.getSendThroughWebOptions = function() {
@@ -157,7 +157,7 @@
    /**
     * A JSON object of Type SendThroughWebOptions to customize the sendPage. This one will apply only if sendThroughWeb is set to true
     * @function setSendThroughWebOptions
-    * @param sendThroughWebOptions { SendThroughWebOptions } A JSON object of Type SendThroughWebOptions to customize the sendPage. This one will apply only if sendThroughWeb is set to true
+    * @param sendThroughWebOptions {module:model/agreements/SendThroughWebOptions} A JSON object of Type SendThroughWebOptions to customize the sendPage. This one will apply only if sendThroughWeb is set to true
     * @instance
     */
     _this.setSendThroughWebOptions = function(sendThroughWebOptions) {

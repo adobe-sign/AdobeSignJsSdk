@@ -12,9 +12,9 @@
  */
 (function(factory) {
     // CommonJS-like environments that support module.exports, like Node.
-    module.exports = factory(require('./SdkErrorCodes'), require('./ApiValidatorHelper'), require('../ApiError'), require('../../../test/utils/TestData'));
+    module.exports = factory(require('./SdkErrorCodes'), require('./ApiValidatorHelper'), require('../ApiError'));
   
-}(function(SdkErrorCodes, ApiValidatorHelper, ApiError, TestData) {
+}(function(SdkErrorCodes, ApiValidatorHelper, ApiError) {
   'use strict';
 
   /**
@@ -244,7 +244,7 @@
         throw new ApiError(SdkErrorCodes.INVALID_FILE_INFO);
 
       var documentUrl = fileInfos[i].getDocumentURL();
-      var url = documentUrl ? documentUrl.getUrl() : TestData.NULL_PARAM;
+      var url = documentUrl ? documentUrl.getUrl() : null;
 
       ApiValidatorHelper.validateFileInfo(fileInfo.getDocumentURL(),
                                           fileInfo.getLibraryDocumentId(),

@@ -51,7 +51,7 @@
    /**
     * The unique identifier of the participant set
     * @function getParticipantSetId
-    * @return  The unique identifier of the participant set { String }
+    * @return  {module:model/agreements/String} The unique identifier of the participant set  
     * @instance
     */
     _this.getParticipantSetId = function() {
@@ -61,7 +61,7 @@
    /**
     * The unique identifier of the participant set
     * @function setParticipantSetId
-    * @param participantSetId { String } The unique identifier of the participant set
+    * @param participantSetId {module:model/agreements/String} The unique identifier of the participant set
     * @instance
     */
     _this.setParticipantSetId = function(participantSetId) {
@@ -71,7 +71,7 @@
    /**
     * Information about the members of the recipient set
     * @function getParticipantSetMemberInfos
-    * @return  Information about the members of the recipient set { Array }
+    * @return  {module:model/agreements/Array} Information about the members of the recipient set  
     * @instance
     */
     _this.getParticipantSetMemberInfos = function() {
@@ -81,7 +81,7 @@
    /**
     * Information about the members of the recipient set
     * @function setParticipantSetMemberInfos
-    * @param participantSetMemberInfos { Array } Information about the members of the recipient set
+    * @param participantSetMemberInfos {module:model/agreements/Array} Information about the members of the recipient set
     * @instance
     */
     _this.setParticipantSetMemberInfos = function(participantSetMemberInfos) {
@@ -91,7 +91,7 @@
    /**
     * The name of the participant set. Returned only, if the API caller is the sender of agreement
     * @function getParticipantSetName
-    * @return  The name of the participant set. Returned only, if the API caller is the sender of agreement { String }
+    * @return  {module:model/agreements/String} The name of the participant set. Returned only, if the API caller is the sender of agreement  
     * @instance
     */
     _this.getParticipantSetName = function() {
@@ -101,7 +101,7 @@
    /**
     * The name of the participant set. Returned only, if the API caller is the sender of agreement
     * @function setParticipantSetName
-    * @param participantSetName { String } The name of the participant set. Returned only, if the API caller is the sender of agreement
+    * @param participantSetName {module:model/agreements/String} The name of the participant set. Returned only, if the API caller is the sender of agreement
     * @instance
     */
     _this.setParticipantSetName = function(participantSetName) {
@@ -111,7 +111,7 @@
    /**
     * Private message for the participants in the set
     * @function getPrivateMessage
-    * @return  Private message for the participants in the set { String }
+    * @return  {module:model/agreements/String} Private message for the participants in the set  
     * @instance
     */
     _this.getPrivateMessage = function() {
@@ -121,7 +121,7 @@
    /**
     * Private message for the participants in the set
     * @function setPrivateMessage
-    * @param privateMessage { String } Private message for the participants in the set
+    * @param privateMessage {module:model/agreements/String} Private message for the participants in the set
     * @instance
     */
     _this.setPrivateMessage = function(privateMessage) {
@@ -131,7 +131,7 @@
    /**
     * The current roles of the participant set. A participant set can have one or more roles
     * @function getRoles
-    * @return  The current roles of the participant set. A participant set can have one or more roles { Array }
+    * @return  {module:model/agreements/Array} The current roles of the participant set. A participant set can have one or more roles  
     * @instance
     */
     _this.getRoles = function() {
@@ -141,7 +141,7 @@
    /**
     * The current roles of the participant set. A participant set can have one or more roles
     * @function setRoles
-    * @param roles { Array } The current roles of the participant set. A participant set can have one or more roles
+    * @param roles {module:model/agreements/Array} The current roles of the participant set. A participant set can have one or more roles
     * @instance
     */
     _this.setRoles = function(roles) {
@@ -151,7 +151,7 @@
    /**
     * Security options that apply to the participant
     * @function getSecurityOptions
-    * @return  Security options that apply to the participant { Array }
+    * @return  {module:model/agreements/Array} Security options that apply to the participant  
     * @instance
     */
     _this.getSecurityOptions = function() {
@@ -161,7 +161,7 @@
    /**
     * Security options that apply to the participant
     * @function setSecurityOptions
-    * @param securityOptions { Array } Security options that apply to the participant
+    * @param securityOptions {module:model/agreements/Array} Security options that apply to the participant
     * @instance
     */
     _this.setSecurityOptions = function(securityOptions) {
@@ -171,7 +171,7 @@
    /**
     * Index indicating sequential signing group (specified for hybrid routing)
     * @function getSigningOrder
-    * @return  Index indicating sequential signing group (specified for hybrid routing) { Integer }
+    * @return  {module:model/agreements/Integer} Index indicating sequential signing group (specified for hybrid routing)  
     * @instance
     */
     _this.getSigningOrder = function() {
@@ -181,7 +181,7 @@
    /**
     * Index indicating sequential signing group (specified for hybrid routing)
     * @function setSigningOrder
-    * @param signingOrder { Integer } Index indicating sequential signing group (specified for hybrid routing)
+    * @param signingOrder {module:model/agreements/Integer} Index indicating sequential signing group (specified for hybrid routing)
     * @instance
     */
     _this.setSigningOrder = function(signingOrder) {
@@ -191,7 +191,7 @@
    /**
     * The status of the participant set with respect to the widget
     * @function getStatus
-    * @return  The status of the participant set with respect to the widget { String }
+    * @return  {module:model/agreements/String} The status of the participant set with respect to the widget  
     * @instance
     */
     _this.getStatus = function() {
@@ -201,7 +201,7 @@
    /**
     * The status of the participant set with respect to the widget
     * @function setStatus
-    * @param status { String } The status of the participant set with respect to the widget
+    * @param status {module:model/agreements/String} The status of the participant set with respect to the widget
     * @instance
     */
     _this.setStatus = function(status) {

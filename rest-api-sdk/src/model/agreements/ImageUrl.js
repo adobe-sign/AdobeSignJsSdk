@@ -41,7 +41,7 @@
    /**
     * true if images for the associated image size is available, else false.
     * @function getImagesAvailable
-    * @return  true if images for the associated image size is available, else false. { Boolean }
+    * @return  {module:model/agreements/Boolean} true if images for the associated image size is available, else false.  
     * @instance
     */
     _this.getImagesAvailable = function() {
@@ -51,7 +51,7 @@
    /**
     * true if images for the associated image size is available, else false.
     * @function setImagesAvailable
-    * @param imagesAvailable { Boolean } true if images for the associated image size is available, else false.
+    * @param imagesAvailable {module:model/agreements/Boolean} true if images for the associated image size is available, else false.
     * @instance
     */
     _this.setImagesAvailable = function(imagesAvailable) {
@@ -61,7 +61,7 @@
    /**
     * ImageSize corresponding to the imageUrl returned
     * @function getImageSize
-    * @return  ImageSize corresponding to the imageUrl returned { String }
+    * @return  {module:model/agreements/String} ImageSize corresponding to the imageUrl returned  
     * @instance
     */
     _this.getImageSize = function() {
@@ -71,7 +71,7 @@
    /**
     * ImageSize corresponding to the imageUrl returned
     * @function setImageSize
-    * @param imageSize { String } ImageSize corresponding to the imageUrl returned
+    * @param imageSize {module:model/agreements/String} ImageSize corresponding to the imageUrl returned
     * @instance
     */
     _this.setImageSize = function(imageSize) {
@@ -81,7 +81,7 @@
    /**
     * An ordered list of image urls (one per page).
     * @function getUrls
-    * @return  An ordered list of image urls (one per page). { Array }
+    * @return  {module:model/agreements/Array} An ordered list of image urls (one per page).  
     * @instance
     */
     _this.getUrls = function() {
@@ -91,7 +91,7 @@
    /**
     * An ordered list of image urls (one per page).
     * @function setUrls
-    * @param urls { Array } An ordered list of image urls (one per page).
+    * @param urls {module:model/agreements/Array} An ordered list of image urls (one per page).
     * @instance
     */
     _this.setUrls = function(urls) {

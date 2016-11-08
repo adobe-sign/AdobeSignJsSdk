@@ -61,7 +61,7 @@
    /**
     * A resource identifier that can be used to uniquely identify the agreement resource in other apis
     * @function getAgreementId
-    * @return  A resource identifier that can be used to uniquely identify the agreement resource in other apis { String }
+    * @return  {module:model/agreements/String} A resource identifier that can be used to uniquely identify the agreement resource in other apis  
     * @instance
     */
     _this.getAgreementId = function() {
@@ -71,7 +71,7 @@
    /**
     * A resource identifier that can be used to uniquely identify the agreement resource in other apis
     * @function setAgreementId
-    * @param agreementId { String } A resource identifier that can be used to uniquely identify the agreement resource in other apis
+    * @param agreementId {module:model/agreements/String} A resource identifier that can be used to uniquely identify the agreement resource in other apis
     * @instance
     */
     _this.setAgreementId = function(agreementId) {
@@ -81,7 +81,7 @@
    /**
     * An ordered list of the events in the audit trail of this document
     * @function getEvents
-    * @return  An ordered list of the events in the audit trail of this document { Array }
+    * @return  {module:model/agreements/Array} An ordered list of the events in the audit trail of this document  
     * @instance
     */
     _this.getEvents = function() {
@@ -91,7 +91,7 @@
    /**
     * An ordered list of the events in the audit trail of this document
     * @function setEvents
-    * @param events { Array } An ordered list of the events in the audit trail of this document
+    * @param events {module:model/agreements/Array} An ordered list of the events in the audit trail of this document
     * @instance
     */
     _this.setEvents = function(events) {
@@ -101,7 +101,7 @@
    /**
     * The date after which the document can no longer be signed, if an expiration date is configured. The value is nil if an expiration date is not set for the document
     * @function getExpiration
-    * @return  The date after which the document can no longer be signed, if an expiration date is configured. The value is nil if an expiration date is not set for the document { Date }
+    * @return  {module:model/agreements/Date} The date after which the document can no longer be signed, if an expiration date is configured. The value is nil if an expiration date is not set for the document  
     * @instance
     */
     _this.getExpiration = function() {
@@ -111,7 +111,7 @@
    /**
     * The date after which the document can no longer be signed, if an expiration date is configured. The value is nil if an expiration date is not set for the document
     * @function setExpiration
-    * @param expiration { Date } The date after which the document can no longer be signed, if an expiration date is configured. The value is nil if an expiration date is not set for the document
+    * @param expiration {module:model/agreements/Date} The date after which the document can no longer be signed, if an expiration date is configured. The value is nil if an expiration date is not set for the document
     * @instance
     */
     _this.setExpiration = function(expiration) {
@@ -121,7 +121,7 @@
    /**
     * An ID which uniquely identifies the current version of the document
     * @function getLatestVersionId
-    * @return  An ID which uniquely identifies the current version of the document { String }
+    * @return  {module:model/agreements/String} An ID which uniquely identifies the current version of the document  
     * @instance
     */
     _this.getLatestVersionId = function() {
@@ -131,7 +131,7 @@
    /**
     * An ID which uniquely identifies the current version of the document
     * @function setLatestVersionId
-    * @param latestVersionId { String } An ID which uniquely identifies the current version of the document
+    * @param latestVersionId {module:model/agreements/String} An ID which uniquely identifies the current version of the document
     * @instance
     */
     _this.setLatestVersionId = function(latestVersionId) {
@@ -141,7 +141,7 @@
    /**
     * The locale associated with this agreement - for example, en_US or fr_FR
     * @function getLocale
-    * @return  The locale associated with this agreement - for example, en_US or fr_FR { String }
+    * @return  {module:model/agreements/String} The locale associated with this agreement - for example, en_US or fr_FR  
     * @instance
     */
     _this.getLocale = function() {
@@ -151,7 +151,7 @@
    /**
     * The locale associated with this agreement - for example, en_US or fr_FR
     * @function setLocale
-    * @param locale { String } The locale associated with this agreement - for example, en_US or fr_FR
+    * @param locale {module:model/agreements/String} The locale associated with this agreement - for example, en_US or fr_FR
     * @instance
     */
     _this.setLocale = function(locale) {
@@ -161,7 +161,7 @@
    /**
     * The message associated with the document that the sender has provided
     * @function getMessage
-    * @return  The message associated with the document that the sender has provided { String }
+    * @return  {module:model/agreements/String} The message associated with the document that the sender has provided  
     * @instance
     */
     _this.getMessage = function() {
@@ -171,7 +171,7 @@
    /**
     * The message associated with the document that the sender has provided
     * @function setMessage
-    * @param message { String } The message associated with the document that the sender has provided
+    * @param message {module:model/agreements/String} The message associated with the document that the sender has provided
     * @instance
     */
     _this.setMessage = function(message) {
@@ -181,7 +181,7 @@
    /**
     * Information about whether the agreement can be modified
     * @function getModifiable
-    * @return  Information about whether the agreement can be modified { Boolean }
+    * @return  {module:model/agreements/Boolean} Information about whether the agreement can be modified  
     * @instance
     */
     _this.getModifiable = function() {
@@ -191,7 +191,7 @@
    /**
     * Information about whether the agreement can be modified
     * @function setModifiable
-    * @param modifiable { Boolean } Information about whether the agreement can be modified
+    * @param modifiable {module:model/agreements/Boolean} Information about whether the agreement can be modified
     * @instance
     */
     _this.setModifiable = function(modifiable) {
@@ -201,7 +201,7 @@
    /**
     * The name of the document, specified by the sender
     * @function getName
-    * @return  The name of the document, specified by the sender { String }
+    * @return  {module:model/agreements/String} The name of the document, specified by the sender  
     * @instance
     */
     _this.getName = function() {
@@ -211,7 +211,7 @@
    /**
     * The name of the document, specified by the sender
     * @function setName
-    * @param name { String } The name of the document, specified by the sender
+    * @param name {module:model/agreements/String} The name of the document, specified by the sender
     * @instance
     */
     _this.setName = function(name) {
@@ -221,7 +221,7 @@
    /**
     * Information about who needs to act next for this document - for example, if the agreement is in status OUT_FOR_SIGNATURE or OUT_FOR_APPROVAL, this will be the next signer or approver. If the AgreementStatus is a terminal state, this array is empty
     * @function getNextParticipantSetInfos
-    * @return  Information about who needs to act next for this document - for example, if the agreement is in status OUT_FOR_SIGNATURE or OUT_FOR_APPROVAL, this will be the next signer or approver. If the AgreementStatus is a terminal state, this array is empty { Array }
+    * @return  {module:model/agreements/Array} Information about who needs to act next for this document - for example, if the agreement is in status OUT_FOR_SIGNATURE or OUT_FOR_APPROVAL, this will be the next signer or approver. If the AgreementStatus is a terminal state, this array is empty  
     * @instance
     */
     _this.getNextParticipantSetInfos = function() {
@@ -231,7 +231,7 @@
    /**
     * Information about who needs to act next for this document - for example, if the agreement is in status OUT_FOR_SIGNATURE or OUT_FOR_APPROVAL, this will be the next signer or approver. If the AgreementStatus is a terminal state, this array is empty
     * @function setNextParticipantSetInfos
-    * @param nextParticipantSetInfos { Array } Information about who needs to act next for this document - for example, if the agreement is in status OUT_FOR_SIGNATURE or OUT_FOR_APPROVAL, this will be the next signer or approver. If the AgreementStatus is a terminal state, this array is empty
+    * @param nextParticipantSetInfos {module:model/agreements/Array} Information about who needs to act next for this document - for example, if the agreement is in status OUT_FOR_SIGNATURE or OUT_FOR_APPROVAL, this will be the next signer or approver. If the AgreementStatus is a terminal state, this array is empty
     * @instance
     */
     _this.setNextParticipantSetInfos = function(nextParticipantSetInfos) {
@@ -241,7 +241,7 @@
    /**
     * Information about all the participant sets of this document
     * @function getParticipantSetInfos
-    * @return  Information about all the participant sets of this document { Array }
+    * @return  {module:model/agreements/Array} Information about all the participant sets of this document  
     * @instance
     */
     _this.getParticipantSetInfos = function() {
@@ -251,7 +251,7 @@
    /**
     * Information about all the participant sets of this document
     * @function setParticipantSetInfos
-    * @param participantSetInfos { Array } Information about all the participant sets of this document
+    * @param participantSetInfos {module:model/agreements/Array} Information about all the participant sets of this document
     * @instance
     */
     _this.setParticipantSetInfos = function(participantSetInfos) {
@@ -261,7 +261,7 @@
    /**
     * Security information about the document that specifies whether or not a password is required to view and sign the document
     * @function getSecurityOptions
-    * @return  Security information about the document that specifies whether or not a password is required to view and sign the document { Array }
+    * @return  {module:model/agreements/Array} Security information about the document that specifies whether or not a password is required to view and sign the document  
     * @instance
     */
     _this.getSecurityOptions = function() {
@@ -271,7 +271,7 @@
    /**
     * Security information about the document that specifies whether or not a password is required to view and sign the document
     * @function setSecurityOptions
-    * @param securityOptions { Array } Security information about the document that specifies whether or not a password is required to view and sign the document
+    * @param securityOptions {module:model/agreements/Array} Security information about the document that specifies whether or not a password is required to view and sign the document
     * @instance
     */
     _this.setSecurityOptions = function(securityOptions) {
@@ -281,7 +281,7 @@
    /**
     * The current status of the document
     * @function getStatus
-    * @return  The current status of the document { String }
+    * @return  {module:model/agreements/String} The current status of the document  
     * @instance
     */
     _this.getStatus = function() {
@@ -291,7 +291,7 @@
    /**
     * The current status of the document
     * @function setStatus
-    * @param status { String } The current status of the document
+    * @param status {module:model/agreements/String} The current status of the document
     * @instance
     */
     _this.setStatus = function(status) {
@@ -301,7 +301,7 @@
    /**
     * Whether vaulting was enabled for the agreement
     * @function getVaultingEnabled
-    * @return  Whether vaulting was enabled for the agreement { Boolean }
+    * @return  {module:model/agreements/Boolean} Whether vaulting was enabled for the agreement  
     * @instance
     */
     _this.getVaultingEnabled = function() {
@@ -311,7 +311,7 @@
    /**
     * Whether vaulting was enabled for the agreement
     * @function setVaultingEnabled
-    * @param vaultingEnabled { Boolean } Whether vaulting was enabled for the agreement
+    * @param vaultingEnabled {module:model/agreements/Boolean} Whether vaulting was enabled for the agreement
     * @instance
     */
     _this.setVaultingEnabled = function(vaultingEnabled) {

@@ -37,7 +37,7 @@
    /**
     * An array of urls for signer sets involved in this agreement.
     * @function getSigningUrlSetInfos
-    * @return  An array of urls for signer sets involved in this agreement. { Array }
+    * @return  {module:model/agreements/Array} An array of urls for signer sets involved in this agreement.  
     * @instance
     */
     _this.getSigningUrlSetInfos = function() {
@@ -47,7 +47,7 @@
    /**
     * An array of urls for signer sets involved in this agreement.
     * @function setSigningUrlSetInfos
-    * @param signingUrlSetInfos { Array } An array of urls for signer sets involved in this agreement.
+    * @param signingUrlSetInfos {module:model/agreements/Array} An array of urls for signer sets involved in this agreement.
     * @instance
     */
     _this.setSigningUrlSetInfos = function(signingUrlSetInfos) {

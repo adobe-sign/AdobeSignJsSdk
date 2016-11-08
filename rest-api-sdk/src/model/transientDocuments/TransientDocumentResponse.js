@@ -37,7 +37,7 @@
    /**
     * The unique identifier of the uploaded document that can be used in an agreement or a megaSign or widget creation call
     * @function getTransientDocumentId
-    * @return  The unique identifier of the uploaded document that can be used in an agreement or a megaSign or widget creation call { String }
+    * @return  {module:model/transientDocuments/String} The unique identifier of the uploaded document that can be used in an agreement or a megaSign or widget creation call  
     * @instance
     */
     _this.getTransientDocumentId = function() {
@@ -47,7 +47,7 @@
    /**
     * The unique identifier of the uploaded document that can be used in an agreement or a megaSign or widget creation call
     * @function setTransientDocumentId
-    * @param transientDocumentId { String } The unique identifier of the uploaded document that can be used in an agreement or a megaSign or widget creation call
+    * @param transientDocumentId {module:model/transientDocuments/String} The unique identifier of the uploaded document that can be used in an agreement or a megaSign or widget creation call
     * @instance
     */
     _this.setTransientDocumentId = function(transientDocumentId) {

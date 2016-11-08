@@ -41,7 +41,7 @@
    /**
     * Auto LogIn Flag. If true, the URL returned will automatically log the user in. If false, the URL returned will require the credentials. By default its value is false
     * @function getAutoLogin
-    * @return  Auto LogIn Flag. If true, the URL returned will automatically log the user in. If false, the URL returned will require the credentials. By default its value is false { Boolean }
+    * @return  {module:model/views/Boolean} Auto LogIn Flag. If true, the URL returned will automatically log the user in. If false, the URL returned will require the credentials. By default its value is false  
     * @instance
     */
     _this.getAutoLogin = function() {
@@ -51,7 +51,7 @@
    /**
     * Auto LogIn Flag. If true, the URL returned will automatically log the user in. If false, the URL returned will require the credentials. By default its value is false
     * @function setAutoLogin
-    * @param autoLogin { Boolean } Auto LogIn Flag. If true, the URL returned will automatically log the user in. If false, the URL returned will require the credentials. By default its value is false
+    * @param autoLogin {module:model/views/Boolean} Auto LogIn Flag. If true, the URL returned will automatically log the user in. If false, the URL returned will require the credentials. By default its value is false
     * @instance
     */
     _this.setAutoLogin = function(autoLogin) {
@@ -61,7 +61,7 @@
    /**
     * No Chrome Flag. If true, the embedded page is shown without a navigation header or footer. If false, the standard page header and footer will be present. By default its value is false
     * @function getNoChrome
-    * @return  No Chrome Flag. If true, the embedded page is shown without a navigation header or footer. If false, the standard page header and footer will be present. By default its value is false { Boolean }
+    * @return  {module:model/views/Boolean} No Chrome Flag. If true, the embedded page is shown without a navigation header or footer. If false, the standard page header and footer will be present. By default its value is false  
     * @instance
     */
     _this.getNoChrome = function() {
@@ -71,7 +71,7 @@
    /**
     * No Chrome Flag. If true, the embedded page is shown without a navigation header or footer. If false, the standard page header and footer will be present. By default its value is false
     * @function setNoChrome
-    * @param noChrome { Boolean } No Chrome Flag. If true, the embedded page is shown without a navigation header or footer. If false, the standard page header and footer will be present. By default its value is false
+    * @param noChrome {module:model/views/Boolean} No Chrome Flag. If true, the embedded page is shown without a navigation header or footer. If false, the standard page header and footer will be present. By default its value is false
     * @instance
     */
     _this.setNoChrome = function(noChrome) {
@@ -81,7 +81,7 @@
    /**
     * Two types of views are available- ACCOUNT_SETTINGS:- For getting the URL for Account Settings for Admin only, USER_PROFILE:- For getting the URL for User Profile
     * @function getTargetView
-    * @return  Two types of views are available- ACCOUNT_SETTINGS:- For getting the URL for Account Settings for Admin only, USER_PROFILE:- For getting the URL for User Profile { String }
+    * @return  {module:model/views/String} Two types of views are available- ACCOUNT_SETTINGS:- For getting the URL for Account Settings for Admin only, USER_PROFILE:- For getting the URL for User Profile  
     * @instance
     */
     _this.getTargetView = function() {
@@ -91,7 +91,7 @@
    /**
     * Two types of views are available- ACCOUNT_SETTINGS:- For getting the URL for Account Settings for Admin only, USER_PROFILE:- For getting the URL for User Profile
     * @function setTargetView
-    * @param targetView { String } Two types of views are available- ACCOUNT_SETTINGS:- For getting the URL for Account Settings for Admin only, USER_PROFILE:- For getting the URL for User Profile
+    * @param targetView {module:model/views/String} Two types of views are available- ACCOUNT_SETTINGS:- For getting the URL for Account Settings for Admin only, USER_PROFILE:- For getting the URL for User Profile
     * @instance
     */
     _this.setTargetView = function(targetView) {

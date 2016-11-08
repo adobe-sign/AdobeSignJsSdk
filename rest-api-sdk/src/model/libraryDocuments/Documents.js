@@ -37,7 +37,7 @@
    /**
     * A list of objects representing the documents
     * @function getDocuments
-    * @return  A list of objects representing the documents { Array }
+    * @return  {module:model/libraryDocuments/Array} A list of objects representing the documents  
     * @instance
     */
     _this.getDocuments = function() {
@@ -47,7 +47,7 @@
    /**
     * A list of objects representing the documents
     * @function setDocuments
-    * @param documents { Array } A list of objects representing the documents
+    * @param documents {module:model/libraryDocuments/Array} A list of objects representing the documents
     * @instance
     */
     _this.setDocuments = function(documents) {

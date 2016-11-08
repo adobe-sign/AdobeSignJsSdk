@@ -39,7 +39,7 @@
    /**
     * A display text for this form for workflow users
     * @function getLabel
-    * @return  A display text for this form for workflow users { String }
+    * @return  {module:model/workflows/String} A display text for this form for workflow users  
     * @instance
     */
     _this.getLabel = function() {
@@ -49,7 +49,7 @@
    /**
     * A display text for this form for workflow users
     * @function setLabel
-    * @param label { String } A display text for this form for workflow users
+    * @param label {module:model/workflows/String} A display text for this form for workflow users
     * @instance
     */
     _this.setLabel = function(label) {
@@ -59,7 +59,7 @@
    /**
     * An id of the workflow library document that can be provided as an input file in the custom workflow agreement creation request
     * @function getWorkflowLibDoc
-    * @return  An id of the workflow library document that can be provided as an input file in the custom workflow agreement creation request { String }
+    * @return  {module:model/workflows/String} An id of the workflow library document that can be provided as an input file in the custom workflow agreement creation request  
     * @instance
     */
     _this.getWorkflowLibDoc = function() {
@@ -69,7 +69,7 @@
    /**
     * An id of the workflow library document that can be provided as an input file in the custom workflow agreement creation request
     * @function setWorkflowLibDoc
-    * @param workflowLibDoc { String } An id of the workflow library document that can be provided as an input file in the custom workflow agreement creation request
+    * @param workflowLibDoc {module:model/workflows/String} An id of the workflow library document that can be provided as an input file in the custom workflow agreement creation request
     * @instance
     */
     _this.setWorkflowLibDoc = function(workflowLibDoc) {

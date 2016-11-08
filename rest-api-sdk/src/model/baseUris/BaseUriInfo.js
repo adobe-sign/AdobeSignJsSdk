@@ -39,7 +39,7 @@
    /**
     * The access point from where other APIs need to be accessed. In case other APIs are accessed from a different end point, it will be considered an invalid request.
     * @function getApiAccessPoint
-    * @return  The access point from where other APIs need to be accessed. In case other APIs are accessed from a different end point, it will be considered an invalid request. { String }
+    * @return  {module:model/baseUris/String} The access point from where other APIs need to be accessed. In case other APIs are accessed from a different end point, it will be considered an invalid request.  
     * @instance
     */
     _this.getApiAccessPoint = function() {
@@ -49,7 +49,7 @@
    /**
     * The access point from where other APIs need to be accessed. In case other APIs are accessed from a different end point, it will be considered an invalid request.
     * @function setApiAccessPoint
-    * @param api_access_point { String } The access point from where other APIs need to be accessed. In case other APIs are accessed from a different end point, it will be considered an invalid request.
+    * @param api_access_point {module:model/baseUris/String} The access point from where other APIs need to be accessed. In case other APIs are accessed from a different end point, it will be considered an invalid request.
     * @instance
     */
     _this.setApiAccessPoint = function(api_access_point) {
@@ -59,7 +59,7 @@
    /**
     * The access point from where Adobe Sign website can be be accessed.
     * @function getWebAccessPoint
-    * @return  The access point from where Adobe Sign website can be be accessed. { String }
+    * @return  {module:model/baseUris/String} The access point from where Adobe Sign website can be be accessed.  
     * @instance
     */
     _this.getWebAccessPoint = function() {
@@ -69,7 +69,7 @@
    /**
     * The access point from where Adobe Sign website can be be accessed.
     * @function setWebAccessPoint
-    * @param web_access_point { String } The access point from where Adobe Sign website can be be accessed.
+    * @param web_access_point {module:model/baseUris/String} The access point from where Adobe Sign website can be be accessed.
     * @instance
     */
     _this.setWebAccessPoint = function(web_access_point) {

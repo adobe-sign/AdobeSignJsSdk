@@ -37,7 +37,7 @@
    /**
     * An array of widget items
     * @function getUserWidgetList
-    * @return  An array of widget items { Array }
+    * @return  {module:model/widgets/Array} An array of widget items  
     * @instance
     */
     _this.getUserWidgetList = function() {
@@ -47,7 +47,7 @@
    /**
     * An array of widget items
     * @function setUserWidgetList
-    * @param userWidgetList { Array } An array of widget items
+    * @param userWidgetList {module:model/widgets/Array} An array of widget items
     * @instance
     */
     _this.setUserWidgetList = function(userWidgetList) {

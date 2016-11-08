@@ -39,7 +39,7 @@
    /**
     * A list of documents image URLs.
     * @function getDocumentsImageUrls
-    * @return  A list of documents image URLs. { Array }
+    * @return  {module:model/agreements/Array} A list of documents image URLs.  
     * @instance
     */
     _this.getDocumentsImageUrls = function() {
@@ -49,7 +49,7 @@
    /**
     * A list of documents image URLs.
     * @function setDocumentsImageUrls
-    * @param documentsImageUrls { Array } A list of documents image URLs.
+    * @param documentsImageUrls {module:model/agreements/Array} A list of documents image URLs.
     * @instance
     */
     _this.setDocumentsImageUrls = function(documentsImageUrls) {
@@ -59,7 +59,7 @@
    /**
     * A list of supporting document image URLs.
     * @function getSupportingDocumentsImageUrls
-    * @return  A list of supporting document image URLs. { Array }
+    * @return  {module:model/agreements/Array} A list of supporting document image URLs.  
     * @instance
     */
     _this.getSupportingDocumentsImageUrls = function() {
@@ -69,7 +69,7 @@
    /**
     * A list of supporting document image URLs.
     * @function setSupportingDocumentsImageUrls
-    * @param supportingDocumentsImageUrls { Array } A list of supporting document image URLs.
+    * @param supportingDocumentsImageUrls {module:model/agreements/Array} A list of supporting document image URLs.
     * @instance
     */
     _this.setSupportingDocumentsImageUrls = function(supportingDocumentsImageUrls) {

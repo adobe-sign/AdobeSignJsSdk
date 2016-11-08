@@ -51,7 +51,7 @@
    /**
     * All the child participants of the current participant. The possible values for the status of these participants are, SHARE and DELEGATE
     * @function getAlternateParticipants
-    * @return  All the child participants of the current participant. The possible values for the status of these participants are, SHARE and DELEGATE { Array }
+    * @return  {module:model/libraryDocuments/Array} All the child participants of the current participant. The possible values for the status of these participants are, SHARE and DELEGATE  
     * @instance
     */
     _this.getAlternateParticipants = function() {
@@ -61,7 +61,7 @@
    /**
     * All the child participants of the current participant. The possible values for the status of these participants are, SHARE and DELEGATE
     * @function setAlternateParticipants
-    * @param alternateParticipants { Array } All the child participants of the current participant. The possible values for the status of these participants are, SHARE and DELEGATE
+    * @param alternateParticipants {module:model/libraryDocuments/Array} All the child participants of the current participant. The possible values for the status of these participants are, SHARE and DELEGATE
     * @instance
     */
     _this.setAlternateParticipants = function(alternateParticipants) {
@@ -71,7 +71,7 @@
    /**
     * The company of the participant, if available
     * @function getCompany
-    * @return  The company of the participant, if available { String }
+    * @return  {module:model/libraryDocuments/String} The company of the participant, if available  
     * @instance
     */
     _this.getCompany = function() {
@@ -81,7 +81,7 @@
    /**
     * The company of the participant, if available
     * @function setCompany
-    * @param company { String } The company of the participant, if available
+    * @param company {module:model/libraryDocuments/String} The company of the participant, if available
     * @instance
     */
     _this.setCompany = function(company) {
@@ -91,7 +91,7 @@
    /**
     * The email address of the participant
     * @function getEmail
-    * @return  The email address of the participant { String }
+    * @return  {module:model/libraryDocuments/String} The email address of the participant  
     * @instance
     */
     _this.getEmail = function() {
@@ -101,7 +101,7 @@
    /**
     * The email address of the participant
     * @function setEmail
-    * @param email { String } The email address of the participant
+    * @param email {module:model/libraryDocuments/String} The email address of the participant
     * @instance
     */
     _this.setEmail = function(email) {
@@ -111,7 +111,7 @@
    /**
     * The name of the participant, if available
     * @function getName
-    * @return  The name of the participant, if available { String }
+    * @return  {module:model/libraryDocuments/String} The name of the participant, if available  
     * @instance
     */
     _this.getName = function() {
@@ -121,7 +121,7 @@
    /**
     * The name of the participant, if available
     * @function setName
-    * @param name { String } The name of the participant, if available
+    * @param name {module:model/libraryDocuments/String} The name of the participant, if available
     * @instance
     */
     _this.setName = function(name) {
@@ -131,7 +131,7 @@
    /**
     * The current roles of the participant. A participant can have one or more roles
     * @function getRoles
-    * @return  The current roles of the participant. A participant can have one or more roles { Array }
+    * @return  {module:model/libraryDocuments/Array} The current roles of the participant. A participant can have one or more roles  
     * @instance
     */
     _this.getRoles = function() {
@@ -141,7 +141,7 @@
    /**
     * The current roles of the participant. A participant can have one or more roles
     * @function setRoles
-    * @param roles { Array } The current roles of the participant. A participant can have one or more roles
+    * @param roles {module:model/libraryDocuments/Array} The current roles of the participant. A participant can have one or more roles
     * @instance
     */
     _this.setRoles = function(roles) {
@@ -151,7 +151,7 @@
    /**
     * Security options that apply to the participant
     * @function getSecurityOptions
-    * @return  Security options that apply to the participant { Array }
+    * @return  {module:model/libraryDocuments/Array} Security options that apply to the participant  
     * @instance
     */
     _this.getSecurityOptions = function() {
@@ -161,7 +161,7 @@
    /**
     * Security options that apply to the participant
     * @function setSecurityOptions
-    * @param securityOptions { Array } Security options that apply to the participant
+    * @param securityOptions {module:model/libraryDocuments/Array} Security options that apply to the participant
     * @instance
     */
     _this.setSecurityOptions = function(securityOptions) {
@@ -171,7 +171,7 @@
    /**
     * The status of the participant with respect to the document
     * @function getStatus
-    * @return  The status of the participant with respect to the document { String }
+    * @return  {module:model/libraryDocuments/String} The status of the participant with respect to the document  
     * @instance
     */
     _this.getStatus = function() {
@@ -181,7 +181,7 @@
    /**
     * The status of the participant with respect to the document
     * @function setStatus
-    * @param status { String } The status of the participant with respect to the document
+    * @param status {module:model/libraryDocuments/String} The status of the participant with respect to the document
     * @instance
     */
     _this.setStatus = function(status) {
@@ -191,7 +191,7 @@
    /**
     * The title of the participant, if available
     * @function getTitle
-    * @return  The title of the participant, if available { String }
+    * @return  {module:model/libraryDocuments/String} The title of the participant, if available  
     * @instance
     */
     _this.getTitle = function() {
@@ -201,7 +201,7 @@
    /**
     * The title of the participant, if available
     * @function setTitle
-    * @param title { String } The title of the participant, if available
+    * @param title {module:model/libraryDocuments/String} The title of the participant, if available
     * @instance
     */
     _this.setTitle = function(title) {

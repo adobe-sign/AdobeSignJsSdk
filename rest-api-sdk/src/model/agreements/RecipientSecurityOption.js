@@ -41,7 +41,7 @@
    /**
     * The authentication method for the recipients to have access to view and sign the document
     * @function getAuthenticationMethod
-    * @return  The authentication method for the recipients to have access to view and sign the document { String }
+    * @return  {module:model/agreements/String} The authentication method for the recipients to have access to view and sign the document  
     * @instance
     */
     _this.getAuthenticationMethod = function() {
@@ -51,7 +51,7 @@
    /**
     * The authentication method for the recipients to have access to view and sign the document
     * @function setAuthenticationMethod
-    * @param authenticationMethod { String } The authentication method for the recipients to have access to view and sign the document
+    * @param authenticationMethod {module:model/agreements/String} The authentication method for the recipients to have access to view and sign the document
     * @instance
     */
     _this.setAuthenticationMethod = function(authenticationMethod) {
@@ -61,7 +61,7 @@
    /**
     * The password required for the recipient to view and sign the document
     * @function getPassword
-    * @return  The password required for the recipient to view and sign the document { String }
+    * @return  {module:model/agreements/String} The password required for the recipient to view and sign the document  
     * @instance
     */
     _this.getPassword = function() {
@@ -71,7 +71,7 @@
    /**
     * The password required for the recipient to view and sign the document
     * @function setPassword
-    * @param password { String } The password required for the recipient to view and sign the document
+    * @param password {module:model/agreements/String} The password required for the recipient to view and sign the document
     * @instance
     */
     _this.setPassword = function(password) {
@@ -81,7 +81,7 @@
    /**
     * The phoneInfo required for the recipient to view and sign the document
     * @function getPhoneInfos
-    * @return  The phoneInfo required for the recipient to view and sign the document { Array }
+    * @return  {module:model/agreements/Array} The phoneInfo required for the recipient to view and sign the document  
     * @instance
     */
     _this.getPhoneInfos = function() {
@@ -91,7 +91,7 @@
    /**
     * The phoneInfo required for the recipient to view and sign the document
     * @function setPhoneInfos
-    * @param phoneInfos { Array } The phoneInfo required for the recipient to view and sign the document
+    * @param phoneInfos {module:model/agreements/Array} The phoneInfo required for the recipient to view and sign the document
     * @instance
     */
     _this.setPhoneInfos = function(phoneInfos) {

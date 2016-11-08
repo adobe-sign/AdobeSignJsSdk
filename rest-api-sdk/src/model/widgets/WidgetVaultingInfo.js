@@ -37,7 +37,7 @@
    /**
     * For accounts set up for document vaulting and the option to enable per agreement, this determines whether the document is to be vaulted
     * @function getEnabled
-    * @return  For accounts set up for document vaulting and the option to enable per agreement, this determines whether the document is to be vaulted { Boolean }
+    * @return  {module:model/widgets/Boolean} For accounts set up for document vaulting and the option to enable per agreement, this determines whether the document is to be vaulted  
     * @instance
     */
     _this.getEnabled = function() {
@@ -47,7 +47,7 @@
    /**
     * For accounts set up for document vaulting and the option to enable per agreement, this determines whether the document is to be vaulted
     * @function setEnabled
-    * @param enabled { Boolean } For accounts set up for document vaulting and the option to enable per agreement, this determines whether the document is to be vaulted
+    * @param enabled {module:model/widgets/Boolean} For accounts set up for document vaulting and the option to enable per agreement, this determines whether the document is to be vaulted
     * @instance
     */
     _this.setEnabled = function(enabled) {

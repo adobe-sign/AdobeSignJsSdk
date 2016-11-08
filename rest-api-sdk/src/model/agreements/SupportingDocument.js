@@ -45,7 +45,7 @@
    /**
     * Display name of the document
     * @function getDisplayLabel
-    * @return  Display name of the document { String }
+    * @return  {module:model/agreements/String} Display name of the document  
     * @instance
     */
     _this.getDisplayLabel = function() {
@@ -55,7 +55,7 @@
    /**
     * Display name of the document
     * @function setDisplayLabel
-    * @param displayLabel { String } Display name of the document
+    * @param displayLabel {module:model/agreements/String} Display name of the document
     * @instance
     */
     _this.setDisplayLabel = function(displayLabel) {
@@ -65,7 +65,7 @@
    /**
     * The name of the supporting document field
     * @function getFieldName
-    * @return  The name of the supporting document field { String }
+    * @return  {module:model/agreements/String} The name of the supporting document field  
     * @instance
     */
     _this.getFieldName = function() {
@@ -75,7 +75,7 @@
    /**
     * The name of the supporting document field
     * @function setFieldName
-    * @param fieldName { String } The name of the supporting document field
+    * @param fieldName {module:model/agreements/String} The name of the supporting document field
     * @instance
     */
     _this.setFieldName = function(fieldName) {
@@ -85,7 +85,7 @@
    /**
     * Mime-type of the document
     * @function getMimeType
-    * @return  Mime-type of the document { String }
+    * @return  {module:model/agreements/String} Mime-type of the document  
     * @instance
     */
     _this.getMimeType = function() {
@@ -95,7 +95,7 @@
    /**
     * Mime-type of the document
     * @function setMimeType
-    * @param mimeType { String } Mime-type of the document
+    * @param mimeType {module:model/agreements/String} Mime-type of the document
     * @instance
     */
     _this.setMimeType = function(mimeType) {
@@ -105,7 +105,7 @@
    /**
     * Number of pages in the document
     * @function getNumPages
-    * @return  Number of pages in the document { Integer }
+    * @return  {module:model/agreements/Integer} Number of pages in the document  
     * @instance
     */
     _this.getNumPages = function() {
@@ -115,7 +115,7 @@
    /**
     * Number of pages in the document
     * @function setNumPages
-    * @param numPages { Integer } Number of pages in the document
+    * @param numPages {module:model/agreements/Integer} Number of pages in the document
     * @instance
     */
     _this.setNumPages = function(numPages) {
@@ -125,7 +125,7 @@
    /**
     * Id representing the document
     * @function getSupportingDocumentId
-    * @return  Id representing the document { String }
+    * @return  {module:model/agreements/String} Id representing the document  
     * @instance
     */
     _this.getSupportingDocumentId = function() {
@@ -135,7 +135,7 @@
    /**
     * Id representing the document
     * @function setSupportingDocumentId
-    * @param supportingDocumentId { String } Id representing the document
+    * @param supportingDocumentId {module:model/agreements/String} Id representing the document
     * @instance
     */
     _this.setSupportingDocumentId = function(supportingDocumentId) {

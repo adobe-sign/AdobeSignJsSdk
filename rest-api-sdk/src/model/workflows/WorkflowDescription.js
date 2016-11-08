@@ -71,7 +71,7 @@
    /**
     * Information about name field in DocumentCreationInfo input field in the agreement creation request when using the API to create an agreement in a workflow
     * @function getAgreementNameInfo
-    * @return  Information about name field in DocumentCreationInfo input field in the agreement creation request when using the API to create an agreement in a workflow { WorkflowDefaultParams }
+    * @return  {module:model/workflows/WorkflowDefaultParams} Information about name field in DocumentCreationInfo input field in the agreement creation request when using the API to create an agreement in a workflow  
     * @instance
     */
     _this.getAgreementNameInfo = function() {
@@ -81,7 +81,7 @@
    /**
     * Information about name field in DocumentCreationInfo input field in the agreement creation request when using the API to create an agreement in a workflow
     * @function setAgreementNameInfo
-    * @param agreementNameInfo { WorkflowDefaultParams } Information about name field in DocumentCreationInfo input field in the agreement creation request when using the API to create an agreement in a workflow
+    * @param agreementNameInfo {module:model/workflows/WorkflowDefaultParams} Information about name field in DocumentCreationInfo input field in the agreement creation request when using the API to create an agreement in a workflow
     * @instance
     */
     _this.setAgreementNameInfo = function(agreementNameInfo) {
@@ -91,7 +91,7 @@
    /**
     * Information about authoringRequested field in SendDocumentInteractiveOptions input field in the agreement creation request when using the API to create an agreement in a workflow
     * @function getAuthoringInfo
-    * @return  Information about authoringRequested field in SendDocumentInteractiveOptions input field in the agreement creation request when using the API to create an agreement in a workflow { WorkflowDefaultParams }
+    * @return  {module:model/workflows/WorkflowDefaultParams} Information about authoringRequested field in SendDocumentInteractiveOptions input field in the agreement creation request when using the API to create an agreement in a workflow  
     * @instance
     */
     _this.getAuthoringInfo = function() {
@@ -101,7 +101,7 @@
    /**
     * Information about authoringRequested field in SendDocumentInteractiveOptions input field in the agreement creation request when using the API to create an agreement in a workflow
     * @function setAuthoringInfo
-    * @param authoringInfo { WorkflowDefaultParams } Information about authoringRequested field in SendDocumentInteractiveOptions input field in the agreement creation request when using the API to create an agreement in a workflow
+    * @param authoringInfo {module:model/workflows/WorkflowDefaultParams} Information about authoringRequested field in SendDocumentInteractiveOptions input field in the agreement creation request when using the API to create an agreement in a workflow
     * @instance
     */
     _this.setAuthoringInfo = function(authoringInfo) {
@@ -111,7 +111,7 @@
    /**
     * Information about CCList input field in the agreement creation request when using the API to create an agreement in a workflow
     * @function getCcsListInfo
-    * @return  Information about CCList input field in the agreement creation request when using the API to create an agreement in a workflow { Array }
+    * @return  {module:model/workflows/Array} Information about CCList input field in the agreement creation request when using the API to create an agreement in a workflow  
     * @instance
     */
     _this.getCcsListInfo = function() {
@@ -121,7 +121,7 @@
    /**
     * Information about CCList input field in the agreement creation request when using the API to create an agreement in a workflow
     * @function setCcsListInfo
-    * @param ccsListInfo { Array } Information about CCList input field in the agreement creation request when using the API to create an agreement in a workflow
+    * @param ccsListInfo {module:model/workflows/Array} Information about CCList input field in the agreement creation request when using the API to create an agreement in a workflow
     * @instance
     */
     _this.setCcsListInfo = function(ccsListInfo) {
@@ -131,7 +131,7 @@
    /**
     * The day on which the workflow was created
     * @function getCreated
-    * @return  The day on which the workflow was created { Date }
+    * @return  {module:model/workflows/Date} The day on which the workflow was created  
     * @instance
     */
     _this.getCreated = function() {
@@ -141,7 +141,7 @@
    /**
     * The day on which the workflow was created
     * @function setCreated
-    * @param created { Date } The day on which the workflow was created
+    * @param created {module:model/workflows/Date} The day on which the workflow was created
     * @instance
     */
     _this.setCreated = function(created) {
@@ -151,7 +151,7 @@
    /**
     * Description provided for this workflow at the time of its creation
     * @function getDescription
-    * @return  Description provided for this workflow at the time of its creation { String }
+    * @return  {module:model/workflows/String} Description provided for this workflow at the time of its creation  
     * @instance
     */
     _this.getDescription = function() {
@@ -161,7 +161,7 @@
    /**
     * Description provided for this workflow at the time of its creation
     * @function setDescription
-    * @param description { String } Description provided for this workflow at the time of its creation
+    * @param description {module:model/workflows/String} Description provided for this workflow at the time of its creation
     * @instance
     */
     _this.setDescription = function(description) {
@@ -171,7 +171,7 @@
    /**
     * The display name of the workflow.
     * @function getDisplayName
-    * @return  The display name of the workflow. { String }
+    * @return  {module:model/workflows/String} The display name of the workflow.  
     * @instance
     */
     _this.getDisplayName = function() {
@@ -181,7 +181,7 @@
    /**
     * The display name of the workflow.
     * @function setDisplayName
-    * @param displayName { String } The display name of the workflow.
+    * @param displayName {module:model/workflows/String} The display name of the workflow.
     * @instance
     */
     _this.setDisplayName = function(displayName) {
@@ -191,7 +191,7 @@
    /**
     * Information about daysUntilSigningDeadline field in DocumentCreationInfo input field in the agreement creation request when using the API to create an agreement in a workflow
     * @function getExpirationInfo
-    * @return  Information about daysUntilSigningDeadline field in DocumentCreationInfo input field in the agreement creation request when using the API to create an agreement in a workflow { ExpirationFieldInfoDescription }
+    * @return  {module:model/workflows/ExpirationFieldInfoDescription} Information about daysUntilSigningDeadline field in DocumentCreationInfo input field in the agreement creation request when using the API to create an agreement in a workflow  
     * @instance
     */
     _this.getExpirationInfo = function() {
@@ -201,7 +201,7 @@
    /**
     * Information about daysUntilSigningDeadline field in DocumentCreationInfo input field in the agreement creation request when using the API to create an agreement in a workflow
     * @function setExpirationInfo
-    * @param expirationInfo { ExpirationFieldInfoDescription } Information about daysUntilSigningDeadline field in DocumentCreationInfo input field in the agreement creation request when using the API to create an agreement in a workflow
+    * @param expirationInfo {module:model/workflows/ExpirationFieldInfoDescription} Information about daysUntilSigningDeadline field in DocumentCreationInfo input field in the agreement creation request when using the API to create an agreement in a workflow
     * @instance
     */
     _this.setExpirationInfo = function(expirationInfo) {
@@ -211,7 +211,7 @@
    /**
     * Information about FileInfo input field in the agreement creation request when using the API to create an agreement in a workflow
     * @function getFileInfos
-    * @return  Information about FileInfo input field in the agreement creation request when using the API to create an agreement in a workflow { Array }
+    * @return  {module:model/workflows/Array} Information about FileInfo input field in the agreement creation request when using the API to create an agreement in a workflow  
     * @instance
     */
     _this.getFileInfos = function() {
@@ -221,7 +221,7 @@
    /**
     * Information about FileInfo input field in the agreement creation request when using the API to create an agreement in a workflow
     * @function setFileInfos
-    * @param fileInfos { Array } Information about FileInfo input field in the agreement creation request when using the API to create an agreement in a workflow
+    * @param fileInfos {module:model/workflows/Array} Information about FileInfo input field in the agreement creation request when using the API to create an agreement in a workflow
     * @instance
     */
     _this.setFileInfos = function(fileInfos) {
@@ -231,7 +231,7 @@
    /**
     * Information about locale field in DocumentCreationInfo input field in the agreement creation request when using the API to create an agreement in a workflow
     * @function getLocaleInfo
-    * @return  Information about locale field in DocumentCreationInfo input field in the agreement creation request when using the API to create an agreement in a workflow { LocaleFieldInfoDescription }
+    * @return  {module:model/workflows/LocaleFieldInfoDescription} Information about locale field in DocumentCreationInfo input field in the agreement creation request when using the API to create an agreement in a workflow  
     * @instance
     */
     _this.getLocaleInfo = function() {
@@ -241,7 +241,7 @@
    /**
     * Information about locale field in DocumentCreationInfo input field in the agreement creation request when using the API to create an agreement in a workflow
     * @function setLocaleInfo
-    * @param localeInfo { LocaleFieldInfoDescription } Information about locale field in DocumentCreationInfo input field in the agreement creation request when using the API to create an agreement in a workflow
+    * @param localeInfo {module:model/workflows/LocaleFieldInfoDescription} Information about locale field in DocumentCreationInfo input field in the agreement creation request when using the API to create an agreement in a workflow
     * @instance
     */
     _this.setLocaleInfo = function(localeInfo) {
@@ -251,7 +251,7 @@
    /**
     * Information about customFieldInfos in DocumentCreationInfo input field in the agreement creation request when using the API to create an agreement in a workflow
     * @function getMergeFieldsInfo
-    * @return  Information about customFieldInfos in DocumentCreationInfo input field in the agreement creation request when using the API to create an agreement in a workflow { Array }
+    * @return  {module:model/workflows/Array} Information about customFieldInfos in DocumentCreationInfo input field in the agreement creation request when using the API to create an agreement in a workflow  
     * @instance
     */
     _this.getMergeFieldsInfo = function() {
@@ -261,7 +261,7 @@
    /**
     * Information about customFieldInfos in DocumentCreationInfo input field in the agreement creation request when using the API to create an agreement in a workflow
     * @function setMergeFieldsInfo
-    * @param mergeFieldsInfo { Array } Information about customFieldInfos in DocumentCreationInfo input field in the agreement creation request when using the API to create an agreement in a workflow
+    * @param mergeFieldsInfo {module:model/workflows/Array} Information about customFieldInfos in DocumentCreationInfo input field in the agreement creation request when using the API to create an agreement in a workflow
     * @instance
     */
     _this.setMergeFieldsInfo = function(mergeFieldsInfo) {
@@ -271,7 +271,7 @@
    /**
     * Information about message field in DocumentCreationInfo input field in the agreement creation request when using the API to create an agreement in a workflow
     * @function getMessageInfo
-    * @return  Information about message field in DocumentCreationInfo input field in the agreement creation request when using the API to create an agreement in a workflow { WorkflowDefaultParams }
+    * @return  {module:model/workflows/WorkflowDefaultParams} Information about message field in DocumentCreationInfo input field in the agreement creation request when using the API to create an agreement in a workflow  
     * @instance
     */
     _this.getMessageInfo = function() {
@@ -281,7 +281,7 @@
    /**
     * Information about message field in DocumentCreationInfo input field in the agreement creation request when using the API to create an agreement in a workflow
     * @function setMessageInfo
-    * @param messageInfo { WorkflowDefaultParams } Information about message field in DocumentCreationInfo input field in the agreement creation request when using the API to create an agreement in a workflow
+    * @param messageInfo {module:model/workflows/WorkflowDefaultParams} Information about message field in DocumentCreationInfo input field in the agreement creation request when using the API to create an agreement in a workflow
     * @instance
     */
     _this.setMessageInfo = function(messageInfo) {
@@ -291,7 +291,7 @@
    /**
     * The day on which the workflow was last modified
     * @function getModified
-    * @return  The day on which the workflow was last modified { Date }
+    * @return  {module:model/workflows/Date} The day on which the workflow was last modified  
     * @instance
     */
     _this.getModified = function() {
@@ -301,7 +301,7 @@
    /**
     * The day on which the workflow was last modified
     * @function setModified
-    * @param modified { Date } The day on which the workflow was last modified
+    * @param modified {module:model/workflows/Date} The day on which the workflow was last modified
     * @instance
     */
     _this.setModified = function(modified) {
@@ -311,7 +311,7 @@
    /**
     * The name of the workflow.
     * @function getName
-    * @return  The name of the workflow. { String }
+    * @return  {module:model/workflows/String} The name of the workflow.  
     * @instance
     */
     _this.getName = function() {
@@ -321,7 +321,7 @@
    /**
     * The name of the workflow.
     * @function setName
-    * @param name { String } The name of the workflow.
+    * @param name {module:model/workflows/String} The name of the workflow.
     * @instance
     */
     _this.setName = function(name) {
@@ -331,7 +331,7 @@
    /**
     * Information about openPassword field in SecurityOptions input field in the agreement creation request when using the API to create an agreement in a workflow
     * @function getPasswordInfo
-    * @return  Information about openPassword field in SecurityOptions input field in the agreement creation request when using the API to create an agreement in a workflow { PasswordFieldInfoDescription }
+    * @return  {module:model/workflows/PasswordFieldInfoDescription} Information about openPassword field in SecurityOptions input field in the agreement creation request when using the API to create an agreement in a workflow  
     * @instance
     */
     _this.getPasswordInfo = function() {
@@ -341,7 +341,7 @@
    /**
     * Information about openPassword field in SecurityOptions input field in the agreement creation request when using the API to create an agreement in a workflow
     * @function setPasswordInfo
-    * @param passwordInfo { PasswordFieldInfoDescription } Information about openPassword field in SecurityOptions input field in the agreement creation request when using the API to create an agreement in a workflow
+    * @param passwordInfo {module:model/workflows/PasswordFieldInfoDescription} Information about openPassword field in SecurityOptions input field in the agreement creation request when using the API to create an agreement in a workflow
     * @instance
     */
     _this.setPasswordInfo = function(passwordInfo) {
@@ -351,7 +351,7 @@
    /**
     * Information about RecepientsInfo input field in the agreement creation request when using the API to create an agreement in a workflow
     * @function getRecipientsListInfo
-    * @return  Information about RecepientsInfo input field in the agreement creation request when using the API to create an agreement in a workflow { Array }
+    * @return  {module:model/workflows/Array} Information about RecepientsInfo input field in the agreement creation request when using the API to create an agreement in a workflow  
     * @instance
     */
     _this.getRecipientsListInfo = function() {
@@ -361,7 +361,7 @@
    /**
     * Information about RecepientsInfo input field in the agreement creation request when using the API to create an agreement in a workflow
     * @function setRecipientsListInfo
-    * @param recipientsListInfo { Array } Information about RecepientsInfo input field in the agreement creation request when using the API to create an agreement in a workflow
+    * @param recipientsListInfo {module:model/workflows/Array} Information about RecepientsInfo input field in the agreement creation request when using the API to create an agreement in a workflow
     * @instance
     */
     _this.setRecipientsListInfo = function(recipientsListInfo) {
@@ -371,7 +371,7 @@
    /**
     * The workflow scope (ACCOUNT or GROUP or OTHER)
     * @function getScope
-    * @return  The workflow scope (ACCOUNT or GROUP or OTHER) { String }
+    * @return  {module:model/workflows/String} The workflow scope (ACCOUNT or GROUP or OTHER)  
     * @instance
     */
     _this.getScope = function() {
@@ -381,7 +381,7 @@
    /**
     * The workflow scope (ACCOUNT or GROUP or OTHER)
     * @function setScope
-    * @param scope { String } The workflow scope (ACCOUNT or GROUP or OTHER)
+    * @param scope {module:model/workflows/String} The workflow scope (ACCOUNT or GROUP or OTHER)
     * @instance
     */
     _this.setScope = function(scope) {
@@ -391,7 +391,7 @@
    /**
     * Identifier of scope. Currently it is applicable for scope GROUP only and the value will be groupId.
     * @function getScopeId
-    * @return  Identifier of scope. Currently it is applicable for scope GROUP only and the value will be groupId. { String }
+    * @return  {module:model/workflows/String} Identifier of scope. Currently it is applicable for scope GROUP only and the value will be groupId.  
     * @instance
     */
     _this.getScopeId = function() {
@@ -401,7 +401,7 @@
    /**
     * Identifier of scope. Currently it is applicable for scope GROUP only and the value will be groupId.
     * @function setScopeId
-    * @param scopeId { String } Identifier of scope. Currently it is applicable for scope GROUP only and the value will be groupId.
+    * @param scopeId {module:model/workflows/String} Identifier of scope. Currently it is applicable for scope GROUP only and the value will be groupId.
     * @instance
     */
     _this.setScopeId = function(scopeId) {
@@ -411,7 +411,7 @@
    /**
     * The workflow status (ACTIVE or DRAFT or OTHER)
     * @function getStatus
-    * @return  The workflow status (ACTIVE or DRAFT or OTHER) { String }
+    * @return  {module:model/workflows/String} The workflow status (ACTIVE or DRAFT or OTHER)  
     * @instance
     */
     _this.getStatus = function() {
@@ -421,7 +421,7 @@
    /**
     * The workflow status (ACTIVE or DRAFT or OTHER)
     * @function setStatus
-    * @param status { String } The workflow status (ACTIVE or DRAFT or OTHER)
+    * @param status {module:model/workflows/String} The workflow status (ACTIVE or DRAFT or OTHER)
     * @instance
     */
     _this.setStatus = function(status) {

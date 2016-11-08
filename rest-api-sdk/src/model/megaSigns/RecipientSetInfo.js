@@ -37,7 +37,7 @@
    /**
     * Information about the members of the recipient set
     * @function getRecipientSetMemberInfos
-    * @return  Information about the members of the recipient set { Array }
+    * @return  {module:model/megaSigns/Array} Information about the members of the recipient set  
     * @instance
     */
     _this.getRecipientSetMemberInfos = function() {
@@ -47,7 +47,7 @@
    /**
     * Information about the members of the recipient set
     * @function setRecipientSetMemberInfos
-    * @param recipientSetMemberInfos { Array } Information about the members of the recipient set
+    * @param recipientSetMemberInfos {module:model/megaSigns/Array} Information about the members of the recipient set
     * @instance
     */
     _this.setRecipientSetMemberInfos = function(recipientSetMemberInfos) {

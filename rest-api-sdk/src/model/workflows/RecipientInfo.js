@@ -39,7 +39,7 @@
    /**
     * Email of the recipient. This is required if fax is not provided. Both fax and email can not be provided
     * @function getEmail
-    * @return  Email of the recipient. This is required if fax is not provided. Both fax and email can not be provided { String }
+    * @return  {module:model/workflows/String} Email of the recipient. This is required if fax is not provided. Both fax and email can not be provided  
     * @instance
     */
     _this.getEmail = function() {
@@ -49,7 +49,7 @@
    /**
     * Email of the recipient. This is required if fax is not provided. Both fax and email can not be provided
     * @function setEmail
-    * @param email { String } Email of the recipient. This is required if fax is not provided. Both fax and email can not be provided
+    * @param email {module:model/workflows/String} Email of the recipient. This is required if fax is not provided. Both fax and email can not be provided
     * @instance
     */
     _this.setEmail = function(email) {
@@ -59,7 +59,7 @@
    /**
     * Fax of the recipient. This is required if email is not provided. Both fax and email can not be provided
     * @function getFax
-    * @return  Fax of the recipient. This is required if email is not provided. Both fax and email can not be provided { String }
+    * @return  {module:model/workflows/String} Fax of the recipient. This is required if email is not provided. Both fax and email can not be provided  
     * @instance
     */
     _this.getFax = function() {
@@ -69,7 +69,7 @@
    /**
     * Fax of the recipient. This is required if email is not provided. Both fax and email can not be provided
     * @function setFax
-    * @param fax { String } Fax of the recipient. This is required if email is not provided. Both fax and email can not be provided
+    * @param fax {module:model/workflows/String} Fax of the recipient. This is required if email is not provided. Both fax and email can not be provided
     * @instance
     */
     _this.setFax = function(fax) {

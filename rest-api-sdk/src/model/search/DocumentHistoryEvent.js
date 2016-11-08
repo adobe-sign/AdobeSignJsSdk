@@ -57,7 +57,7 @@
    /**
     * Email address of the user that initiated the event
     * @function getActingUserEmail
-    * @return  Email address of the user that initiated the event { String }
+    * @return  {module:model/search/String} Email address of the user that initiated the event  
     * @instance
     */
     _this.getActingUserEmail = function() {
@@ -67,7 +67,7 @@
    /**
     * Email address of the user that initiated the event
     * @function setActingUserEmail
-    * @param actingUserEmail { String } Email address of the user that initiated the event
+    * @param actingUserEmail {module:model/search/String} Email address of the user that initiated the event
     * @instance
     */
     _this.setActingUserEmail = function(actingUserEmail) {
@@ -77,7 +77,7 @@
    /**
     * The IP address of the user that initiated the event
     * @function getActingUserIpAddress
-    * @return  The IP address of the user that initiated the event { String }
+    * @return  {module:model/search/String} The IP address of the user that initiated the event  
     * @instance
     */
     _this.getActingUserIpAddress = function() {
@@ -87,7 +87,7 @@
    /**
     * The IP address of the user that initiated the event
     * @function setActingUserIpAddress
-    * @param actingUserIpAddress { String } The IP address of the user that initiated the event
+    * @param actingUserIpAddress {module:model/search/String} The IP address of the user that initiated the event
     * @instance
     */
     _this.setActingUserIpAddress = function(actingUserIpAddress) {
@@ -97,7 +97,7 @@
    /**
     * The event comment. For RECALLED or REJECTED, the reason given by the user that initiates the event. For DELEGATE or SHARE, the message from the acting user to the participant
     * @function getComment
-    * @return  The event comment. For RECALLED or REJECTED, the reason given by the user that initiates the event. For DELEGATE or SHARE, the message from the acting user to the participant { String }
+    * @return  {module:model/search/String} The event comment. For RECALLED or REJECTED, the reason given by the user that initiates the event. For DELEGATE or SHARE, the message from the acting user to the participant  
     * @instance
     */
     _this.getComment = function() {
@@ -107,7 +107,7 @@
    /**
     * The event comment. For RECALLED or REJECTED, the reason given by the user that initiates the event. For DELEGATE or SHARE, the message from the acting user to the participant
     * @function setComment
-    * @param comment { String } The event comment. For RECALLED or REJECTED, the reason given by the user that initiates the event. For DELEGATE or SHARE, the message from the acting user to the participant
+    * @param comment {module:model/search/String} The event comment. For RECALLED or REJECTED, the reason given by the user that initiates the event. For DELEGATE or SHARE, the message from the acting user to the participant
     * @instance
     */
     _this.setComment = function(comment) {
@@ -117,7 +117,7 @@
    /**
     * The date of the audit event
     * @function getDate
-    * @return  The date of the audit event { Date }
+    * @return  {module:model/search/Date} The date of the audit event  
     * @instance
     */
     _this.getDate = function() {
@@ -127,7 +127,7 @@
    /**
     * The date of the audit event
     * @function setDate
-    * @param date { Date } The date of the audit event
+    * @param date {module:model/search/Date} The date of the audit event
     * @instance
     */
     _this.setDate = function(date) {
@@ -137,7 +137,7 @@
    /**
     * A description of the audit event
     * @function getDescription
-    * @return  A description of the audit event { String }
+    * @return  {module:model/search/String} A description of the audit event  
     * @instance
     */
     _this.getDescription = function() {
@@ -147,7 +147,7 @@
    /**
     * A description of the audit event
     * @function setDescription
-    * @param description { String } A description of the audit event
+    * @param description {module:model/search/String} A description of the audit event
     * @instance
     */
     _this.setDescription = function(description) {
@@ -157,7 +157,7 @@
    /**
     * Location of the device that created the event (This value may be null due to limited privileges)
     * @function getDeviceLocation
-    * @return  Location of the device that created the event (This value may be null due to limited privileges) { DeviceLocation }
+    * @return  {module:model/search/DeviceLocation} Location of the device that created the event (This value may be null due to limited privileges)  
     * @instance
     */
     _this.getDeviceLocation = function() {
@@ -167,7 +167,7 @@
    /**
     * Location of the device that created the event (This value may be null due to limited privileges)
     * @function setDeviceLocation
-    * @param deviceLocation { DeviceLocation } Location of the device that created the event (This value may be null due to limited privileges)
+    * @param deviceLocation {module:model/search/DeviceLocation} Location of the device that created the event (This value may be null due to limited privileges)
     * @instance
     */
     _this.setDeviceLocation = function(deviceLocation) {
@@ -177,7 +177,7 @@
    /**
     * Email address of the user that initiated the event
     * @function getParticipantEmail
-    * @return  Email address of the user that initiated the event { String }
+    * @return  {module:model/search/String} Email address of the user that initiated the event  
     * @instance
     */
     _this.getParticipantEmail = function() {
@@ -187,7 +187,7 @@
    /**
     * Email address of the user that initiated the event
     * @function setParticipantEmail
-    * @param participantEmail { String } Email address of the user that initiated the event
+    * @param participantEmail {module:model/search/String} Email address of the user that initiated the event
     * @instance
     */
     _this.setParticipantEmail = function(participantEmail) {
@@ -197,7 +197,7 @@
    /**
     * A unique identifier linking offline events to synchronization events (specified for offline signing events and synchronization events, else null)
     * @function getSynchronizationId
-    * @return  A unique identifier linking offline events to synchronization events (specified for offline signing events and synchronization events, else null) { String }
+    * @return  {module:model/search/String} A unique identifier linking offline events to synchronization events (specified for offline signing events and synchronization events, else null)  
     * @instance
     */
     _this.getSynchronizationId = function() {
@@ -207,7 +207,7 @@
    /**
     * A unique identifier linking offline events to synchronization events (specified for offline signing events and synchronization events, else null)
     * @function setSynchronizationId
-    * @param synchronizationId { String } A unique identifier linking offline events to synchronization events (specified for offline signing events and synchronization events, else null)
+    * @param synchronizationId {module:model/search/String} A unique identifier linking offline events to synchronization events (specified for offline signing events and synchronization events, else null)
     * @instance
     */
     _this.setSynchronizationId = function(synchronizationId) {
@@ -217,7 +217,7 @@
    /**
     * Type of the document event
     * @function getType
-    * @return  Type of the document event { String }
+    * @return  {module:model/search/String} Type of the document event  
     * @instance
     */
     _this.getType = function() {
@@ -227,7 +227,7 @@
    /**
     * Type of the document event
     * @function setType
-    * @param type { String } Type of the document event
+    * @param type {module:model/search/String} Type of the document event
     * @instance
     */
     _this.setType = function(type) {
@@ -237,7 +237,7 @@
    /**
     * The identifier assigned by the vault provider for the vault event (if vaulted, otherwise null)
     * @function getVaultEventId
-    * @return  The identifier assigned by the vault provider for the vault event (if vaulted, otherwise null) { String }
+    * @return  {module:model/search/String} The identifier assigned by the vault provider for the vault event (if vaulted, otherwise null)  
     * @instance
     */
     _this.getVaultEventId = function() {
@@ -247,7 +247,7 @@
    /**
     * The identifier assigned by the vault provider for the vault event (if vaulted, otherwise null)
     * @function setVaultEventId
-    * @param vaultEventId { String } The identifier assigned by the vault provider for the vault event (if vaulted, otherwise null)
+    * @param vaultEventId {module:model/search/String} The identifier assigned by the vault provider for the vault event (if vaulted, otherwise null)
     * @instance
     */
     _this.setVaultEventId = function(vaultEventId) {
@@ -257,7 +257,7 @@
    /**
     * An ID which uniquely identifies the version of the document associated with this audit event
     * @function getVersionId
-    * @return  An ID which uniquely identifies the version of the document associated with this audit event { String }
+    * @return  {module:model/search/String} An ID which uniquely identifies the version of the document associated with this audit event  
     * @instance
     */
     _this.getVersionId = function() {
@@ -267,7 +267,7 @@
    /**
     * An ID which uniquely identifies the version of the document associated with this audit event
     * @function setVersionId
-    * @param versionId { String } An ID which uniquely identifies the version of the document associated with this audit event
+    * @param versionId {module:model/search/String} An ID which uniquely identifies the version of the document associated with this audit event
     * @instance
     */
     _this.setVersionId = function(versionId) {

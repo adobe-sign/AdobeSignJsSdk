@@ -39,7 +39,7 @@
    /**
     * The phoneInfo country code required for the recipient to view and sign the document if authentication type is PHONE
     * @function getCountryCode
-    * @return  The phoneInfo country code required for the recipient to view and sign the document if authentication type is PHONE { String }
+    * @return  {module:model/agreements/String} The phoneInfo country code required for the recipient to view and sign the document if authentication type is PHONE  
     * @instance
     */
     _this.getCountryCode = function() {
@@ -49,7 +49,7 @@
    /**
     * The phoneInfo country code required for the recipient to view and sign the document if authentication type is PHONE
     * @function setCountryCode
-    * @param countryCode { String } The phoneInfo country code required for the recipient to view and sign the document if authentication type is PHONE
+    * @param countryCode {module:model/agreements/String} The phoneInfo country code required for the recipient to view and sign the document if authentication type is PHONE
     * @instance
     */
     _this.setCountryCode = function(countryCode) {
@@ -59,7 +59,7 @@
    /**
     * The phone number required for the recipient to view and sign the document if authentication type is PHONE
     * @function getPhone
-    * @return  The phone number required for the recipient to view and sign the document if authentication type is PHONE { String }
+    * @return  {module:model/agreements/String} The phone number required for the recipient to view and sign the document if authentication type is PHONE  
     * @instance
     */
     _this.getPhone = function() {
@@ -69,7 +69,7 @@
    /**
     * The phone number required for the recipient to view and sign the document if authentication type is PHONE
     * @function setPhone
-    * @param phone { String } The phone number required for the recipient to view and sign the document if authentication type is PHONE
+    * @param phone {module:model/agreements/String} The phone number required for the recipient to view and sign the document if authentication type is PHONE
     * @instance
     */
     _this.setPhone = function(phone) {

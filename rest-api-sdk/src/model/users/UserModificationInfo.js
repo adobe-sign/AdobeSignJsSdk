@@ -53,7 +53,7 @@
    /**
     * The new company name of the user. The server will reset to null if the value is not provided
     * @function getCompany
-    * @return  The new company name of the user. The server will reset to null if the value is not provided { String }
+    * @return  {module:model/users/String} The new company name of the user. The server will reset to null if the value is not provided  
     * @instance
     */
     _this.getCompany = function() {
@@ -63,7 +63,7 @@
    /**
     * The new company name of the user. The server will reset to null if the value is not provided
     * @function setCompany
-    * @param company { String } The new company name of the user. The server will reset to null if the value is not provided
+    * @param company {module:model/users/String} The new company name of the user. The server will reset to null if the value is not provided
     * @instance
     */
     _this.setCompany = function(company) {
@@ -73,7 +73,7 @@
    /**
     * The new email address of the user
     * @function getEmail
-    * @return  The new email address of the user { String }
+    * @return  {module:model/users/String} The new email address of the user  
     * @instance
     */
     _this.getEmail = function() {
@@ -83,7 +83,7 @@
    /**
     * The new email address of the user
     * @function setEmail
-    * @param email { String } The new email address of the user
+    * @param email {module:model/users/String} The new email address of the user
     * @instance
     */
     _this.setEmail = function(email) {
@@ -93,7 +93,7 @@
    /**
     * The new first name of the user
     * @function getFirstName
-    * @return  The new first name of the user { String }
+    * @return  {module:model/users/String} The new first name of the user  
     * @instance
     */
     _this.getFirstName = function() {
@@ -103,7 +103,7 @@
    /**
     * The new first name of the user
     * @function setFirstName
-    * @param firstName { String } The new first name of the user
+    * @param firstName {module:model/users/String} The new first name of the user
     * @instance
     */
     _this.setFirstName = function(firstName) {
@@ -113,7 +113,7 @@
    /**
     * The new group in which the user should be added. It can be obtained through a call to the API which retrieves the list of users. The server will reset to default if the value is not provided
     * @function getGroupId
-    * @return  The new group in which the user should be added. It can be obtained through a call to the API which retrieves the list of users. The server will reset to default if the value is not provided { String }
+    * @return  {module:model/users/String} The new group in which the user should be added. It can be obtained through a call to the API which retrieves the list of users. The server will reset to default if the value is not provided  
     * @instance
     */
     _this.getGroupId = function() {
@@ -123,7 +123,7 @@
    /**
     * The new group in which the user should be added. It can be obtained through a call to the API which retrieves the list of users. The server will reset to default if the value is not provided
     * @function setGroupId
-    * @param groupId { String } The new group in which the user should be added. It can be obtained through a call to the API which retrieves the list of users. The server will reset to default if the value is not provided
+    * @param groupId {module:model/users/String} The new group in which the user should be added. It can be obtained through a call to the API which retrieves the list of users. The server will reset to default if the value is not provided
     * @instance
     */
     _this.setGroupId = function(groupId) {
@@ -133,7 +133,7 @@
    /**
     * The new last name of the user
     * @function getLastName
-    * @return  The new last name of the user { String }
+    * @return  {module:model/users/String} The new last name of the user  
     * @instance
     */
     _this.getLastName = function() {
@@ -143,7 +143,7 @@
    /**
     * The new last name of the user
     * @function setLastName
-    * @param lastName { String } The new last name of the user
+    * @param lastName {module:model/users/String} The new last name of the user
     * @instance
     */
     _this.setLastName = function(lastName) {
@@ -153,7 +153,7 @@
    /**
     * Whether or not the user has opted in to receive the marketing information from Adobe Sign and its partners. The server will reset to null if the value is not provided.
     * @function getOptIn
-    * @return  Whether or not the user has opted in to receive the marketing information from Adobe Sign and its partners. The server will reset to null if the value is not provided. { String }
+    * @return  {module:model/users/String} Whether or not the user has opted in to receive the marketing information from Adobe Sign and its partners. The server will reset to null if the value is not provided.  
     * @instance
     */
     _this.getOptIn = function() {
@@ -163,7 +163,7 @@
    /**
     * Whether or not the user has opted in to receive the marketing information from Adobe Sign and its partners. The server will reset to null if the value is not provided.
     * @function setOptIn
-    * @param optIn { String } Whether or not the user has opted in to receive the marketing information from Adobe Sign and its partners. The server will reset to null if the value is not provided.
+    * @param optIn {module:model/users/String} Whether or not the user has opted in to receive the marketing information from Adobe Sign and its partners. The server will reset to null if the value is not provided.
     * @instance
     */
     _this.setOptIn = function(optIn) {
@@ -173,7 +173,7 @@
    /**
     * The new phone number of the user. The server will reset to null if the value is not provided
     * @function getPhone
-    * @return  The new phone number of the user. The server will reset to null if the value is not provided { String }
+    * @return  {module:model/users/String} The new phone number of the user. The server will reset to null if the value is not provided  
     * @instance
     */
     _this.getPhone = function() {
@@ -183,7 +183,7 @@
    /**
     * The new phone number of the user. The server will reset to null if the value is not provided
     * @function setPhone
-    * @param phone { String } The new phone number of the user. The server will reset to null if the value is not provided
+    * @param phone {module:model/users/String} The new phone number of the user. The server will reset to null if the value is not provided
     * @instance
     */
     _this.setPhone = function(phone) {
@@ -193,7 +193,7 @@
    /**
     * The new roles of the user
     * @function getRoles
-    * @return  The new roles of the user { Array }
+    * @return  {module:model/users/Array} The new roles of the user  
     * @instance
     */
     _this.getRoles = function() {
@@ -203,7 +203,7 @@
    /**
     * The new roles of the user
     * @function setRoles
-    * @param roles { Array } The new roles of the user
+    * @param roles {module:model/users/Array} The new roles of the user
     * @instance
     */
     _this.setRoles = function(roles) {
@@ -213,7 +213,7 @@
    /**
     * The new job title of the user. The server will reset to null if the value is not provided
     * @function getTitle
-    * @return  The new job title of the user. The server will reset to null if the value is not provided { String }
+    * @return  {module:model/users/String} The new job title of the user. The server will reset to null if the value is not provided  
     * @instance
     */
     _this.getTitle = function() {
@@ -223,7 +223,7 @@
    /**
     * The new job title of the user. The server will reset to null if the value is not provided
     * @function setTitle
-    * @param title { String } The new job title of the user. The server will reset to null if the value is not provided
+    * @param title {module:model/users/String} The new job title of the user. The server will reset to null if the value is not provided
     * @instance
     */
     _this.setTitle = function(title) {

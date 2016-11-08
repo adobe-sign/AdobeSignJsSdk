@@ -45,7 +45,7 @@
    /**
     * The display date for the MegaSign parent agreement
     * @function getDisplayDate
-    * @return  The display date for the MegaSign parent agreement { Date }
+    * @return  {module:model/megaSigns/Date} The display date for the MegaSign parent agreement  
     * @instance
     */
     _this.getDisplayDate = function() {
@@ -55,7 +55,7 @@
    /**
     * The display date for the MegaSign parent agreement
     * @function setDisplayDate
-    * @param displayDate { Date } The display date for the MegaSign parent agreement
+    * @param displayDate {module:model/megaSigns/Date} The display date for the MegaSign parent agreement
     * @instance
     */
     _this.setDisplayDate = function(displayDate) {
@@ -65,7 +65,7 @@
    /**
     * True if this is an e-sign document
     * @function getEsign
-    * @return  True if this is an e-sign document { Boolean }
+    * @return  {module:model/megaSigns/Boolean} True if this is an e-sign document  
     * @instance
     */
     _this.getEsign = function() {
@@ -75,7 +75,7 @@
    /**
     * True if this is an e-sign document
     * @function setEsign
-    * @param esign { Boolean } True if this is an e-sign document
+    * @param esign {module:model/megaSigns/Boolean} True if this is an e-sign document
     * @instance
     */
     _this.setEsign = function(esign) {
@@ -85,7 +85,7 @@
    /**
     * Unique identifier of the MegaSign parent agreement
     * @function getMegaSignId
-    * @return  Unique identifier of the MegaSign parent agreement { String }
+    * @return  {module:model/megaSigns/String} Unique identifier of the MegaSign parent agreement  
     * @instance
     */
     _this.getMegaSignId = function() {
@@ -95,7 +95,7 @@
    /**
     * Unique identifier of the MegaSign parent agreement
     * @function setMegaSignId
-    * @param megaSignId { String } Unique identifier of the MegaSign parent agreement
+    * @param megaSignId {module:model/megaSigns/String} Unique identifier of the MegaSign parent agreement
     * @instance
     */
     _this.setMegaSignId = function(megaSignId) {
@@ -105,7 +105,7 @@
    /**
     * Name of the MegaSign parent agreement
     * @function getName
-    * @return  Name of the MegaSign parent agreement { String }
+    * @return  {module:model/megaSigns/String} Name of the MegaSign parent agreement  
     * @instance
     */
     _this.getName = function() {
@@ -115,7 +115,7 @@
    /**
     * Name of the MegaSign parent agreement
     * @function setName
-    * @param name { String } Name of the MegaSign parent agreement
+    * @param name {module:model/megaSigns/String} Name of the MegaSign parent agreement
     * @instance
     */
     _this.setName = function(name) {
@@ -125,7 +125,7 @@
    /**
     * Current status of the MegaSign parent agreement from the perspective of the user
     * @function getStatus
-    * @return  Current status of the MegaSign parent agreement from the perspective of the user { String }
+    * @return  {module:model/megaSigns/String} Current status of the MegaSign parent agreement from the perspective of the user  
     * @instance
     */
     _this.getStatus = function() {
@@ -135,7 +135,7 @@
    /**
     * Current status of the MegaSign parent agreement from the perspective of the user
     * @function setStatus
-    * @param status { String } Current status of the MegaSign parent agreement from the perspective of the user
+    * @param status {module:model/megaSigns/String} Current status of the MegaSign parent agreement from the perspective of the user
     * @instance
     */
     _this.setStatus = function(status) {

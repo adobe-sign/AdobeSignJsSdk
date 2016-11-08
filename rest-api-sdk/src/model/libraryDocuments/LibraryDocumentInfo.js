@@ -53,7 +53,7 @@
    /**
     * An ordered list of the events in the audit trail of this document
     * @function getEvents
-    * @return  An ordered list of the events in the audit trail of this document { Array }
+    * @return  {module:model/libraryDocuments/Array} An ordered list of the events in the audit trail of this document  
     * @instance
     */
     _this.getEvents = function() {
@@ -63,7 +63,7 @@
    /**
     * An ordered list of the events in the audit trail of this document
     * @function setEvents
-    * @param events { Array } An ordered list of the events in the audit trail of this document
+    * @param events {module:model/libraryDocuments/Array} An ordered list of the events in the audit trail of this document
     * @instance
     */
     _this.setEvents = function(events) {
@@ -73,7 +73,7 @@
    /**
     * A resource identifier that can be used to uniquely identify the library document in other apis
     * @function getLibraryDocumentId
-    * @return  A resource identifier that can be used to uniquely identify the library document in other apis { String }
+    * @return  {module:model/libraryDocuments/String} A resource identifier that can be used to uniquely identify the library document in other apis  
     * @instance
     */
     _this.getLibraryDocumentId = function() {
@@ -83,7 +83,7 @@
    /**
     * A resource identifier that can be used to uniquely identify the library document in other apis
     * @function setLibraryDocumentId
-    * @param libraryDocumentId { String } A resource identifier that can be used to uniquely identify the library document in other apis
+    * @param libraryDocumentId {module:model/libraryDocuments/String} A resource identifier that can be used to uniquely identify the library document in other apis
     * @instance
     */
     _this.setLibraryDocumentId = function(libraryDocumentId) {
@@ -93,7 +93,7 @@
    /**
     * The locale associated with this agreement - for example, en_US or fr_FR
     * @function getLocale
-    * @return  The locale associated with this agreement - for example, en_US or fr_FR { String }
+    * @return  {module:model/libraryDocuments/String} The locale associated with this agreement - for example, en_US or fr_FR  
     * @instance
     */
     _this.getLocale = function() {
@@ -103,7 +103,7 @@
    /**
     * The locale associated with this agreement - for example, en_US or fr_FR
     * @function setLocale
-    * @param locale { String } The locale associated with this agreement - for example, en_US or fr_FR
+    * @param locale {module:model/libraryDocuments/String} The locale associated with this agreement - for example, en_US or fr_FR
     * @instance
     */
     _this.setLocale = function(locale) {
@@ -113,7 +113,7 @@
    /**
     * The message associated with the document that the sender has provided
     * @function getMessage
-    * @return  The message associated with the document that the sender has provided { String }
+    * @return  {module:model/libraryDocuments/String} The message associated with the document that the sender has provided  
     * @instance
     */
     _this.getMessage = function() {
@@ -123,7 +123,7 @@
    /**
     * The message associated with the document that the sender has provided
     * @function setMessage
-    * @param message { String } The message associated with the document that the sender has provided
+    * @param message {module:model/libraryDocuments/String} The message associated with the document that the sender has provided
     * @instance
     */
     _this.setMessage = function(message) {
@@ -133,7 +133,7 @@
    /**
     * A version ID which uniquely identifies the current version of the agreement
     * @function getLatestVersionId
-    * @return  A version ID which uniquely identifies the current version of the agreement { String }
+    * @return  {module:model/libraryDocuments/String} A version ID which uniquely identifies the current version of the agreement  
     * @instance
     */
     _this.getLatestVersionId = function() {
@@ -143,7 +143,7 @@
    /**
     * A version ID which uniquely identifies the current version of the agreement
     * @function setLatestVersionId
-    * @param latestVersionId { String } A version ID which uniquely identifies the current version of the agreement
+    * @param latestVersionId {module:model/libraryDocuments/String} A version ID which uniquely identifies the current version of the agreement
     * @instance
     */
     _this.setLatestVersionId = function(latestVersionId) {
@@ -153,7 +153,7 @@
    /**
     * The name of the document, specified by the sender
     * @function getName
-    * @return  The name of the document, specified by the sender { String }
+    * @return  {module:model/libraryDocuments/String} The name of the document, specified by the sender  
     * @instance
     */
     _this.getName = function() {
@@ -163,7 +163,7 @@
    /**
     * The name of the document, specified by the sender
     * @function setName
-    * @param name { String } The name of the document, specified by the sender
+    * @param name {module:model/libraryDocuments/String} The name of the document, specified by the sender
     * @instance
     */
     _this.setName = function(name) {
@@ -173,7 +173,7 @@
    /**
     * Information about all the participants of this document
     * @function getParticipants
-    * @return  Information about all the participants of this document { Array }
+    * @return  {module:model/libraryDocuments/Array} Information about all the participants of this document  
     * @instance
     */
     _this.getParticipants = function() {
@@ -183,7 +183,7 @@
    /**
     * Information about all the participants of this document
     * @function setParticipants
-    * @param participants { Array } Information about all the participants of this document
+    * @param participants {module:model/libraryDocuments/Array} Information about all the participants of this document
     * @instance
     */
     _this.setParticipants = function(participants) {
@@ -193,7 +193,7 @@
    /**
     * Security information about the document that specifies whether or not a password is required to view and sign the document
     * @function getSecurityOptions
-    * @return  Security information about the document that specifies whether or not a password is required to view and sign the document { Array }
+    * @return  {module:model/libraryDocuments/Array} Security information about the document that specifies whether or not a password is required to view and sign the document  
     * @instance
     */
     _this.getSecurityOptions = function() {
@@ -203,7 +203,7 @@
    /**
     * Security information about the document that specifies whether or not a password is required to view and sign the document
     * @function setSecurityOptions
-    * @param securityOptions { Array } Security information about the document that specifies whether or not a password is required to view and sign the document
+    * @param securityOptions {module:model/libraryDocuments/Array} Security information about the document that specifies whether or not a password is required to view and sign the document
     * @instance
     */
     _this.setSecurityOptions = function(securityOptions) {
@@ -213,7 +213,7 @@
    /**
     * The current status of the document
     * @function getStatus
-    * @return  The current status of the document { String }
+    * @return  {module:model/libraryDocuments/String} The current status of the document  
     * @instance
     */
     _this.getStatus = function() {
@@ -223,7 +223,7 @@
    /**
     * The current status of the document
     * @function setStatus
-    * @param status { String } The current status of the document
+    * @param status {module:model/libraryDocuments/String} The current status of the document
     * @instance
     */
     _this.setStatus = function(status) {

@@ -38,7 +38,7 @@
    /**
     * Unique identifier of the MegaSign parent agreement
     * @function getMegaSignId
-    * @return  Unique identifier of the MegaSign parent agreement { String }
+    * @return  {module:model/megaSigns/String} Unique identifier of the MegaSign parent agreement  
     * @instance
     */
     _this.getMegaSignId = function() {
@@ -48,7 +48,7 @@
    /**
     * Unique identifier of the MegaSign parent agreement
     * @function setMegaSignId
-    * @param megaSignId { String } Unique identifier of the MegaSign parent agreement
+    * @param megaSignId {module:model/megaSigns/String} Unique identifier of the MegaSign parent agreement
     * @instance
     */
     _this.setMegaSignId = function(megaSignId) {

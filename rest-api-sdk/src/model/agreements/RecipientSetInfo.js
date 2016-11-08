@@ -47,7 +47,7 @@
    /**
     * Private message for the recipients in the set
     * @function getPrivateMessage
-    * @return  Private message for the recipients in the set { String }
+    * @return  {module:model/agreements/String} Private message for the recipients in the set  
     * @instance
     */
     _this.getPrivateMessage = function() {
@@ -57,7 +57,7 @@
    /**
     * Private message for the recipients in the set
     * @function setPrivateMessage
-    * @param privateMessage { String } Private message for the recipients in the set
+    * @param privateMessage {module:model/agreements/String} Private message for the recipients in the set
     * @instance
     */
     _this.setPrivateMessage = function(privateMessage) {
@@ -67,7 +67,7 @@
    /**
     * Information about the members of the recipient set
     * @function getRecipientSetMemberInfos
-    * @return  Information about the members of the recipient set { Array }
+    * @return  {module:model/agreements/Array} Information about the members of the recipient set  
     * @instance
     */
     _this.getRecipientSetMemberInfos = function() {
@@ -77,7 +77,7 @@
    /**
     * Information about the members of the recipient set
     * @function setRecipientSetMemberInfos
-    * @param recipientSetMemberInfos { Array } Information about the members of the recipient set
+    * @param recipientSetMemberInfos {module:model/agreements/Array} Information about the members of the recipient set
     * @instance
     */
     _this.setRecipientSetMemberInfos = function(recipientSetMemberInfos) {
@@ -87,7 +87,7 @@
    /**
     * Specify the name of Recipient set. Maximum no of characters in recipient set name is restricted to 255.
     * @function getRecipientSetName
-    * @return  Specify the name of Recipient set. Maximum no of characters in recipient set name is restricted to 255. { String }
+    * @return  {module:model/agreements/String} Specify the name of Recipient set. Maximum no of characters in recipient set name is restricted to 255.  
     * @instance
     */
     _this.getRecipientSetName = function() {
@@ -97,7 +97,7 @@
    /**
     * Specify the name of Recipient set. Maximum no of characters in recipient set name is restricted to 255.
     * @function setRecipientSetName
-    * @param recipientSetName { String } Specify the name of Recipient set. Maximum no of characters in recipient set name is restricted to 255.
+    * @param recipientSetName {module:model/agreements/String} Specify the name of Recipient set. Maximum no of characters in recipient set name is restricted to 255.
     * @instance
     */
     _this.setRecipientSetName = function(recipientSetName) {
@@ -107,7 +107,7 @@
    /**
     * Specify the role of recipient set
     * @function getRecipientSetRole
-    * @return  Specify the role of recipient set { String }
+    * @return  {module:model/agreements/String} Specify the role of recipient set  
     * @instance
     */
     _this.getRecipientSetRole = function() {
@@ -117,7 +117,7 @@
    /**
     * Specify the role of recipient set
     * @function setRecipientSetRole
-    * @param recipientSetRole { String } Specify the role of recipient set
+    * @param recipientSetRole {module:model/agreements/String} Specify the role of recipient set
     * @instance
     */
     _this.setRecipientSetRole = function(recipientSetRole) {
@@ -127,7 +127,7 @@
    /**
     * Security options that apply to the recipient
     * @function getSecurityOptions
-    * @return  Security options that apply to the recipient { Array }
+    * @return  {module:model/agreements/Array} Security options that apply to the recipient  
     * @instance
     */
     _this.getSecurityOptions = function() {
@@ -137,7 +137,7 @@
    /**
     * Security options that apply to the recipient
     * @function setSecurityOptions
-    * @param securityOptions { Array } Security options that apply to the recipient
+    * @param securityOptions {module:model/agreements/Array} Security options that apply to the recipient
     * @instance
     */
     _this.setSecurityOptions = function(securityOptions) {
@@ -147,7 +147,7 @@
    /**
     * Index indicating sequential signing group (specify for hybrid routing)
     * @function getSigningOrder
-    * @return  Index indicating sequential signing group (specify for hybrid routing) { Integer }
+    * @return  {module:model/agreements/Integer} Index indicating sequential signing group (specify for hybrid routing)  
     * @instance
     */
     _this.getSigningOrder = function() {
@@ -157,7 +157,7 @@
    /**
     * Index indicating sequential signing group (specify for hybrid routing)
     * @function setSigningOrder
-    * @param signingOrder { Integer } Index indicating sequential signing group (specify for hybrid routing)
+    * @param signingOrder {module:model/agreements/Integer} Index indicating sequential signing group (specify for hybrid routing)
     * @instance
     */
     _this.setSigningOrder = function(signingOrder) {

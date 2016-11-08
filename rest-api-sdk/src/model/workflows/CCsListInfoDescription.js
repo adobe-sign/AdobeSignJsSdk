@@ -49,7 +49,7 @@
    /**
     * A default email that will be used if no input is provided for this list element
     * @function getDefaultValue
-    * @return  A default email that will be used if no input is provided for this list element { String }
+    * @return  {module:model/workflows/String} A default email that will be used if no input is provided for this list element  
     * @instance
     */
     _this.getDefaultValue = function() {
@@ -59,7 +59,7 @@
    /**
     * A default email that will be used if no input is provided for this list element
     * @function setDefaultValue
-    * @param defaultValue { String } A default email that will be used if no input is provided for this list element
+    * @param defaultValue {module:model/workflows/String} A default email that will be used if no input is provided for this list element
     * @instance
     */
     _this.setDefaultValue = function(defaultValue) {
@@ -69,7 +69,7 @@
    /**
     * Whether current field can be edited. If editable attribute for this field is false then this field should not be provided in the agreement creation request and default value of this field will be used in agreement creation
     * @function getEditable
-    * @return  Whether current field can be edited. If editable attribute for this field is false then this field should not be provided in the agreement creation request and default value of this field will be used in agreement creation { Boolean }
+    * @return  {module:model/workflows/Boolean} Whether current field can be edited. If editable attribute for this field is false then this field should not be provided in the agreement creation request and default value of this field will be used in agreement creation  
     * @instance
     */
     _this.getEditable = function() {
@@ -79,7 +79,7 @@
    /**
     * Whether current field can be edited. If editable attribute for this field is false then this field should not be provided in the agreement creation request and default value of this field will be used in agreement creation
     * @function setEditable
-    * @param editable { Boolean } Whether current field can be edited. If editable attribute for this field is false then this field should not be provided in the agreement creation request and default value of this field will be used in agreement creation
+    * @param editable {module:model/workflows/Boolean} Whether current field can be edited. If editable attribute for this field is false then this field should not be provided in the agreement creation request and default value of this field will be used in agreement creation
     * @instance
     */
     _this.setEditable = function(editable) {
@@ -89,7 +89,7 @@
    /**
     * A display text for the workflow user that can be used for the current CC list
     * @function getLabel
-    * @return  A display text for the workflow user that can be used for the current CC list { String }
+    * @return  {module:model/workflows/String} A display text for the workflow user that can be used for the current CC list  
     * @instance
     */
     _this.getLabel = function() {
@@ -99,7 +99,7 @@
    /**
     * A display text for the workflow user that can be used for the current CC list
     * @function setLabel
-    * @param label { String } A display text for the workflow user that can be used for the current CC list
+    * @param label {module:model/workflows/String} A display text for the workflow user that can be used for the current CC list
     * @instance
     */
     _this.setLabel = function(label) {
@@ -109,7 +109,7 @@
    /**
     * maximum number of entries allowed in the current CC list
     * @function getMaxListCount
-    * @return  maximum number of entries allowed in the current CC list { Integer }
+    * @return  {module:model/workflows/Integer} maximum number of entries allowed in the current CC list  
     * @instance
     */
     _this.getMaxListCount = function() {
@@ -119,7 +119,7 @@
    /**
     * maximum number of entries allowed in the current CC list
     * @function setMaxListCount
-    * @param maxListCount { Integer } maximum number of entries allowed in the current CC list
+    * @param maxListCount {module:model/workflows/Integer} maximum number of entries allowed in the current CC list
     * @instance
     */
     _this.setMaxListCount = function(maxListCount) {
@@ -129,7 +129,7 @@
    /**
     * minimum number of entries allowed in the current CC list
     * @function getMinListCount
-    * @return  minimum number of entries allowed in the current CC list { Integer }
+    * @return  {module:model/workflows/Integer} minimum number of entries allowed in the current CC list  
     * @instance
     */
     _this.getMinListCount = function() {
@@ -139,7 +139,7 @@
    /**
     * minimum number of entries allowed in the current CC list
     * @function setMinListCount
-    * @param minListCount { Integer } minimum number of entries allowed in the current CC list
+    * @param minListCount {module:model/workflows/Integer} minimum number of entries allowed in the current CC list
     * @instance
     */
     _this.setMinListCount = function(minListCount) {
@@ -149,7 +149,7 @@
    /**
     * Name of the current CC list
     * @function getName
-    * @return  Name of the current CC list { String }
+    * @return  {module:model/workflows/String} Name of the current CC list  
     * @instance
     */
     _this.getName = function() {
@@ -159,7 +159,7 @@
    /**
     * Name of the current CC list
     * @function setName
-    * @param name { String } Name of the current CC list
+    * @param name {module:model/workflows/String} Name of the current CC list
     * @instance
     */
     _this.setName = function(name) {
@@ -169,7 +169,7 @@
    /**
     * Whether current field is visible or not. If visible attribute for this field is false then this field should not be shown in the agreement creation page using this workflow
     * @function getVisible
-    * @return  Whether current field is visible or not. If visible attribute for this field is false then this field should not be shown in the agreement creation page using this workflow { Boolean }
+    * @return  {module:model/workflows/Boolean} Whether current field is visible or not. If visible attribute for this field is false then this field should not be shown in the agreement creation page using this workflow  
     * @instance
     */
     _this.getVisible = function() {
@@ -179,7 +179,7 @@
    /**
     * Whether current field is visible or not. If visible attribute for this field is false then this field should not be shown in the agreement creation page using this workflow
     * @function setVisible
-    * @param visible { Boolean } Whether current field is visible or not. If visible attribute for this field is false then this field should not be shown in the agreement creation page using this workflow
+    * @param visible {module:model/workflows/Boolean} Whether current field is visible or not. If visible attribute for this field is false then this field should not be shown in the agreement creation page using this workflow
     * @instance
     */
     _this.setVisible = function(visible) {

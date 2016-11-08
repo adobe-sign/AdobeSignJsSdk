@@ -13,7 +13,7 @@
 
 (function(factory) {
     // CommonJS-like environments that support module.exports, like Node.
-    module.exports = factory(require('../../rest-api-sdk/src/index'), require('./TransientDocumentUtils'), require('./Errors'), require('./ApiUtils'), require('./Constants'));
+    module.exports = factory(require('adobe-sign-sdk'), require('./TransientDocumentUtils'), require('./Errors'), require('./ApiUtils'), require('./Constants'));
   
 }(function(AdobeSignSdk, TransientDocumentUtils, Errors, ApiUtils, Constants) {
   'use strict';
@@ -379,10 +379,7 @@
 
     //Fetch list of documents associated with the specified agreement.
     return agreementsApi.getAllDocuments(headers,
-                                         agreementId,
-                                         null,
-                                         null,
-                                         null)
+                                         agreementId)
                         .then(function(agreementDocuments) {
                           return agreementDocuments;
                         })

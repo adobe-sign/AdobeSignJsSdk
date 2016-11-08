@@ -39,7 +39,7 @@
    /**
     * A list of objects representing the documents
     * @function getDocuments
-    * @return  A list of objects representing the documents { Array }
+    * @return  {module:model/agreements/Array} A list of objects representing the documents  
     * @instance
     */
     _this.getDocuments = function() {
@@ -49,7 +49,7 @@
    /**
     * A list of objects representing the documents
     * @function setDocuments
-    * @param documents { Array } A list of objects representing the documents
+    * @param documents {module:model/agreements/Array} A list of objects representing the documents
     * @instance
     */
     _this.setDocuments = function(documents) {
@@ -59,7 +59,7 @@
    /**
     * A list of supporting documents. This is returned only if there are any supporting document in the agreement
     * @function getSupportingDocuments
-    * @return  A list of supporting documents. This is returned only if there are any supporting document in the agreement { Array }
+    * @return  {module:model/agreements/Array} A list of supporting documents. This is returned only if there are any supporting document in the agreement  
     * @instance
     */
     _this.getSupportingDocuments = function() {
@@ -69,7 +69,7 @@
    /**
     * A list of supporting documents. This is returned only if there are any supporting document in the agreement
     * @function setSupportingDocuments
-    * @param supportingDocuments { Array } A list of supporting documents. This is returned only if there are any supporting document in the agreement
+    * @param supportingDocuments {module:model/agreements/Array} A list of supporting documents. This is returned only if there are any supporting document in the agreement
     * @instance
     */
     _this.setSupportingDocuments = function(supportingDocuments) {

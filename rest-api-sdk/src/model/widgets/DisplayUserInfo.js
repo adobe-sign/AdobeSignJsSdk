@@ -41,7 +41,7 @@
    /**
     * Displays the name of the company of the user, if available
     * @function getCompany
-    * @return  Displays the name of the company of the user, if available { String }
+    * @return  {module:model/widgets/String} Displays the name of the company of the user, if available  
     * @instance
     */
     _this.getCompany = function() {
@@ -51,7 +51,7 @@
    /**
     * Displays the name of the company of the user, if available
     * @function setCompany
-    * @param company { String } Displays the name of the company of the user, if available
+    * @param company {module:model/widgets/String} Displays the name of the company of the user, if available
     * @instance
     */
     _this.setCompany = function(company) {
@@ -61,7 +61,7 @@
    /**
     * Displays the email of the user
     * @function getEmail
-    * @return  Displays the email of the user { String }
+    * @return  {module:model/widgets/String} Displays the email of the user  
     * @instance
     */
     _this.getEmail = function() {
@@ -71,7 +71,7 @@
    /**
     * Displays the email of the user
     * @function setEmail
-    * @param email { String } Displays the email of the user
+    * @param email {module:model/widgets/String} Displays the email of the user
     * @instance
     */
     _this.setEmail = function(email) {
@@ -81,7 +81,7 @@
    /**
     * Displays the full name of the user, if available.
     * @function getFullName
-    * @return  Displays the full name of the user, if available. { String }
+    * @return  {module:model/widgets/String} Displays the full name of the user, if available.  
     * @instance
     */
     _this.getFullName = function() {
@@ -91,7 +91,7 @@
    /**
     * Displays the full name of the user, if available.
     * @function setFullName
-    * @param fullName { String } Displays the full name of the user, if available.
+    * @param fullName {module:model/widgets/String} Displays the full name of the user, if available.
     * @instance
     */
     _this.setFullName = function(fullName) {

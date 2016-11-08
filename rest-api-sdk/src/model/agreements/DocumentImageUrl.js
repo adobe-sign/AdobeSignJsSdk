@@ -37,7 +37,7 @@
    /**
     * A list of objects representing all image URLs.(one per imagesize).
     * @function getImageUrls
-    * @return  A list of objects representing all image URLs.(one per imagesize). { Array }
+    * @return  {module:model/agreements/Array} A list of objects representing all image URLs.(one per imagesize).  
     * @instance
     */
     _this.getImageUrls = function() {
@@ -47,7 +47,7 @@
    /**
     * A list of objects representing all image URLs.(one per imagesize).
     * @function setImageUrls
-    * @param imageUrls { Array } A list of objects representing all image URLs.(one per imagesize).
+    * @param imageUrls {module:model/agreements/Array} A list of objects representing all image URLs.(one per imagesize).
     * @instance
     */
     _this.setImageUrls = function(imageUrls) {

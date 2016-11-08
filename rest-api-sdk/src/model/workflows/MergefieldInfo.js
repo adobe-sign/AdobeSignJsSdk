@@ -39,7 +39,7 @@
    /**
     * The default value of the field
     * @function getDefaultValue
-    * @return  The default value of the field { String }
+    * @return  {module:model/workflows/String} The default value of the field  
     * @instance
     */
     _this.getDefaultValue = function() {
@@ -49,7 +49,7 @@
    /**
     * The default value of the field
     * @function setDefaultValue
-    * @param defaultValue { String } The default value of the field
+    * @param defaultValue {module:model/workflows/String} The default value of the field
     * @instance
     */
     _this.setDefaultValue = function(defaultValue) {
@@ -59,7 +59,7 @@
    /**
     * The name of the field
     * @function getFieldName
-    * @return  The name of the field { String }
+    * @return  {module:model/workflows/String} The name of the field  
     * @instance
     */
     _this.getFieldName = function() {
@@ -69,7 +69,7 @@
    /**
     * The name of the field
     * @function setFieldName
-    * @param fieldName { String } The name of the field
+    * @param fieldName {module:model/workflows/String} The name of the field
     * @instance
     */
     _this.setFieldName = function(fieldName) {

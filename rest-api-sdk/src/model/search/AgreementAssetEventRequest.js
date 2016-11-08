@@ -45,7 +45,7 @@
    /**
     * The end of the date range for which events will be returned. Date should be mentioned in YYYY-MM-DDTHH:MM:SS format
     * @function getEndDate
-    * @return  The end of the date range for which events will be returned. Date should be mentioned in YYYY-MM-DDTHH:MM:SS format { Date }
+    * @return  {module:model/search/Date} The end of the date range for which events will be returned. Date should be mentioned in YYYY-MM-DDTHH:MM:SS format  
     * @instance
     */
     _this.getEndDate = function() {
@@ -55,7 +55,7 @@
    /**
     * The end of the date range for which events will be returned. Date should be mentioned in YYYY-MM-DDTHH:MM:SS format
     * @function setEndDate
-    * @param endDate { Date } The end of the date range for which events will be returned. Date should be mentioned in YYYY-MM-DDTHH:MM:SS format
+    * @param endDate {module:model/search/Date} The end of the date range for which events will be returned. Date should be mentioned in YYYY-MM-DDTHH:MM:SS format
     * @instance
     */
     _this.setEndDate = function(endDate) {
@@ -65,7 +65,7 @@
    /**
     * If filterEvents are specified, only those event types will be returned. If filterEvents are not specified, all event types will be returned.The Agreement Event type should be given in form of array like [\&quot;ESIGNED\&quot;,\&quot;SIGNED\&quot;]
     * @function getFilterEvents
-    * @return  If filterEvents are specified, only those event types will be returned. If filterEvents are not specified, all event types will be returned.The Agreement Event type should be given in form of array like [\&quot;ESIGNED\&quot;,\&quot;SIGNED\&quot;] { Array }
+    * @return  {module:model/search/Array} If filterEvents are specified, only those event types will be returned. If filterEvents are not specified, all event types will be returned.The Agreement Event type should be given in form of array like [\&quot;ESIGNED\&quot;,\&quot;SIGNED\&quot;]  
     * @instance
     */
     _this.getFilterEvents = function() {
@@ -75,7 +75,7 @@
    /**
     * If filterEvents are specified, only those event types will be returned. If filterEvents are not specified, all event types will be returned.The Agreement Event type should be given in form of array like [\&quot;ESIGNED\&quot;,\&quot;SIGNED\&quot;]
     * @function setFilterEvents
-    * @param filterEvents { Array } If filterEvents are specified, only those event types will be returned. If filterEvents are not specified, all event types will be returned.The Agreement Event type should be given in form of array like [\&quot;ESIGNED\&quot;,\&quot;SIGNED\&quot;]
+    * @param filterEvents {module:model/search/Array} If filterEvents are specified, only those event types will be returned. If filterEvents are not specified, all event types will be returned.The Agreement Event type should be given in form of array like [\&quot;ESIGNED\&quot;,\&quot;SIGNED\&quot;]
     * @instance
     */
     _this.setFilterEvents = function(filterEvents) {
@@ -85,7 +85,7 @@
    /**
     * If true, only the latest event for any given agreement asset within the specified date range will be returned. If false, all events will be returned
     * @function getOnlyShowLatestEvent
-    * @return  If true, only the latest event for any given agreement asset within the specified date range will be returned. If false, all events will be returned { Boolean }
+    * @return  {module:model/search/Boolean} If true, only the latest event for any given agreement asset within the specified date range will be returned. If false, all events will be returned  
     * @instance
     */
     _this.getOnlyShowLatestEvent = function() {
@@ -95,7 +95,7 @@
    /**
     * If true, only the latest event for any given agreement asset within the specified date range will be returned. If false, all events will be returned
     * @function setOnlyShowLatestEvent
-    * @param onlyShowLatestEvent { Boolean } If true, only the latest event for any given agreement asset within the specified date range will be returned. If false, all events will be returned
+    * @param onlyShowLatestEvent {module:model/search/Boolean} If true, only the latest event for any given agreement asset within the specified date range will be returned. If false, all events will be returned
     * @instance
     */
     _this.setOnlyShowLatestEvent = function(onlyShowLatestEvent) {
@@ -105,7 +105,7 @@
    /**
     * Count of agreement asset events which will be returned in the response. Default page size for the response is 100. Maximum value of page size is 500
     * @function getPageSize
-    * @return  Count of agreement asset events which will be returned in the response. Default page size for the response is 100. Maximum value of page size is 500 { Integer }
+    * @return  {module:model/search/Integer} Count of agreement asset events which will be returned in the response. Default page size for the response is 100. Maximum value of page size is 500  
     * @instance
     */
     _this.getPageSize = function() {
@@ -115,7 +115,7 @@
    /**
     * Count of agreement asset events which will be returned in the response. Default page size for the response is 100. Maximum value of page size is 500
     * @function setPageSize
-    * @param pageSize { Integer } Count of agreement asset events which will be returned in the response. Default page size for the response is 100. Maximum value of page size is 500
+    * @param pageSize {module:model/search/Integer} Count of agreement asset events which will be returned in the response. Default page size for the response is 100. Maximum value of page size is 500
     * @instance
     */
     _this.setPageSize = function(pageSize) {
@@ -125,7 +125,7 @@
    /**
     * The beginning of the date range for which events will be returned. Date should be mentioned in YYYY-MM-DDTHH:MM:SS format
     * @function getStartDate
-    * @return  The beginning of the date range for which events will be returned. Date should be mentioned in YYYY-MM-DDTHH:MM:SS format { Date }
+    * @return  {module:model/search/Date} The beginning of the date range for which events will be returned. Date should be mentioned in YYYY-MM-DDTHH:MM:SS format  
     * @instance
     */
     _this.getStartDate = function() {
@@ -135,7 +135,7 @@
    /**
     * The beginning of the date range for which events will be returned. Date should be mentioned in YYYY-MM-DDTHH:MM:SS format
     * @function setStartDate
-    * @param startDate { Date } The beginning of the date range for which events will be returned. Date should be mentioned in YYYY-MM-DDTHH:MM:SS format
+    * @param startDate {module:model/search/Date} The beginning of the date range for which events will be returned. Date should be mentioned in YYYY-MM-DDTHH:MM:SS format
     * @instance
     */
     _this.setStartDate = function(startDate) {

@@ -45,7 +45,7 @@
    /**
     * The name of company of the user
     * @function getCompany
-    * @return  The name of company of the user { String }
+    * @return  {module:model/users/String} The name of company of the user  
     * @instance
     */
     _this.getCompany = function() {
@@ -55,7 +55,7 @@
    /**
     * The name of company of the user
     * @function setCompany
-    * @param company { String } The name of company of the user
+    * @param company {module:model/users/String} The name of company of the user
     * @instance
     */
     _this.setCompany = function(company) {
@@ -65,7 +65,7 @@
    /**
     * The email address of the user
     * @function getEmail
-    * @return  The email address of the user { String }
+    * @return  {module:model/users/String} The email address of the user  
     * @instance
     */
     _this.getEmail = function() {
@@ -75,7 +75,7 @@
    /**
     * The email address of the user
     * @function setEmail
-    * @param email { String } The email address of the user
+    * @param email {module:model/users/String} The email address of the user
     * @instance
     */
     _this.setEmail = function(email) {
@@ -85,7 +85,7 @@
    /**
     * The full name of the user, if available; or their email address
     * @function getFullNameOrEmail
-    * @return  The full name of the user, if available; or their email address { String }
+    * @return  {module:model/users/String} The full name of the user, if available; or their email address  
     * @instance
     */
     _this.getFullNameOrEmail = function() {
@@ -95,7 +95,7 @@
    /**
     * The full name of the user, if available; or their email address
     * @function setFullNameOrEmail
-    * @param fullNameOrEmail { String } The full name of the user, if available; or their email address
+    * @param fullNameOrEmail {module:model/users/String} The full name of the user, if available; or their email address
     * @instance
     */
     _this.setFullNameOrEmail = function(fullNameOrEmail) {
@@ -105,7 +105,7 @@
    /**
     * The identifier that can be used in group management methods
     * @function getGroupId
-    * @return  The identifier that can be used in group management methods { String }
+    * @return  {module:model/users/String} The identifier that can be used in group management methods  
     * @instance
     */
     _this.getGroupId = function() {
@@ -115,7 +115,7 @@
    /**
     * The identifier that can be used in group management methods
     * @function setGroupId
-    * @param groupId { String } The identifier that can be used in group management methods
+    * @param groupId {module:model/users/String} The identifier that can be used in group management methods
     * @instance
     */
     _this.setGroupId = function(groupId) {
@@ -125,7 +125,7 @@
    /**
     * A unique identifier of the user resource for REST APIs. This identifier can not be used in SOAP APIs
     * @function getUserId
-    * @return  A unique identifier of the user resource for REST APIs. This identifier can not be used in SOAP APIs { String }
+    * @return  {module:model/users/String} A unique identifier of the user resource for REST APIs. This identifier can not be used in SOAP APIs  
     * @instance
     */
     _this.getUserId = function() {
@@ -135,7 +135,7 @@
    /**
     * A unique identifier of the user resource for REST APIs. This identifier can not be used in SOAP APIs
     * @function setUserId
-    * @param userId { String } A unique identifier of the user resource for REST APIs. This identifier can not be used in SOAP APIs
+    * @param userId {module:model/users/String} A unique identifier of the user resource for REST APIs. This identifier can not be used in SOAP APIs
     * @instance
     */
     _this.setUserId = function(userId) {

@@ -37,7 +37,7 @@
    /**
     * Information about the widget that you want to create.
     * @function getWidgetCreationInfo
-    * @return  Information about the widget that you want to create. { WidgetCreationInfo }
+    * @return  {module:model/widgets/WidgetCreationInfo} Information about the widget that you want to create.  
     * @instance
     */
     _this.getWidgetCreationInfo = function() {
@@ -47,7 +47,7 @@
    /**
     * Information about the widget that you want to create.
     * @function setWidgetCreationInfo
-    * @param widgetCreationInfo { WidgetCreationInfo } Information about the widget that you want to create.
+    * @param widgetCreationInfo {module:model/widgets/WidgetCreationInfo} Information about the widget that you want to create.
     * @instance
     */
     _this.setWidgetCreationInfo = function(widgetCreationInfo) {

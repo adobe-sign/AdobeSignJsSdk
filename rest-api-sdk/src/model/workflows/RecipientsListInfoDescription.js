@@ -55,7 +55,7 @@
    /**
     * whether fax is allowed or not
     * @function getAllowfax
-    * @return  whether fax is allowed or not { Boolean }
+    * @return  {module:model/workflows/Boolean} whether fax is allowed or not  
     * @instance
     */
     _this.getAllowfax = function() {
@@ -65,7 +65,7 @@
    /**
     * whether fax is allowed or not
     * @function setAllowfax
-    * @param allowfax { Boolean } whether fax is allowed or not
+    * @param allowfax {module:model/workflows/Boolean} whether fax is allowed or not
     * @instance
     */
     _this.setAllowfax = function(allowfax) {
@@ -75,7 +75,7 @@
    /**
     * whether sender is allowed as a recipient
     * @function getAllowSender
-    * @return  whether sender is allowed as a recipient { Boolean }
+    * @return  {module:model/workflows/Boolean} whether sender is allowed as a recipient  
     * @instance
     */
     _this.getAllowSender = function() {
@@ -85,7 +85,7 @@
    /**
     * whether sender is allowed as a recipient
     * @function setAllowSender
-    * @param allowSender { Boolean } whether sender is allowed as a recipient
+    * @param allowSender {module:model/workflows/Boolean} whether sender is allowed as a recipient
     * @instance
     */
     _this.setAllowSender = function(allowSender) {
@@ -95,7 +95,7 @@
    /**
     * authentication method for the current recipient list to have access to view and sign the document
     * @function getAuthenticationMethod
-    * @return  authentication method for the current recipient list to have access to view and sign the document { String }
+    * @return  {module:model/workflows/String} authentication method for the current recipient list to have access to view and sign the document  
     * @instance
     */
     _this.getAuthenticationMethod = function() {
@@ -105,7 +105,7 @@
    /**
     * authentication method for the current recipient list to have access to view and sign the document
     * @function setAuthenticationMethod
-    * @param authenticationMethod { String } authentication method for the current recipient list to have access to view and sign the document
+    * @param authenticationMethod {module:model/workflows/String} authentication method for the current recipient list to have access to view and sign the document
     * @instance
     */
     _this.setAuthenticationMethod = function(authenticationMethod) {
@@ -115,7 +115,7 @@
    /**
     * A default email or fax number
     * @function getDefaultValue
-    * @return  A default email or fax number { String }
+    * @return  {module:model/workflows/String} A default email or fax number  
     * @instance
     */
     _this.getDefaultValue = function() {
@@ -125,7 +125,7 @@
    /**
     * A default email or fax number
     * @function setDefaultValue
-    * @param defaultValue { String } A default email or fax number
+    * @param defaultValue {module:model/workflows/String} A default email or fax number
     * @instance
     */
     _this.setDefaultValue = function(defaultValue) {
@@ -135,7 +135,7 @@
    /**
     * Whether current field can be edited. If editable attribute for this field is false then this field should not be provided in the agreement creation request and default value of this field will be used in agreement creation
     * @function getEditable
-    * @return  Whether current field can be edited. If editable attribute for this field is false then this field should not be provided in the agreement creation request and default value of this field will be used in agreement creation { Boolean }
+    * @return  {module:model/workflows/Boolean} Whether current field can be edited. If editable attribute for this field is false then this field should not be provided in the agreement creation request and default value of this field will be used in agreement creation  
     * @instance
     */
     _this.getEditable = function() {
@@ -145,7 +145,7 @@
    /**
     * Whether current field can be edited. If editable attribute for this field is false then this field should not be provided in the agreement creation request and default value of this field will be used in agreement creation
     * @function setEditable
-    * @param editable { Boolean } Whether current field can be edited. If editable attribute for this field is false then this field should not be provided in the agreement creation request and default value of this field will be used in agreement creation
+    * @param editable {module:model/workflows/Boolean} Whether current field can be edited. If editable attribute for this field is false then this field should not be provided in the agreement creation request and default value of this field will be used in agreement creation
     * @instance
     */
     _this.setEditable = function(editable) {
@@ -155,7 +155,7 @@
    /**
     * A display text for the workflow user that can be used for the current recipients list
     * @function getLabel
-    * @return  A display text for the workflow user that can be used for the current recipients list { String }
+    * @return  {module:model/workflows/String} A display text for the workflow user that can be used for the current recipients list  
     * @instance
     */
     _this.getLabel = function() {
@@ -165,7 +165,7 @@
    /**
     * A display text for the workflow user that can be used for the current recipients list
     * @function setLabel
-    * @param label { String } A display text for the workflow user that can be used for the current recipients list
+    * @param label {module:model/workflows/String} A display text for the workflow user that can be used for the current recipients list
     * @instance
     */
     _this.setLabel = function(label) {
@@ -175,7 +175,7 @@
    /**
     * maximum number of entries allowed in the current recipient list
     * @function getMaxListCount
-    * @return  maximum number of entries allowed in the current recipient list { Integer }
+    * @return  {module:model/workflows/Integer} maximum number of entries allowed in the current recipient list  
     * @instance
     */
     _this.getMaxListCount = function() {
@@ -185,7 +185,7 @@
    /**
     * maximum number of entries allowed in the current recipient list
     * @function setMaxListCount
-    * @param maxListCount { Integer } maximum number of entries allowed in the current recipient list
+    * @param maxListCount {module:model/workflows/Integer} maximum number of entries allowed in the current recipient list
     * @instance
     */
     _this.setMaxListCount = function(maxListCount) {
@@ -195,7 +195,7 @@
    /**
     * minimum number of entries allowed in the current recipient list
     * @function getMinListCount
-    * @return  minimum number of entries allowed in the current recipient list { Integer }
+    * @return  {module:model/workflows/Integer} minimum number of entries allowed in the current recipient list  
     * @instance
     */
     _this.getMinListCount = function() {
@@ -205,7 +205,7 @@
    /**
     * minimum number of entries allowed in the current recipient list
     * @function setMinListCount
-    * @param minListCount { Integer } minimum number of entries allowed in the current recipient list
+    * @param minListCount {module:model/workflows/Integer} minimum number of entries allowed in the current recipient list
     * @instance
     */
     _this.setMinListCount = function(minListCount) {
@@ -215,7 +215,7 @@
    /**
     * Name of the current RecipientInfo list
     * @function getName
-    * @return  Name of the current RecipientInfo list { String }
+    * @return  {module:model/workflows/String} Name of the current RecipientInfo list  
     * @instance
     */
     _this.getName = function() {
@@ -225,7 +225,7 @@
    /**
     * Name of the current RecipientInfo list
     * @function setName
-    * @param name { String } Name of the current RecipientInfo list
+    * @param name {module:model/workflows/String} Name of the current RecipientInfo list
     * @instance
     */
     _this.setName = function(name) {
@@ -235,7 +235,7 @@
    /**
     * Whether current field is visible. If visible attribute for this field is false then this field should not be shown in the agreement creation UI using this workflow to user
     * @function getVisible
-    * @return  Whether current field is visible. If visible attribute for this field is false then this field should not be shown in the agreement creation UI using this workflow to user { Boolean }
+    * @return  {module:model/workflows/Boolean} Whether current field is visible. If visible attribute for this field is false then this field should not be shown in the agreement creation UI using this workflow to user  
     * @instance
     */
     _this.getVisible = function() {
@@ -245,7 +245,7 @@
    /**
     * Whether current field is visible. If visible attribute for this field is false then this field should not be shown in the agreement creation UI using this workflow to user
     * @function setVisible
-    * @param visible { Boolean } Whether current field is visible. If visible attribute for this field is false then this field should not be shown in the agreement creation UI using this workflow to user
+    * @param visible {module:model/workflows/Boolean} Whether current field is visible. If visible attribute for this field is false then this field should not be shown in the agreement creation UI using this workflow to user
     * @instance
     */
     _this.setVisible = function(visible) {

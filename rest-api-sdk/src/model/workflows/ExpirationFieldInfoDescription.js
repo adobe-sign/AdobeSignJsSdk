@@ -45,7 +45,7 @@
    /**
     * default value of the field if input for this field is not provided and this field is required
     * @function getDefaultValue
-    * @return  default value of the field if input for this field is not provided and this field is required { String }
+    * @return  {module:model/workflows/String} default value of the field if input for this field is not provided and this field is required  
     * @instance
     */
     _this.getDefaultValue = function() {
@@ -55,7 +55,7 @@
    /**
     * default value of the field if input for this field is not provided and this field is required
     * @function setDefaultValue
-    * @param defaultValue { String } default value of the field if input for this field is not provided and this field is required
+    * @param defaultValue {module:model/workflows/String} default value of the field if input for this field is not provided and this field is required
     * @instance
     */
     _this.setDefaultValue = function(defaultValue) {
@@ -65,7 +65,7 @@
    /**
     * Whether current field can be edited. If editable attribute for this field is false then this field should not be provided in the agreement creation request and default value of this field will be used in agreement creation
     * @function getEditable
-    * @return  Whether current field can be edited. If editable attribute for this field is false then this field should not be provided in the agreement creation request and default value of this field will be used in agreement creation { Boolean }
+    * @return  {module:model/workflows/Boolean} Whether current field can be edited. If editable attribute for this field is false then this field should not be provided in the agreement creation request and default value of this field will be used in agreement creation  
     * @instance
     */
     _this.getEditable = function() {
@@ -75,7 +75,7 @@
    /**
     * Whether current field can be edited. If editable attribute for this field is false then this field should not be provided in the agreement creation request and default value of this field will be used in agreement creation
     * @function setEditable
-    * @param editable { Boolean } Whether current field can be edited. If editable attribute for this field is false then this field should not be provided in the agreement creation request and default value of this field will be used in agreement creation
+    * @param editable {module:model/workflows/Boolean} Whether current field can be edited. If editable attribute for this field is false then this field should not be provided in the agreement creation request and default value of this field will be used in agreement creation
     * @instance
     */
     _this.setEditable = function(editable) {
@@ -85,7 +85,7 @@
    /**
     * Maximum number of days for agreement expiration
     * @function getMaxDays
-    * @return  Maximum number of days for agreement expiration { Integer }
+    * @return  {module:model/workflows/Integer} Maximum number of days for agreement expiration  
     * @instance
     */
     _this.getMaxDays = function() {
@@ -95,7 +95,7 @@
    /**
     * Maximum number of days for agreement expiration
     * @function setMaxDays
-    * @param maxDays { Integer } Maximum number of days for agreement expiration
+    * @param maxDays {module:model/workflows/Integer} Maximum number of days for agreement expiration
     * @instance
     */
     _this.setMaxDays = function(maxDays) {
@@ -105,7 +105,7 @@
    /**
     * Whether this field is required or optional
     * @function getRequired
-    * @return  Whether this field is required or optional { Boolean }
+    * @return  {module:model/workflows/Boolean} Whether this field is required or optional  
     * @instance
     */
     _this.getRequired = function() {
@@ -115,7 +115,7 @@
    /**
     * Whether this field is required or optional
     * @function setRequired
-    * @param required { Boolean } Whether this field is required or optional
+    * @param required {module:model/workflows/Boolean} Whether this field is required or optional
     * @instance
     */
     _this.setRequired = function(required) {
@@ -125,7 +125,7 @@
    /**
     * Whether current field is visible or not. If visible attribute for this field is false then this field should not be visible in the agreement creation UI using this workflow to user
     * @function getVisible
-    * @return  Whether current field is visible or not. If visible attribute for this field is false then this field should not be visible in the agreement creation UI using this workflow to user { Boolean }
+    * @return  {module:model/workflows/Boolean} Whether current field is visible or not. If visible attribute for this field is false then this field should not be visible in the agreement creation UI using this workflow to user  
     * @instance
     */
     _this.getVisible = function() {
@@ -135,7 +135,7 @@
    /**
     * Whether current field is visible or not. If visible attribute for this field is false then this field should not be visible in the agreement creation UI using this workflow to user
     * @function setVisible
-    * @param visible { Boolean } Whether current field is visible or not. If visible attribute for this field is false then this field should not be visible in the agreement creation UI using this workflow to user
+    * @param visible {module:model/workflows/Boolean} Whether current field is visible or not. If visible attribute for this field is false then this field should not be visible in the agreement creation UI using this workflow to user
     * @instance
     */
     _this.setVisible = function(visible) {

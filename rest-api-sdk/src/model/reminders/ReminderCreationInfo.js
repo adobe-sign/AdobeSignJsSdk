@@ -39,7 +39,7 @@
    /**
     * The agreement identifier
     * @function getAgreementId
-    * @return  The agreement identifier { String }
+    * @return  {module:model/reminders/String} The agreement identifier  
     * @instance
     */
     _this.getAgreementId = function() {
@@ -49,7 +49,7 @@
    /**
     * The agreement identifier
     * @function setAgreementId
-    * @param agreementId { String } The agreement identifier
+    * @param agreementId {module:model/reminders/String} The agreement identifier
     * @instance
     */
     _this.setAgreementId = function(agreementId) {
@@ -59,7 +59,7 @@
    /**
     * An optional message sent to the recipients, describing what is being sent and why their signatures are required.
     * @function getComment
-    * @return  An optional message sent to the recipients, describing what is being sent and why their signatures are required. { String }
+    * @return  {module:model/reminders/String} An optional message sent to the recipients, describing what is being sent and why their signatures are required.  
     * @instance
     */
     _this.getComment = function() {
@@ -69,7 +69,7 @@
    /**
     * An optional message sent to the recipients, describing what is being sent and why their signatures are required.
     * @function setComment
-    * @param comment { String } An optional message sent to the recipients, describing what is being sent and why their signatures are required.
+    * @param comment {module:model/reminders/String} An optional message sent to the recipients, describing what is being sent and why their signatures are required.
     * @instance
     */
     _this.setComment = function(comment) {

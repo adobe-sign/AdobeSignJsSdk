@@ -57,7 +57,7 @@
    /**
     * An ordered list of the events in the audit trail of this widget
     * @function getEvents
-    * @return  An ordered list of the events in the audit trail of this widget { Array }
+    * @return  {module:model/widgets/Array} An ordered list of the events in the audit trail of this widget  
     * @instance
     */
     _this.getEvents = function() {
@@ -67,7 +67,7 @@
    /**
     * An ordered list of the events in the audit trail of this widget
     * @function setEvents
-    * @param events { Array } An ordered list of the events in the audit trail of this widget
+    * @param events {module:model/widgets/Array} An ordered list of the events in the audit trail of this widget
     * @instance
     */
     _this.setEvents = function(events) {
@@ -77,7 +77,7 @@
    /**
     * The embedded javascript code of the widget
     * @function getJavascript
-    * @return  The embedded javascript code of the widget { String }
+    * @return  {module:model/widgets/String} The embedded javascript code of the widget  
     * @instance
     */
     _this.getJavascript = function() {
@@ -87,7 +87,7 @@
    /**
     * The embedded javascript code of the widget
     * @function setJavascript
-    * @param javascript { String } The embedded javascript code of the widget
+    * @param javascript {module:model/widgets/String} The embedded javascript code of the widget
     * @instance
     */
     _this.setJavascript = function(javascript) {
@@ -97,7 +97,7 @@
    /**
     * An ID which uniquely identifies the current version of the widget
     * @function getLatestVersionId
-    * @return  An ID which uniquely identifies the current version of the widget { String }
+    * @return  {module:model/widgets/String} An ID which uniquely identifies the current version of the widget  
     * @instance
     */
     _this.getLatestVersionId = function() {
@@ -107,7 +107,7 @@
    /**
     * An ID which uniquely identifies the current version of the widget
     * @function setLatestVersionId
-    * @param latestVersionId { String } An ID which uniquely identifies the current version of the widget
+    * @param latestVersionId {module:model/widgets/String} An ID which uniquely identifies the current version of the widget
     * @instance
     */
     _this.setLatestVersionId = function(latestVersionId) {
@@ -117,7 +117,7 @@
    /**
     * The locale associated with this widget - for example, en_US or fr_FR
     * @function getLocale
-    * @return  The locale associated with this widget - for example, en_US or fr_FR { String }
+    * @return  {module:model/widgets/String} The locale associated with this widget - for example, en_US or fr_FR  
     * @instance
     */
     _this.getLocale = function() {
@@ -127,7 +127,7 @@
    /**
     * The locale associated with this widget - for example, en_US or fr_FR
     * @function setLocale
-    * @param locale { String } The locale associated with this widget - for example, en_US or fr_FR
+    * @param locale {module:model/widgets/String} The locale associated with this widget - for example, en_US or fr_FR
     * @instance
     */
     _this.setLocale = function(locale) {
@@ -137,7 +137,7 @@
    /**
     * The message associated with the widget that the sender has provided
     * @function getMessage
-    * @return  The message associated with the widget that the sender has provided { String }
+    * @return  {module:model/widgets/String} The message associated with the widget that the sender has provided  
     * @instance
     */
     _this.getMessage = function() {
@@ -147,7 +147,7 @@
    /**
     * The message associated with the widget that the sender has provided
     * @function setMessage
-    * @param message { String } The message associated with the widget that the sender has provided
+    * @param message {module:model/widgets/String} The message associated with the widget that the sender has provided
     * @instance
     */
     _this.setMessage = function(message) {
@@ -157,7 +157,7 @@
    /**
     * The widget name specified by the sender
     * @function getName
-    * @return  The widget name specified by the sender { String }
+    * @return  {module:model/widgets/String} The widget name specified by the sender  
     * @instance
     */
     _this.getName = function() {
@@ -167,7 +167,7 @@
    /**
     * The widget name specified by the sender
     * @function setName
-    * @param name { String } The widget name specified by the sender
+    * @param name {module:model/widgets/String} The widget name specified by the sender
     * @instance
     */
     _this.setName = function(name) {
@@ -177,7 +177,7 @@
    /**
     * Information about the participant sets of the widget.
     * @function getParticipantSetInfos
-    * @return  Information about the participant sets of the widget. { Array }
+    * @return  {module:model/widgets/Array} Information about the participant sets of the widget.  
     * @instance
     */
     _this.getParticipantSetInfos = function() {
@@ -187,7 +187,7 @@
    /**
     * Information about the participant sets of the widget.
     * @function setParticipantSetInfos
-    * @param participantSetInfos { Array } Information about the participant sets of the widget.
+    * @param participantSetInfos {module:model/widgets/Array} Information about the participant sets of the widget.
     * @instance
     */
     _this.setParticipantSetInfos = function(participantSetInfos) {
@@ -197,7 +197,7 @@
    /**
     * Security information about the widget that specifies whether or not a password is required to view and sign the widget
     * @function getSecurityOptions
-    * @return  Security information about the widget that specifies whether or not a password is required to view and sign the widget { Array }
+    * @return  {module:model/widgets/Array} Security information about the widget that specifies whether or not a password is required to view and sign the widget  
     * @instance
     */
     _this.getSecurityOptions = function() {
@@ -207,7 +207,7 @@
    /**
     * Security information about the widget that specifies whether or not a password is required to view and sign the widget
     * @function setSecurityOptions
-    * @param securityOptions { Array } Security information about the widget that specifies whether or not a password is required to view and sign the widget
+    * @param securityOptions {module:model/widgets/Array} Security information about the widget that specifies whether or not a password is required to view and sign the widget
     * @instance
     */
     _this.setSecurityOptions = function(securityOptions) {
@@ -217,7 +217,7 @@
    /**
     * The current status of the widget
     * @function getStatus
-    * @return  The current status of the widget { String }
+    * @return  {module:model/widgets/String} The current status of the widget  
     * @instance
     */
     _this.getStatus = function() {
@@ -227,7 +227,7 @@
    /**
     * The current status of the widget
     * @function setStatus
-    * @param status { String } The current status of the widget
+    * @param status {module:model/widgets/String} The current status of the widget
     * @instance
     */
     _this.setStatus = function(status) {
@@ -237,7 +237,7 @@
    /**
     * The hosted url of the widget
     * @function getUrl
-    * @return  The hosted url of the widget { String }
+    * @return  {module:model/widgets/String} The hosted url of the widget  
     * @instance
     */
     _this.getUrl = function() {
@@ -247,7 +247,7 @@
    /**
     * The hosted url of the widget
     * @function setUrl
-    * @param url { String } The hosted url of the widget
+    * @param url {module:model/widgets/String} The hosted url of the widget
     * @instance
     */
     _this.setUrl = function(url) {
@@ -257,7 +257,7 @@
    /**
     * A resource identifier that can be used to uniquely identify the widget in other apis
     * @function getWidgetId
-    * @return  A resource identifier that can be used to uniquely identify the widget in other apis { String }
+    * @return  {module:model/widgets/String} A resource identifier that can be used to uniquely identify the widget in other apis  
     * @instance
     */
     _this.getWidgetId = function() {
@@ -267,7 +267,7 @@
    /**
     * A resource identifier that can be used to uniquely identify the widget in other apis
     * @function setWidgetId
-    * @param widgetId { String } A resource identifier that can be used to uniquely identify the widget in other apis
+    * @param widgetId {module:model/widgets/String} A resource identifier that can be used to uniquely identify the widget in other apis
     * @instance
     */
     _this.setWidgetId = function(widgetId) {

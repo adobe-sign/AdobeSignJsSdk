@@ -43,7 +43,7 @@
    /**
     * File at a public URL location
     * @function getDocumentURL
-    * @return  File at a public URL location { URLFileInfo }
+    * @return  {module:model/megaSigns/URLFileInfo} File at a public URL location  
     * @instance
     */
     _this.getDocumentURL = function() {
@@ -53,7 +53,7 @@
    /**
     * File at a public URL location
     * @function setDocumentURL
-    * @param documentURL { URLFileInfo } File at a public URL location
+    * @param documentURL {module:model/megaSigns/URLFileInfo} File at a public URL location
     * @instance
     */
     _this.setDocumentURL = function(documentURL) {
@@ -63,7 +63,7 @@
    /**
     * The ID for a library document that is available to the sender
     * @function getLibraryDocumentId
-    * @return  The ID for a library document that is available to the sender { String }
+    * @return  {module:model/megaSigns/String} The ID for a library document that is available to the sender  
     * @instance
     */
     _this.getLibraryDocumentId = function() {
@@ -73,7 +73,7 @@
    /**
     * The ID for a library document that is available to the sender
     * @function setLibraryDocumentId
-    * @param libraryDocumentId { String } The ID for a library document that is available to the sender
+    * @param libraryDocumentId {module:model/megaSigns/String} The ID for a library document that is available to the sender
     * @instance
     */
     _this.setLibraryDocumentId = function(libraryDocumentId) {
@@ -83,7 +83,7 @@
    /**
     * The name of a library document that is available to the sender
     * @function getLibraryDocumentName
-    * @return  The name of a library document that is available to the sender { String }
+    * @return  {module:model/megaSigns/String} The name of a library document that is available to the sender  
     * @instance
     */
     _this.getLibraryDocumentName = function() {
@@ -93,7 +93,7 @@
    /**
     * The name of a library document that is available to the sender
     * @function setLibraryDocumentName
-    * @param libraryDocumentName { String } The name of a library document that is available to the sender
+    * @param libraryDocumentName {module:model/megaSigns/String} The name of a library document that is available to the sender
     * @instance
     */
     _this.setLibraryDocumentName = function(libraryDocumentName) {
@@ -103,7 +103,7 @@
    /**
     * The documentID as returned from the transient document creation API
     * @function getTransientDocumentId
-    * @return  The documentID as returned from the transient document creation API { String }
+    * @return  {module:model/megaSigns/String} The documentID as returned from the transient document creation API  
     * @instance
     */
     _this.getTransientDocumentId = function() {
@@ -113,7 +113,7 @@
    /**
     * The documentID as returned from the transient document creation API
     * @function setTransientDocumentId
-    * @param transientDocumentId { String } The documentID as returned from the transient document creation API
+    * @param transientDocumentId {module:model/megaSigns/String} The documentID as returned from the transient document creation API
     * @instance
     */
     _this.setTransientDocumentId = function(transientDocumentId) {

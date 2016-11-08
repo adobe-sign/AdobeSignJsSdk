@@ -39,7 +39,7 @@
    /**
     * Latitude coordinate
     * @function getLatitude
-    * @return  Latitude coordinate { Number }
+    * @return  {module:model/search/Number} Latitude coordinate  
     * @instance
     */
     _this.getLatitude = function() {
@@ -49,7 +49,7 @@
    /**
     * Latitude coordinate
     * @function setLatitude
-    * @param latitude { Number } Latitude coordinate
+    * @param latitude {module:model/search/Number} Latitude coordinate
     * @instance
     */
     _this.setLatitude = function(latitude) {
@@ -59,7 +59,7 @@
    /**
     * Longitude coordinate
     * @function getLongitude
-    * @return  Longitude coordinate { Number }
+    * @return  {module:model/search/Number} Longitude coordinate  
     * @instance
     */
     _this.getLongitude = function() {
@@ -69,7 +69,7 @@
    /**
     * Longitude coordinate
     * @function setLongitude
-    * @param longitude { Number } Longitude coordinate
+    * @param longitude {module:model/search/Number} Longitude coordinate
     * @instance
     */
     _this.setLongitude = function(longitude) {

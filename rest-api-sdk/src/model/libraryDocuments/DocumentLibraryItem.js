@@ -45,7 +45,7 @@
    /**
     * The unique identifier of the library document used when sending the document to be signed
     * @function getLibraryDocumentId
-    * @return  The unique identifier of the library document used when sending the document to be signed { String }
+    * @return  {module:model/libraryDocuments/String} The unique identifier of the library document used when sending the document to be signed  
     * @instance
     */
     _this.getLibraryDocumentId = function() {
@@ -55,7 +55,7 @@
    /**
     * The unique identifier of the library document used when sending the document to be signed
     * @function setLibraryDocumentId
-    * @param libraryDocumentId { String } The unique identifier of the library document used when sending the document to be signed
+    * @param libraryDocumentId {module:model/libraryDocuments/String} The unique identifier of the library document used when sending the document to be signed
     * @instance
     */
     _this.setLibraryDocumentId = function(libraryDocumentId) {
@@ -65,7 +65,7 @@
    /**
     * A list of one or more library template types
     * @function getLibraryTemplateTypes
-    * @return  A list of one or more library template types { Array }
+    * @return  {module:model/libraryDocuments/Array} A list of one or more library template types  
     * @instance
     */
     _this.getLibraryTemplateTypes = function() {
@@ -75,7 +75,7 @@
    /**
     * A list of one or more library template types
     * @function setLibraryTemplateTypes
-    * @param libraryTemplateTypes { Array } A list of one or more library template types
+    * @param libraryTemplateTypes {module:model/libraryDocuments/Array} A list of one or more library template types
     * @instance
     */
     _this.setLibraryTemplateTypes = function(libraryTemplateTypes) {
@@ -85,7 +85,7 @@
    /**
     * The day on which the library document was last modified
     * @function getModifiedDate
-    * @return  The day on which the library document was last modified { Date }
+    * @return  {module:model/libraryDocuments/Date} The day on which the library document was last modified  
     * @instance
     */
     _this.getModifiedDate = function() {
@@ -95,7 +95,7 @@
    /**
     * The day on which the library document was last modified
     * @function setModifiedDate
-    * @param modifiedDate { Date } The day on which the library document was last modified
+    * @param modifiedDate {module:model/libraryDocuments/Date} The day on which the library document was last modified
     * @instance
     */
     _this.setModifiedDate = function(modifiedDate) {
@@ -105,7 +105,7 @@
    /**
     * The name of the library document
     * @function getName
-    * @return  The name of the library document { String }
+    * @return  {module:model/libraryDocuments/String} The name of the library document  
     * @instance
     */
     _this.getName = function() {
@@ -115,7 +115,7 @@
    /**
     * The name of the library document
     * @function setName
-    * @param name { String } The name of the library document
+    * @param name {module:model/libraryDocuments/String} The name of the library document
     * @instance
     */
     _this.setName = function(name) {
@@ -125,7 +125,7 @@
    /**
     * The scope of visibility of the library document
     * @function getScope
-    * @return  The scope of visibility of the library document { String }
+    * @return  {module:model/libraryDocuments/String} The scope of visibility of the library document  
     * @instance
     */
     _this.getScope = function() {
@@ -135,7 +135,7 @@
    /**
     * The scope of visibility of the library document
     * @function setScope
-    * @param scope { String } The scope of visibility of the library document
+    * @param scope {module:model/libraryDocuments/String} The scope of visibility of the library document
     * @instance
     */
     _this.setScope = function(scope) {

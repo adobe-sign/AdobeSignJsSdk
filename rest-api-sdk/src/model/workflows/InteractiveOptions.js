@@ -41,7 +41,7 @@
    /**
     * Indicates that authoring is requested prior to sending the document
     * @function getAuthoringRequested
-    * @return  Indicates that authoring is requested prior to sending the document { Boolean }
+    * @return  {module:model/workflows/Boolean} Indicates that authoring is requested prior to sending the document  
     * @instance
     */
     _this.getAuthoringRequested = function() {
@@ -51,7 +51,7 @@
    /**
     * Indicates that authoring is requested prior to sending the document
     * @function setAuthoringRequested
-    * @param authoringRequested { Boolean } Indicates that authoring is requested prior to sending the document
+    * @param authoringRequested {module:model/workflows/Boolean} Indicates that authoring is requested prior to sending the document
     * @instance
     */
     _this.setAuthoringRequested = function(authoringRequested) {
@@ -61,7 +61,7 @@
    /**
     * If user settings allow, automatically logs the user in
     * @function getAutoLoginUser
-    * @return  If user settings allow, automatically logs the user in { Boolean }
+    * @return  {module:model/workflows/Boolean} If user settings allow, automatically logs the user in  
     * @instance
     */
     _this.getAutoLoginUser = function() {
@@ -71,7 +71,7 @@
    /**
     * If user settings allow, automatically logs the user in
     * @function setAutoLoginUser
-    * @param autoLoginUser { Boolean } If user settings allow, automatically logs the user in
+    * @param autoLoginUser {module:model/workflows/Boolean} If user settings allow, automatically logs the user in
     * @instance
     */
     _this.setAutoLoginUser = function(autoLoginUser) {
@@ -81,7 +81,7 @@
    /**
     * Turn off Chrome for the URL generated
     * @function getNoChrome
-    * @return  Turn off Chrome for the URL generated { Boolean }
+    * @return  {module:model/workflows/Boolean} Turn off Chrome for the URL generated  
     * @instance
     */
     _this.getNoChrome = function() {
@@ -91,7 +91,7 @@
    /**
     * Turn off Chrome for the URL generated
     * @function setNoChrome
-    * @param noChrome { Boolean } Turn off Chrome for the URL generated
+    * @param noChrome {module:model/workflows/Boolean} Turn off Chrome for the URL generated
     * @instance
     */
     _this.setNoChrome = function(noChrome) {

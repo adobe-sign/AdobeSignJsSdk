@@ -41,7 +41,7 @@
    /**
     * The mime type of the referenced file, used to determine if the file can be accepted and the necessary conversion steps can be performed
     * @function getMimeType
-    * @return  The mime type of the referenced file, used to determine if the file can be accepted and the necessary conversion steps can be performed { String }
+    * @return  {module:model/libraryDocuments/String} The mime type of the referenced file, used to determine if the file can be accepted and the necessary conversion steps can be performed  
     * @instance
     */
     _this.getMimeType = function() {
@@ -51,7 +51,7 @@
    /**
     * The mime type of the referenced file, used to determine if the file can be accepted and the necessary conversion steps can be performed
     * @function setMimeType
-    * @param mimeType { String } The mime type of the referenced file, used to determine if the file can be accepted and the necessary conversion steps can be performed
+    * @param mimeType {module:model/libraryDocuments/String} The mime type of the referenced file, used to determine if the file can be accepted and the necessary conversion steps can be performed
     * @instance
     */
     _this.setMimeType = function(mimeType) {
@@ -61,7 +61,7 @@
    /**
     * The original system file name of the document being sent - used to name attachments, and to infer the mime type if one is not explicitly specified
     * @function getName
-    * @return  The original system file name of the document being sent - used to name attachments, and to infer the mime type if one is not explicitly specified { String }
+    * @return  {module:model/libraryDocuments/String} The original system file name of the document being sent - used to name attachments, and to infer the mime type if one is not explicitly specified  
     * @instance
     */
     _this.getName = function() {
@@ -71,7 +71,7 @@
    /**
     * The original system file name of the document being sent - used to name attachments, and to infer the mime type if one is not explicitly specified
     * @function setName
-    * @param name { String } The original system file name of the document being sent - used to name attachments, and to infer the mime type if one is not explicitly specified
+    * @param name {module:model/libraryDocuments/String} The original system file name of the document being sent - used to name attachments, and to infer the mime type if one is not explicitly specified
     * @instance
     */
     _this.setName = function(name) {
@@ -81,7 +81,7 @@
    /**
     * A publicly accessible URL for retrieving the raw file content. HTTP authentication is supported using standard embedded syntax - i.e. http://username:password@your.server.com/path/to/file.
     * @function getUrl
-    * @return  A publicly accessible URL for retrieving the raw file content. HTTP authentication is supported using standard embedded syntax - i.e. http://username:password@your.server.com/path/to/file. { String }
+    * @return  {module:model/libraryDocuments/String} A publicly accessible URL for retrieving the raw file content. HTTP authentication is supported using standard embedded syntax - i.e. http://username:password@your.server.com/path/to/file.  
     * @instance
     */
     _this.getUrl = function() {
@@ -91,7 +91,7 @@
    /**
     * A publicly accessible URL for retrieving the raw file content. HTTP authentication is supported using standard embedded syntax - i.e. http://username:password@your.server.com/path/to/file.
     * @function setUrl
-    * @param url { String } A publicly accessible URL for retrieving the raw file content. HTTP authentication is supported using standard embedded syntax - i.e. http://username:password@your.server.com/path/to/file.
+    * @param url {module:model/libraryDocuments/String} A publicly accessible URL for retrieving the raw file content. HTTP authentication is supported using standard embedded syntax - i.e. http://username:password@your.server.com/path/to/file.
     * @instance
     */
     _this.setUrl = function(url) {

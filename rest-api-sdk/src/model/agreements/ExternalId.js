@@ -41,7 +41,7 @@
    /**
     * An arbitrary value from your system, which can be specified at sending time and then later returned or queried
     * @function getGroup
-    * @return  An arbitrary value from your system, which can be specified at sending time and then later returned or queried { String }
+    * @return  {module:model/agreements/String} An arbitrary value from your system, which can be specified at sending time and then later returned or queried  
     * @instance
     */
     _this.getGroup = function() {
@@ -51,7 +51,7 @@
    /**
     * An arbitrary value from your system, which can be specified at sending time and then later returned or queried
     * @function setGroup
-    * @param group { String } An arbitrary value from your system, which can be specified at sending time and then later returned or queried
+    * @param group {module:model/agreements/String} An arbitrary value from your system, which can be specified at sending time and then later returned or queried
     * @instance
     */
     _this.setGroup = function(group) {
@@ -61,7 +61,7 @@
    /**
     * An arbitrary value from your system, which can be specified at sending time and then later returned or queried
     * @function getId
-    * @return  An arbitrary value from your system, which can be specified at sending time and then later returned or queried { String }
+    * @return  {module:model/agreements/String} An arbitrary value from your system, which can be specified at sending time and then later returned or queried  
     * @instance
     */
     _this.getId = function() {
@@ -71,7 +71,7 @@
    /**
     * An arbitrary value from your system, which can be specified at sending time and then later returned or queried
     * @function setId
-    * @param id { String } An arbitrary value from your system, which can be specified at sending time and then later returned or queried
+    * @param id {module:model/agreements/String} An arbitrary value from your system, which can be specified at sending time and then later returned or queried
     * @instance
     */
     _this.setId = function(id) {
@@ -81,7 +81,7 @@
    /**
     * Only supported value for the ExternalID namespace at this time is API_OTHER
     * @function getNamespace
-    * @return  Only supported value for the ExternalID namespace at this time is API_OTHER { String }
+    * @return  {module:model/agreements/String} Only supported value for the ExternalID namespace at this time is API_OTHER  
     * @instance
     */
     _this.getNamespace = function() {
@@ -91,7 +91,7 @@
    /**
     * Only supported value for the ExternalID namespace at this time is API_OTHER
     * @function setNamespace
-    * @param namespace { String } Only supported value for the ExternalID namespace at this time is API_OTHER
+    * @param namespace {module:model/agreements/String} Only supported value for the ExternalID namespace at this time is API_OTHER
     * @instance
     */
     _this.setNamespace = function(namespace) {
