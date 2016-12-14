@@ -33,7 +33,18 @@
   UsersApiValidator.getUsersValidator = function(opts) {
   };
 
-  /**
+    var USER_CREATION_INFO = "userCreationInfo";
+    var USER_MODIFICATION_INFO = "userModificationInfo";
+    var USER_STATUS_UPDATE_INFO = "userStatusUpdateInfo";
+    var FIRST_NAME = "firstName";
+    var LAST_NAME = "lastName";
+    var ROLES = "roles";
+    var GROUP_ID = "groupId";
+    var EMAIL = "email";
+
+
+
+    /**
    * Validator for createUsers Api that creates a new user in the account of the user invoking this api.
    *
    * @param userCreationInfo  The object that has all the details/ required parameters for creating a new user.
@@ -45,10 +56,10 @@
                                                    opts) {
       // Null and empty check for required params
       var paramList = [];
-      ApiValidatorHelper.validateParameter(userCreationInfo);
+      ApiValidatorHelper.validateParameter(userCreationInfo,SdkErrorCodes.MISSING_REQUIRED_PARAM,USER_CREATION_INFO);
           
-      paramList.push({param:userCreationInfo.getFirstName(), sdkErrorCode:SdkErrorCodes.FIRST_NAME_MISSING});
-      paramList.push({param:userCreationInfo.getLastName(), sdkErrorCode:SdkErrorCodes.LAST_NAME_MISSING});
+      paramList.push({paramKey:FIRST_NAME,sdkErrorCode:SdkErrorCodes.MISSING_REQUIRED_PARAM,param:userCreationInfo.getFirstName()});
+      paramList.push({paramKey:LAST_NAME,sdkErrorCode:SdkErrorCodes.MISSING_REQUIRED_PARAM,param:userCreationInfo.getLastName()});
       paramList.push({param:userCreationInfo.getEmail(), sdkErrorCode:SdkErrorCodes.MUST_PROVIDE_EMAIL});
       
       ApiValidatorHelper.validateParameters(paramList);
@@ -82,13 +93,13 @@
                                                     userId,
                                                     opts) {
       var paramList = [];
-      ApiValidatorHelper.validateParameter(userModificationInfo);
+      ApiValidatorHelper.validateParameter(userModificationInfo, SdkErrorCodes.MISSING_REQUIRED_PARAM, USER_MODIFICATION_INFO);
 
-      paramList.push({param:userModificationInfo.getFirstName(), sdkErrorCode:SdkErrorCodes.FIRST_NAME_MISSING});
-      paramList.push({param:userModificationInfo.getLastName(), sdkErrorCode:SdkErrorCodes.LAST_NAME_MISSING});
-      paramList.push({param:userModificationInfo.getEmail(), sdkErrorCode:SdkErrorCodes.EMAIL_MISSING});
-      paramList.push({param:userModificationInfo.getGroupId(), sdkErrorCode:SdkErrorCodes.GROUP_ID_MISSING});
-      paramList.push({param:userModificationInfo.getRoles(), sdkErrorCode:SdkErrorCodes.USERS_ROLES_MISSING});
+      paramList.push({paramKey:FIRST_NAME,sdkErrorCode:SdkErrorCodes.MISSING_REQUIRED_PARAM,param:userModificationInfo.getFirstName()});
+      paramList.push({paramKey:LAST_NAME,sdkErrorCode:SdkErrorCodes.MISSING_REQUIRED_PARAM,param:userModificationInfo.getLastName()});
+      paramList.push({paramKey:EMAIL,sdkErrorCode:SdkErrorCodes.MISSING_REQUIRED_PARAM,param:userModificationInfo.getEmail()});
+      paramList.push({paramKey:GROUP_ID,sdkErrorCode:SdkErrorCodes.MISSING_REQUIRED_PARAM,param:userModificationInfo.getGroupId()});
+      paramList.push({paramKey:ROLES,sdkErrorCode:SdkErrorCodes.MISSING_REQUIRED_PARAM,param:userModificationInfo.getRoles()});
 
       ApiValidatorHelper.validateId(userId, SdkErrorCodes.INVALID_USER_ID);
       ApiValidatorHelper.validateParameters(paramList);
@@ -109,7 +120,7 @@
                                                            opts) {
       var paramList = [];
       ApiValidatorHelper.validateId(userId, SdkErrorCodes.INVALID_USER_ID);
-      ApiValidatorHelper.validateParameter(userStatusUpdateInfo);
+      ApiValidatorHelper.validateParameter(userStatusUpdateInfo, SdkErrorCodes.MISSING_REQUIRED_PARAM, USER_STATUS_UPDATE_INFO);
 
       paramList.push({param:userStatusUpdateInfo.getUserStatus(), sdkErrorCode: SdkErrorCodes.MUST_PROVIDE_VALID_USER_STATUS});
       ApiValidatorHelper.validateParameters(paramList);

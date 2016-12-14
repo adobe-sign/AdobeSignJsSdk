@@ -20,7 +20,7 @@
 
   /**
    * @module ApiClient
-   * @version 1.0.0
+   * @version 1.1.0
    */
 
   /**
@@ -38,7 +38,8 @@
      * @type {String}
      * @default https://api.echosign.com/api/rest/v5
      */
-     _this.envHostName = 'https://api.echosign.com/'.replace(/\/+$/, '/');
+    _this.xSdkVersion = 'NodeJS SDK 1.1.0';
+    _this.envHostName = 'https://api.echosign.com/'.replace(/\/+$/, '/');
     _this.baseUri = null;
     _this.subPath = 'api/rest/v5'.replace(/\/+$/, '');
 
@@ -355,31 +356,40 @@
      request.query(_this.normalizeParams(queryParams));
 
      // set header parameters
+     if (path.indexOf("oauth")=== -1) {
+       headerParams['x-sdk-version'] = _this.xSdkVersion;
+     }
      request.set(_this.defaultHeaders).set(_this.normalizeParams(headerParams));
 
      // set request timeout
      request.timeout(_this.timeout);
 
-     if(returnType === 'Uint8Array')
-     {
-        // custom parser for binary stream
-        request.buffer(true).parse(function(res, callback) {
-        res.setEncoding('binary');
-        res.text = '';
-        res.on('data', function (chunk) {
-        res.text += chunk;
-        });
-        res.on('end', function () {
-        callback(null, new Buffer(res.text, 'binary'));
-        });
-     });
+     if (returnType === 'Uint8Array') {
+
+       // custom parser for binary stream
+       request.buffer(true).parse(function (res, callback) {
+         res.setEncoding('binary');
+         res.text = '';
+         res.on('data', function (chunk) {
+           res.text += chunk;
+         });
+         res.on('end', function () {
+           callback(null, new Buffer(res.text, 'binary'));
+         });
+       });
+     }
+     if(returnType === 'arraybuffer') {
+       request.responseType("arraybuffer");
      }
 
      var contentType = _this.jsonPreferredMime(contentTypes);
      if (contentType) {
-        request.type(contentType);
+         // Issue with superagent and multipart/form-data (https://github.com/visionmedia/superagent/issues/746)
+         if(contentType != 'multipart/form-data') {
+           request.type(contentType);
+         }
      } else if (!request.header['Content-Type']) {
-        request.type('application/json');
+         request.type('application/json');
      }
 
      if (contentType === 'application/x-www-form-urlencoded') {
@@ -409,21 +419,39 @@
      request.end(function(error, response) {
      if (error) {
         var sdkErrorCode = {};
-        if((error.response) && (response.res)){
-            var errorObject = JSON.parse(response.res.text);
-            if(errorObject){
-              sdkErrorCode['errorMessage'] = errorObject.message;
-              sdkErrorCode['apiCode'] = errorObject.code;
-            }
-            sdkErrorCode['httpCode'] = error.response.statusCode;
+        var errorObject = null;
+        if (typeof window === 'undefined') {
+          if((error.response) && (response.res)){
+              errorObject = JSON.parse(response.res.text);
+              sdkErrorCode['httpCode'] = error.response.statusCode;
+          }
+        }
+        else {
+          if (error.response && response.text) {
+            errorObject = JSON.parse(response.text);
+            sdkErrorCode['httpCode'] = response.statusCode;
+          } else if (error.rawResponse && error.rawResponse instanceof ArrayBuffer) {
+              var decodedString = String.fromCharCode.apply(null, new Uint8Array(error.rawResponse));
+              errorObject = JSON.parse(decodedString);
+              sdkErrorCode['httpCode'] = error.statusCode;
+          }
+        }
+        if (errorObject) {
+          sdkErrorCode['errorMessage'] = errorObject.message;
+          sdkErrorCode['apiCode'] = errorObject.code;
         }
         else {
           sdkErrorCode['errorMessage'] = CONNECTION_ERROR;
         }
         reject(new ApiError(sdkErrorCode));
      } else {
-        var data = _this.deserialize(response, returnType);
-        resolve(data);
+        if (returnType === 'arraybuffer') {
+          resolve(response.xhr.response);
+        }
+        else {
+          var data = _this.deserialize(response, returnType);
+          resolve(data);
+        }
      }
      });
      });

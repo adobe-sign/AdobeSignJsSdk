@@ -167,8 +167,7 @@
    * Helper method that returns the resources folder path
    */
   ApiUtils.getResourcesFolderPath = function () {
-    var resourcesFolderPath = path.join(path.dirname(__dirname), TestData.REQUEST_PATH);
-    return resourcesFolderPath;
+    return path.join(path.dirname(__dirname), TestData.REQUEST_PATH);
   };
 
   //Helper method to get user email

@@ -490,7 +490,7 @@
                     })
                     .catch(function (apiError) {
                         return StringUtil.assertEqual(apiError,
-                                                      SdkErrorCodes.EMAIL_MISSING) ? done() : done(apiError);
+                                                      SdkErrorCodes.MISSING_REQUIRED_PARAM) ? done() : done(apiError);
                     });
 
         });
@@ -526,7 +526,7 @@
                     })
                     .catch(function (apiError) {
                         return StringUtil.assertEqual(apiError,
-                                                      SdkErrorCodes.EMAIL_MISSING) ? done() : done(apiError);
+                                                      SdkErrorCodes.MISSING_REQUIRED_PARAM) ? done() : done(apiError);
                     });
 
         });

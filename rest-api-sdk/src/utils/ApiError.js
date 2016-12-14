@@ -16,7 +16,7 @@
     module.exports = factory(require('util'));
   
 }(function(util) {
-	'use strict';
+  'use strict';
 
   /**
    * ApiError.
@@ -30,10 +30,15 @@
    * @class
    */
   
-	
-  var ApiError = function ApiError(key){
+  
+  var ApiError = function ApiError(key, missingParam){
 
     var getMessage = function (key) {
+
+      if(key.message)
+      {
+        return key.message;
+      }
 
       var HTTP_STATUS_CODE = "\"httpCode\": ";
       var CODE = "\"apiCode\": ";
@@ -48,6 +53,7 @@
         if(message)
           message = message + SEPARATOR;
         message = message + MESSAGE + key.errorMessage;
+
       }
       if(key.apiCode) {
         if(message)
@@ -56,6 +62,17 @@
       }
       return message;
     };
+
+    var getErrorMessage = function(key, missingParam) {
+      var MISSING_PARAM_SEPARATOR = " : ";
+      var error= key.errorMessage;
+      if(key.errorMessage) {
+        if(missingParam) {
+          error = error + MISSING_PARAM_SEPARATOR +missingParam;
+        }
+      }
+      return error;
+    }
 
     var _this = this;
     Error.call(_this);
@@ -69,7 +86,7 @@
       _this.httpCode = key.httpCode;
 
     if(key.errorMessage)
-      _this.errorMessage = key.errorMessage;
+      _this.errorMessage = getErrorMessage(key, missingParam);
 
     if(key.apiCode)
       _this.apiCode = key.apiCode;

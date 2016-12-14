@@ -16,6 +16,13 @@
   
 }(function(SdkErrorCodes, ApiValidatorHelper , ApiError) {
   'use strict';
+  
+  var MEGA_SIGN_CREATION_REQUEST = "megaSignCreationRequest";
+  var MEGA_SIGN_CREATION_INFO = "megasignCreationInfo";
+  var NAME = "name";
+  var SIGNATURE_TYPE = "signatureType";
+  var MEGA_SIGN_STATUS_UPDATE_INFO = "megaSignStatusUpdateInfo";
+  var RECIPIENT_SET_MEMBER_INFOS = "recipientSetMemberInfos";
 
   /**
    * Validator for Megasigns Api. The main purpose of this is to check the validity of the parameters passed 
@@ -44,22 +51,22 @@
    */
   MegaSignApiValidator.createMegaSignValidator = function(megaSignCreationRequest,
                                                           opts) {
-    ApiValidatorHelper.validateParameter(megaSignCreationRequest);
+    ApiValidatorHelper.validateParameter(megaSignCreationRequest, SdkErrorCodes.MISSING_REQUIRED_PARAM, MEGA_SIGN_CREATION_REQUEST);
 
     var megaSignCreationInfo = megaSignCreationRequest.getMegaSignCreationInfo();
-    ApiValidatorHelper.validateParameter(megaSignCreationInfo);
+    ApiValidatorHelper.validateParameter(megaSignCreationInfo, SdkErrorCodes.MISSING_REQUIRED_PARAM, MEGA_SIGN_CREATION_INFO);
 
     var fileInfos = megaSignCreationInfo.getFileInfos();
     validateFileInfo(fileInfos);
 
-    ApiValidatorHelper.validateParameter(megaSignCreationInfo.getName());
+    ApiValidatorHelper.validateParameter(megaSignCreationInfo.getName(), SdkErrorCodes.MISSING_REQUIRED_PARAM, NAME);
 
     MegaSignApiValidator.validatePostSignOptions(megaSignCreationInfo.getPostSignOptions());
     var recipientSetInfos = megaSignCreationInfo.getRecipientSetInfos();
     if (recipientSetInfos)
       validateRecipientSetInfos(recipientSetInfos);
     
-    ApiValidatorHelper.validateParameter(megaSignCreationInfo.getSignatureType());
+    ApiValidatorHelper.validateParameter(megaSignCreationInfo.getSignatureType(), SdkErrorCodes.MISSING_REQUIRED_PARAM, SIGNATURE_TYPE);
 
   };
 
@@ -122,7 +129,7 @@
     ApiValidatorHelper.validateId(megaSignId,
                                   SdkErrorCodes.INVALID_MEGASIGN_ID);
 
-    ApiValidatorHelper.validateParameter(megaSignStatusUpdateInfo);
+    ApiValidatorHelper.validateParameter(megaSignStatusUpdateInfo, SdkErrorCodes.MISSING_REQUIRED_PARAM, MEGA_SIGN_STATUS_UPDATE_INFO);
     var paramList = [];
     var updateValue = megaSignStatusUpdateInfo.getValue();
 
@@ -169,7 +176,7 @@
     
     for (var i=0; i < recipientSetInfos.length; i++) {
 
-      ApiValidatorHelper.validateParameter(recipientSetInfos[i].getRecipientSetMemberInfos());
+      ApiValidatorHelper.validateParameter(recipientSetInfos[i].getRecipientSetMemberInfos(), SdkErrorCodes.MISSING_REQUIRED_PARAM, RECIPIENT_SET_MEMBER_INFOS);
       var recipientInfos = recipientSetInfos[i].getRecipientSetMemberInfos();
       var numberOfRecipients = recipientInfos.length;
 

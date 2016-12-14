@@ -102,9 +102,9 @@
   "certificateFile" : "api/oAuth/server/cert.pem",
 
   "description" : "Relative path of HTML file for local server",
-  "oAuthHtmlFile" : "api/oAuth/server/oauth.html",
+  "oAuthHtmlFile" : "api/oAuth/server/oAuth.html",
 
-  "description" : "Environment on which the sdk will run. If no Host Environment is provided here, default Host Environment [https://api.echosign.com] will be used.",
+  "description" : "Environment on which the sdk will run. If no Host Environment is provided here, default Host Environment [https://api.echosign.com/] will be used.",
   "envHostName" : "",
 
   "description" : "Prefix of email address which will be used for the sample use",

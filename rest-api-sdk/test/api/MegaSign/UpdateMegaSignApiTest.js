@@ -14,7 +14,7 @@
         // CommonJS-like environments that support module.exports, like Node.
         module.exports = factory(require('../../../src/index'), require('../../utils/TestData'), require('../../utils/MegaSignUtils'), require('../../utils/SdkErrorCodes'), require('../../utils/ApiUtils'), require('../../utils/StringUtil'), require('chai'));
     
-}(function (AdobeSignNodeSdk, TestData, MegaSignUtils, SdkErrorCodes, ApiUtils, StringUtil, chai) {
+}(function (AdobeSignSdk, TestData, MegaSignUtils, SdkErrorCodes, ApiUtils, StringUtil, chai) {
     'use strict';
 
     /**
@@ -24,7 +24,7 @@
 
         var assert = chai.assert;
         var megaSignApi = null;
-        var megaSignsModel = AdobeSignNodeSdk.MegaSignsModel;
+        var megaSignsModel = AdobeSignSdk.MegaSignsModel;
 
         var megaSignId = null;
 

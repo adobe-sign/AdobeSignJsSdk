@@ -17,6 +17,9 @@
 }(function(SdkErrorCodes, ApiValidatorHelper, StringUtil) {
   'use strict';
 
+  var TARGET_VIEW_REQUEST = "targetViewRequest";
+  var AGREEMENT_ASSET_REQUEST = "agreementAssetRequest";
+
   /**
    * Validator for Views Api. The main purpose of this is to check the validity of the parameters passed to
    * the Views API and throw ApiException with required error messages if the validation fails.
@@ -48,7 +51,7 @@
    */
   ViewsApiValidator.createAgreementAssetUrlValidator = function(agreementAssetRequest,
                                                                 opts) {
-    ApiValidatorHelper.validateParameter(agreementAssetRequest);
+    ApiValidatorHelper.validateParameter(agreementAssetRequest, SdkErrorCodes.MISSING_REQUIRED_PARAM, AGREEMENT_ASSET_REQUEST);
     var paramList = [];
     paramList.push({param: agreementAssetRequest.getAgreementAssetId(), sdkErrorCode: SdkErrorCodes.INVALID_AGREEMENT_ASSET_ID});
     ApiValidatorHelper.validateParameters(paramList);
@@ -63,7 +66,7 @@
    */
   ViewsApiValidator.createSettingsUrlValidator = function(targetViewRequest,
                                                           opts) {
-    ApiValidatorHelper.validateParameter(targetViewRequest);
+    ApiValidatorHelper.validateParameter(targetViewRequest, SdkErrorCodes.MISSING_REQUIRED_PARAM, TARGET_VIEW_REQUEST);
     var paramList = [];
     paramList.push({param: targetViewRequest.getTargetView(), sdkErrorCode: SdkErrorCodes.INVALID_TARGET_VIEW});
     ApiValidatorHelper.validateParameters(paramList);

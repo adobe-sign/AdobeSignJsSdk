@@ -35,9 +35,7 @@
 
     //Helper method that returns absolute path of a file
     TransientDocumentUtils.getFileAbsolutePath = function (dirName, fileName) {
-        var absolutePath = path.join(dirName,
-                                     fileName);
-        return absolutePath;
+        return path.join(dirName, fileName);
     };
 
     //Helper method that returns json of optional parameters with mimeType
@@ -47,14 +45,22 @@
         return opts;
     };
 
-    //Helper method that returns buffer stream of the file specified at the location
-    TransientDocumentUtils.getBufferFromFilePath = function (fileName) {
+    //Helper method that returns buffer stream of the file specified at the location in CommonJS environment & File Object set in window for browser.
+    TransientDocumentUtils.getFile = function (fileName) {
+        if (typeof window === 'undefined') {
+            var absoluteFilePath = TransientDocumentUtils.getFileAbsolutePath(ApiUtils.getResourcesFolderPath(),
+                                                                              fileName);
+            var fileBytes = fs.readFileSync(absoluteFilePath);
+            var buffer = new Buffer(fileBytes);
+            return buffer;
 
-        var absoluteFilePath = TransientDocumentUtils.getFileAbsolutePath(ApiUtils.getResourcesFolderPath(),
-                                                                          fileName);
-        var fileBytes = fs.readFileSync(absoluteFilePath);
-        var buffer = new Buffer(fileBytes);
-        return buffer;
+        } else {
+            if (AdobeSignSdk.TestFile) {
+                return AdobeSignSdk.TestFile;
+            }
+        }
+        return null;
+
     };
 
     //Helper method that creates the Transient Document
@@ -65,7 +71,7 @@
         opts[optKeys.MIME_TYPE_KEY] = TestData.VALID_MIME;
         return transientDocumentsApi.createTransientDocument(ApiUtils.getValidHeaderParams(),
                                                              transientDocumentName,
-                                                             TransientDocumentUtils.getBufferFromFilePath(TestData.SAMPLE_FILE),
+                                                             TransientDocumentUtils.getFile(TestData.SAMPLE_FILE),
                                                              opts)
                                     .catch(ApiUtils.throwError);
     };

@@ -21,7 +21,7 @@
 
   /**
    * @module model/agreements/FormFieldLocation
-   * @version 1.0.0
+   * @version 1.1.0
    */
   /**
    * Constructs a new <code>FormFieldLocation</code>.

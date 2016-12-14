@@ -20,7 +20,7 @@
     /**
      * Mocha unit tests for Get Agreement Combined Document API.
      */
-    describe('testAgreementCombinedDocumentApi', function () {
+    describe('GetAgreementCombinedDocumentApiTest', function () {
 
         var assert = chai.assert;
         var agreementsApi = null;

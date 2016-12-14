@@ -40,7 +40,7 @@
         it('testCreateTransientDocument', function (done) {
             transientDocumentsApi.createTransientDocument(ApiUtils.getValidHeaderParams(),
                                                           TestData.TRANSIENT_DOCUMENT_NAME,
-                                                          TransientDocumentUtils.getBufferFromFilePath(TestData.SAMPLE_FILE),
+                                                          TransientDocumentUtils.getFile(TestData.SAMPLE_FILE),
                                                           TransientDocumentUtils.getOptsWithMimeType(TestData.VALID_MIME))
                                  .then(function (TransientDocumentResponse) {
                                      assert.isNotNull(TransientDocumentResponse);
@@ -62,7 +62,7 @@
         it('testNullAccessToken', function (done) {
             transientDocumentsApi.createTransientDocument(ApiUtils.getNullAccessTokenHeaderParams(),
                                                           TestData.TRANSIENT_DOCUMENT_NAME,
-                                                          TransientDocumentUtils.getBufferFromFilePath(TestData.SAMPLE_FILE),
+                                                          TransientDocumentUtils.getFile(TestData.SAMPLE_FILE),
                                                           TransientDocumentUtils.getOptsWithMimeType(TestData.VALID_MIME))
                                  .then(function (transientDocumentResponse) {
                                      assert.isNotNull(transientDocumentResponse);
@@ -86,7 +86,7 @@
         it('testEmptyAccessToken', function (done) {
             transientDocumentsApi.createTransientDocument(ApiUtils.getEmptyAccessTokenHeaderParams(),
                                                           TestData.TRANSIENT_DOCUMENT_NAME,
-                                                          TransientDocumentUtils.getBufferFromFilePath(TestData.SAMPLE_FILE),
+                                                          TransientDocumentUtils.getFile(TestData.SAMPLE_FILE),
                                                           TransientDocumentUtils.getOptsWithMimeType(TestData.VALID_MIME))
                                  .then(function (transientDocumentResponse) {
                                      assert.isNotNull(transientDocumentResponse);
@@ -110,7 +110,7 @@
         it('testInvalidXApiUser', function (done) {
             transientDocumentsApi.createTransientDocument(ApiUtils.getEmptyXApiUserHeaderParams(),
                                                           TestData.TRANSIENT_DOCUMENT_NAME,
-                                                          TransientDocumentUtils.getBufferFromFilePath(TestData.SAMPLE_FILE),
+                                                          TransientDocumentUtils.getFile(TestData.SAMPLE_FILE),
                                                           TransientDocumentUtils.getOptsWithMimeType(TestData.VALID_MIME))
                                  .then(function (transientDocumentResponse) {
                                      assert.isNotNull(transientDocumentResponse);
@@ -156,7 +156,7 @@
         it('testInvalidFileName', function (done) {
             transientDocumentsApi.createTransientDocument(ApiUtils.getValidHeaderParams(),
                                                           TestData.NULL_PARAM,
-                                                          TransientDocumentUtils.getBufferFromFilePath(TestData.SAMPLE_FILE),
+                                                          TransientDocumentUtils.getFile(TestData.SAMPLE_FILE),
                                                           TransientDocumentUtils.getOptsWithMimeType(TestData.VALID_MIME))
                                  .then(function (transientDocumentResponse) {
                                      assert.isNotNull(transientDocumentResponse);
@@ -180,7 +180,7 @@
         it('testInvalidFileExtensionAndMime', function (done) {
             transientDocumentsApi.createTransientDocument(ApiUtils.getValidHeaderParams(),
                                                           TestData.TRANSIENT_DOCUMENT_NAME,
-                                                          TransientDocumentUtils.getBufferFromFilePath(TestData.SAMPLE_FILE),
+                                                          TransientDocumentUtils.getFile(TestData.SAMPLE_FILE),
                                                           TransientDocumentUtils.getOptsWithMimeType(TestData.EMPTY_PARAM))
                                  .then(function (transientDocumentResponse) {
                                      assert.isNotNull(transientDocumentResponse);

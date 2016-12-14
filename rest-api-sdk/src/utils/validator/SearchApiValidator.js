@@ -17,6 +17,8 @@
 }(function(SdkErrorCodes, ApiValidatorHelper) {
   'use strict';
 
+  var AGREEMENT_ASSERT_EVENT_REQUEST = "agreementAssetEventRequest";
+
   /**
    * Validator for Search Api. The main purpose of this is to check the validity of the parameters passed to 
    * the search API and throw ApiError with required error messages if the validation fails.
@@ -32,10 +34,10 @@
    */
   SearchApiValidator.createAssetEventValidator = function (agreementAssetEventRequest,
                                                            opts) {
-    ApiValidatorHelper.validateParameter(agreementAssetEventRequest);
+    ApiValidatorHelper.validateParameter(agreementAssetEventRequest, SdkErrorCodes.MISSING_REQUIRED_PARAM, AGREEMENT_ASSERT_EVENT_REQUEST);
 
     ApiValidatorHelper.validateStartAndEndDatesParameter(agreementAssetEventRequest.getStartDate(),
-                                                         agreementAssetEventRequest.getStartDate());
+                                                         agreementAssetEventRequest.getEndDate());
   };
 
   /**

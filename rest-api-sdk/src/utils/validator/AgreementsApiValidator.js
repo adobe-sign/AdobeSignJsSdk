@@ -17,6 +17,17 @@
 }(function(SdkErrorCodes, ApiValidatorHelper , ApiError, StringUtil) {
   'use strict';
 
+  var AGREEMENT_CREATION_INFO = "agreementCreationInfo";
+  var DOCUMENT_CREATION_INFO = "documentCreationInfo";
+  var NAME = "name";
+  var RECIPIENT_SET_INFOS = "recipientSetInfos";
+  var SIGNATURE_TYPE = "signatureType";
+  var ALTERNATE_PARTICIPANT_INFO = "alternateParticipantInfo";
+  var EMAIL = "email";
+  var AGREEMENT_STATUS_UPATE_INFO = "agreementStatusUpdateInfo";
+  var RECIPIENT_SET_MEMBER_INFO = "recipientSetMemberInfos";
+  var RECIPIENT_SET_ROLE = "recipientSetRole";
+
   /**
    * Validator for Agreements API. The main purpose of this is to check the validity of the parameters passed
    * to the agreements API and throw ApiError with required error messages if the validation fails.
@@ -84,7 +95,7 @@
     ApiValidatorHelper.validateId(agreementId,
                                   SdkErrorCodes.INVALID_AGREEMENT_ID);
 
-    ApiValidatorHelper.validateParameter(agreementStatusUpdateInfo);
+    ApiValidatorHelper.validateParameter(agreementStatusUpdateInfo, SdkErrorCodes.MISSING_REQUIRED_PARAM, AGREEMENT_STATUS_UPATE_INFO);
     var paramList = [];
     paramList.push({param: agreementStatusUpdateInfo.getValue(), sdkErrorCode: SdkErrorCodes.MUST_PROVIDE_VALID_AGREEMENT_STATUS});
 
@@ -99,26 +110,26 @@
    * @throws ApiError
    */
   AgreementsApiValidator.createAgreementValidator = function(agreementCreationInfo) {
-    ApiValidatorHelper.validateParameter(agreementCreationInfo);
+    ApiValidatorHelper.validateParameter(agreementCreationInfo, SdkErrorCodes.MISSING_REQUIRED_PARAM, AGREEMENT_CREATION_INFO);
 
     var documentCreationInfo = agreementCreationInfo.getDocumentCreationInfo();
-    ApiValidatorHelper.validateParameter(documentCreationInfo);
+    ApiValidatorHelper.validateParameter(documentCreationInfo, SdkErrorCodes.MISSING_REQUIRED_PARAM, DOCUMENT_CREATION_INFO);
 
     var  fileInfos = documentCreationInfo.getFileInfos();
     validateFileInfo(fileInfos);
 
-    ApiValidatorHelper.validateParameter(documentCreationInfo.getName());
+    ApiValidatorHelper.validateParameter(documentCreationInfo.getName(), SdkErrorCodes.MISSING_REQUIRED_PARAM, NAME);
 
     validatePostSignOptions(documentCreationInfo.getPostSignOptions());
 
-    ApiValidatorHelper.validateParameter(documentCreationInfo.getRecipientSetInfos());
+    ApiValidatorHelper.validateParameter(documentCreationInfo.getRecipientSetInfos(), SdkErrorCodes.MISSING_REQUIRED_PARAM, RECIPIENT_SET_INFOS);
 
     var recipientSetInfos = documentCreationInfo.getRecipientSetInfos();
     validateRecipientSetInfos(recipientSetInfos);
 
     validateInteractiveOptions(agreementCreationInfo);
 
-    ApiValidatorHelper.validateParameter(documentCreationInfo.getSignatureType(), SdkErrorCodes.VALID_SIGNATURE_TYPE_MISSING);
+    ApiValidatorHelper.validateParameter(documentCreationInfo.getSignatureType(), SdkErrorCodes.MISSING_REQUIRED_PARAM, SIGNATURE_TYPE);
 
   };
 
@@ -149,7 +160,7 @@
   var validateRecipientSetInfos = function(recipientSetInfos) {
     for (var i = 0;  i < recipientSetInfos.length; i++) {
       var recipientSetInfo = recipientSetInfos[i];
-      ApiValidatorHelper.validateParameter(recipientSetInfo.getRecipientSetMemberInfos(), SdkErrorCodes.RECIPIENTS_SET_INFO_MISSING);
+      ApiValidatorHelper.validateParameter(recipientSetInfo.getRecipientSetMemberInfos(), SdkErrorCodes.MISSING_REQUIRED_PARAM, RECIPIENT_SET_MEMBER_INFO);
       var recipientInfos = recipientSetInfo.getRecipientSetMemberInfos();
       var numberOfRecipients = recipientInfos.length;
 
@@ -158,7 +169,7 @@
                                                      recipientInfos[j].getFax(),
                                                      numberOfRecipients);
       }
-      ApiValidatorHelper.validateParameter(recipientSetInfo.getRecipientSetRole(), SdkErrorCodes.RECIPIENTS_ROLE_MISSING);
+      ApiValidatorHelper.validateParameter(recipientSetInfo.getRecipientSetRole(), SdkErrorCodes.MISSING_REQUIRED_PARAM, RECIPIENT_SET_ROLE);
     }
   };
 
@@ -184,7 +195,7 @@
 
     for (var i=0; i < recipientSetInfos.length; i++) {
       var recipientSetInfo = recipientSetInfos[i];
-      ApiValidatorHelper.validateParameter(recipientSetInfo.getRecipientSetMemberInfos());
+      ApiValidatorHelper.validateParameter(recipientSetInfo.getRecipientSetMemberInfos(), SdkErrorCodes.MISSING_REQUIRED_PARAM, RECIPIENT_SET_MEMBER_INFO);
       var numberOfRecipients = recipientSetInfo.getRecipientSetMemberInfos().length;
 
       if ((interactiveOptions.getAuthoringRequested() || interactiveOptions.getSendThroughWeb()) && numberOfRecipients > 1)
@@ -214,9 +225,9 @@
     ApiValidatorHelper.validateId(participantSetId,
                                   SdkErrorCodes.INVALID_PARTICIPANT_SET_ID);
 
-    ApiValidatorHelper.validateParameter(alternateParticipantInfo);
+    ApiValidatorHelper.validateParameter(alternateParticipantInfo, SdkErrorCodes.MISSING_REQUIRED_PARAM, ALTERNATE_PARTICIPANT_INFO);
 
-    ApiValidatorHelper.validateParameter(alternateParticipantInfo.getEmail());
+    ApiValidatorHelper.validateParameter(alternateParticipantInfo.getEmail(), SdkErrorCodes.MISSING_REQUIRED_PARAM, EMAIL);
     ApiValidatorHelper.validateEmailParameter(alternateParticipantInfo.getEmail());
 
     ApiValidatorHelper.validateParameter(alternateParticipantInfo.getPrivateMessage(),

@@ -14,8 +14,13 @@
     // CommonJS-like environments that support module.exports, like Node.
     module.exports = factory(require('./SdkErrorCodes'), require('./ApiValidatorHelper'), require('../ApiError'), require( '../StringUtil'));
   
-}(function(SdkErrorCode, ApiValidatorHelper , ApiError, StringUtil) {
+}(function(SdkErrorCodes, ApiValidatorHelper , ApiError, StringUtil) {
   'use strict';
+  
+  var CUSTOM_WORKFLOW_AGREEMENT_CREATION_REQUEST = "customWorkflowAgreementCreationRequest";
+  var DOCUMENT_CREATION_INFO = "documentCreationInfo";
+  var NAME = "name";
+  var RECIPIENTS = "recipients";
 
   /**
    * Validator for Workflows Api. The main purpose of this is to check the validity of the parameters passed to
@@ -35,7 +40,7 @@
     var groupId = opts.groupId;
     if (groupId)
       ApiValidatorHelper.validateId(groupId,
-                                    SdkErrorCode.INVALID_GROUP_ID);
+                                    SdkErrorCodes.INVALID_GROUP_ID);
   };
 
   /**
@@ -47,7 +52,7 @@
   WorkFlowsApiValidator.getWorkflowInfoValidator = function(workflowId,
                                                             opts) {
     ApiValidatorHelper.validateId(workflowId,
-                                  SdkErrorCode.INVALID_WORKFLOW_ID);
+                                  SdkErrorCodes.INVALID_WORKFLOW_ID);
   };
   /**
    * Validator for createWorkflowAgreement API that creates an agreement, sends it out for signatures,
@@ -62,32 +67,32 @@
                                                                     workflowId,
                                                                     opts) {
 
-    ApiValidatorHelper.validateId(workflowId, SdkErrorCode.INVALID_WORKFLOW_ID);
-    ApiValidatorHelper.validateParameter(customWorkflowAgreementCreationRequest);
+    ApiValidatorHelper.validateId(workflowId, SdkErrorCodes.INVALID_WORKFLOW_ID);
+    ApiValidatorHelper.validateParameter(customWorkflowAgreementCreationRequest, SdkErrorCodes.MISSING_REQUIRED_PARAM, CUSTOM_WORKFLOW_AGREEMENT_CREATION_REQUEST);
 
     var documentCreationInfo = customWorkflowAgreementCreationRequest.getDocumentCreationInfo();
-    ApiValidatorHelper.validateParameter(documentCreationInfo);
-    ApiValidatorHelper.validateParameter(documentCreationInfo.getName());
+    ApiValidatorHelper.validateParameter(documentCreationInfo, SdkErrorCodes.MISSING_REQUIRED_PARAM, DOCUMENT_CREATION_INFO);
+    ApiValidatorHelper.validateParameter(documentCreationInfo.getName(), SdkErrorCodes.MISSING_REQUIRED_PARAM, NAME);
 
     var fileInfos = documentCreationInfo.getFileInfos();
     if (!fileInfos)
-      throw new ApiError(SdkErrorCode.INVALID_FILE_INFO);
+      throw new ApiError(SdkErrorCodes.INVALID_FILE_INFO);
 
     for(var i=0; i < fileInfos.length; i++){
       var fileInfo = fileInfos[i];
       if (!fileInfo)
-        throw new ApiError(SdkErrorCode.INVALID_FILE_INFO);
+        throw new ApiError(SdkErrorCodes.INVALID_FILE_INFO);
 
       ApiValidatorHelper.validateParameter(fileInfo.getName(),
-                                           SdkErrorCode.FILE_INFO_NAME_MISSING);
+                                           SdkErrorCodes.FILE_INFO_NAME_MISSING);
 
       if (!StringUtil.isNullOrUndefined(fileInfo.getTransientDocumentId()))
         ApiValidatorHelper.validateId(fileInfo.getTransientDocumentId(),
-                                      SdkErrorCode.INVALID_TRANSIENTDOCUMENT_ID);
+                                      SdkErrorCodes.INVALID_TRANSIENTDOCUMENT_ID);
 
       if (!StringUtil.isNullOrUndefined(fileInfo.getWorkflowLibraryDocumentId()))
         ApiValidatorHelper.validateId(fileInfo.getWorkflowLibraryDocumentId(),
-                                      SdkErrorCode.INVALID_LIBRARYDOCUMENT_ID);
+                                      SdkErrorCodes.INVALID_LIBRARYDOCUMENT_ID);
 
     }
     validatePostSignOptions(documentCreationInfo.getPostSignOptions());
@@ -103,7 +108,7 @@
   var validateRecipientSetInfos = function (recipientSetInfos) {
     for (var i=0; i < recipientSetInfos.length; i++) {
 
-      ApiValidatorHelper.validateParameter(recipientSetInfos[i].getRecipients());
+      ApiValidatorHelper.validateParameter(recipientSetInfos[i].getRecipients(), SdkErrorCodes.MISSING_REQUIRED_PARAM, RECIPIENTS);
       var recipientInfos = recipientSetInfos[i].getRecipients();
       var numberOfRecipients = recipientInfos.length;
 
