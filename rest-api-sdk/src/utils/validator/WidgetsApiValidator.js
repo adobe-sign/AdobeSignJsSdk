@@ -17,6 +17,14 @@
 }(function(SdkErrorCodes, ApiValidatorHelper, ApiError) {
   'use strict';
 
+  var WIDGET_CREATION_REQUEST = "widgetCreationRequest";
+  var WIDGET_CREATION_INFO = "widgetCreationInfo";
+  var NAME = "name";
+  var WIDGET_STATUS_UPDATE_INFO = "widgetStatusUpdateInfo";
+  var COUNTER_SINGER_SET_MEMBER_INFOS = "counterSignerSetMemberInfos";
+  var COUNTER_SINGER_SET_ROLE = "counterSignerSetRole";
+  var WIDGET_PERSONALIZATION_INFO = "widgetPersonalizationInfo";
+
   /**
    * Validator for Widgets Api. The main purpose of this is to check the validity of the parameters passed to
    * the widgets API and throw ApiError with required error messages if the validation fails.
@@ -43,13 +51,13 @@
                                                         opts) {
 
     var paramList = [];
-    ApiValidatorHelper.validateParameter(widgetCreationRequest);
+    ApiValidatorHelper.validateParameter(widgetCreationRequest, SdkErrorCodes.MISSING_REQUIRED_PARAM, WIDGET_CREATION_REQUEST);
 
     var widgetCreationInfo = widgetCreationRequest.getWidgetCreationInfo();
-    ApiValidatorHelper.validateParameter(widgetCreationInfo);
+    ApiValidatorHelper.validateParameter(widgetCreationInfo, SdkErrorCodes.MISSING_REQUIRED_PARAM, WIDGET_CREATION_INFO);
 
     validateFileInfo(widgetCreationInfo.getFileInfos());
-    paramList.push({param: widgetCreationInfo.getName(), sdkErrorCode: SdkErrorCodes.MISSING_REQUIRED_PARAM});
+    paramList.push({param: widgetCreationInfo.getName(), sdkErrorCode: SdkErrorCodes.MISSING_REQUIRED_PARAM, paramKey: NAME});
 
     var signatureFlow = widgetCreationInfo.getSignatureFlow();
     if (signatureFlow)
@@ -191,7 +199,7 @@
                                                                   opts) {
     ApiValidatorHelper.validateId(widgetId,
                                   SdkErrorCodes.INVALID_WIDGET_ID);
-    ApiValidatorHelper.validateParameter(widgetPersonalizationInfo);
+    ApiValidatorHelper.validateParameter(widgetPersonalizationInfo, SdkErrorCodes.MISSING_REQUIRED_PARAM, WIDGET_PERSONALIZATION_INFO);
     ApiValidatorHelper.validateEmailParameter(widgetPersonalizationInfo.email);
 
   };
@@ -210,7 +218,7 @@
     var paramList = [];
     ApiValidatorHelper.validateId(widgetId,
                                   SdkErrorCodes.INVALID_WIDGET_ID);
-    ApiValidatorHelper.validateParameter(widgetStatusUpdateInfo);
+    ApiValidatorHelper.validateParameter(widgetStatusUpdateInfo, SdkErrorCodes.MISSING_REQUIRED_PARAM, WIDGET_STATUS_UPDATE_INFO);
     paramList.push({param: widgetStatusUpdateInfo.getValue(), sdkErrorCode: SdkErrorCodes.MUST_PROVIDE_VALID_WIDGET_STATUS});
     ApiValidatorHelper.validateParameters(paramList);
 
@@ -265,14 +273,14 @@
     for (var i = 0; i < counterSignerSetInfos.length; i++) {
       var counterSignerSetInfo = counterSignerSetInfos[i];
       var counterSignerInfos = counterSignerSetInfo.getCounterSignerSetMemberInfos();
-      ApiValidatorHelper.validateParameter(counterSignerInfos);
+      ApiValidatorHelper.validateParameter(counterSignerInfos, SdkErrorCodes.MISSING_REQUIRED_PARAM, COUNTER_SINGER_SET_MEMBER_INFOS);
       var numberOfRecipients = counterSignerInfos.length;
 
       for (var j = 0; j < numberOfRecipients; j++) {
         var counterSignerInfo = counterSignerInfos[i];
         ApiValidatorHelper.validateRecipientSetInfos(counterSignerInfo.email, null, numberOfRecipients);
       }
-      ApiValidatorHelper.validateParameter(counterSignerSetInfo.getCounterSignerSetRole());
+      ApiValidatorHelper.validateParameter(counterSignerSetInfo.getCounterSignerSetRole(), SdkErrorCodes.MISSING_REQUIRED_PARAM, COUNTER_SINGER_SET_ROLE);
     }
   };
   

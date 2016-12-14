@@ -20,7 +20,7 @@
 
   /**
    * @module AgreementsApi
-   * @version 1.0.0
+   * @version 1.1.0
    */
 
   /**
@@ -294,7 +294,7 @@
       var contentTypes = [];
       var accepts = [' */* '];
       
-      var returnType = 'Uint8Array';
+      var returnType ='Uint8Array';
       
       return apiClient.callApi(
         '/agreements/{agreementId}/auditTrail', 'GET',
@@ -357,7 +357,7 @@
       var contentTypes = [];
       var accepts = [' */* '];
       
-      var returnType = 'Uint8Array';
+      var returnType ='Uint8Array';
       
       return apiClient.callApi(
         '/agreements/{agreementId}/combinedDocument', 'GET',
@@ -710,7 +710,7 @@
       var contentTypes = [];
       var accepts = [' */* '];
       
-      var returnType = 'Uint8Array';
+      var returnType ='Uint8Array';
       
       return apiClient.callApi(
         '/agreements/{agreementId}/documents/{documentId}', 'GET',
@@ -895,7 +895,7 @@
       var contentTypes = [];
       var accepts = ['text/csv'];
       
-      var returnType = 'Uint8Array';
+      var returnType ='Uint8Array';
       
       return apiClient.callApi(
         '/agreements/{agreementId}/formData', 'GET',

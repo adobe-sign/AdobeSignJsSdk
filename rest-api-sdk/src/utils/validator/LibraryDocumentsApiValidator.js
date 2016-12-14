@@ -16,6 +16,11 @@
   
 }(function(SdkErrorCodes, ApiValidatorHelper, ApiError) {
   'use strict';
+  
+  var LIBRARY_CREATION_INFO = "libraryCreationInfo";
+  var LIBRARY_SHARING_MODE = "librarySharingMode";
+  var LIBRARY_TEMPLATE_TYPES = "libraryTemplateTypes";
+  var NAME = "name";
 
   /**
    * Validator for libraryDocuments API. The main purpose of this is to check the validity of the parameters 
@@ -50,9 +55,9 @@
     var libraryDocumentCreationInfo = libraryCreationInfo.getLibraryDocumentCreationInfo();
     validateFileInfo(libraryDocumentCreationInfo.getFileInfos());
 
-    paramList.push({param:libraryDocumentCreationInfo.getLibrarySharingMode(), sdkErrorCode: SdkErrorCodes.MISSING_REQUIRED_PARAM});
-    paramList.push({param:libraryDocumentCreationInfo.getLibraryTemplateTypes(), sdkErrorCode: SdkErrorCodes.MISSING_LIBRARY_TEMPLATE_TYPES});
-    paramList.push({param:libraryDocumentCreationInfo.getName(), sdkErrorCode:SdkErrorCodes.MISSING_REQUIRED_PARAM});
+    paramList.push({param:libraryDocumentCreationInfo.getLibrarySharingMode(), sdkErrorCode: SdkErrorCodes.MISSING_REQUIRED_PARAM, paramKey: LIBRARY_CREATION_INFO});
+    paramList.push({param:libraryDocumentCreationInfo.getLibraryTemplateTypes(), sdkErrorCode: SdkErrorCodes.MISSING_REQUIRED_PARAM, paramKey: LIBRARY_TEMPLATE_TYPES});
+    paramList.push({param:libraryDocumentCreationInfo.getName(), sdkErrorCode:SdkErrorCodes.MISSING_REQUIRED_PARAM, paramKey: NAME});
 
     ApiValidatorHelper.validateParameters(paramList);
 

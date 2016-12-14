@@ -17,6 +17,8 @@
 }(function(SdkErrorCodes, ApiValidatorHelper) {
   'use strict';
 
+  var REMINDER_CREATION_INFO = "reminderCreationInfo";
+
   /**
    * Validator for Reminders Api. The main purpose of this is to check the validity of the parameters passed 
    * to the Reminders API and throw ApiError with required error messages if the validation fails.
@@ -32,7 +34,7 @@
    */
   RemindersApiValidator.createReminderValidator = function(reminderCreationInfo,
                                                            opts) {
-    ApiValidatorHelper.validateParameter(reminderCreationInfo);
+    ApiValidatorHelper.validateParameter(reminderCreationInfo, SdkErrorCodes.MISSING_REQUIRED_PARAM, REMINDER_CREATION_INFO);
     var paramList = [];
     paramList.push({param: reminderCreationInfo.getAgreementId(), sdkErrorCode: SdkErrorCodes.MUST_PROVIDE_AGREEMENT_ID});
     ApiValidatorHelper.validateParameters(paramList);

@@ -20,7 +20,7 @@
 
   /**
    * @module WidgetsApi
-   * @version 1.0.0
+   * @version 1.1.0
    */
 
   /**
@@ -287,7 +287,7 @@
       var contentTypes = [];
       var accepts = ['application/pdf'];
       
-      var returnType = 'Uint8Array';
+      var returnType ='Uint8Array';
       
       return apiClient.callApi(
         '/widgets/{widgetId}/auditTrail', 'GET',
@@ -348,7 +348,7 @@
       var contentTypes = [];
       var accepts = ['application/pdf'];
       
-      var returnType = 'Uint8Array';
+      var returnType ='Uint8Array';
       
       return apiClient.callApi(
         '/widgets/{widgetId}/combinedDocument', 'GET',
@@ -464,7 +464,7 @@
       var contentTypes = [];
       var accepts = [' */* '];
       
-      var returnType = 'Uint8Array';
+      var returnType ='Uint8Array';
       
       return apiClient.callApi(
         '/widgets/{widgetId}/documents/{documentId}', 'GET',
@@ -519,7 +519,7 @@
       var contentTypes = [];
       var accepts = ['text/csv'];
       
-      var returnType = 'Uint8Array';
+      var returnType ='Uint8Array';
       
       return apiClient.callApi(
         '/widgets/{widgetId}/formData', 'GET',

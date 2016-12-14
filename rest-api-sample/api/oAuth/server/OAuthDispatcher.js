@@ -43,7 +43,7 @@
   var SPLIT_KEY_AND = "&";
   var SPLIT_KEY_EQUAL = "=";
   var SPLIT_KEY_COLON = ":";
-  var SPLIT_KEY_SPACE = "+";
+  var SPLIT_KEY_SPACE = " ";
   var EMPTY_STRING = "";
   var EQUAL_KEY = " = ";
   var QUERY_SEPARATOR = "?";

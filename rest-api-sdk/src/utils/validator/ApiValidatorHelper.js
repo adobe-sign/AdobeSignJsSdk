@@ -30,6 +30,10 @@
     X_API_USER_KEY : "xApiUser"
   };
 
+  var FAX = "fax";
+  var EMAIL = "email";
+  var COMMA = " , ";
+
   /**
    * Common method for validating header parameters, which are used in all the API's.
    *
@@ -44,7 +48,7 @@
         accessToken = true;
       }
       else if(StringUtil.equalIgnoreCase(key, DATA.X_API_USER_KEY)){
-        ApiValidatorHelper.validateXApiHeader(headerParams[key]);
+        ApiValidatorHelper.validateXApiUser(headerParams[key]);
       }
     }
     if(accessToken === false){
@@ -70,11 +74,11 @@
   /**
    * Helper function that accepts an xApiHeader parameter and validates it.
    */
-  ApiValidatorHelper.validateXApiHeader = function (xApiHeader) {
-    if (StringUtil.isNullOrUndefined(xApiHeader)) {
+  ApiValidatorHelper.validateXApiUser = function (xApiUser) {
+    if (StringUtil.isNullOrUndefined(xApiUser)) {
       return;
     }
-    else if(!xApiHeader || !(xApiHeader.includes(DATA.X_API_USER_EMAIL_ID_FORMAT_BEGINNING) || xApiHeader.includes(DATA.X_API_USER_ID_FORMAT_BEGINNING))){
+    else if(!xApiUser || !(xApiUser.includes(DATA.X_API_USER_EMAIL_ID_FORMAT_BEGINNING) || xApiUser.includes(DATA.X_API_USER_ID_FORMAT_BEGINNING))){
       throw new ApiError(SdkErrorCodes.INVALID_X_API_USER_HEADER);
     }
   };
@@ -99,12 +103,13 @@
    * @throws ApiError
    */
   ApiValidatorHelper.validateParameter = function (param,
-                                                   sdkErrorCode) {
+                                                   sdkErrorCode,
+                                                   missingField) {
     if(StringUtil.isNullOrUndefined(sdkErrorCode)){
       sdkErrorCode = SdkErrorCodes.MISSING_REQUIRED_PARAM;
     }
-    if(!param || Object.keys(param).length === 0){
-      throw new ApiError(sdkErrorCode);
+    if(!param || StringUtil.isEmpty(param)){
+      throw new ApiError(sdkErrorCode, missingField);
     }
   };
 
@@ -115,7 +120,7 @@
    */
   ApiValidatorHelper.validateParameters = function (paramList) {
     for(var i = 0; i < paramList.length; i++) {
-       ApiValidatorHelper.validateParameter(paramList[i].param, paramList[i].sdkErrorCode);
+       ApiValidatorHelper.validateParameter(paramList[i].param, paramList[i].sdkErrorCode, paramList[i].paramKey);
      }
   };
   /**
@@ -173,7 +178,7 @@
                                                            fax,
                                                            numberOfRecipients) {
     if (!fax && !email)
-      throw new ApiError(SdkErrorCodes.MISSING_REQUIRED_PARAM);
+      throw new ApiError(SdkErrorCodes.MISSING_REQUIRED_PARAM, EMAIL + COMMA + FAX);
 
     if (fax && email)
       throw new ApiError(SdkErrorCodes.INVALID_ARGUMENTS);
@@ -184,7 +189,7 @@
     if (email)
       ApiValidatorHelper.validateEmailParameter(email);
     if (fax)
-      ApiValidatorHelper.validateParameter(fax);
+      ApiValidatorHelper.validateParameter(fax, SdkErrorCodes.MISSING_REQUIRED_PARAM, FAX);
 
   };
 

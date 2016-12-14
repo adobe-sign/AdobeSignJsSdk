@@ -164,7 +164,7 @@
   "description" : "Response type in the request for making authorization url used to fetch the access token. Value must always be 'code'.",
   "responseType" : "code",
 
-  "description" : "Environment on which the sdk will run. If no Host Environment is provided here, default Host Environment [https://api.echosign.com] will be used.",
+  "description" : "Environment on which the sdk will run. If no Host Environment is provided here, default Host Environment [https://api.echosign.com/] will be used.",
   "envHostName" : "",
 
   "description" : "Path structure of directory containing resource files like Sample.pdf, DocumentWithFormFields.pdf, etc.",

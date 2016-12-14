@@ -21,7 +21,7 @@
 
   /**
    * @module model/search/DocumentEventForUser
-   * @version 1.0.0
+   * @version 1.1.0
    */
   /**
    * Constructs a new <code>DocumentEventForUser</code>.

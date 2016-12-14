@@ -63,6 +63,19 @@
         return false;
       }
     };
+
+    /**
+     * Checks if the value passed is a empty object
+     *
+     * @param object Object that needs to checked
+     * @return true if value passed is empty object
+     */
+    StringUtil.isEmpty = function (object) {
+      for(var i in object) {
+        return false;
+      }
+      return true;
+    };
     
   return StringUtil;
 }));

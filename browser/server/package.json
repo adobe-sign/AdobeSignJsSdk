@@ -1,0 +1,10 @@
+{
+  "name": "nodejs-https-server",
+  "description": "HTTPS Server using NodeJS",
+  "license": "Apache-2.0",
+  "repository": {
+  },
+  "devDependencies": {
+    "http-server": "~0.9.0"
+  }
+}

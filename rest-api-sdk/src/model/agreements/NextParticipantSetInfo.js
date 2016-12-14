@@ -21,7 +21,7 @@
 
   /**
    * @module model/agreements/NextParticipantSetInfo
-   * @version 1.0.0
+   * @version 1.1.0
    */
   /**
    * Constructs a new <code>NextParticipantSetInfo</code>.

@@ -17,6 +17,8 @@
 }(function(SdkErrorCodes, ApiValidatorHelper) {
   'use strict';
 
+  var GROUP_CREATION_INFO = "groupCreationInfo";
+  var GROUP_MODIFICATION_INFO = "groupModificationInfo";
   /**
    * Validator for Groups Api. The main purpose of this is to check the validity of the parameters passed to
    * the groups API and throw ApiError with required error messages if the validation fails.
@@ -37,7 +39,7 @@
    * @param groupCreationInfo The object that has all the details/ required parameters for creating a group.
    */
   GroupsApiValidator.createGroupValidator = function (groupCreationInfo) {
-    ApiValidatorHelper.validateParameter(groupCreationInfo);
+    ApiValidatorHelper.validateParameter(groupCreationInfo, SdkErrorCodes.MISSING_REQUIRED_PARAM, GROUP_CREATION_INFO);
     var list = [];
     list.push({param: groupCreationInfo.getGroupName(), sdkErrorCode: SdkErrorCodes.INVALID_GROUP_NAME});
     
@@ -65,7 +67,7 @@
                                                       opts) {
     ApiValidatorHelper.validateId(groupId,
                                   SdkErrorCodes.INVALID_GROUP_ID);
-    ApiValidatorHelper.validateParameter(groupModificationInfo);
+    ApiValidatorHelper.validateParameter(groupModificationInfo, SdkErrorCodes.MISSING_REQUIRED_PARAM, GROUP_MODIFICATION_INFO);
     var list = [];
     list.push({param: groupModificationInfo.getGroupName(), sdkErrorCode: SdkErrorCodes.INVALID_GROUP_NAME});
 

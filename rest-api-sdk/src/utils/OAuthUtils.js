@@ -29,7 +29,7 @@
     var STATE = "state";
     var QUERY_STRING_SEPARATOR = '?';
     var PARAM_SEPARATOR = '&';
-    var SPACE_DELIMITER = " ";
+    var SPACE_DELIMITER = "+";
     var COLON = ":";
     var EQUALS = '=';
 

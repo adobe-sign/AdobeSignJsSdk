@@ -17,6 +17,18 @@
 }(function(SdkErrorCodes, ApiValidatorHelper) {
   'use strict';
 
+  var TOKEN = "token";
+  var ACCESS_TOKEN_REQUEST = "accessTokenRequest";
+  var AUTHORIZATION_REQUEST = "authorizationRequest";
+  var ACESS_TOKEN_REFRESH_REQUEST = "accessTokenRefreshRequest";
+  var SCOPES = "scopes";
+  var CLIENT_ID = "clientId";
+  var REDIRECT_URI = "redirectUri";
+  var REFRESH_TOKEN = "refreshToken";
+  var GRANT_TYPE = "grantType";
+  var CODE = "code";
+  var RESPONSE_TYPE = "responseType";
+  var CLIENT_SECRET = "clientSecret";
   /**
    * Validator for OAuth Api. The main purpose of this is to check the validity of the parameters passed to
    * the OAuth API and throw ApiError with required error messages if the validation fails.
@@ -31,11 +43,11 @@
   OAuthApiValidator.getAuthorizationUrlValidator = function (authorizationRequest) {
     ApiValidatorHelper.validateParameter(authorizationRequest);
     var paramList = [];
-    paramList.push({param: authorizationRequest});
-    paramList.push({param: authorizationRequest.getClientId()});
-    paramList.push({param: authorizationRequest.getRedirectUri()});
-    paramList.push({param: authorizationRequest.getScopes()});
-    paramList.push({param: authorizationRequest.getResponseType()});
+    paramList.push({paramKey:AUTHORIZATION_REQUEST,sdkErrorCode:SdkErrorCodes.MISSING_REQUIRED_PARAM,param: authorizationRequest});
+    paramList.push({paramKey:CLIENT_ID,sdkErrorCode:SdkErrorCodes.MISSING_REQUIRED_PARAM,param: authorizationRequest.getClientId()});
+    paramList.push({paramKey:REDIRECT_URI,sdkErrorCode:SdkErrorCodes.MISSING_REQUIRED_PARAM,param: authorizationRequest.getRedirectUri()});
+    paramList.push({paramKey:SCOPES,sdkErrorCode:SdkErrorCodes.MISSING_REQUIRED_PARAM,param: authorizationRequest.getScopes()});
+    paramList.push({paramKey:RESPONSE_TYPE,sdkErrorCode:SdkErrorCodes.MISSING_REQUIRED_PARAM,param: authorizationRequest.getResponseType()});
     ApiValidatorHelper.validateParameters(paramList);
   };
 
@@ -47,10 +59,10 @@
   OAuthApiValidator.getAccessTokenValidator = function (accessTokenRequest) {
     ApiValidatorHelper.validateParameter(accessTokenRequest);
     var paramList = [];
-    paramList.push({param: accessTokenRequest.getClientId()});
-    paramList.push({param: accessTokenRequest.getClientSecret()});
-    paramList.push({param: accessTokenRequest.getCode()});
-    paramList.push({param: accessTokenRequest.getGrantType()});
+    paramList.push({paramKey:CLIENT_ID,sdkErrorCode:SdkErrorCodes.MISSING_REQUIRED_PARAM,param: accessTokenRequest.getClientId()});
+    paramList.push({paramKey:CLIENT_SECRET,sdkErrorCode:SdkErrorCodes.MISSING_REQUIRED_PARAM,param: accessTokenRequest.getClientSecret()});
+    paramList.push({paramKey:CODE,sdkErrorCode:SdkErrorCodes.MISSING_REQUIRED_PARAM,param: accessTokenRequest.getCode()});
+    paramList.push({paramKey:GRANT_TYPE,sdkErrorCode:SdkErrorCodes.MISSING_REQUIRED_PARAM,param: accessTokenRequest.getGrantType()});
     ApiValidatorHelper.validateParameters(paramList);
     OAuthApiValidator.validateRedirectUri(accessTokenRequest.getRedirectUri());
 
@@ -64,10 +76,10 @@
   OAuthApiValidator.refreshAccessTokenValidator = function(accessTokenRefreshRequest) {
     ApiValidatorHelper.validateParameter(accessTokenRefreshRequest);
     var paramList = [];
-    paramList.push({param: accessTokenRefreshRequest.getClientId()});
-    paramList.push({param: accessTokenRefreshRequest.getClientSecret()});
-    paramList.push({param: accessTokenRefreshRequest.getRefreshToken()});
-    paramList.push({param: accessTokenRefreshRequest.getGrantType()});
+    paramList.push({paramKey:CLIENT_ID,sdkErrorCode:SdkErrorCodes.MISSING_REQUIRED_PARAM,param: accessTokenRefreshRequest.getClientId()});
+    paramList.push({paramKey:CLIENT_SECRET,sdkErrorCode:SdkErrorCodes.MISSING_REQUIRED_PARAM,param: accessTokenRefreshRequest.getClientSecret()});
+    paramList.push({paramKey:REFRESH_TOKEN,sdkErrorCode:SdkErrorCodes.MISSING_REQUIRED_PARAM,param: accessTokenRefreshRequest.getRefreshToken()});
+    paramList.push({paramKey:REFRESH_TOKEN,sdkErrorCode:SdkErrorCodes.MISSING_REQUIRED_PARAM,param: accessTokenRefreshRequest.getGrantType()});
     ApiValidatorHelper.validateParameters(paramList);
 
   };
@@ -78,9 +90,9 @@
    * @param token The access token or refresh token which has to be revoked.
    */
   OAuthApiValidator.revokeTokenValidator = function (token) {
-    ApiValidatorHelper.validateParameter(token);
+    ApiValidatorHelper.validateParameter(token, SdkErrorCodes.MISSING_REQUIRED_PARAM, TOKEN);
     var paramList = [];
-    paramList.push({param:token.getToken()});
+    paramList.push({paramKey:TOKEN,sdkErrorCode:SdkErrorCodes.MISSING_REQUIRED_PARAM,param:token.getToken()});
     ApiValidatorHelper.validateParameters(paramList);
   };
 
@@ -91,7 +103,7 @@
    */
   OAuthApiValidator.validateRedirectUri = function(redirectUri) {
     var paramList = [];
-    paramList.push({param:redirectUri});
+    paramList.push({paramKey:REDIRECT_URI,sdkErrorCode:SdkErrorCodes.MISSING_REQUIRED_PARAM,param:redirectUri});
     ApiValidatorHelper.validateParameters(paramList);
     ApiValidatorHelper.validateUrlParameter(redirectUri,
                                             SdkErrorCodes.INVALID_REQUEST);

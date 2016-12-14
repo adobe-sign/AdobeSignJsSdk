@@ -20,7 +20,7 @@
 
   /**
    * @module LibraryDocumentsApi
-   * @version 1.0.0
+   * @version 1.1.0
    */
 
   /**
@@ -287,7 +287,7 @@
       var contentTypes = [];
       var accepts = ['application/pdf'];
       
-      var returnType = 'Uint8Array';
+      var returnType ='Uint8Array';
       
       return apiClient.callApi(
         '/libraryDocuments/{libraryDocumentId}/auditTrail', 'GET',
@@ -344,7 +344,7 @@
       var contentTypes = [];
       var accepts = ['application/pdf'];
       
-      var returnType = 'Uint8Array';
+      var returnType ='Uint8Array';
       
       return apiClient.callApi(
         '/libraryDocuments/{libraryDocumentId}/combinedDocument', 'GET',
@@ -456,7 +456,7 @@
       var contentTypes = [];
       var accepts = [' */* '];
       
-      var returnType = 'Uint8Array';
+      var returnType ='Uint8Array';
       
       return apiClient.callApi(
         '/libraryDocuments/{libraryDocumentId}/documents/{documentId}', 'GET',
