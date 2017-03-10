@@ -12,8 +12,10 @@
   	  - [Download the SDK from Github](#download-sdk-github)
   	  	 - [For Browser](#installation-in-browser) 
    		 - [NodeJS](#installation-in-nodejs) 
-   	  - [Using NPM](#using-npm)
-   	  - [Using Bower](#using-bower)			 
+   	  - [Installing from NPM](#using-npm)
+   	  - [Installing from Bower](#using-bower)			 
+      - [Using a CDN](#using-cdn)   
+         - [Required Dependencies](#cdn-required-dependencies)   
   - [APIs](#apis)    
   - [Samples](#samples)  
   	   - [For Browser](#samples-in-browser) 
@@ -80,7 +82,7 @@ The Adobe Sign clients need to follow the below steps in order to get started wi
 Downloading and Installing the SDK 
 ====================================
 
->**Note:** The SDK can be downloaded from github, npm or bower. Also, samples & tests are only available on git repo.
+>**Note:** The SDK can be downloaded from github, npm or bower. It is also hosted on CDN. Also, samples & tests are only available on git repo.
 
 ## <a name="download-sdk-github"></a>Download the SDK from Github 
 
@@ -101,10 +103,10 @@ As the SDK has hard dependency on superagent & validator, remember to include th
 For example, include one of the following tags in your code:
 
 ```
-    <script type="text/javascript" src="/yourpath/superagent.min.js"></script>
-    <script type="text/javascript" src="/yourpath/validator.min.js"></script>
-    
-    <script type="text/javascript" src="/yourpath/adobe-sign-sdk.min.js"></script>
+<script type="text/javascript" src="/yourpath/superagent.min.js"></script>
+<script type="text/javascript" src="/yourpath/validator.min.js"></script>
+
+<script type="text/javascript" src="/yourpath/adobe-sign-sdk.min.js"></script>
 ```
     
 ### <a name="installation-in-nodejs"></a>NodeJS
@@ -114,22 +116,35 @@ For example, include one of the following tags in your code:
  In case downloaded from git, run npm install at the root directory to resolve dependencies as follows:
  
 ```
-    npm install    
+npm install    
 ```
-## <a name="using-npm"></a>Using NPM
+## <a name="using-npm"></a>Installing from NPM
     
 Install the SDK directly from npm:
   
 ```
-    npm install adobe-sign-sdk --save
+npm install adobe-sign-sdk --save
 ```
 
-## <a name="using-bower"></a>Using Bower    
+## <a name="using-bower"></a>Installing from Bower    
 Install the SDK directly from bower:  
 ```
-    bower install adobe-sign-sdk
+bower install adobe-sign-sdk
 ```
-   
+## <a name="using-cdn"></a>Using a CDN
+The SDK is also hosted on a CDN:
+```
+<script src="https://cdnjs.cloudflare.com/ajax/libs/adobe-sign-sdk/1.1.0/adobe-sign-sdk.min.js"></script>
+```
+>**Note:** To load the latest version of the package, replace 1.1.0 with the latest version. Check for the latest published version [here](https://cdnjs.com/libraries/adobe-sign-sdk).
+
+### <a name="cdn-required-dependencies"></a>Required Dependencies  
+For the library to work, you need to include superagent.js and validator.js in your html before adobe-sign-sdk.min.js.
+```
+<script src="https://cdnjs.cloudflare.com/ajax/libs/superagent/3.0.0/superagent.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/validator/6.0.0/validator.min.js”></script>
+```
+
 APIs
 ====================
 The `AdobeSignNodeJsSdk/rest-api-sdk/src` folder contains all the Adobe Sign APIs. 
