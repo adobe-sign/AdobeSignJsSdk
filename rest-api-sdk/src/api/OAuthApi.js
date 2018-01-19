@@ -14,7 +14,7 @@
 (function(factory) {
     // CommonJS-like environments that support module.exports, like Node.
     module.exports = factory(require('../utils/ApiClient'), require('../utils/Context'), require('../utils/OAuthUtils'), require('../model/oAuth/OAuthIndex'), require('../utils/validator/OAuthApiValidator'), require('../utils/ApiError'));
-  
+
 }(function(ApiClient, Context, OAuthUtils, OAuthIndex, OAuthApiValidator, ApiError) {
   'use strict';
 
@@ -35,7 +35,7 @@
     /**
      * Retrieves the authorization url that will be used to get the authorization code.
      * @function getAuthorizationUrl
-     * @param authorizationRequest {Object} Authorization request 
+     * @param authorizationRequest {Object} Authorization request
      * @returns {String} The authorization url where the user will be directed to authorize the application.
      * @instance
      */
@@ -64,7 +64,7 @@
     /**
      * Retrieves the access token with the required scopes using the authorization code granted during the authorization.
      * @function getAccessToken
-     * @param  accessTokenRequest {Object} Access token request 
+     * @param  accessTokenRequest {Object} Access token request
      * @returns {Promise} A promise that returns {@link module:model/oAuth/AccessTokenResponse|AccessTokenResponse} if resolved and apiError if rejected.
      * @instance
      */
@@ -141,7 +141,9 @@
         'refresh_token': accessTokenRefreshRequest['refreshToken'],
         'client_id': accessTokenRefreshRequest['clientId'],
         'client_secret': accessTokenRefreshRequest['clientSecret'],
-        'grant_type': accessTokenRefreshRequest['grantType']
+        'grant_type': accessTokenRefreshRequest['grantType'],
+        'redirect_uri': accessTokenRefreshRequest['redirectUri'],
+        'code': accessTokenRefreshRequest['code']
       };
 
       var contentTypes = ['application/x-www-form-urlencoded'];

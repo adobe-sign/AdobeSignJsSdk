@@ -15,7 +15,7 @@
 (function(factory) {
     // CommonJS-like environments that support module.exports, like Node.
     module.exports = factory(require('../../utils/ApiClient'));
-  
+
 }(function(ApiClient) {
   'use strict';
 
@@ -38,11 +38,13 @@ var AccessTokenRefreshRequest = function() {
   _this.clientSecret = undefined;
   _this.refreshToken = undefined;
   _this.grantType = undefined;
+  _this.code = undefined;
+  _this.redirectUri = undefined;
 
   /**
    * Identifies the application configured on the OAuth Configuration page.
    * @function getClientId
-   * @return clientId {string} 
+   * @return clientId {string}
    * @instance
    */
   _this.getClientId = function() {
@@ -119,6 +121,41 @@ var AccessTokenRefreshRequest = function() {
     this.grantType = grantType;
   };
 
+  /**
+   * The url where the end user will be redirected after successful completion of authorization.
+   * This value must belong to the set of values specified on the OAuth Configuration page.
+   * @function getRedirectUri
+   * @return redirectUri {string}
+   * @instance
+   */
+  _this.getRedirectUri = function() {
+    return this.redirectUri;
+  };
+
+  /**
+   * The url where the end user will be redirected after successful completion of authorization.
+   * This value must belong to the set of values specified on the OAuth Configuration page.
+   * @function setRedirectUri
+   * @param redirectUri {string} RedirectUri
+   * @instance
+   */
+  _this.setRedirectUri = function (redirectUri) {
+    this.redirectUri = redirectUri;
+  };
+
+  /**
+   * @return code
+   */
+  _this.getCode = function() {
+    return this.code;
+  };
+
+  /**
+   * @param code Code
+   */
+  _this.setCode = function (code) {
+    this.code = code;
+  };
 };
 
 
@@ -145,6 +182,14 @@ AccessTokenRefreshRequest.constructFromObject = function(data, obj) {
     }
     if (data.hasOwnProperty('grant_type')) {
       obj.setGrantType(data.grant_type);
+    }
+
+    if (data.hasOwnProperty('redirect_uri')) {
+    	obj.setRedirectUri(data.redirect_uri);
+    }
+
+    if (data.hasOwnProperty('code')) {
+    	obj.setCode(data.code);
     }
   }
   return obj;
