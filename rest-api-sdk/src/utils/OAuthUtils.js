@@ -68,7 +68,7 @@
               RESPONSE_TYPE + EQUALS + responseType + PARAM_SEPARATOR +
               CLIENT_ID + EQUALS + clientId + PARAM_SEPARATOR +
               SCOPE + EQUALS + scopes +
-              (!state ? (PARAM_SEPARATOR + STATE + EQUALS + state) : "");
+              (state ? (PARAM_SEPARATOR + STATE + EQUALS + state) : "");
       
     };
   return OAuthUtils;
