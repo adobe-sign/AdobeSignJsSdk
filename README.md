@@ -610,7 +610,7 @@ Usage
   //Set mime type of the file
   opts[mimeTypeKey] = MIME_TYPE;
 
-  //Create trasient document
+  //Create transient document
   transientDocumentsApi.createTransientDocument(headerParams,
                                                 FILE_NAME,
                                                 buffer,
