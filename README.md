@@ -625,7 +625,7 @@ Usage
                          var fileInfos = [];
                          fileInfos.push(fileInfo);
                
-                         //Set email id of recipient.`
+                         //Set email id of recipient.
                          var recipientEmail = RECIPIENT_EMAIL;
                          var recipientInfo = new agreementsModel.RecipientInfo();
                          recipientInfo.setEmail(recipientEmail);
