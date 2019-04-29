@@ -1,46 +1,26 @@
 {
-  "name": "adobe-sign-sdk",
-  "version": "1.1.0",
-  "description": "SDK for Adobe Sign REST API",
-  "license": "Apache-2.0",
-  "main": "rest-api-sdk/src/index.js",
+  "name": "swagger-js-client",
+  "version": "6.0.0",
+  "description": "ERROR_UNKNOWN",
+  "license": "Unlicense",
+  "main": "src/index.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha --recursive"
   },
-  "bugs": {
-    "url": "https://github.com/adobe-sign/AdobeSignNodeJsSdk/issues"
+  "browser": {
+    "fs": false
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/adobe-sign/AdobeSignNodeJsSdk.git"
-  },
-  "keywords": [
-    "api",
-    "sdk",
-    "adobe",
-    "sign",
-    "esign",
-    "echosign",
-    "document cloud",
-    "adobe sign",
-    "adobe esign",
-    "adobe echosign",
-    "adobe document cloud",
-    "adobe sdk",
-    "adobe sign sdk",
-    "sign sdk"
-  ],
   "dependencies": {
-    "superagent": "~3.0.0",
-    "validator": "~6.0.0"
+    "superagent": "^4.0.0"
   },
   "devDependencies": {
-    "chai": "~3.5.0",
-    "httpdispatcher": "~1.0.0",
-    "mkdirp": "~0.5.1",
-    "mocha": "~3.1.0",
-    "grunt": "~1.0.1",
-    "grunt-run": "~0.6.0",
-    "grunt-simple-mocha": "~0.4.1"
+    "chai": "^4.2.0",
+    "csv-parse": "^3.1.3",
+    "expect.js": "^0.3.1",
+    "http-status": "^1.2.0",
+    "mocha": "^5.2.0",
+    "pdf-parse": "^1.0.8",
+    "sinon": "^1.17.3",
+    "system-sleep": "^1.3.6"
   }
 }
